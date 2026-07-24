@@ -1,0 +1,20 @@
+item,version_or_value
+python,3.11.14
+python_implementation,CPython
+platform,Windows-10-10.0.19045-SP0
+numpy,2.3.5
+numba,0.63.1
+llvmlite,0.46.0
+astropy,7.2.0
+matplotlib,3.10.8
+optimizer,seeded Latin-hypercube global search + finite-difference local-gradient descent
+optimizer_script,scripts/fit_model.py
+optimizer_script_sha256,9ed0cb0b91ae87a165ec3f4326b921562e4368804a958fe671ffa60db665646c
+random_seed,1729
+default_latin_samples,65536
+default_local_starts,32
+default_local_iterations,55
+default_batch_size,1024
+period_estimator,Astropy LombScargle; DD days 0-14; 18-30 h search range; 20 samples per peak
+run_mode,archived fitted parameters
+quick_mode,False

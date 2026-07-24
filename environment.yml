@@ -1,0 +1,10 @@
+name: scn-systemic-x-reproduction
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11.14
+  - numpy=2.3.5
+  - numba=0.63.1
+  - llvmlite=0.46.0
+  - astropy=7.2.0
+  - matplotlib=3.10.8
