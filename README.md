@@ -5,3 +5,6 @@ The set of codes provided here simulate a light-history-dependent phase model an
 The current set contains simulations from (1) 5 Zeitgeber conditions, (2) summary of parameters from literature, (3) freerunning conditions _in vivo_ and _ex vivo_, and post-hoc analyses such as (4) Lomb–Scargle period estimation, parameter search and sensitivity analysis. workflow. As outputs, six figures are exported as SVG, PDF, and PNG.
 
 `run_all.py` automatically runs through all scripts and produce outputs.
+
+For full descriptions, see the preprint:
+https://www.biorxiv.org/content/10.64898/2026.08.09.743784v1.full
