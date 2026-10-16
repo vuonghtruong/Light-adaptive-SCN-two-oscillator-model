@@ -1,0 +1,280 @@
+{
+  "Figure_3": {
+    "period_ensemble_points": [
+      {
+        "condition": "LD",
+        "ex_vivo": false,
+        "source_column": "behavior_h",
+        "available_rows": 64,
+        "drawn_points": 64,
+        "minimum_h": 23.735776509381623,
+        "maximum_h": 23.757712391752246,
+        "horizontal_jitter_only": true,
+        "point_color": "black"
+      },
+      {
+        "condition": "SP",
+        "ex_vivo": false,
+        "source_column": "behavior_h",
+        "available_rows": 64,
+        "drawn_points": 64,
+        "minimum_h": 24.026277586751963,
+        "maximum_h": 24.03898505380732,
+        "horizontal_jitter_only": true,
+        "point_color": "black"
+      },
+      {
+        "condition": "LP",
+        "ex_vivo": false,
+        "source_column": "behavior_h",
+        "available_rows": 64,
+        "drawn_points": 64,
+        "minimum_h": 23.48320905198955,
+        "maximum_h": 23.509384647016248,
+        "horizontal_jitter_only": true,
+        "point_color": "black"
+      },
+      {
+        "condition": "T22",
+        "ex_vivo": false,
+        "source_column": "behavior_h",
+        "available_rows": 64,
+        "drawn_points": 64,
+        "minimum_h": 22.936617044227912,
+        "maximum_h": 22.973077706448898,
+        "horizontal_jitter_only": true,
+        "point_color": "black"
+      },
+      {
+        "condition": "T26",
+        "ex_vivo": false,
+        "source_column": "behavior_h",
+        "available_rows": 64,
+        "drawn_points": 64,
+        "minimum_h": 24.38151256575597,
+        "maximum_h": 24.397980579207296,
+        "horizontal_jitter_only": true,
+        "point_color": "black"
+      },
+      {
+        "condition": "LD",
+        "ex_vivo": true,
+        "source_column": "D_h",
+        "available_rows": 64,
+        "drawn_points": 64,
+        "minimum_h": 23.36479157618616,
+        "maximum_h": 23.82673931905091,
+        "horizontal_jitter_only": true,
+        "point_color": "black"
+      },
+      {
+        "condition": "SP",
+        "ex_vivo": true,
+        "source_column": "D_h",
+        "available_rows": 64,
+        "drawn_points": 64,
+        "minimum_h": 23.75072546567878,
+        "maximum_h": 24.15969841786454,
+        "horizontal_jitter_only": true,
+        "point_color": "black"
+      },
+      {
+        "condition": "LP",
+        "ex_vivo": true,
+        "source_column": "D_h",
+        "available_rows": 64,
+        "drawn_points": 64,
+        "minimum_h": 23.23843408059267,
+        "maximum_h": 23.659839528172995,
+        "horizontal_jitter_only": true,
+        "point_color": "black"
+      },
+      {
+        "condition": "T22",
+        "ex_vivo": true,
+        "source_column": "D_h",
+        "available_rows": 64,
+        "drawn_points": 64,
+        "minimum_h": 24.9215007749912,
+        "maximum_h": 25.79015299134233,
+        "horizontal_jitter_only": true,
+        "point_color": "black"
+      },
+      {
+        "condition": "T26",
+        "ex_vivo": true,
+        "source_column": "D_h",
+        "available_rows": 64,
+        "drawn_points": 64,
+        "minimum_h": 22.55001595903871,
+        "maximum_h": 22.66474611593522,
+        "horizontal_jitter_only": true,
+        "point_color": "black"
+      },
+      {
+        "condition": "LD",
+        "ex_vivo": true,
+        "source_column": "V_h",
+        "available_rows": 64,
+        "drawn_points": 64,
+        "minimum_h": 23.618880756059053,
+        "maximum_h": 24.014179985809328,
+        "horizontal_jitter_only": true,
+        "point_color": "black"
+      },
+      {
+        "condition": "SP",
+        "ex_vivo": true,
+        "source_column": "V_h",
+        "available_rows": 64,
+        "drawn_points": 64,
+        "minimum_h": 23.95275264005472,
+        "maximum_h": 24.296777685152687,
+        "horizontal_jitter_only": true,
+        "point_color": "black"
+      },
+      {
+        "condition": "LP",
+        "ex_vivo": true,
+        "source_column": "V_h",
+        "available_rows": 64,
+        "drawn_points": 64,
+        "minimum_h": 23.51678560047799,
+        "maximum_h": 23.86784477144016,
+        "horizontal_jitter_only": true,
+        "point_color": "black"
+      },
+      {
+        "condition": "T22",
+        "ex_vivo": true,
+        "source_column": "V_h",
+        "available_rows": 64,
+        "drawn_points": 64,
+        "minimum_h": 24.952262245131063,
+        "maximum_h": 25.676729855995248,
+        "horizontal_jitter_only": true,
+        "point_color": "black"
+      },
+      {
+        "condition": "T26",
+        "ex_vivo": true,
+        "source_column": "V_h",
+        "available_rows": 64,
+        "drawn_points": 64,
+        "minimum_h": 23.07766823885773,
+        "maximum_h": 23.106022916743413,
+        "horizontal_jitter_only": true,
+        "point_color": "black"
+      }
+    ],
+    "primary_marker": "white-filled black-outline circle",
+    "target_style": "black with white outline; recorded SEM only",
+    "model_uncertainty": "64 deterministic initial-phase simulations, not experimental SEM"
+  },
+  "Figure_4": {
+    "period_ensemble_points": [
+      {
+        "condition": "18:6 LD",
+        "ex_vivo": false,
+        "source_column": "behavior_h",
+        "available_rows": 64,
+        "drawn_points": 64,
+        "minimum_h": 23.36219385234288,
+        "maximum_h": 23.392793961394226,
+        "horizontal_jitter_only": true,
+        "point_color": "black"
+      },
+      {
+        "condition": "T23",
+        "ex_vivo": false,
+        "source_column": "behavior_h",
+        "available_rows": 64,
+        "drawn_points": 64,
+        "minimum_h": 23.29531503205429,
+        "maximum_h": 23.31573766434352,
+        "horizontal_jitter_only": true,
+        "point_color": "black"
+      },
+      {
+        "condition": "T25",
+        "ex_vivo": false,
+        "source_column": "behavior_h",
+        "available_rows": 64,
+        "drawn_points": 64,
+        "minimum_h": 24.01962759176473,
+        "maximum_h": 24.03553342108156,
+        "horizontal_jitter_only": true,
+        "point_color": "black"
+      },
+      {
+        "condition": "18:6 LD",
+        "ex_vivo": true,
+        "source_column": "D_h",
+        "available_rows": 64,
+        "drawn_points": 64,
+        "minimum_h": 23.179028647694093,
+        "maximum_h": 23.62548979862334,
+        "horizontal_jitter_only": true,
+        "point_color": "black"
+      },
+      {
+        "condition": "T23",
+        "ex_vivo": true,
+        "source_column": "D_h",
+        "available_rows": 64,
+        "drawn_points": 64,
+        "minimum_h": 24.298605869644195,
+        "maximum_h": 24.82340184137568,
+        "horizontal_jitter_only": true,
+        "point_color": "black"
+      },
+      {
+        "condition": "T25",
+        "ex_vivo": true,
+        "source_column": "D_h",
+        "available_rows": 64,
+        "drawn_points": 64,
+        "minimum_h": 22.860437377419917,
+        "maximum_h": 23.13042703806401,
+        "horizontal_jitter_only": true,
+        "point_color": "black"
+      },
+      {
+        "condition": "18:6 LD",
+        "ex_vivo": true,
+        "source_column": "V_h",
+        "available_rows": 64,
+        "drawn_points": 64,
+        "minimum_h": 23.47071785975849,
+        "maximum_h": 23.837069274447988,
+        "horizontal_jitter_only": true,
+        "point_color": "black"
+      },
+      {
+        "condition": "T23",
+        "ex_vivo": true,
+        "source_column": "V_h",
+        "available_rows": 64,
+        "drawn_points": 64,
+        "minimum_h": 24.425207332538463,
+        "maximum_h": 24.87123969565364,
+        "horizontal_jitter_only": true,
+        "point_color": "black"
+      },
+      {
+        "condition": "T25",
+        "ex_vivo": true,
+        "source_column": "V_h",
+        "available_rows": 64,
+        "drawn_points": 64,
+        "minimum_h": 23.226963369810413,
+        "maximum_h": 23.429795102483062,
+        "horizontal_jitter_only": true,
+        "point_color": "black"
+      }
+    ],
+    "primary_marker": "white-filled black-outline circle",
+    "target_style": "black with white outline; recorded SEM only",
+    "model_uncertainty": "64 deterministic initial-phase simulations, not experimental SEM"
+  }
+}

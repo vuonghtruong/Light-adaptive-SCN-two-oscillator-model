@@ -1,0 +1,855 @@
+{
+  "fingerprint": "f359716d0c07b24a2606d6e0816d4d49fee12eceb5fd26819485fd55bdaa4434",
+  "selected_fits": [
+    {
+      "architecture": "D-period-X",
+      "seed": 3141,
+      "fit_id": "unified_D-period-X_seed_3141"
+    },
+    {
+      "architecture": "coupling-X",
+      "seed": 3141,
+      "fit_id": "unified_coupling-X_seed_3141"
+    }
+  ],
+  "simulation_cases": 60,
+  "half_step_cases": 20,
+  "integration_step_h": 0.015625,
+  "half_step_h": 0.0078125,
+  "trace_sampling_h": 0.25,
+  "maximum_period_step_difference_h": 0.006684131816985683,
+  "maximum_gap_step_difference_h": 0.0035873266458279485,
+  "root_residual_max": 1.1752751549742868e-16,
+  "exact_identity_error_max": 3.400058012914542e-16,
+  "invalid_LD_steps": 0,
+  "invalid_DD_steps": 0,
+  "stable_root_checks": [
+    {
+      "fit_id": "unified_D-period-X_seed_3141",
+      "variant": "adiabatic_exact_geometry",
+      "condition": "SP",
+      "context": "invivo",
+      "invalid_LD_steps": 0,
+      "invalid_DD_steps": 0,
+      "valid_root_residual_max": 6.25584653524136e-17,
+      "invalid_root_residual_max": 0.0,
+      "minimum_valid_contraction": 0.2605473083576951,
+      "sampled_invalid_roots": 0
+    },
+    {
+      "fit_id": "unified_D-period-X_seed_3141",
+      "variant": "adiabatic_exact_geometry",
+      "condition": "SP",
+      "context": "exvivo",
+      "invalid_LD_steps": 0,
+      "invalid_DD_steps": 0,
+      "valid_root_residual_max": 6.25584653524136e-17,
+      "invalid_root_residual_max": 0.0,
+      "minimum_valid_contraction": 0.12933934467953628,
+      "sampled_invalid_roots": 0
+    },
+    {
+      "fit_id": "unified_D-period-X_seed_3141",
+      "variant": "adiabatic_exact_geometry",
+      "condition": "LP",
+      "context": "invivo",
+      "invalid_LD_steps": 0,
+      "invalid_DD_steps": 0,
+      "valid_root_residual_max": 6.009190541000908e-17,
+      "invalid_root_residual_max": 0.0,
+      "minimum_valid_contraction": 0.2605473083576951,
+      "sampled_invalid_roots": 0
+    },
+    {
+      "fit_id": "unified_D-period-X_seed_3141",
+      "variant": "adiabatic_exact_geometry",
+      "condition": "LP",
+      "context": "exvivo",
+      "invalid_LD_steps": 0,
+      "invalid_DD_steps": 0,
+      "valid_root_residual_max": 6.009190541000908e-17,
+      "invalid_root_residual_max": 0.0,
+      "minimum_valid_contraction": 0.12885819137930202,
+      "sampled_invalid_roots": 0
+    },
+    {
+      "fit_id": "unified_D-period-X_seed_3141",
+      "variant": "adiabatic_exact_geometry",
+      "condition": "LD",
+      "context": "invivo",
+      "invalid_LD_steps": 0,
+      "invalid_DD_steps": 0,
+      "valid_root_residual_max": 5.865533753146579e-17,
+      "invalid_root_residual_max": 0.0,
+      "minimum_valid_contraction": 0.2605473083576951,
+      "sampled_invalid_roots": 0
+    },
+    {
+      "fit_id": "unified_D-period-X_seed_3141",
+      "variant": "adiabatic_exact_geometry",
+      "condition": "LD",
+      "context": "exvivo",
+      "invalid_LD_steps": 0,
+      "invalid_DD_steps": 0,
+      "valid_root_residual_max": 5.865533753146579e-17,
+      "invalid_root_residual_max": 0.0,
+      "minimum_valid_contraction": 0.12932637422624943,
+      "sampled_invalid_roots": 0
+    },
+    {
+      "fit_id": "unified_D-period-X_seed_3141",
+      "variant": "adiabatic_exact_geometry",
+      "condition": "T22",
+      "context": "invivo",
+      "invalid_LD_steps": 0,
+      "invalid_DD_steps": 0,
+      "valid_root_residual_max": 6.684106393373135e-17,
+      "invalid_root_residual_max": 0.0,
+      "minimum_valid_contraction": 0.19597321041045332,
+      "sampled_invalid_roots": 0
+    },
+    {
+      "fit_id": "unified_D-period-X_seed_3141",
+      "variant": "adiabatic_exact_geometry",
+      "condition": "T22",
+      "context": "exvivo",
+      "invalid_LD_steps": 0,
+      "invalid_DD_steps": 0,
+      "valid_root_residual_max": 5.976664475826343e-17,
+      "invalid_root_residual_max": 0.0,
+      "minimum_valid_contraction": 0.11996993676890196,
+      "sampled_invalid_roots": 0
+    },
+    {
+      "fit_id": "unified_D-period-X_seed_3141",
+      "variant": "adiabatic_exact_geometry",
+      "condition": "T26",
+      "context": "invivo",
+      "invalid_LD_steps": 0,
+      "invalid_DD_steps": 0,
+      "valid_root_residual_max": 5.957690937807847e-17,
+      "invalid_root_residual_max": 0.0,
+      "minimum_valid_contraction": 0.25900101171014056,
+      "sampled_invalid_roots": 0
+    },
+    {
+      "fit_id": "unified_D-period-X_seed_3141",
+      "variant": "adiabatic_exact_geometry",
+      "condition": "T26",
+      "context": "exvivo",
+      "invalid_LD_steps": 0,
+      "invalid_DD_steps": 0,
+      "valid_root_residual_max": 5.835718193403228e-17,
+      "invalid_root_residual_max": 0.0,
+      "minimum_valid_contraction": 0.1260736132175633,
+      "sampled_invalid_roots": 0
+    },
+    {
+      "fit_id": "unified_D-period-X_seed_3141",
+      "variant": "adiabatic_coherent",
+      "condition": "SP",
+      "context": "invivo",
+      "invalid_LD_steps": 0,
+      "invalid_DD_steps": 0,
+      "valid_root_residual_max": 5.751692525035601e-17,
+      "invalid_root_residual_max": 0.0,
+      "minimum_valid_contraction": 0.2618157563198297,
+      "sampled_invalid_roots": 0
+    },
+    {
+      "fit_id": "unified_D-period-X_seed_3141",
+      "variant": "adiabatic_coherent",
+      "condition": "SP",
+      "context": "exvivo",
+      "invalid_LD_steps": 0,
+      "invalid_DD_steps": 0,
+      "valid_root_residual_max": 5.751692525035601e-17,
+      "invalid_root_residual_max": 0.0,
+      "minimum_valid_contraction": 0.12933933831984532,
+      "sampled_invalid_roots": 0
+    },
+    {
+      "fit_id": "unified_D-period-X_seed_3141",
+      "variant": "adiabatic_coherent",
+      "condition": "LP",
+      "context": "invivo",
+      "invalid_LD_steps": 0,
+      "invalid_DD_steps": 0,
+      "valid_root_residual_max": 5.990217002982412e-17,
+      "invalid_root_residual_max": 0.0,
+      "minimum_valid_contraction": 0.2618157563198297,
+      "sampled_invalid_roots": 0
+    },
+    {
+      "fit_id": "unified_D-period-X_seed_3141",
+      "variant": "adiabatic_coherent",
+      "condition": "LP",
+      "context": "exvivo",
+      "invalid_LD_steps": 0,
+      "invalid_DD_steps": 0,
+      "valid_root_residual_max": 5.990217002982412e-17,
+      "invalid_root_residual_max": 0.0,
+      "minimum_valid_contraction": 0.1288582066265537,
+      "sampled_invalid_roots": 0
+    },
+    {
+      "fit_id": "unified_D-period-X_seed_3141",
+      "variant": "adiabatic_coherent",
+      "condition": "LD",
+      "context": "invivo",
+      "invalid_LD_steps": 0,
+      "invalid_DD_steps": 0,
+      "valid_root_residual_max": 5.74152812966855e-17,
+      "invalid_root_residual_max": 0.0,
+      "minimum_valid_contraction": 0.2618157563198297,
+      "sampled_invalid_roots": 0
+    },
+    {
+      "fit_id": "unified_D-period-X_seed_3141",
+      "variant": "adiabatic_coherent",
+      "condition": "LD",
+      "context": "exvivo",
+      "invalid_LD_steps": 0,
+      "invalid_DD_steps": 0,
+      "valid_root_residual_max": 5.74152812966855e-17,
+      "invalid_root_residual_max": 0.0,
+      "minimum_valid_contraction": 0.1293263789756908,
+      "sampled_invalid_roots": 0
+    },
+    {
+      "fit_id": "unified_D-period-X_seed_3141",
+      "variant": "adiabatic_coherent",
+      "condition": "T22",
+      "context": "invivo",
+      "invalid_LD_steps": 0,
+      "invalid_DD_steps": 0,
+      "valid_root_residual_max": 6.44287140999511e-17,
+      "invalid_root_residual_max": 0.0,
+      "minimum_valid_contraction": 0.19596470931947785,
+      "sampled_invalid_roots": 0
+    },
+    {
+      "fit_id": "unified_D-period-X_seed_3141",
+      "variant": "adiabatic_coherent",
+      "condition": "T22",
+      "context": "exvivo",
+      "invalid_LD_steps": 0,
+      "invalid_DD_steps": 0,
+      "valid_root_residual_max": 6.245004513516506e-17,
+      "invalid_root_residual_max": 0.0,
+      "minimum_valid_contraction": 0.11996987933371643,
+      "sampled_invalid_roots": 0
+    },
+    {
+      "fit_id": "unified_D-period-X_seed_3141",
+      "variant": "adiabatic_coherent",
+      "condition": "T26",
+      "context": "invivo",
+      "invalid_LD_steps": 0,
+      "invalid_DD_steps": 0,
+      "valid_root_residual_max": 5.93871739978935e-17,
+      "invalid_root_residual_max": 0.0,
+      "minimum_valid_contraction": 0.25995850571102624,
+      "sampled_invalid_roots": 0
+    },
+    {
+      "fit_id": "unified_D-period-X_seed_3141",
+      "variant": "adiabatic_coherent",
+      "condition": "T26",
+      "context": "exvivo",
+      "invalid_LD_steps": 0,
+      "invalid_DD_steps": 0,
+      "valid_root_residual_max": 5.93871739978935e-17,
+      "invalid_root_residual_max": 0.0,
+      "minimum_valid_contraction": 0.12607346900793215,
+      "sampled_invalid_roots": 0
+    },
+    {
+      "fit_id": "unified_coupling-X_seed_3141",
+      "variant": "adiabatic_exact_geometry",
+      "condition": "SP",
+      "context": "invivo",
+      "invalid_LD_steps": 0,
+      "invalid_DD_steps": 0,
+      "valid_root_residual_max": 6.765421556309548e-17,
+      "invalid_root_residual_max": 0.0,
+      "minimum_valid_contraction": 0.2892585241596472,
+      "sampled_invalid_roots": 0
+    },
+    {
+      "fit_id": "unified_coupling-X_seed_3141",
+      "variant": "adiabatic_exact_geometry",
+      "condition": "SP",
+      "context": "exvivo",
+      "invalid_LD_steps": 0,
+      "invalid_DD_steps": 0,
+      "valid_root_residual_max": 6.765421556309548e-17,
+      "invalid_root_residual_max": 0.0,
+      "minimum_valid_contraction": 0.19772218794287985,
+      "sampled_invalid_roots": 0
+    },
+    {
+      "fit_id": "unified_coupling-X_seed_3141",
+      "variant": "adiabatic_exact_geometry",
+      "condition": "LP",
+      "context": "invivo",
+      "invalid_LD_steps": 0,
+      "invalid_DD_steps": 0,
+      "valid_root_residual_max": 5.941427905220564e-17,
+      "invalid_root_residual_max": 0.0,
+      "minimum_valid_contraction": 0.32100187660043217,
+      "sampled_invalid_roots": 0
+    },
+    {
+      "fit_id": "unified_coupling-X_seed_3141",
+      "variant": "adiabatic_exact_geometry",
+      "condition": "LP",
+      "context": "exvivo",
+      "invalid_LD_steps": 0,
+      "invalid_DD_steps": 0,
+      "valid_root_residual_max": 5.941427905220564e-17,
+      "invalid_root_residual_max": 0.0,
+      "minimum_valid_contraction": 0.19449258053566765,
+      "sampled_invalid_roots": 0
+    },
+    {
+      "fit_id": "unified_coupling-X_seed_3141",
+      "variant": "adiabatic_exact_geometry",
+      "condition": "LD",
+      "context": "invivo",
+      "invalid_LD_steps": 0,
+      "invalid_DD_steps": 0,
+      "valid_root_residual_max": 5.735429492448318e-17,
+      "invalid_root_residual_max": 0.0,
+      "minimum_valid_contraction": 0.3237261715839616,
+      "sampled_invalid_roots": 0
+    },
+    {
+      "fit_id": "unified_coupling-X_seed_3141",
+      "variant": "adiabatic_exact_geometry",
+      "condition": "LD",
+      "context": "exvivo",
+      "invalid_LD_steps": 0,
+      "invalid_DD_steps": 0,
+      "valid_root_residual_max": 5.735429492448318e-17,
+      "invalid_root_residual_max": 0.0,
+      "minimum_valid_contraction": 0.19793623101833874,
+      "sampled_invalid_roots": 0
+    },
+    {
+      "fit_id": "unified_coupling-X_seed_3141",
+      "variant": "adiabatic_exact_geometry",
+      "condition": "T22",
+      "context": "invivo",
+      "invalid_LD_steps": 0,
+      "invalid_DD_steps": 0,
+      "valid_root_residual_max": 1.1188966420050406e-16,
+      "invalid_root_residual_max": 0.0,
+      "minimum_valid_contraction": 0.31885172730630457,
+      "sampled_invalid_roots": 0
+    },
+    {
+      "fit_id": "unified_coupling-X_seed_3141",
+      "variant": "adiabatic_exact_geometry",
+      "condition": "T22",
+      "context": "exvivo",
+      "invalid_LD_steps": 0,
+      "invalid_DD_steps": 0,
+      "valid_root_residual_max": 1.1188966420050406e-16,
+      "invalid_root_residual_max": 0.0,
+      "minimum_valid_contraction": 0.18710846834293599,
+      "sampled_invalid_roots": 0
+    },
+    {
+      "fit_id": "unified_coupling-X_seed_3141",
+      "variant": "adiabatic_exact_geometry",
+      "condition": "T26",
+      "context": "invivo",
+      "invalid_LD_steps": 0,
+      "invalid_DD_steps": 0,
+      "valid_root_residual_max": 5.984795992119984e-17,
+      "invalid_root_residual_max": 0.0,
+      "minimum_valid_contraction": 0.2928468311718373,
+      "sampled_invalid_roots": 0
+    },
+    {
+      "fit_id": "unified_coupling-X_seed_3141",
+      "variant": "adiabatic_exact_geometry",
+      "condition": "T26",
+      "context": "exvivo",
+      "invalid_LD_steps": 0,
+      "invalid_DD_steps": 0,
+      "valid_root_residual_max": 5.984795992119984e-17,
+      "invalid_root_residual_max": 0.0,
+      "minimum_valid_contraction": 0.19316379808918815,
+      "sampled_invalid_roots": 0
+    },
+    {
+      "fit_id": "unified_coupling-X_seed_3141",
+      "variant": "adiabatic_coherent",
+      "condition": "SP",
+      "context": "invivo",
+      "invalid_LD_steps": 0,
+      "invalid_DD_steps": 0,
+      "valid_root_residual_max": 6.911788849595091e-17,
+      "invalid_root_residual_max": 0.0,
+      "minimum_valid_contraction": 0.2891380164774901,
+      "sampled_invalid_roots": 0
+    },
+    {
+      "fit_id": "unified_coupling-X_seed_3141",
+      "variant": "adiabatic_coherent",
+      "condition": "SP",
+      "context": "exvivo",
+      "invalid_LD_steps": 0,
+      "invalid_DD_steps": 0,
+      "valid_root_residual_max": 6.911788849595091e-17,
+      "invalid_root_residual_max": 0.0,
+      "minimum_valid_contraction": 0.1977239214257147,
+      "sampled_invalid_roots": 0
+    },
+    {
+      "fit_id": "unified_coupling-X_seed_3141",
+      "variant": "adiabatic_coherent",
+      "condition": "LP",
+      "context": "invivo",
+      "invalid_LD_steps": 0,
+      "invalid_DD_steps": 0,
+      "valid_root_residual_max": 5.811323644522304e-17,
+      "invalid_root_residual_max": 0.0,
+      "minimum_valid_contraction": 0.32099720124895403,
+      "sampled_invalid_roots": 0
+    },
+    {
+      "fit_id": "unified_coupling-X_seed_3141",
+      "variant": "adiabatic_coherent",
+      "condition": "LP",
+      "context": "exvivo",
+      "invalid_LD_steps": 0,
+      "invalid_DD_steps": 0,
+      "valid_root_residual_max": 5.811323644522304e-17,
+      "invalid_root_residual_max": 0.0,
+      "minimum_valid_contraction": 0.1944964742400372,
+      "sampled_invalid_roots": 0
+    },
+    {
+      "fit_id": "unified_coupling-X_seed_3141",
+      "variant": "adiabatic_coherent",
+      "condition": "LD",
+      "context": "invivo",
+      "invalid_LD_steps": 0,
+      "invalid_DD_steps": 0,
+      "valid_root_residual_max": 5.739495250595139e-17,
+      "invalid_root_residual_max": 0.0,
+      "minimum_valid_contraction": 0.32371680322726176,
+      "sampled_invalid_roots": 0
+    },
+    {
+      "fit_id": "unified_coupling-X_seed_3141",
+      "variant": "adiabatic_coherent",
+      "condition": "LD",
+      "context": "exvivo",
+      "invalid_LD_steps": 0,
+      "invalid_DD_steps": 0,
+      "valid_root_residual_max": 5.637851296924623e-17,
+      "invalid_root_residual_max": 0.0,
+      "minimum_valid_contraction": 0.19793623016533252,
+      "sampled_invalid_roots": 0
+    },
+    {
+      "fit_id": "unified_coupling-X_seed_3141",
+      "variant": "adiabatic_coherent",
+      "condition": "T22",
+      "context": "invivo",
+      "invalid_LD_steps": 0,
+      "invalid_DD_steps": 0,
+      "valid_root_residual_max": 1.1752751549742868e-16,
+      "invalid_root_residual_max": 0.0,
+      "minimum_valid_contraction": 0.3205163005786768,
+      "sampled_invalid_roots": 0
+    },
+    {
+      "fit_id": "unified_coupling-X_seed_3141",
+      "variant": "adiabatic_coherent",
+      "condition": "T22",
+      "context": "exvivo",
+      "invalid_LD_steps": 0,
+      "invalid_DD_steps": 0,
+      "valid_root_residual_max": 1.1752751549742868e-16,
+      "invalid_root_residual_max": 0.0,
+      "minimum_valid_contraction": 0.1867899103052963,
+      "sampled_invalid_roots": 0
+    },
+    {
+      "fit_id": "unified_coupling-X_seed_3141",
+      "variant": "adiabatic_coherent",
+      "condition": "T26",
+      "context": "invivo",
+      "invalid_LD_steps": 0,
+      "invalid_DD_steps": 0,
+      "valid_root_residual_max": 5.659535340374333e-17,
+      "invalid_root_residual_max": 0.0,
+      "minimum_valid_contraction": 0.2928101370955047,
+      "sampled_invalid_roots": 0
+    },
+    {
+      "fit_id": "unified_coupling-X_seed_3141",
+      "variant": "adiabatic_coherent",
+      "condition": "T26",
+      "context": "exvivo",
+      "invalid_LD_steps": 0,
+      "invalid_DD_steps": 0,
+      "valid_root_residual_max": 5.637851296924623e-17,
+      "invalid_root_residual_max": 0.0,
+      "minimum_valid_contraction": 0.19315240538851094,
+      "sampled_invalid_roots": 0
+    }
+  ],
+  "half_step_checks": [
+    {
+      "fit_id": "unified_D-period-X_seed_3141",
+      "condition": "SP",
+      "context": "invivo",
+      "maximum_period_step_difference_h": 8.58372273171426e-06,
+      "gap_step_difference_h": 7.423513231949452e-06,
+      "half_invalid_LD_steps": 0,
+      "half_invalid_DD_steps": 0
+    },
+    {
+      "fit_id": "unified_D-period-X_seed_3141",
+      "condition": "SP",
+      "context": "exvivo",
+      "maximum_period_step_difference_h": 5.52199804708664e-05,
+      "gap_step_difference_h": 9.648668887995981e-05,
+      "half_invalid_LD_steps": 0,
+      "half_invalid_DD_steps": 0
+    },
+    {
+      "fit_id": "unified_D-period-X_seed_3141",
+      "condition": "LP",
+      "context": "invivo",
+      "maximum_period_step_difference_h": 3.0165979030272183e-05,
+      "gap_step_difference_h": 2.3687819088458184e-06,
+      "half_invalid_LD_steps": 0,
+      "half_invalid_DD_steps": 0
+    },
+    {
+      "fit_id": "unified_D-period-X_seed_3141",
+      "condition": "LP",
+      "context": "exvivo",
+      "maximum_period_step_difference_h": 7.139104804210206e-05,
+      "gap_step_difference_h": 7.689916666708818e-05,
+      "half_invalid_LD_steps": 0,
+      "half_invalid_DD_steps": 0
+    },
+    {
+      "fit_id": "unified_D-period-X_seed_3141",
+      "condition": "LD",
+      "context": "invivo",
+      "maximum_period_step_difference_h": 3.04169425291434e-06,
+      "gap_step_difference_h": 2.1662249234943864e-06,
+      "half_invalid_LD_steps": 0,
+      "half_invalid_DD_steps": 0
+    },
+    {
+      "fit_id": "unified_D-period-X_seed_3141",
+      "condition": "LD",
+      "context": "exvivo",
+      "maximum_period_step_difference_h": 4.592329727515221e-05,
+      "gap_step_difference_h": 4.01052945415703e-05,
+      "half_invalid_LD_steps": 0,
+      "half_invalid_DD_steps": 0
+    },
+    {
+      "fit_id": "unified_D-period-X_seed_3141",
+      "condition": "T22",
+      "context": "invivo",
+      "maximum_period_step_difference_h": 0.00018404916864511733,
+      "gap_step_difference_h": 3.3667747949828186e-06,
+      "half_invalid_LD_steps": 0,
+      "half_invalid_DD_steps": 0
+    },
+    {
+      "fit_id": "unified_D-period-X_seed_3141",
+      "condition": "T22",
+      "context": "exvivo",
+      "maximum_period_step_difference_h": 0.0001431172521471069,
+      "gap_step_difference_h": 0.00017892692149179545,
+      "half_invalid_LD_steps": 0,
+      "half_invalid_DD_steps": 0
+    },
+    {
+      "fit_id": "unified_D-period-X_seed_3141",
+      "condition": "T26",
+      "context": "invivo",
+      "maximum_period_step_difference_h": 0.0001240394944730383,
+      "gap_step_difference_h": 2.039930098304832e-05,
+      "half_invalid_LD_steps": 0,
+      "half_invalid_DD_steps": 0
+    },
+    {
+      "fit_id": "unified_D-period-X_seed_3141",
+      "condition": "T26",
+      "context": "exvivo",
+      "maximum_period_step_difference_h": 6.285813082484992e-05,
+      "gap_step_difference_h": 0.00015171670842129004,
+      "half_invalid_LD_steps": 0,
+      "half_invalid_DD_steps": 0
+    },
+    {
+      "fit_id": "unified_coupling-X_seed_3141",
+      "condition": "SP",
+      "context": "invivo",
+      "maximum_period_step_difference_h": 4.916850273772866e-05,
+      "gap_step_difference_h": 9.49434107315461e-06,
+      "half_invalid_LD_steps": 0,
+      "half_invalid_DD_steps": 0
+    },
+    {
+      "fit_id": "unified_coupling-X_seed_3141",
+      "condition": "SP",
+      "context": "exvivo",
+      "maximum_period_step_difference_h": 5.1710379231906245e-06,
+      "gap_step_difference_h": 8.548972767724594e-06,
+      "half_invalid_LD_steps": 0,
+      "half_invalid_DD_steps": 0
+    },
+    {
+      "fit_id": "unified_coupling-X_seed_3141",
+      "condition": "LP",
+      "context": "invivo",
+      "maximum_period_step_difference_h": 3.893240853614088e-05,
+      "gap_step_difference_h": 2.525801813061529e-05,
+      "half_invalid_LD_steps": 0,
+      "half_invalid_DD_steps": 0
+    },
+    {
+      "fit_id": "unified_coupling-X_seed_3141",
+      "condition": "LP",
+      "context": "exvivo",
+      "maximum_period_step_difference_h": 0.00011546030250642048,
+      "gap_step_difference_h": 0.0006680260611458544,
+      "half_invalid_LD_steps": 0,
+      "half_invalid_DD_steps": 0
+    },
+    {
+      "fit_id": "unified_coupling-X_seed_3141",
+      "condition": "LD",
+      "context": "invivo",
+      "maximum_period_step_difference_h": 1.3474412462244345e-05,
+      "gap_step_difference_h": 2.334428193594834e-06,
+      "half_invalid_LD_steps": 0,
+      "half_invalid_DD_steps": 0
+    },
+    {
+      "fit_id": "unified_coupling-X_seed_3141",
+      "condition": "LD",
+      "context": "exvivo",
+      "maximum_period_step_difference_h": 2.3614126678950242e-05,
+      "gap_step_difference_h": 2.9129661391902317e-05,
+      "half_invalid_LD_steps": 0,
+      "half_invalid_DD_steps": 0
+    },
+    {
+      "fit_id": "unified_coupling-X_seed_3141",
+      "condition": "T22",
+      "context": "invivo",
+      "maximum_period_step_difference_h": 0.00014278105224008186,
+      "gap_step_difference_h": 7.820067620667448e-05,
+      "half_invalid_LD_steps": 0,
+      "half_invalid_DD_steps": 0
+    },
+    {
+      "fit_id": "unified_coupling-X_seed_3141",
+      "condition": "T22",
+      "context": "exvivo",
+      "maximum_period_step_difference_h": 0.006684131816985683,
+      "gap_step_difference_h": 0.0035873266458279485,
+      "half_invalid_LD_steps": 0,
+      "half_invalid_DD_steps": 0
+    },
+    {
+      "fit_id": "unified_coupling-X_seed_3141",
+      "condition": "T26",
+      "context": "invivo",
+      "maximum_period_step_difference_h": 9.746997521276057e-05,
+      "gap_step_difference_h": 4.640353217150173e-06,
+      "half_invalid_LD_steps": 0,
+      "half_invalid_DD_steps": 0
+    },
+    {
+      "fit_id": "unified_coupling-X_seed_3141",
+      "condition": "T26",
+      "context": "exvivo",
+      "maximum_period_step_difference_h": 7.71949706646069e-06,
+      "gap_step_difference_h": 2.0496431374028568e-05,
+      "half_invalid_LD_steps": 0,
+      "half_invalid_DD_steps": 0
+    }
+  ],
+  "lag_relaxation_timescales": [
+    {
+      "fit_id": "unified_D-period-X_seed_3141",
+      "architecture": "D-period-X",
+      "condition": "SP",
+      "minimum_relaxation_h": 3.4172264822378744,
+      "maximum_relaxation_h": 3.421784700355772,
+      "invalid_DD_steps": 0
+    },
+    {
+      "fit_id": "unified_D-period-X_seed_3141",
+      "architecture": "D-period-X",
+      "condition": "LP",
+      "minimum_relaxation_h": 3.4200489198585675,
+      "maximum_relaxation_h": 3.4245482011118744,
+      "invalid_DD_steps": 0
+    },
+    {
+      "fit_id": "unified_D-period-X_seed_3141",
+      "architecture": "D-period-X",
+      "condition": "LD",
+      "minimum_relaxation_h": 3.417549090430578,
+      "maximum_relaxation_h": 3.4230349389542627,
+      "invalid_DD_steps": 0
+    },
+    {
+      "fit_id": "unified_D-period-X_seed_3141",
+      "architecture": "D-period-X",
+      "condition": "T22",
+      "minimum_relaxation_h": 3.432965557427571,
+      "maximum_relaxation_h": 3.465185435447432,
+      "invalid_DD_steps": 0
+    },
+    {
+      "fit_id": "unified_D-period-X_seed_3141",
+      "architecture": "D-period-X",
+      "condition": "T26",
+      "minimum_relaxation_h": 3.4171910991500423,
+      "maximum_relaxation_h": 3.43413539443648,
+      "invalid_DD_steps": 0
+    },
+    {
+      "fit_id": "unified_coupling-X_seed_3141",
+      "architecture": "coupling-X",
+      "condition": "SP",
+      "minimum_relaxation_h": 3.000319706882686,
+      "maximum_relaxation_h": 3.0033054942908026,
+      "invalid_DD_steps": 0
+    },
+    {
+      "fit_id": "unified_coupling-X_seed_3141",
+      "architecture": "coupling-X",
+      "condition": "LP",
+      "minimum_relaxation_h": 3.003471904591562,
+      "maximum_relaxation_h": 3.0065850595292773,
+      "invalid_DD_steps": 0
+    },
+    {
+      "fit_id": "unified_coupling-X_seed_3141",
+      "architecture": "coupling-X",
+      "condition": "LD",
+      "minimum_relaxation_h": 3.000328431944685,
+      "maximum_relaxation_h": 3.0042683986707166,
+      "invalid_DD_steps": 0
+    },
+    {
+      "fit_id": "unified_coupling-X_seed_3141",
+      "architecture": "coupling-X",
+      "condition": "T22",
+      "minimum_relaxation_h": 3.014404689045591,
+      "maximum_relaxation_h": 3.061275890030877,
+      "invalid_DD_steps": 0
+    },
+    {
+      "fit_id": "unified_coupling-X_seed_3141",
+      "architecture": "coupling-X",
+      "condition": "T26",
+      "minimum_relaxation_h": 3.000321376820397,
+      "maximum_relaxation_h": 3.0281141654169863,
+      "invalid_DD_steps": 0
+    }
+  ],
+  "full_reduced_discrepancies": [
+    {
+      "fit_id": "unified_D-period-X_seed_3141",
+      "architecture": "D-period-X",
+      "variant": "adiabatic_exact_geometry",
+      "maximum_period_difference_from_full_h": 0.27901310688141123,
+      "maximum_gap_difference_from_full_h": 0.32470714693855984
+    },
+    {
+      "fit_id": "unified_coupling-X_seed_3141",
+      "architecture": "coupling-X",
+      "variant": "adiabatic_exact_geometry",
+      "maximum_period_difference_from_full_h": 1.6876733522481118,
+      "maximum_gap_difference_from_full_h": 0.9023439818923711
+    },
+    {
+      "fit_id": "unified_D-period-X_seed_3141",
+      "architecture": "D-period-X",
+      "variant": "adiabatic_coherent",
+      "maximum_period_difference_from_full_h": 0.2789900133889809,
+      "maximum_gap_difference_from_full_h": 0.32465776650525635
+    },
+    {
+      "fit_id": "unified_coupling-X_seed_3141",
+      "architecture": "coupling-X",
+      "variant": "adiabatic_coherent",
+      "maximum_period_difference_from_full_h": 1.5476629877305434,
+      "maximum_gap_difference_from_full_h": 0.8219300568810803
+    }
+  ],
+  "shared_score_comparison": [
+    {
+      "fit_id": "unified_D-period-X_seed_3141",
+      "architecture": "D-period-X",
+      "variant": "oscillatory_X",
+      "shared_final_score": 3232313.5809733393,
+      "note": "Scores use saved 0.25-h output; the independently verified optimization score uses its specified fine-step phase summary."
+    },
+    {
+      "fit_id": "unified_D-period-X_seed_3141",
+      "architecture": "D-period-X",
+      "variant": "adiabatic_exact_geometry",
+      "shared_final_score": 15737479.222174376,
+      "note": "Scores use saved 0.25-h output; the independently verified optimization score uses its specified fine-step phase summary."
+    },
+    {
+      "fit_id": "unified_D-period-X_seed_3141",
+      "architecture": "D-period-X",
+      "variant": "adiabatic_coherent",
+      "shared_final_score": 15737353.22690914,
+      "note": "Scores use saved 0.25-h output; the independently verified optimization score uses its specified fine-step phase summary."
+    },
+    {
+      "fit_id": "unified_coupling-X_seed_3141",
+      "architecture": "coupling-X",
+      "variant": "oscillatory_X",
+      "shared_final_score": 21488568.391946778,
+      "note": "Scores use saved 0.25-h output; the independently verified optimization score uses its specified fine-step phase summary."
+    },
+    {
+      "fit_id": "unified_coupling-X_seed_3141",
+      "architecture": "coupling-X",
+      "variant": "adiabatic_exact_geometry",
+      "shared_final_score": 29567563.928291306,
+      "note": "Scores use saved 0.25-h output; the independently verified optimization score uses its specified fine-step phase summary."
+    },
+    {
+      "fit_id": "unified_coupling-X_seed_3141",
+      "architecture": "coupling-X",
+      "variant": "adiabatic_coherent",
+      "shared_final_score": 29611700.127353124,
+      "note": "Scores use saved 0.25-h output; the independently verified optimization score uses its specified fine-step phase summary."
+    }
+  ],
+  "new_optimization": false,
+  "independent_X_phase_integrated": false,
+  "width_mm": 175,
+  "output_sha256": {
+    "reduction_parameters.json": "c22370d4ee82ec82868d3723c7109c9568c4b322f0aca7ad927a18371bd6a6c0",
+    "reduction_targets.csv": "05f206a7146fb996cfb98d5e6af50c30a12ecf6c7872fa5f6e7b8938a0dcefc8",
+    "reduction_traces.csv.gz": "f5cc8afb23beb416370229c1fcd4a45b73abff85939e17cfd15d89b3bc45e318"
+  },
+  "all_checks_passed": true
+}

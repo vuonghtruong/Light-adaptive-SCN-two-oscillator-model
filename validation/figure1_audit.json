@@ -1,0 +1,107 @@
+{
+  "pairing_keys": [
+    "study",
+    "year",
+    "age_label",
+    "condition_family",
+    "condition_label",
+    "reporter when known"
+  ],
+  "unknown_behavior_reporter_policy": "Allowed only for the single selected SCN reporter within the matching cohort; Aton2004.",
+  "archived_pair_count": 31,
+  "plotted_pair_count": 31,
+  "plotted_pair_counts_by_family": {
+    "T-cycle": 12,
+    "T-cycle x photoperiod": 6,
+    "photoperiod": 13
+  },
+  "rejected_cross_reporter_joins": [
+    {
+      "study": "Myung et al.",
+      "year": 2012,
+      "age_label": "3-4 wks",
+      "condition_family": "photoperiod",
+      "condition_label": "12:12 LD",
+      "reporter_behavior": "Bmal1-ELuc",
+      "reporter_scn": "PER2::LUC"
+    },
+    {
+      "study": "Myung et al.",
+      "year": 2012,
+      "age_label": "3-4 wks",
+      "condition_family": "photoperiod",
+      "condition_label": "12:12 LD",
+      "reporter_behavior": "PER2::LUC",
+      "reporter_scn": "Bmal1-ELuc"
+    }
+  ],
+  "corrected_pair": "Myung2012 Bmal1 behavior23.7h pairs with Bmal1 SCN23.9h, not PER2 SCN24.7h. Inputs preserved.",
+  "regression_count": 5,
+  "two_mean_connector_count": 7,
+  "omitted_single_mean_groups": [
+    {
+      "family": "photoperiod",
+      "study": "Myung et al.",
+      "year": 2012,
+      "reporter": "Bmal1-ELuc",
+      "age": "3-4 wks",
+      "branch": "",
+      "n": 1,
+      "pearson_r": null,
+      "slope": null,
+      "intercept": null,
+      "line_type": "no line: fewer than two distinct behavioral means"
+    },
+    {
+      "family": "photoperiod",
+      "study": "Myung et al.",
+      "year": 2012,
+      "reporter": "PER2::LUC",
+      "age": "3-4 wks",
+      "branch": "",
+      "n": 1,
+      "pearson_r": null,
+      "slope": null,
+      "intercept": null,
+      "line_type": "no line: fewer than two distinct behavioral means"
+    }
+  ],
+  "categorical_errorbar_clipping": [
+    {
+      "panel": "A",
+      "n_points": 13,
+      "clipped_errorbars": 0
+    },
+    {
+      "panel": "D",
+      "n_points": 19,
+      "clipped_errorbars": 0
+    },
+    {
+      "panel": "B",
+      "n_points": 20,
+      "clipped_errorbars": 0
+    },
+    {
+      "panel": "E",
+      "n_points": 12,
+      "clipped_errorbars": 0
+    },
+    {
+      "panel": "C",
+      "n_points": 6,
+      "clipped_errorbars": 0
+    },
+    {
+      "panel": "F",
+      "n_points": 6,
+      "clipped_errorbars": 0
+    }
+  ],
+  "line_styles": {
+    "solid": "within-cohort least-squares fit, n>=3; SP in I",
+    "dashed": "LP within-cohort least-squares fit in I",
+    "dotted": "two-mean descriptive connector; no fitted correlation"
+  },
+  "correlation_policy": "G/H summaries are descriptive reporter-level correlations of the plotted means; I reports SP/LP separately. Cohort-specific correlations and line eligibility are in the regression-groups table."
+}

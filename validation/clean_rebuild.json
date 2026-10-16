@@ -1,0 +1,647 @@
+{
+  "passed": true,
+  "figures": 31,
+  "tables": 32,
+  "data_files": 63,
+  "numerical_checks": 123,
+  "data_inventory_difference": [],
+  "files": [
+    {
+      "file": "figures/main/Figure_1.pdf",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "figures/main/Figure_1.svg",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "figures/main/Figure_1.png",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "figures/main/Figure_2.pdf",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "figures/main/Figure_2.svg",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "figures/main/Figure_2.png",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "figures/main/Figure_3.pdf",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "figures/main/Figure_3.svg",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "figures/main/Figure_3.png",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "figures/main/Figure_4.pdf",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "figures/main/Figure_4.svg",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "figures/main/Figure_4.png",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "figures/supplement/Figure_S1.pdf",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "figures/supplement/Figure_S1.svg",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "figures/supplement/Figure_S1.png",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "figures/supplement/Figure_S2.pdf",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "figures/supplement/Figure_S2.svg",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "figures/supplement/Figure_S2.png",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "figures/supplement/Figure_S3.pdf",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "figures/supplement/Figure_S3.svg",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "figures/supplement/Figure_S3.png",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "figures/supplement/Figure_S4.pdf",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "figures/supplement/Figure_S4.svg",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "figures/supplement/Figure_S4.png",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "figures/supplement/Figure_S5.pdf",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "figures/supplement/Figure_S5.svg",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "figures/supplement/Figure_S5.png",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "figures/supplement/Figure_S6.pdf",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "figures/supplement/Figure_S6.svg",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "figures/supplement/Figure_S6.png",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "figures/supplement/Technical_appendix.pdf",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "tables/Figure1_plotted_pairs.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "tables/Figure1_regression_groups.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "tables/Figure1_reporter_correlations.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "tables/Figure1_study_counts.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "tables/Figure2_gain_sweep_convergence.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "tables/Figure2_selected_gain_operating_points.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "tables/Figure3_explant_sensitivity.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "tables/Figure3_robustness_summary.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "tables/Figure3K_absolute_period_summary.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "tables/fixed_period_Tcycle_contrasts.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "tables/full_model_dynamic_endpoints.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "tables/Table_S1_literature_provenance.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "tables/Table_S2_matched_searches.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "tables/optimization_reselection_audit.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "tables/parameter_changes.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "tables/fit_target_errors.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "tables/fit_objective_components.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "tables/Table_S3_fitted_parameters.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "tables/Table_S3_fixed_model_settings.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "tables/memory_timescale_endpoints.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "tables/memory_timescale_summary.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "tables/simple_coupling_endpoints.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "tables/simple_coupling_parameters.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "tables/simple_coupling_shared_parameters.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "tables/simple_coupling_sensitivity.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "tables/simple_coupling_perturbation_summary.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "tables/simple_coupling_grid.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "tables/simple_coupling_convergence.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "tables/simple_coupling_search.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "tables/simple_coupling_rule_parameters.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "tables/simple_coupling_rule_endpoints.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "tables/simple_coupling_rule_diagnostics.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/architecture_selected_parameters.json",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/archived_parameters.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/archived_targets.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/explant_controls.csv",
+      "passed": true,
+      "comparison": "numerically equal CSV",
+      "tolerance": 1e-10
+    },
+    {
+      "file": "data/explant_coupling_sweep.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/explant_step_halving.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/Figure2_full_model_gain_sweep.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/fixed_period_release.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/full_model_dynamic_traces.csv.gz",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/memory_timescale_endpoints.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/memory_timescale_scores.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/memory_timescale_step_halving.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/natural_vs_network_windows.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/optimization/seed_1729/fit_coupling-X_main_protocol.json",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/optimization/seed_1729/fit_D-period-X_main_protocol.json",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/optimization/seed_1729/fit_joint-DV-period-X_main_protocol.json",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/optimization/seed_1729/fit_V-period-X_main_protocol.json",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/optimization/seed_2718/fit_coupling-X_main_protocol.json",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/optimization/seed_2718/fit_D-period-X_main_protocol.json",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/optimization/seed_2718/fit_joint-DV-period-X_main_protocol.json",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/optimization/seed_2718/fit_V-period-X_main_protocol.json",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/optimization/seed_3141/fit_coupling-X_main_protocol.json",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/optimization/seed_3141/fit_D-period-X_main_protocol.json",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/optimization/seed_3141/fit_joint-DV-period-X_main_protocol.json",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/optimization/seed_3141/fit_V-period-X_main_protocol.json",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/original_logic_bifurcation_branches.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/original_logic_phase_reorganization.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/original_logic_prediction_ensemble.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/original_logic_predictions.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/original_parameter_landscape.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/perturbation_initial_ensemble.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/perturbation_memory_contrasts.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/perturbation_reference.csv",
+      "passed": true,
+      "comparison": "numerically equal CSV",
+      "tolerance": 1e-10
+    },
+    {
+      "file": "data/perturbation_weighting.csv",
+      "passed": true,
+      "comparison": "numerically equal CSV",
+      "tolerance": 1e-10
+    },
+    {
+      "file": "data/reduction_parameters.json",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/reduction_targets.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/reduction_traces.csv.gz",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/reference_frozen_locking.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/reference_frozen_phase_flow.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/reference_long_DD.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/regime_map.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/search_candidates/seed_1729/coupling-X.json",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/search_candidates/seed_1729/D-period-X.json",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/search_candidates/seed_1729/joint-DV-period-X.json",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/search_candidates/seed_1729/V-period-X.json",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/search_candidates/seed_2718/coupling-X.json",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/search_candidates/seed_2718/D-period-X.json",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/search_candidates/seed_2718/joint-DV-period-X.json",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/search_candidates/seed_2718/V-period-X.json",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/search_candidates/seed_3141/coupling-X.json",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/search_candidates/seed_3141/D-period-X.json",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/search_candidates/seed_3141/joint-DV-period-X.json",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/search_candidates/seed_3141/V-period-X.json",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/simple_coupling_input.json",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/simple_coupling_results.json",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/simple_coupling_rule_results.json",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/simple_coupling_rule_traces.csv.gz",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/simple_coupling_traces.csv.gz",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/T22_additive_spectrum.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/T22_additive_trace.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/tcycle_period_observations.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/tcycle_selected_scn_behavior_correlation_pairs.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    },
+    {
+      "file": "data/tcycle_selected_scn_observations.csv",
+      "passed": true,
+      "comparison": "identical bytes"
+    }
+  ],
+  "started_without_figures_or_tables": true,
+  "fresh_forward_integrations": true,
+  "immutable_input_files": 19,
+  "scope": "Materials-only clean rebuild from immutable literature and saved finalist inputs; compared with the current retained numerical data, figures and tables."
+}

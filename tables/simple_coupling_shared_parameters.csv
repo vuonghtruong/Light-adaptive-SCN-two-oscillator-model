@@ -1,0 +1,10 @@
+parameter,value,unit,status
+tau_D,23.45284325390273,h,Fixed historical construction
+tau_V,24.138799197483443,h,Fixed historical construction
+epsilon,0.009998887747250577,rad/h,Fixed historical construction
+A_D,0.04799690666508628,rad/h,Fixed historical construction
+A_V,0.6652759938234813,rad/h,Fixed historical construction
+behavior_D_weight,0.8,dimensionless,Fixed readout
+behavior_V_weight,0.2,dimensionless,Fixed readout
+initial_phi_D,0.35,rad,Fixed initial state
+initial_phi_V,0.0,rad,Fixed initial state

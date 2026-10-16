@@ -1,0 +1,186 @@
+{
+  "passed": true,
+  "scope": "Git add filtering with core.autocrlf=true preserves checksummed inputs and source bytes",
+  "files": [
+    {
+      "file": "data/architecture_selected_parameters.json",
+      "passed": true
+    },
+    {
+      "file": "data/archived_parameters.csv",
+      "passed": true
+    },
+    {
+      "file": "data/archived_targets.csv",
+      "passed": true
+    },
+    {
+      "file": "data/simple_coupling_input.json",
+      "passed": true
+    },
+    {
+      "file": "data/tcycle_period_observations.csv",
+      "passed": true
+    },
+    {
+      "file": "data/tcycle_selected_scn_observations.csv",
+      "passed": true
+    },
+    {
+      "file": "data/search_candidates/seed_1729/coupling-X.json",
+      "passed": true
+    },
+    {
+      "file": "data/search_candidates/seed_1729/D-period-X.json",
+      "passed": true
+    },
+    {
+      "file": "data/search_candidates/seed_1729/joint-DV-period-X.json",
+      "passed": true
+    },
+    {
+      "file": "data/search_candidates/seed_1729/V-period-X.json",
+      "passed": true
+    },
+    {
+      "file": "data/search_candidates/seed_2718/coupling-X.json",
+      "passed": true
+    },
+    {
+      "file": "data/search_candidates/seed_2718/D-period-X.json",
+      "passed": true
+    },
+    {
+      "file": "data/search_candidates/seed_2718/joint-DV-period-X.json",
+      "passed": true
+    },
+    {
+      "file": "data/search_candidates/seed_2718/V-period-X.json",
+      "passed": true
+    },
+    {
+      "file": "data/search_candidates/seed_3141/coupling-X.json",
+      "passed": true
+    },
+    {
+      "file": "data/search_candidates/seed_3141/D-period-X.json",
+      "passed": true
+    },
+    {
+      "file": "data/search_candidates/seed_3141/joint-DV-period-X.json",
+      "passed": true
+    },
+    {
+      "file": "data/search_candidates/seed_3141/V-period-X.json",
+      "passed": true
+    },
+    {
+      "file": "data/tcycle_selected_scn_behavior_correlation_pairs.csv",
+      "passed": true
+    },
+    {
+      "file": "code/actogram_style.py",
+      "passed": true
+    },
+    {
+      "file": "code/architecture_figures.py",
+      "passed": true
+    },
+    {
+      "file": "code/architecture_model.py",
+      "passed": true
+    },
+    {
+      "file": "code/architecture_sensitivity.py",
+      "passed": true
+    },
+    {
+      "file": "code/common.py",
+      "passed": true
+    },
+    {
+      "file": "code/explant_robustness.py",
+      "passed": true
+    },
+    {
+      "file": "code/figure1.py",
+      "passed": true
+    },
+    {
+      "file": "code/figures34.py",
+      "passed": true
+    },
+    {
+      "file": "code/fit_protocol.py",
+      "passed": true
+    },
+    {
+      "file": "code/full_model_data.py",
+      "passed": true
+    },
+    {
+      "file": "code/memory_timescale.py",
+      "passed": true
+    },
+    {
+      "file": "code/parameter_registry.py",
+      "passed": true
+    },
+    {
+      "file": "code/parameter_tables.py",
+      "passed": true
+    },
+    {
+      "file": "code/reduced_model.py",
+      "passed": true
+    },
+    {
+      "file": "code/reference_model.py",
+      "passed": true
+    },
+    {
+      "file": "code/render_all.py",
+      "passed": true
+    },
+    {
+      "file": "code/reproduce_pipeline.py",
+      "passed": true
+    },
+    {
+      "file": "code/reselect_optimization.py",
+      "passed": true
+    },
+    {
+      "file": "code/simple_coupling.py",
+      "passed": true
+    },
+    {
+      "file": "code/simple_coupling_rule.py",
+      "passed": true
+    },
+    {
+      "file": "code/supplement.py",
+      "passed": true
+    },
+    {
+      "file": "code/technical_appendix.py",
+      "passed": true
+    },
+    {
+      "file": "code/unified_analyses.py",
+      "passed": true
+    },
+    {
+      "file": "code/unified_reduction.py",
+      "passed": true
+    },
+    {
+      "file": "code/validate_package.py",
+      "passed": true
+    },
+    {
+      "file": "code/verify_reproduction.py",
+      "passed": true
+    }
+  ]
+}

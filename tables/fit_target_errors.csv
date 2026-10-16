@@ -1,0 +1,126 @@
+parameter_set,architecture,seed,condition,observable,predicted_h,target_h,residual_h,absolute_error_h,recorded_target_sem_h,objective_role
+original_reference,D-period-X,original,SP,behavior,24.0,23.97,0.030000000000001137,0.030000000000001137,0.16,direct behavioral target
+original_reference,D-period-X,original,SP,exvivo_D,24.0,23.97,0.030000000000001137,0.030000000000001137,,displayed auxiliary target; objective constrains ex/in vivo split
+original_reference,D-period-X,original,SP,exvivo_V,24.0,23.97,0.030000000000001137,0.030000000000001137,,displayed auxiliary target; objective constrains ex/in vivo split
+original_reference,D-period-X,original,SP,gap_release_folded,-0.022950470924762226,0.49,-0.5129504709247622,0.5129504709247622,0.18,direct folded phase target
+original_reference,D-period-X,original,SP,gap_first7day_folded,0.01814554297119824,0.49,-0.47185445702880174,0.47185445702880174,0.18,direct folded phase target
+original_reference,D-period-X,original,LP,behavior,23.661971830985912,23.59,0.07197183098591253,0.07197183098591253,0.16,direct behavioral target
+original_reference,D-period-X,original,LP,exvivo_D,23.496503496503497,23.59,-0.09349650349650318,0.09349650349650318,,displayed auxiliary target; objective constrains ex/in vivo split
+original_reference,D-period-X,original,LP,exvivo_V,23.57894736842105,23.59,-0.011052631578948535,0.011052631578948535,,displayed auxiliary target; objective constrains ex/in vivo split
+original_reference,D-period-X,original,LP,gap_release_folded,0.08289913506446742,1.08,-0.9971008649355326,0.9971008649355326,0.21,direct folded phase target
+original_reference,D-period-X,original,LP,gap_first7day_folded,0.8690175099889532,1.08,-0.21098249001104685,0.21098249001104685,0.21,direct folded phase target
+original_reference,D-period-X,original,LD,behavior,23.829787234042556,23.7,0.12978723404255632,0.12978723404255632,0.1,direct behavioral target
+original_reference,D-period-X,original,LD,exvivo_D,23.745583038869256,23.7,0.04558303886925685,0.04558303886925685,,displayed auxiliary target; objective constrains ex/in vivo split
+original_reference,D-period-X,original,LD,exvivo_V,23.745583038869256,23.7,0.04558303886925685,0.04558303886925685,,displayed auxiliary target; objective constrains ex/in vivo split
+original_reference,D-period-X,original,LD,gap_release_folded,0.029041388745854813,0.58,-0.5509586112541451,0.5509586112541451,0.15,direct folded phase target
+original_reference,D-period-X,original,LD,gap_first7day_folded,0.439503664137745,0.58,-0.14049633586225496,0.14049633586225496,0.15,direct folded phase target
+original_reference,D-period-X,original,T22,behavior,23.252595155709344,22.83,0.42259515570934525,0.42259515570934525,0.1,direct behavioral target
+original_reference,D-period-X,original,T22,exvivo_D,24.888888888888893,24.5,0.38888888888889284,0.38888888888889284,,direct T-cycle target penalty
+original_reference,D-period-X,original,T22,exvivo_V,24.70588235294118,24.5,0.20588235294118107,0.20588235294118107,,direct T-cycle target penalty
+original_reference,D-period-X,original,T22,gap_release_folded,-0.0259316485997773,-2.08,2.0540683514002227,2.0540683514002227,0.44,direct folded phase target
+original_reference,D-period-X,original,T22,gap_first7day_folded,-1.302822065342323,-2.08,0.777177934657677,0.777177934657677,0.44,direct folded phase target
+original_reference,D-period-X,original,T26,behavior,24.347826086956523,24.5,-0.15217391304347672,0.15217391304347672,0.1,direct behavioral target
+original_reference,D-period-X,original,T26,exvivo_D,22.779661016949156,22.83,-0.0503389830508425,0.0503389830508425,,direct T-cycle target penalty
+original_reference,D-period-X,original,T26,exvivo_V,23.013698630136986,22.83,0.18369863013698762,0.18369863013698762,,direct T-cycle target penalty
+original_reference,D-period-X,original,T26,gap_release_folded,0.10115189445634726,2.43,-2.3288481055436527,2.3288481055436527,0.3,direct folded phase target
+original_reference,D-period-X,original,T26,gap_first7day_folded,2.2329411482549824,2.43,-0.1970588517450178,0.1970588517450178,0.3,direct folded phase target
+D-period-X,D-period-X,3141,SP,behavior,24.0,23.97,0.030000000000001137,0.030000000000001137,0.16,direct behavioral target
+D-period-X,D-period-X,3141,SP,exvivo_D,24.0,23.97,0.030000000000001137,0.030000000000001137,,displayed auxiliary target; objective constrains ex/in vivo split
+D-period-X,D-period-X,3141,SP,exvivo_V,24.1726618705036,23.97,0.20266187050360074,0.20266187050360074,,displayed auxiliary target; objective constrains ex/in vivo split
+D-period-X,D-period-X,3141,SP,gap_release_folded,0.017045710244570703,0.49,-0.4729542897554293,0.4729542897554293,0.18,direct folded phase target
+D-period-X,D-period-X,3141,SP,gap_first7day_folded,0.5584329966179992,0.49,0.06843299661799918,0.06843299661799918,0.18,direct folded phase target
+D-period-X,D-period-X,3141,LP,behavior,23.496503496503497,23.59,-0.09349650349650318,0.09349650349650318,0.16,direct behavioral target
+D-period-X,D-period-X,3141,LP,exvivo_D,23.414634146341463,23.59,-0.17536585365853696,0.17536585365853696,,displayed auxiliary target; objective constrains ex/in vivo split
+D-period-X,D-period-X,3141,LP,exvivo_V,23.661971830985912,23.59,0.07197183098591253,0.07197183098591253,,displayed auxiliary target; objective constrains ex/in vivo split
+D-period-X,D-period-X,3141,LP,gap_release_folded,0.13912662322300406,1.08,-0.940873376776996,0.940873376776996,0.21,direct folded phase target
+D-period-X,D-period-X,3141,LP,gap_first7day_folded,1.3516702290649645,1.08,0.2716702290649644,0.2716702290649644,0.21,direct folded phase target
+D-period-X,D-period-X,3141,LD,behavior,23.745583038869256,23.7,0.04558303886925685,0.04558303886925685,0.1,direct behavioral target
+D-period-X,D-period-X,3141,LD,exvivo_D,23.57894736842105,23.7,-0.12105263157894797,0.12105263157894797,,displayed auxiliary target; objective constrains ex/in vivo split
+D-period-X,D-period-X,3141,LD,exvivo_V,23.829787234042556,23.7,0.12978723404255632,0.12978723404255632,,displayed auxiliary target; objective constrains ex/in vivo split
+D-period-X,D-period-X,3141,LD,gap_release_folded,0.09227744259889778,0.58,-0.48772255740110215,0.48772255740110215,0.15,direct folded phase target
+D-period-X,D-period-X,3141,LD,gap_first7day_folded,1.0467641959420617,0.58,0.46676419594206175,0.46676419594206175,0.15,direct folded phase target
+D-period-X,D-period-X,3141,T22,behavior,22.935153583617748,22.83,0.10515358361774929,0.10515358361774929,0.1,direct behavioral target
+D-period-X,D-period-X,3141,T22,exvivo_D,25.55133079847909,24.5,1.0513307984790892,1.0513307984790892,,direct T-cycle target penalty
+D-period-X,D-period-X,3141,T22,exvivo_V,25.454545454545457,24.5,0.9545454545454568,0.9545454545454568,,direct T-cycle target penalty
+D-period-X,D-period-X,3141,T22,gap_release_folded,-0.10406599911575157,-2.08,1.9759340008842485,1.9759340008842485,0.44,direct folded phase target
+D-period-X,D-period-X,3141,T22,gap_first7day_folded,-1.2183361162049113,-2.08,0.8616638837950887,0.8616638837950887,0.44,direct folded phase target
+D-period-X,D-period-X,3141,T26,behavior,24.347826086956523,24.5,-0.15217391304347672,0.15217391304347672,0.1,direct behavioral target
+D-period-X,D-period-X,3141,T26,exvivo_D,22.62626262626263,22.83,-0.20373737373736844,0.20373737373736844,,direct T-cycle target penalty
+D-period-X,D-period-X,3141,T26,exvivo_V,23.09278350515464,22.83,0.26278350515464055,0.26278350515464055,,direct T-cycle target penalty
+D-period-X,D-period-X,3141,T26,gap_release_folded,0.21121154680761048,2.43,-2.21878845319239,2.21878845319239,0.3,direct folded phase target
+D-period-X,D-period-X,3141,T26,gap_first7day_folded,3.127765717518742,2.43,0.6977657175187417,0.6977657175187417,0.3,direct folded phase target
+coupling-X,coupling-X,3141,SP,behavior,24.086021505376344,23.97,0.11602150537634515,0.11602150537634515,0.16,direct behavioral target
+coupling-X,coupling-X,3141,SP,exvivo_D,23.914590747330962,23.97,-0.055409252669036846,0.055409252669036846,,displayed auxiliary target; objective constrains ex/in vivo split
+coupling-X,coupling-X,3141,SP,exvivo_V,24.0,23.97,0.030000000000001137,0.030000000000001137,,displayed auxiliary target; objective constrains ex/in vivo split
+coupling-X,coupling-X,3141,SP,gap_release_folded,0.06921816047225994,0.49,-0.42078183952774006,0.42078183952774006,0.18,direct folded phase target
+coupling-X,coupling-X,3141,SP,gap_first7day_folded,0.1148085593296147,0.49,-0.3751914406703853,0.3751914406703853,0.18,direct folded phase target
+coupling-X,coupling-X,3141,LP,behavior,23.496503496503497,23.59,-0.09349650349650318,0.09349650349650318,0.16,direct behavioral target
+coupling-X,coupling-X,3141,LP,exvivo_D,23.013698630136986,23.59,-0.576301369863014,0.576301369863014,,displayed auxiliary target; objective constrains ex/in vivo split
+coupling-X,coupling-X,3141,LP,exvivo_V,24.0,23.59,0.41000000000000014,0.41000000000000014,,displayed auxiliary target; objective constrains ex/in vivo split
+coupling-X,coupling-X,3141,LP,gap_release_folded,0.1861521558452634,1.08,-0.8938478441547366,0.8938478441547366,0.21,direct folded phase target
+coupling-X,coupling-X,3141,LP,gap_first7day_folded,-0.34554468386726994,1.08,-1.42554468386727,1.42554468386727,0.21,direct folded phase target
+coupling-X,coupling-X,3141,LD,behavior,23.745583038869256,23.7,0.04558303886925685,0.04558303886925685,0.1,direct behavioral target
+coupling-X,coupling-X,3141,LD,exvivo_D,23.745583038869256,23.7,0.04558303886925685,0.04558303886925685,,displayed auxiliary target; objective constrains ex/in vivo split
+coupling-X,coupling-X,3141,LD,exvivo_V,23.745583038869256,23.7,0.04558303886925685,0.04558303886925685,,displayed auxiliary target; objective constrains ex/in vivo split
+coupling-X,coupling-X,3141,LD,gap_release_folded,0.0313638705286353,0.58,-0.5486361294713646,0.5486361294713646,0.15,direct folded phase target
+coupling-X,coupling-X,3141,LD,gap_first7day_folded,0.27379414170092076,0.58,-0.3062058582990792,0.3062058582990792,0.15,direct folded phase target
+coupling-X,coupling-X,3141,T22,behavior,22.857142857142858,22.83,0.027142857142859356,0.027142857142859356,0.1,direct behavioral target
+coupling-X,coupling-X,3141,T22,exvivo_D,27.654320987654323,24.5,3.154320987654323,3.154320987654323,,direct T-cycle target penalty
+coupling-X,coupling-X,3141,T22,exvivo_V,27.428571428571427,24.5,2.928571428571427,2.928571428571427,,direct T-cycle target penalty
+coupling-X,coupling-X,3141,T22,gap_release_folded,-0.5713988500252121,-2.08,1.508601149974788,1.508601149974788,0.44,direct folded phase target
+coupling-X,coupling-X,3141,T22,gap_first7day_folded,-2.4419960028509857,-2.08,-0.36199600285098565,0.36199600285098565,0.44,direct folded phase target
+coupling-X,coupling-X,3141,T26,behavior,24.615384615384613,24.5,0.1153846153846132,0.1153846153846132,0.1,direct behavioral target
+coupling-X,coupling-X,3141,T26,exvivo_D,23.914590747330962,22.83,1.0845907473309637,1.0845907473309637,,direct T-cycle target penalty
+coupling-X,coupling-X,3141,T26,exvivo_V,23.914590747330962,22.83,1.0845907473309637,1.0845907473309637,,direct T-cycle target penalty
+coupling-X,coupling-X,3141,T26,gap_release_folded,0.32620403899443084,2.43,-2.103795961005569,2.103795961005569,0.3,direct folded phase target
+coupling-X,coupling-X,3141,T26,gap_first7day_folded,0.15153929824993556,2.43,-2.2784607017500647,2.2784607017500647,0.3,direct folded phase target
+V-period-X,V-period-X,3141,SP,behavior,24.1726618705036,23.97,0.20266187050360074,0.20266187050360074,0.16,direct behavioral target
+V-period-X,V-period-X,3141,SP,exvivo_D,24.0,23.97,0.030000000000001137,0.030000000000001137,,displayed auxiliary target; objective constrains ex/in vivo split
+V-period-X,V-period-X,3141,SP,exvivo_V,24.0,23.97,0.030000000000001137,0.030000000000001137,,displayed auxiliary target; objective constrains ex/in vivo split
+V-period-X,V-period-X,3141,SP,gap_release_folded,-0.18775104571083637,0.49,-0.6777510457108363,0.6777510457108363,0.18,direct folded phase target
+V-period-X,V-period-X,3141,SP,gap_first7day_folded,-0.8689591261516831,0.49,-1.3589591261516831,1.3589591261516831,0.18,direct folded phase target
+V-period-X,V-period-X,3141,LP,behavior,23.414634146341463,23.59,-0.17536585365853696,0.17536585365853696,0.16,direct behavioral target
+V-period-X,V-period-X,3141,LP,exvivo_D,23.414634146341463,23.59,-0.17536585365853696,0.17536585365853696,,displayed auxiliary target; objective constrains ex/in vivo split
+V-period-X,V-period-X,3141,LP,exvivo_V,23.414634146341463,23.59,-0.17536585365853696,0.17536585365853696,,displayed auxiliary target; objective constrains ex/in vivo split
+V-period-X,V-period-X,3141,LP,gap_release_folded,0.1222826387152777,1.08,-0.9577173612847224,0.9577173612847224,0.21,direct folded phase target
+V-period-X,V-period-X,3141,LP,gap_first7day_folded,0.033858090697018145,1.08,-1.046141909302982,1.046141909302982,0.21,direct folded phase target
+V-period-X,V-period-X,3141,LD,behavior,23.745583038869256,23.7,0.04558303886925685,0.04558303886925685,0.1,direct behavioral target
+V-period-X,V-period-X,3141,LD,exvivo_D,23.661971830985912,23.7,-0.0380281690140869,0.0380281690140869,,displayed auxiliary target; objective constrains ex/in vivo split
+V-period-X,V-period-X,3141,LD,exvivo_V,23.661971830985912,23.7,-0.0380281690140869,0.0380281690140869,,displayed auxiliary target; objective constrains ex/in vivo split
+V-period-X,V-period-X,3141,LD,gap_release_folded,-0.05945181780095722,0.58,-0.6394518178009572,0.6394518178009572,0.15,direct folded phase target
+V-period-X,V-period-X,3141,LD,gap_first7day_folded,-0.4082532263333222,0.58,-0.9882532263333221,0.9882532263333221,0.15,direct folded phase target
+V-period-X,V-period-X,3141,T22,behavior,22.857142857142858,22.83,0.027142857142859356,0.027142857142859356,0.1,direct behavioral target
+V-period-X,V-period-X,3141,T22,exvivo_D,23.661971830985912,24.5,-0.8380281690140876,0.8380281690140876,,direct T-cycle target penalty
+V-period-X,V-period-X,3141,T22,exvivo_V,23.57894736842105,24.5,-0.9210526315789487,0.9210526315789487,,direct T-cycle target penalty
+V-period-X,V-period-X,3141,T22,gap_release_folded,-0.1038269747524922,-2.08,1.9761730252475078,1.9761730252475078,0.44,direct folded phase target
+V-period-X,V-period-X,3141,T22,gap_first7day_folded,-0.3415873526399682,-2.08,1.7384126473600319,1.7384126473600319,0.44,direct folded phase target
+V-period-X,V-period-X,3141,T26,behavior,24.525547445255473,24.5,0.025547445255472923,0.025547445255472923,0.1,direct behavioral target
+V-period-X,V-period-X,3141,T26,exvivo_D,23.745583038869256,22.83,0.9155830388692578,0.9155830388692578,,direct T-cycle target penalty
+V-period-X,V-period-X,3141,T26,exvivo_V,23.661971830985912,22.83,0.8319718309859141,0.8319718309859141,,direct T-cycle target penalty
+V-period-X,V-period-X,3141,T26,gap_release_folded,0.08775341652663193,2.43,-2.342246583473368,2.342246583473368,0.3,direct folded phase target
+V-period-X,V-period-X,3141,T26,gap_first7day_folded,-0.4327943235555496,2.43,-2.8627943235555495,2.8627943235555495,0.3,direct folded phase target
+joint-DV-period-X,joint-DV-period-X,1729,SP,behavior,24.0,23.97,0.030000000000001137,0.030000000000001137,0.16,direct behavioral target
+joint-DV-period-X,joint-DV-period-X,1729,SP,exvivo_D,24.0,23.97,0.030000000000001137,0.030000000000001137,,displayed auxiliary target; objective constrains ex/in vivo split
+joint-DV-period-X,joint-DV-period-X,1729,SP,exvivo_V,24.0,23.97,0.030000000000001137,0.030000000000001137,,displayed auxiliary target; objective constrains ex/in vivo split
+joint-DV-period-X,joint-DV-period-X,1729,SP,gap_release_folded,-0.022950470924762226,0.49,-0.5129504709247622,0.5129504709247622,0.18,direct folded phase target
+joint-DV-period-X,joint-DV-period-X,1729,SP,gap_first7day_folded,0.01814554297119824,0.49,-0.47185445702880174,0.47185445702880174,0.18,direct folded phase target
+joint-DV-period-X,joint-DV-period-X,1729,LP,behavior,23.661971830985912,23.59,0.07197183098591253,0.07197183098591253,0.16,direct behavioral target
+joint-DV-period-X,joint-DV-period-X,1729,LP,exvivo_D,23.496503496503497,23.59,-0.09349650349650318,0.09349650349650318,,displayed auxiliary target; objective constrains ex/in vivo split
+joint-DV-period-X,joint-DV-period-X,1729,LP,exvivo_V,23.57894736842105,23.59,-0.011052631578948535,0.011052631578948535,,displayed auxiliary target; objective constrains ex/in vivo split
+joint-DV-period-X,joint-DV-period-X,1729,LP,gap_release_folded,0.08289913506446742,1.08,-0.9971008649355326,0.9971008649355326,0.21,direct folded phase target
+joint-DV-period-X,joint-DV-period-X,1729,LP,gap_first7day_folded,0.8690175099889532,1.08,-0.21098249001104685,0.21098249001104685,0.21,direct folded phase target
+joint-DV-period-X,joint-DV-period-X,1729,LD,behavior,23.829787234042556,23.7,0.12978723404255632,0.12978723404255632,0.1,direct behavioral target
+joint-DV-period-X,joint-DV-period-X,1729,LD,exvivo_D,23.745583038869256,23.7,0.04558303886925685,0.04558303886925685,,displayed auxiliary target; objective constrains ex/in vivo split
+joint-DV-period-X,joint-DV-period-X,1729,LD,exvivo_V,23.745583038869256,23.7,0.04558303886925685,0.04558303886925685,,displayed auxiliary target; objective constrains ex/in vivo split
+joint-DV-period-X,joint-DV-period-X,1729,LD,gap_release_folded,0.029041388745854813,0.58,-0.5509586112541451,0.5509586112541451,0.15,direct folded phase target
+joint-DV-period-X,joint-DV-period-X,1729,LD,gap_first7day_folded,0.439503664137745,0.58,-0.14049633586225496,0.14049633586225496,0.15,direct folded phase target
+joint-DV-period-X,joint-DV-period-X,1729,T22,behavior,23.252595155709344,22.83,0.42259515570934525,0.42259515570934525,0.1,direct behavioral target
+joint-DV-period-X,joint-DV-period-X,1729,T22,exvivo_D,24.888888888888893,24.5,0.38888888888889284,0.38888888888889284,,direct T-cycle target penalty
+joint-DV-period-X,joint-DV-period-X,1729,T22,exvivo_V,24.70588235294118,24.5,0.20588235294118107,0.20588235294118107,,direct T-cycle target penalty
+joint-DV-period-X,joint-DV-period-X,1729,T22,gap_release_folded,-0.0259316485997773,-2.08,2.0540683514002227,2.0540683514002227,0.44,direct folded phase target
+joint-DV-period-X,joint-DV-period-X,1729,T22,gap_first7day_folded,-1.3028220653423146,-2.08,0.7771779346576855,0.7771779346576855,0.44,direct folded phase target
+joint-DV-period-X,joint-DV-period-X,1729,T26,behavior,24.347826086956523,24.5,-0.15217391304347672,0.15217391304347672,0.1,direct behavioral target
+joint-DV-period-X,joint-DV-period-X,1729,T26,exvivo_D,22.779661016949156,22.83,-0.0503389830508425,0.0503389830508425,,direct T-cycle target penalty
+joint-DV-period-X,joint-DV-period-X,1729,T26,exvivo_V,23.013698630136986,22.83,0.18369863013698762,0.18369863013698762,,direct T-cycle target penalty
+joint-DV-period-X,joint-DV-period-X,1729,T26,gap_release_folded,0.10115189445634726,2.43,-2.3288481055436527,2.3288481055436527,0.3,direct folded phase target
+joint-DV-period-X,joint-DV-period-X,1729,T26,gap_first7day_folded,2.2329411482549824,2.43,-0.1970588517450178,0.1970588517450178,0.3,direct folded phase target

@@ -1,0 +1,15 @@
+family,study,year,reporter,age,branch,n,pearson_r,slope,intercept,line_type
+photoperiod,Buijink et al.,2020,PER2::LUC,22-28 months,,2,,,,two-mean connector; no regression or correlation
+photoperiod,Buijink et al.,2020,PER2::LUC,4-8 months,,2,,,,two-mean connector; no regression or correlation
+photoperiod,Ciarleglio et al.,2010,Per1::GFP,post-natal day 21,,2,,,,two-mean connector; no regression or correlation
+photoperiod,Evans et al.,2013,PER2::LUC,7-9 wks,,2,,,,two-mean connector; no regression or correlation
+photoperiod,Myung et al.,2012,Bmal1-ELuc,3-4 wks,,1,,,,no line: fewer than two distinct behavioral means
+photoperiod,Myung et al.,2012,PER2::LUC,3-4 wks,,1,,,,no line: fewer than two distinct behavioral means
+photoperiod,Myung et al.,2015,Bmal1-ELuc,8-13 wks,,3,0.985556221834892,4.174367916303351,-76.1551525719256,within-cohort regression
+T-cycle,Aton et al.,2004,Per1-luc,16-32 wks,,2,,,,two-mean connector; no regression or correlation
+T-cycle,Aton et al.,2004,Per1-luc,3-13 wks,,2,,,,two-mean connector; no regression or correlation
+T-cycle,Aton et al.,2004,Per1-luc,32-64 wks,,2,,,,two-mean connector; no regression or correlation
+T-cycle,Azzi et al.,2017,PER2::LUC,4-6 wks,,3,-0.966444402724968,-0.7537120125815223,42.00317267218642,within-cohort regression
+T-cycle,Molyneux et al.,2008,PER2::LUC,15-30 wks,,3,-0.88820039263996,-0.5355373986561105,36.992423735764575,within-cohort regression
+T-cycle x photoperiod,Tackenberg et al.,2020,PER2::LUC,at least 3 weeks,LP,3,-0.9890348243044054,-0.8872070803580627,44.77964145630144,within-cohort regression
+T-cycle x photoperiod,Tackenberg et al.,2020,PER2::LUC,at least 3 weeks,SP,3,-0.862173260068283,-0.86343893714869,44.19969979560535,within-cohort regression

@@ -1,0 +1,839 @@
+{
+  "passed": true,
+  "revision_date": "2026-09-29",
+  "authority": "Author-confirmed manuscript Table S7A values and placements; not a new extraction from the original articles.",
+  "changed_inputs": [
+    {
+      "file": "data/tcycle_period_observations.csv",
+      "data_row_1based": 9,
+      "study": "Myung et al.",
+      "year": "2015",
+      "age": "8-13 wks",
+      "region": "D-SCN",
+      "manuscript_page": "71",
+      "changes": {
+        "mean_period_h": {
+          "before": "23.53",
+          "after": "23.95"
+        },
+        "sem_h": {
+          "before": "0.44",
+          "after": "0.43"
+        },
+        "notes": {
+          "before": "",
+          "after": "Author-confirmed 2026-09-29: manuscript Table S7A p. 71; supersedes archived extraction."
+        }
+      }
+    },
+    {
+      "file": "data/tcycle_period_observations.csv",
+      "data_row_1based": 10,
+      "study": "Myung et al.",
+      "year": "2015",
+      "age": "8-13 wks",
+      "region": "D-SCN",
+      "manuscript_page": "71",
+      "changes": {
+        "mean_period_h": {
+          "before": "22.45",
+          "after": "22.43"
+        },
+        "sem_h": {
+          "before": "0.24",
+          "after": "0.23"
+        },
+        "notes": {
+          "before": "",
+          "after": "Author-confirmed 2026-09-29: manuscript Table S7A p. 71; supersedes archived extraction."
+        }
+      }
+    },
+    {
+      "file": "data/tcycle_period_observations.csv",
+      "data_row_1based": 11,
+      "study": "Myung et al.",
+      "year": "2015",
+      "age": "8-13 wks",
+      "region": "V-SCN",
+      "manuscript_page": "71",
+      "changes": {
+        "sem_h": {
+          "before": "0.51",
+          "after": "0.52"
+        },
+        "notes": {
+          "before": "",
+          "after": "Author-confirmed 2026-09-29: manuscript Table S7A p. 71; supersedes archived extraction."
+        }
+      }
+    },
+    {
+      "file": "data/tcycle_period_observations.csv",
+      "data_row_1based": 12,
+      "study": "Myung et al.",
+      "year": "2015",
+      "age": "8-13 wks",
+      "region": "V-SCN",
+      "manuscript_page": "71",
+      "changes": {
+        "mean_period_h": {
+          "before": "23.16",
+          "after": "23.19"
+        },
+        "sem_h": {
+          "before": "0.32",
+          "after": "0.34"
+        },
+        "notes": {
+          "before": "",
+          "after": "Author-confirmed 2026-09-29: manuscript Table S7A p. 71; supersedes archived extraction."
+        }
+      }
+    },
+    {
+      "file": "data/tcycle_period_observations.csv",
+      "data_row_1based": 30,
+      "study": "Buijink et al.",
+      "year": "2020",
+      "age": "4-8 months",
+      "region": "A-SCN",
+      "manuscript_page": "73-74",
+      "changes": {
+        "condition_label": {
+          "before": "8:16 LD",
+          "after": "16:8 LD"
+        },
+        "photoperiod": {
+          "before": "8:16 LD",
+          "after": "16:8 LD"
+        },
+        "notes": {
+          "before": "",
+          "after": "Author-confirmed 2026-09-29: manuscript Table S7A p. 73-74; supersedes archived extraction."
+        }
+      }
+    },
+    {
+      "file": "data/tcycle_period_observations.csv",
+      "data_row_1based": 31,
+      "study": "Buijink et al.",
+      "year": "2020",
+      "age": "4-8 months",
+      "region": "A-SCN",
+      "manuscript_page": "73-74",
+      "changes": {
+        "condition_label": {
+          "before": "16:8 LD",
+          "after": "18:6 LD"
+        },
+        "photoperiod": {
+          "before": "16:8 LD",
+          "after": "18:6 LD"
+        },
+        "notes": {
+          "before": "",
+          "after": "Author-confirmed 2026-09-29: manuscript Table S7A p. 73-74; supersedes archived extraction."
+        }
+      }
+    },
+    {
+      "file": "data/tcycle_period_observations.csv",
+      "data_row_1based": 32,
+      "study": "Buijink et al.",
+      "year": "2020",
+      "age": "4-8 months",
+      "region": "P-SCN",
+      "manuscript_page": "73-74",
+      "changes": {
+        "condition_label": {
+          "before": "8:16 LD",
+          "after": "16:8 LD"
+        },
+        "photoperiod": {
+          "before": "8:16 LD",
+          "after": "16:8 LD"
+        },
+        "notes": {
+          "before": "",
+          "after": "Author-confirmed 2026-09-29: manuscript Table S7A p. 73-74; supersedes archived extraction."
+        }
+      }
+    },
+    {
+      "file": "data/tcycle_period_observations.csv",
+      "data_row_1based": 33,
+      "study": "Buijink et al.",
+      "year": "2020",
+      "age": "4-8 months",
+      "region": "P-SCN",
+      "manuscript_page": "73-74",
+      "changes": {
+        "condition_label": {
+          "before": "16:8 LD",
+          "after": "18:6 LD"
+        },
+        "photoperiod": {
+          "before": "16:8 LD",
+          "after": "18:6 LD"
+        },
+        "notes": {
+          "before": "",
+          "after": "Author-confirmed 2026-09-29: manuscript Table S7A p. 73-74; supersedes archived extraction."
+        }
+      }
+    },
+    {
+      "file": "data/tcycle_period_observations.csv",
+      "data_row_1based": 34,
+      "study": "Buijink et al.",
+      "year": "2020",
+      "age": "4-8 months",
+      "region": "behavior",
+      "manuscript_page": "73-74",
+      "changes": {
+        "condition_label": {
+          "before": "8:16 LD",
+          "after": "16:8 LD"
+        },
+        "photoperiod": {
+          "before": "8:16 LD",
+          "after": "16:8 LD"
+        },
+        "notes": {
+          "before": "",
+          "after": "Author-confirmed 2026-09-29: manuscript Table S7A p. 73-74; supersedes archived extraction."
+        }
+      }
+    },
+    {
+      "file": "data/tcycle_period_observations.csv",
+      "data_row_1based": 35,
+      "study": "Buijink et al.",
+      "year": "2020",
+      "age": "4-8 months",
+      "region": "behavior",
+      "manuscript_page": "73-74",
+      "changes": {
+        "condition_label": {
+          "before": "16:8 LD",
+          "after": "18:6 LD"
+        },
+        "photoperiod": {
+          "before": "16:8 LD",
+          "after": "18:6 LD"
+        },
+        "notes": {
+          "before": "",
+          "after": "Author-confirmed 2026-09-29: manuscript Table S7A p. 73-74; supersedes archived extraction."
+        }
+      }
+    },
+    {
+      "file": "data/tcycle_period_observations.csv",
+      "data_row_1based": 36,
+      "study": "Buijink et al.",
+      "year": "2020",
+      "age": "22-28 months",
+      "region": "A-SCN",
+      "manuscript_page": "73-74",
+      "changes": {
+        "condition_label": {
+          "before": "8:16 LD",
+          "after": "16:8 LD"
+        },
+        "photoperiod": {
+          "before": "8:16 LD",
+          "after": "16:8 LD"
+        },
+        "notes": {
+          "before": "",
+          "after": "Author-confirmed 2026-09-29: manuscript Table S7A p. 73-74; supersedes archived extraction."
+        }
+      }
+    },
+    {
+      "file": "data/tcycle_period_observations.csv",
+      "data_row_1based": 37,
+      "study": "Buijink et al.",
+      "year": "2020",
+      "age": "22-28 months",
+      "region": "A-SCN",
+      "manuscript_page": "73-74",
+      "changes": {
+        "condition_label": {
+          "before": "16:8 LD",
+          "after": "18:6 LD"
+        },
+        "photoperiod": {
+          "before": "16:8 LD",
+          "after": "18:6 LD"
+        },
+        "notes": {
+          "before": "",
+          "after": "Author-confirmed 2026-09-29: manuscript Table S7A p. 73-74; supersedes archived extraction."
+        }
+      }
+    },
+    {
+      "file": "data/tcycle_period_observations.csv",
+      "data_row_1based": 38,
+      "study": "Buijink et al.",
+      "year": "2020",
+      "age": "22-28 months",
+      "region": "P-SCN",
+      "manuscript_page": "73-74",
+      "changes": {
+        "condition_label": {
+          "before": "8:16 LD",
+          "after": "16:8 LD"
+        },
+        "photoperiod": {
+          "before": "8:16 LD",
+          "after": "16:8 LD"
+        },
+        "notes": {
+          "before": "",
+          "after": "Author-confirmed 2026-09-29: manuscript Table S7A p. 73-74; supersedes archived extraction."
+        }
+      }
+    },
+    {
+      "file": "data/tcycle_period_observations.csv",
+      "data_row_1based": 39,
+      "study": "Buijink et al.",
+      "year": "2020",
+      "age": "22-28 months",
+      "region": "P-SCN",
+      "manuscript_page": "73-74",
+      "changes": {
+        "condition_label": {
+          "before": "16:8 LD",
+          "after": "18:6 LD"
+        },
+        "photoperiod": {
+          "before": "16:8 LD",
+          "after": "18:6 LD"
+        },
+        "notes": {
+          "before": "",
+          "after": "Author-confirmed 2026-09-29: manuscript Table S7A p. 73-74; supersedes archived extraction."
+        }
+      }
+    },
+    {
+      "file": "data/tcycle_period_observations.csv",
+      "data_row_1based": 40,
+      "study": "Buijink et al.",
+      "year": "2020",
+      "age": "22-28 months",
+      "region": "behavior",
+      "manuscript_page": "73-74",
+      "changes": {
+        "condition_label": {
+          "before": "8:16 LD",
+          "after": "16:8 LD"
+        },
+        "photoperiod": {
+          "before": "8:16 LD",
+          "after": "16:8 LD"
+        },
+        "notes": {
+          "before": "",
+          "after": "Author-confirmed 2026-09-29: manuscript Table S7A p. 73-74; supersedes archived extraction."
+        }
+      }
+    },
+    {
+      "file": "data/tcycle_period_observations.csv",
+      "data_row_1based": 41,
+      "study": "Buijink et al.",
+      "year": "2020",
+      "age": "22-28 months",
+      "region": "behavior",
+      "manuscript_page": "73-74",
+      "changes": {
+        "condition_label": {
+          "before": "16:8 LD",
+          "after": "18:6 LD"
+        },
+        "photoperiod": {
+          "before": "16:8 LD",
+          "after": "18:6 LD"
+        },
+        "notes": {
+          "before": "",
+          "after": "Author-confirmed 2026-09-29: manuscript Table S7A p. 73-74; supersedes archived extraction."
+        }
+      }
+    },
+    {
+      "file": "data/tcycle_period_observations.csv",
+      "data_row_1based": 43,
+      "study": "Ciarleglio et al.",
+      "year": "2010",
+      "age": "post-natal day 21",
+      "region": "bulk",
+      "manuscript_page": "74",
+      "changes": {
+        "condition_label": {
+          "before": "8:16 LD",
+          "after": "18:6 LD"
+        },
+        "photoperiod": {
+          "before": "8:16 LD",
+          "after": "18:6 LD"
+        },
+        "notes": {
+          "before": "N not shown in extracted table text",
+          "after": "N not shown in extracted table text; Author-confirmed 2026-09-29: manuscript Table S7A p. 74; supersedes archived extraction."
+        }
+      }
+    },
+    {
+      "file": "data/tcycle_period_observations.csv",
+      "data_row_1based": 46,
+      "study": "Ciarleglio et al.",
+      "year": "2010",
+      "age": "post-natal day 21",
+      "region": "behavior",
+      "manuscript_page": "74",
+      "changes": {
+        "condition_label": {
+          "before": "8:16 LD",
+          "after": "18:6 LD"
+        },
+        "photoperiod": {
+          "before": "8:16 LD",
+          "after": "18:6 LD"
+        },
+        "notes": {
+          "before": "N not shown in extracted table text",
+          "after": "N not shown in extracted table text; Author-confirmed 2026-09-29: manuscript Table S7A p. 74; supersedes archived extraction."
+        }
+      }
+    },
+    {
+      "file": "data/tcycle_selected_scn_observations.csv",
+      "data_row_1based": 3,
+      "study": "Myung et al.",
+      "year": "2015",
+      "age": "8-13 wks",
+      "region": "D-SCN",
+      "manuscript_page": "71",
+      "changes": {
+        "mean_period_h": {
+          "before": "23.53",
+          "after": "23.95"
+        },
+        "sem_h": {
+          "before": "0.44",
+          "after": "0.43"
+        },
+        "notes": {
+          "before": "",
+          "after": "Author-confirmed 2026-09-29: manuscript Table S7A p. 71; supersedes archived extraction."
+        }
+      }
+    },
+    {
+      "file": "data/tcycle_selected_scn_observations.csv",
+      "data_row_1based": 4,
+      "study": "Myung et al.",
+      "year": "2015",
+      "age": "8-13 wks",
+      "region": "D-SCN",
+      "manuscript_page": "71",
+      "changes": {
+        "mean_period_h": {
+          "before": "22.45",
+          "after": "22.43"
+        },
+        "sem_h": {
+          "before": "0.24",
+          "after": "0.23"
+        },
+        "notes": {
+          "before": "",
+          "after": "Author-confirmed 2026-09-29: manuscript Table S7A p. 71; supersedes archived extraction."
+        }
+      }
+    },
+    {
+      "file": "data/tcycle_selected_scn_observations.csv",
+      "data_row_1based": 11,
+      "study": "Buijink et al.",
+      "year": "2020",
+      "age": "4-8 months",
+      "region": "P-SCN",
+      "manuscript_page": "73-74",
+      "changes": {
+        "condition_label": {
+          "before": "8:16 LD",
+          "after": "16:8 LD"
+        },
+        "photoperiod": {
+          "before": "8:16 LD",
+          "after": "16:8 LD"
+        },
+        "notes": {
+          "before": "",
+          "after": "Author-confirmed 2026-09-29: manuscript Table S7A p. 73-74; supersedes archived extraction."
+        }
+      }
+    },
+    {
+      "file": "data/tcycle_selected_scn_observations.csv",
+      "data_row_1based": 12,
+      "study": "Buijink et al.",
+      "year": "2020",
+      "age": "4-8 months",
+      "region": "P-SCN",
+      "manuscript_page": "73-74",
+      "changes": {
+        "condition_label": {
+          "before": "16:8 LD",
+          "after": "18:6 LD"
+        },
+        "photoperiod": {
+          "before": "16:8 LD",
+          "after": "18:6 LD"
+        },
+        "notes": {
+          "before": "",
+          "after": "Author-confirmed 2026-09-29: manuscript Table S7A p. 73-74; supersedes archived extraction."
+        }
+      }
+    },
+    {
+      "file": "data/tcycle_selected_scn_observations.csv",
+      "data_row_1based": 13,
+      "study": "Buijink et al.",
+      "year": "2020",
+      "age": "22-28 months",
+      "region": "P-SCN",
+      "manuscript_page": "73-74",
+      "changes": {
+        "condition_label": {
+          "before": "8:16 LD",
+          "after": "16:8 LD"
+        },
+        "photoperiod": {
+          "before": "8:16 LD",
+          "after": "16:8 LD"
+        },
+        "notes": {
+          "before": "",
+          "after": "Author-confirmed 2026-09-29: manuscript Table S7A p. 73-74; supersedes archived extraction."
+        }
+      }
+    },
+    {
+      "file": "data/tcycle_selected_scn_observations.csv",
+      "data_row_1based": 14,
+      "study": "Buijink et al.",
+      "year": "2020",
+      "age": "22-28 months",
+      "region": "P-SCN",
+      "manuscript_page": "73-74",
+      "changes": {
+        "condition_label": {
+          "before": "16:8 LD",
+          "after": "18:6 LD"
+        },
+        "photoperiod": {
+          "before": "16:8 LD",
+          "after": "18:6 LD"
+        },
+        "notes": {
+          "before": "",
+          "after": "Author-confirmed 2026-09-29: manuscript Table S7A p. 73-74; supersedes archived extraction."
+        }
+      }
+    },
+    {
+      "file": "data/tcycle_selected_scn_observations.csv",
+      "data_row_1based": 16,
+      "study": "Ciarleglio et al.",
+      "year": "2010",
+      "age": "post-natal day 21",
+      "region": "bulk",
+      "manuscript_page": "74",
+      "changes": {
+        "condition_label": {
+          "before": "8:16 LD",
+          "after": "18:6 LD"
+        },
+        "photoperiod": {
+          "before": "8:16 LD",
+          "after": "18:6 LD"
+        },
+        "notes": {
+          "before": "N not shown in extracted table text",
+          "after": "N not shown in extracted table text; Author-confirmed 2026-09-29: manuscript Table S7A p. 74; supersedes archived extraction."
+        }
+      }
+    },
+    {
+      "file": "data/tcycle_selected_scn_behavior_correlation_pairs.csv",
+      "data_row_1based": 1,
+      "study": "Myung et al.",
+      "year": "2015",
+      "age": "8-13 wks",
+      "region": "D-SCN",
+      "manuscript_page": "71",
+      "changes": {
+        "scn_mean_period_h": {
+          "before": "23.53",
+          "after": "23.95"
+        },
+        "scn_sem_h": {
+          "before": "0.44",
+          "after": "0.43"
+        }
+      }
+    },
+    {
+      "file": "data/tcycle_selected_scn_behavior_correlation_pairs.csv",
+      "data_row_1based": 2,
+      "study": "Myung et al.",
+      "year": "2015",
+      "age": "8-13 wks",
+      "region": "D-SCN",
+      "manuscript_page": "71",
+      "changes": {
+        "scn_mean_period_h": {
+          "before": "22.45",
+          "after": "22.43"
+        },
+        "scn_sem_h": {
+          "before": "0.24",
+          "after": "0.23"
+        }
+      }
+    },
+    {
+      "file": "data/tcycle_selected_scn_behavior_correlation_pairs.csv",
+      "data_row_1based": 6,
+      "study": "Buijink et al.",
+      "year": "2020",
+      "age": "4-8 months",
+      "region": "P-SCN",
+      "manuscript_page": "73-74",
+      "changes": {
+        "condition_label": {
+          "before": "8:16 LD",
+          "after": "16:8 LD"
+        },
+        "photoperiod": {
+          "before": "8:16 LD",
+          "after": "16:8 LD"
+        }
+      }
+    },
+    {
+      "file": "data/tcycle_selected_scn_behavior_correlation_pairs.csv",
+      "data_row_1based": 7,
+      "study": "Buijink et al.",
+      "year": "2020",
+      "age": "4-8 months",
+      "region": "P-SCN",
+      "manuscript_page": "73-74",
+      "changes": {
+        "condition_label": {
+          "before": "16:8 LD",
+          "after": "18:6 LD"
+        },
+        "photoperiod": {
+          "before": "16:8 LD",
+          "after": "18:6 LD"
+        }
+      }
+    },
+    {
+      "file": "data/tcycle_selected_scn_behavior_correlation_pairs.csv",
+      "data_row_1based": 8,
+      "study": "Buijink et al.",
+      "year": "2020",
+      "age": "22-28 months",
+      "region": "P-SCN",
+      "manuscript_page": "73-74",
+      "changes": {
+        "condition_label": {
+          "before": "8:16 LD",
+          "after": "16:8 LD"
+        },
+        "photoperiod": {
+          "before": "8:16 LD",
+          "after": "16:8 LD"
+        }
+      }
+    },
+    {
+      "file": "data/tcycle_selected_scn_behavior_correlation_pairs.csv",
+      "data_row_1based": 9,
+      "study": "Buijink et al.",
+      "year": "2020",
+      "age": "22-28 months",
+      "region": "P-SCN",
+      "manuscript_page": "73-74",
+      "changes": {
+        "condition_label": {
+          "before": "16:8 LD",
+          "after": "18:6 LD"
+        },
+        "photoperiod": {
+          "before": "16:8 LD",
+          "after": "18:6 LD"
+        }
+      }
+    },
+    {
+      "file": "data/tcycle_selected_scn_behavior_correlation_pairs.csv",
+      "data_row_1based": 11,
+      "study": "Ciarleglio et al.",
+      "year": "2010",
+      "age": "post-natal day 21",
+      "region": "bulk",
+      "manuscript_page": "74",
+      "changes": {
+        "condition_label": {
+          "before": "8:16 LD",
+          "after": "18:6 LD"
+        },
+        "photoperiod": {
+          "before": "8:16 LD",
+          "after": "18:6 LD"
+        }
+      }
+    }
+  ],
+  "independent_statistical_check": "NumPy Pearson correlation of all plotted condition means agrees with the SciPy figure statistics to absolute tolerance 1e-14.",
+  "correlations": [
+    {
+      "family": "photoperiod",
+      "reporter": "Bmal1-ELuc",
+      "branch": "",
+      "n": 4,
+      "k_studies": 2,
+      "previous_r": 0.5391644295514001,
+      "corrected_r": 0.7180028426556202
+    },
+    {
+      "family": "photoperiod",
+      "reporter": "PER2::LUC",
+      "branch": "",
+      "n": 7,
+      "k_studies": 3,
+      "previous_r": 0.1404078620697529,
+      "corrected_r": 0.14040786206975286
+    },
+    {
+      "family": "photoperiod",
+      "reporter": "Per1::GFP",
+      "branch": "",
+      "n": 2,
+      "k_studies": 1,
+      "previous_r": null,
+      "corrected_r": null
+    },
+    {
+      "family": "T-cycle",
+      "reporter": "PER2::LUC",
+      "branch": "",
+      "n": 6,
+      "k_studies": 2,
+      "previous_r": -0.8993693638542224,
+      "corrected_r": -0.8993693638542221
+    },
+    {
+      "family": "T-cycle",
+      "reporter": "Per1-luc",
+      "branch": "",
+      "n": 6,
+      "k_studies": 1,
+      "previous_r": -0.1266600992762226,
+      "corrected_r": -0.12666009927622265
+    },
+    {
+      "family": "T-cycle x photoperiod",
+      "reporter": "PER2::LUC",
+      "branch": "LP",
+      "n": 3,
+      "k_studies": 1,
+      "previous_r": -0.9890348243044054,
+      "corrected_r": -0.9890348243044056
+    },
+    {
+      "family": "T-cycle x photoperiod",
+      "reporter": "PER2::LUC",
+      "branch": "SP",
+      "n": 3,
+      "k_studies": 1,
+      "previous_r": -0.862173260068283,
+      "corrected_r": -0.862173260068283
+    }
+  ],
+  "all_37_selected_scn_means_match_source_observations": true,
+  "all_19_input_checksums_match": true,
+  "pair_counts": {
+    "total": 31,
+    "photoperiod": 13,
+    "T-cycle": 12,
+    "crossed": 6
+  },
+  "numerical_checks_passed": 124,
+  "rerendered_figures": [
+    "Figure_1",
+    "Figure_S4"
+  ],
+  "unchanged_figure_S1": true,
+  "all_model_inputs_parameters_and_derived_simulations_unchanged": true,
+  "behavioral_SEMs_SP_LP_T26_h": [
+    0.04,
+    0.05,
+    0.02
+  ],
+  "Azzi_peak_time_convention": "D minus V peak time: T22 +2.08 h; T24 +0.17 h; T26 -2.43 h. These manuscript values are retained.",
+  "Azzi_model_convention": "Model phase advance has the opposite sign; T22 -2.08 h and T26 +2.43 h remain the existing model targets. LD uses a different source.",
+  "changed_existing_files": [
+    "README.md",
+    "code/figure1.py",
+    "code/supplement.py",
+    "data/tcycle_period_observations.csv",
+    "data/tcycle_selected_scn_behavior_correlation_pairs.csv",
+    "data/tcycle_selected_scn_observations.csv",
+    "figures/main/Figure_1.pdf",
+    "figures/main/Figure_1.png",
+    "figures/main/Figure_1.svg",
+    "figures/supplement/Figure_S4.pdf",
+    "figures/supplement/Figure_S4.png",
+    "figures/supplement/Figure_S4.svg",
+    "inputs.json",
+    "tables/Figure1_plotted_pairs.csv",
+    "tables/Figure1_regression_groups.csv",
+    "tables/Figure1_reporter_correlations.csv",
+    "tables/Figure1_study_counts.csv",
+    "tables/Table_S1_literature_provenance.csv"
+  ],
+  "preexisting_manual_Figure2_edits_preserved": {
+    "figures/main/Figure_2.png": {
+      "manifest_sha256": "84ce9a73c3e81660bdfca6a082980287b52ddbc33ec12958af808cc1af3c2db9",
+      "current_sha256": "1778e0e31ba4aaf6abe4bcb991d87df8aaeccfc5a1476d236902c5b0ae0b99bf"
+    },
+    "figures/main/Figure_2.svg": {
+      "manifest_sha256": "7a6ef7f2d97a0edce930a1b6c8815a9fe5a97f48d14d265bbc2b8b596cd81301",
+      "current_sha256": "c20158add45e7867db64491e96ff3d89542f0c2f879158c8d4487695e2445b65"
+    }
+  },
+  "manual_Figure2_exports_included_in_share_with_author_approval": true,
+  "visual_QA": {
+    "passed": true,
+    "PDF_pages_inspected": 5,
+    "files": [
+      "figures/main/Figure_1.pdf",
+      "figures/supplement/Figure_S4.pdf",
+      "private replacement Results/Table 1 PDF, three pages"
+    ]
+  }
+}

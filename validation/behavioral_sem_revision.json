@@ -1,0 +1,255 @@
+{
+  "passed": true,
+  "scope": "Display-only behavioral mean \u00b1 published SEM; no change to fitting or numerical results.",
+  "panels": [
+    {
+      "figure": "Figure_2",
+      "panel": "C",
+      "condition": "SP",
+      "mean_h": 23.97,
+      "plotted_sem_h": 0.04,
+      "archived_scale_h": 0.16
+    },
+    {
+      "figure": "Figure_2",
+      "panel": "C",
+      "condition": "LP",
+      "mean_h": 23.59,
+      "plotted_sem_h": 0.05,
+      "archived_scale_h": 0.16
+    },
+    {
+      "figure": "Figure_2",
+      "panel": "C",
+      "condition": "LD",
+      "mean_h": 23.7,
+      "plotted_sem_h": 0.1,
+      "archived_scale_h": 0.1
+    },
+    {
+      "figure": "Figure_2",
+      "panel": "C",
+      "condition": "T22",
+      "mean_h": 22.83,
+      "plotted_sem_h": 0.1,
+      "archived_scale_h": 0.1
+    },
+    {
+      "figure": "Figure_2",
+      "panel": "C",
+      "condition": "T26",
+      "mean_h": 24.5,
+      "plotted_sem_h": 0.02,
+      "archived_scale_h": 0.1
+    },
+    {
+      "figure": "Figure_3",
+      "panel": "F",
+      "condition": "LD",
+      "mean_h": 23.7,
+      "plotted_sem_h": 0.1,
+      "archived_scale_h": 0.1
+    },
+    {
+      "figure": "Figure_3",
+      "panel": "F",
+      "condition": "SP",
+      "mean_h": 23.97,
+      "plotted_sem_h": 0.04,
+      "archived_scale_h": 0.16
+    },
+    {
+      "figure": "Figure_3",
+      "panel": "F",
+      "condition": "LP",
+      "mean_h": 23.59,
+      "plotted_sem_h": 0.05,
+      "archived_scale_h": 0.16
+    },
+    {
+      "figure": "Figure_3",
+      "panel": "F",
+      "condition": "T22",
+      "mean_h": 22.83,
+      "plotted_sem_h": 0.1,
+      "archived_scale_h": 0.1
+    },
+    {
+      "figure": "Figure_3",
+      "panel": "F",
+      "condition": "T26",
+      "mean_h": 24.5,
+      "plotted_sem_h": 0.02,
+      "archived_scale_h": 0.1
+    },
+    {
+      "figure": "Figure_S1",
+      "panel": "E",
+      "condition": "SP",
+      "mean_h": 23.97,
+      "plotted_sem_h": 0.04,
+      "archived_scale_h": 0.16
+    },
+    {
+      "figure": "Figure_S1",
+      "panel": "E",
+      "condition": "LP",
+      "mean_h": 23.59,
+      "plotted_sem_h": 0.05,
+      "archived_scale_h": 0.16
+    },
+    {
+      "figure": "Figure_S1",
+      "panel": "E",
+      "condition": "LD",
+      "mean_h": 23.7,
+      "plotted_sem_h": 0.1,
+      "archived_scale_h": 0.1
+    },
+    {
+      "figure": "Figure_S1",
+      "panel": "E",
+      "condition": "T22",
+      "mean_h": 22.83,
+      "plotted_sem_h": 0.1,
+      "archived_scale_h": 0.1
+    },
+    {
+      "figure": "Figure_S1",
+      "panel": "E",
+      "condition": "T26",
+      "mean_h": 24.5,
+      "plotted_sem_h": 0.02,
+      "archived_scale_h": 0.1
+    },
+    {
+      "figure": "Figure_S3",
+      "panel": "B",
+      "condition": "SP",
+      "mean_h": 23.97,
+      "plotted_sem_h": 0.04,
+      "archived_scale_h": 0.16
+    },
+    {
+      "figure": "Figure_S3",
+      "panel": "B",
+      "condition": "LP",
+      "mean_h": 23.59,
+      "plotted_sem_h": 0.05,
+      "archived_scale_h": 0.16
+    },
+    {
+      "figure": "Figure_S3",
+      "panel": "B",
+      "condition": "LD",
+      "mean_h": 23.7,
+      "plotted_sem_h": 0.1,
+      "archived_scale_h": 0.1
+    },
+    {
+      "figure": "Figure_S3",
+      "panel": "B",
+      "condition": "T22",
+      "mean_h": 22.83,
+      "plotted_sem_h": 0.1,
+      "archived_scale_h": 0.1
+    },
+    {
+      "figure": "Figure_S3",
+      "panel": "B",
+      "condition": "T26",
+      "mean_h": 24.5,
+      "plotted_sem_h": 0.02,
+      "archived_scale_h": 0.1
+    }
+  ],
+  "gain_checks": [
+    {
+      "architecture": "D-period-X",
+      "parameter": "g_d",
+      "selected_gain": 4.384649173429544,
+      "unit": "h",
+      "seed": 3141,
+      "swept_gain_min": 0.0,
+      "swept_gain_max": 8.769298346859088,
+      "unit_gain_fit_grid_error_h": 3.552713678800501e-15,
+      "rows": 405,
+      "passed": true
+    },
+    {
+      "architecture": "coupling-X",
+      "parameter": "g_coupling",
+      "selected_gain": 0.3416086329358248,
+      "unit": "rad/h",
+      "seed": 3141,
+      "swept_gain_min": 0.0,
+      "swept_gain_max": 0.6832172658716495,
+      "unit_gain_fit_grid_error_h": 3.552713678800501e-15,
+      "rows": 417,
+      "passed": true
+    }
+  ],
+  "scientific_files_unchanged": 96,
+  "changed_scientific_files": [],
+  "scientific_files_unchanged_after_package_rebuild": 96,
+  "package_numerical_checks": 124,
+  "package_numerical_checks_passed": true,
+  "unchanged_other_figure_files": 19,
+  "inspected_figures": [
+    "Figure_2.png",
+    "Figure_3.png",
+    "Figure_S1.png",
+    "Figure_S3.png"
+  ],
+  "visual_check": "Inspected all four regenerated figures; target bars, panel labels and legends are legible without clipping.",
+  "figure_outputs": [
+    {
+      "file": "figures/main/Figure_2.pdf",
+      "sha256": "30b9504a93e083783c93936b3802e70cb2ae470bf878a429de6c7a86a5ff1162"
+    },
+    {
+      "file": "figures/main/Figure_2.svg",
+      "sha256": "7a6ef7f2d97a0edce930a1b6c8815a9fe5a97f48d14d265bbc2b8b596cd81301"
+    },
+    {
+      "file": "figures/main/Figure_2.png",
+      "sha256": "84ce9a73c3e81660bdfca6a082980287b52ddbc33ec12958af808cc1af3c2db9"
+    },
+    {
+      "file": "figures/main/Figure_3.pdf",
+      "sha256": "74ed0b8a480aa894f07048578b7fd1d513eb696268d63f0ae3c2cab0798a6d27"
+    },
+    {
+      "file": "figures/main/Figure_3.svg",
+      "sha256": "42df87a20d5a6eee73b3ae9fd20cddf7f14061b5dd60d229701b302270e72280"
+    },
+    {
+      "file": "figures/main/Figure_3.png",
+      "sha256": "9dec6d16483c2b727b288c5e92d1175d9ab85b3c1fdfe8706bb94928931538f8"
+    },
+    {
+      "file": "figures/supplement/Figure_S1.pdf",
+      "sha256": "f6127a6acd3eeb6fc4da68f4d05925a80fd4e3c605df2df7332c173d205ead54"
+    },
+    {
+      "file": "figures/supplement/Figure_S1.svg",
+      "sha256": "e736aa4e0084aa9ae373db702fe72e57072e8748c8f4fdd690f710d368cfb91b"
+    },
+    {
+      "file": "figures/supplement/Figure_S1.png",
+      "sha256": "5a034ff00f5ad12553d7f43b4f5607ce8b7209d39a372c322018f4958d86eb0f"
+    },
+    {
+      "file": "figures/supplement/Figure_S3.pdf",
+      "sha256": "98c9ff2a641a46f257377de37dbc2ad9436a3a46adc8a2deffc63941f09839dc"
+    },
+    {
+      "file": "figures/supplement/Figure_S3.svg",
+      "sha256": "974af19b9f9801fb59d2c1e7f0486b6096ca2b504242353e289248f4d5595261"
+    },
+    {
+      "file": "figures/supplement/Figure_S3.png",
+      "sha256": "c64bedf114b3694a1e20a7900aa2d42e3b7e7aac4eefad863fd00c0dced9968c"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "maximum_memory_difference": 1.3553047573111598e-13,
+  "integration_step_h": 0.015625,
+  "memory_timescale_h": 240.0,
+  "zero_initial_component_states": true,
+  "simulation_model_unchanged": true,
+  "explanation": "P_D and Q_D are an exact linear-filter decomposition of M_D for any phase history, not additional simulated mechanisms. Chi is one throughout the exposure schedule and zero in DD.",
+  "cases": [
+    {
+      "condition": "SP",
+      "integration_steps": 67585,
+      "maximum_memory_difference": 2.5791868640823168e-14,
+      "maximum_drive_difference": 0.0
+    },
+    {
+      "condition": "LP",
+      "integration_steps": 67585,
+      "maximum_memory_difference": 1.8329088247170944e-14,
+      "maximum_drive_difference": 0.0
+    },
+    {
+      "condition": "LD",
+      "integration_steps": 67585,
+      "maximum_memory_difference": 8.708311849403572e-15,
+      "maximum_drive_difference": 0.0
+    },
+    {
+      "condition": "T22",
+      "integration_steps": 67585,
+      "maximum_memory_difference": 1.3553047573111598e-13,
+      "maximum_drive_difference": 0.0
+    },
+    {
+      "condition": "T26",
+      "integration_steps": 67585,
+      "maximum_memory_difference": 1.230682222796986e-13,
+      "maximum_drive_difference": 0.0
+    }
+  ]
+}

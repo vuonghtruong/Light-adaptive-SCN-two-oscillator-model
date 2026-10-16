@@ -1,0 +1,103 @@
+study,year,paradigm,age_label,age_category,sex,strain,reporter,measurement,scn_region,condition_family,condition_label,t_cycle,photoperiod,mean_period_h,sem_h,n,n_note,notes
+Myung et al.,2012,full photoperiod,3-4 wks,young,M+F,C57BL/6J,Bmal1-ELuc,SCN,VM-SCN,photoperiod,12:12 LD,,12:12 LD,26.8,1.71,,,N not shown in extracted table text
+Myung et al.,2012,full photoperiod,3-4 wks,young,M+F,C57BL/6J,Bmal1-ELuc,SCN,VM-SCN,LL,LL,,LL,27.03,1.19,,,N not shown in extracted table text
+Myung et al.,2012,full photoperiod,3-4 wks,young,M+F,C57BL/6J,Bmal1-ELuc,SCN,VL-SCN,photoperiod,12:12 LD,,12:12 LD,25.85,0.65,,,N not shown in extracted table text
+Myung et al.,2012,full photoperiod,3-4 wks,young,M+F,C57BL/6J,Bmal1-ELuc,SCN,VL-SCN,LL,LL,,LL,25.73,0.3,,,N not shown in extracted table text
+Myung et al.,2012,full photoperiod,3-4 wks,young,M+F,C57BL/6J,Bmal1-ELuc,SCN,A-SCN,photoperiod,8:16 LD,,8:16 LD,25.1,1.8,5.0,,
+Myung et al.,2012,full photoperiod,3-4 wks,young,M+F,C57BL/6J,Bmal1-ELuc,SCN,A-SCN,photoperiod,16:8 LD,,16:8 LD,23.1,0.8,4.0,,
+Myung et al.,2012,full photoperiod,3-4 wks,young,M+F,C57BL/6J,Bmal1-ELuc,SCN,P-SCN,photoperiod,8:16 LD,,8:16 LD,23.2,1.1,7.0,,
+Myung et al.,2012,full photoperiod,3-4 wks,young,M+F,C57BL/6J,Bmal1-ELuc,SCN,P-SCN,photoperiod,16:8 LD,,16:8 LD,21.4,2.5,4.0,,
+Myung et al.,2015,full photoperiod,8-13 wks,young,M+F?,C57BL/6J,Bmal1-ELuc,SCN,D-SCN,photoperiod,8:16 LD,,8:16 LD,23.95,0.43,8.0,,Author-confirmed 2026-09-29: manuscript Table S7A p. 71; supersedes archived extraction.
+Myung et al.,2015,full photoperiod,8-13 wks,young,M+F?,C57BL/6J,Bmal1-ELuc,SCN,D-SCN,photoperiod,16:8 LD,,16:8 LD,22.43,0.23,6.0,,Author-confirmed 2026-09-29: manuscript Table S7A p. 71; supersedes archived extraction.
+Myung et al.,2015,full photoperiod,8-13 wks,young,M+F?,C57BL/6J,Bmal1-ELuc,SCN,V-SCN,photoperiod,8:16 LD,,8:16 LD,24.46,0.52,8.0,,Author-confirmed 2026-09-29: manuscript Table S7A p. 71; supersedes archived extraction.
+Myung et al.,2015,full photoperiod,8-13 wks,young,M+F?,C57BL/6J,Bmal1-ELuc,SCN,V-SCN,photoperiod,16:8 LD,,16:8 LD,23.19,0.34,6.0,,Author-confirmed 2026-09-29: manuscript Table S7A p. 71; supersedes archived extraction.
+Myung et al.,2015,full photoperiod,8-13 wks,young,M+F?,C57BL/6J,Bmal1-ELuc,SCN,D-SCN,photoperiod,12:12 LD,,12:12 LD,22.62,0.28,6.0,,
+Myung et al.,2015,full photoperiod,8-13 wks,young,M+F?,C57BL/6J,Bmal1-ELuc,SCN,V-SCN,photoperiod,12:12 LD,,12:12 LD,23.01,0.38,6.0,,
+Myung et al.,2015,full photoperiod,8-13 wks,young,M+F?,C57BL/6J,Bmal1-ELuc,Behavior,behavior,photoperiod,8:16 LD,,8:16 LD,23.97,0.04,10.0,,
+Myung et al.,2015,full photoperiod,8-13 wks,young,M+F?,C57BL/6J,Bmal1-ELuc,Behavior,behavior,photoperiod,16:8 LD,,16:8 LD,23.59,0.05,13.0,,
+Myung et al.,2015,full photoperiod,8-13 wks,young,M+F?,C57BL/6J,Bmal1-ELuc,Behavior,behavior,photoperiod,12:12 LD,,12:12 LD,23.7,0.1,4.0,,
+Evans et al.,2013,full photoperiod,7-9 wks,young,M,C57BL/6J,PER2::LUC,SCN,D-SCN,photoperiod,16:8 LD,,16:8 LD,23.94,0.17,7.0,,Condition alignment inferred from wrapped PDF text
+Evans et al.,2013,full photoperiod,7-9 wks,young,M,C57BL/6J,PER2::LUC,SCN,D-SCN,photoperiod,18:6 LD,,18:6 LD,23.31,0.09,7.0,,Condition alignment inferred from wrapped PDF text
+Evans et al.,2013,full photoperiod,7-9 wks,young,M,C57BL/6J,PER2::LUC,SCN,D-SCN,photoperiod,20:4 LD,,20:4 LD,23.78,0.16,11.0,,Condition alignment inferred from wrapped PDF text
+Evans et al.,2013,full photoperiod,7-9 wks,young,M,C57BL/6J,PER2::LUC,SCN,D-SCN,photoperiod,22:2 LD,,22:2 LD,24.2,0.39,12.0,,Condition alignment inferred from wrapped PDF text
+Evans et al.,2013,full photoperiod,7-9 wks,young,M,C57BL/6J,PER2::LUC,SCN,D-SCN,photoperiod,12:12 LD,,12:12 LD,23.75,0.15,6.0,,Condition alignment inferred from wrapped PDF text
+Evans et al.,2013,full photoperiod,7-9 wks,young,M,C57BL/6J,PER2::LUC,SCN,V-SCN,photoperiod,16:8 LD,,16:8 LD,24.15,0.22,7.0,,Condition alignment inferred from wrapped PDF text
+Evans et al.,2013,full photoperiod,7-9 wks,young,M,C57BL/6J,PER2::LUC,SCN,V-SCN,photoperiod,18:6 LD,,18:6 LD,23.48,0.15,7.0,,Condition alignment inferred from wrapped PDF text
+Evans et al.,2013,full photoperiod,7-9 wks,young,M,C57BL/6J,PER2::LUC,SCN,V-SCN,photoperiod,20:4 LD,,20:4 LD,24.58,0.23,11.0,,Condition alignment inferred from wrapped PDF text
+Evans et al.,2013,full photoperiod,7-9 wks,young,M,C57BL/6J,PER2::LUC,SCN,V-SCN,photoperiod,22:2 LD,,22:2 LD,23.48,0.37,12.0,,Condition alignment inferred from wrapped PDF text
+Evans et al.,2013,full photoperiod,7-9 wks,young,M,C57BL/6J,PER2::LUC,SCN,V-SCN,photoperiod,12:12 LD,,12:12 LD,24.15,0.15,6.0,,Condition alignment inferred from wrapped PDF text
+Evans et al.,2013,full photoperiod,7-9 wks,young,M,C57BL/6J,PER2::LUC,Behavior,behavior,photoperiod,20:4 LD,,20:4 LD,23.24,0.06,6.0,,Only behavior rows visible for these conditions in extracted table text
+Evans et al.,2013,full photoperiod,7-9 wks,young,M,C57BL/6J,PER2::LUC,Behavior,behavior,photoperiod,12:12 LD,,12:12 LD,23.86,0.02,6.0,,Only behavior rows visible for these conditions in extracted table text
+Buijink et al.,2020,full photoperiod,4-8 months,young,M,C57BL/6J,PER2::LUC,SCN,A-SCN,photoperiod,16:8 LD,,16:8 LD,24.61,0.32,5.0,,Author-confirmed 2026-09-29: manuscript Table S7A p. 73-74; supersedes archived extraction.
+Buijink et al.,2020,full photoperiod,4-8 months,young,M,C57BL/6J,PER2::LUC,SCN,A-SCN,photoperiod,18:6 LD,,18:6 LD,24.6,0.22,5.0,,Author-confirmed 2026-09-29: manuscript Table S7A p. 73-74; supersedes archived extraction.
+Buijink et al.,2020,full photoperiod,4-8 months,young,M,C57BL/6J,PER2::LUC,SCN,P-SCN,photoperiod,16:8 LD,,16:8 LD,24.38,0.21,5.0,,Author-confirmed 2026-09-29: manuscript Table S7A p. 73-74; supersedes archived extraction.
+Buijink et al.,2020,full photoperiod,4-8 months,young,M,C57BL/6J,PER2::LUC,SCN,P-SCN,photoperiod,18:6 LD,,18:6 LD,23.94,0.12,5.0,,Author-confirmed 2026-09-29: manuscript Table S7A p. 73-74; supersedes archived extraction.
+Buijink et al.,2020,full photoperiod,4-8 months,young,M,C57BL/6J,PER2::LUC,Behavior,behavior,photoperiod,16:8 LD,,16:8 LD,23.63,0.06,6.0,,Author-confirmed 2026-09-29: manuscript Table S7A p. 73-74; supersedes archived extraction.
+Buijink et al.,2020,full photoperiod,4-8 months,young,M,C57BL/6J,PER2::LUC,Behavior,behavior,photoperiod,18:6 LD,,18:6 LD,23.99,0.01,5.0,,Author-confirmed 2026-09-29: manuscript Table S7A p. 73-74; supersedes archived extraction.
+Buijink et al.,2020,full photoperiod,22-28 months,old,M,C57BL/6J,PER2::LUC,SCN,A-SCN,photoperiod,16:8 LD,,16:8 LD,24.37,0.29,9.0,,Author-confirmed 2026-09-29: manuscript Table S7A p. 73-74; supersedes archived extraction.
+Buijink et al.,2020,full photoperiod,22-28 months,old,M,C57BL/6J,PER2::LUC,SCN,A-SCN,photoperiod,18:6 LD,,18:6 LD,24.51,0.33,13.0,,Author-confirmed 2026-09-29: manuscript Table S7A p. 73-74; supersedes archived extraction.
+Buijink et al.,2020,full photoperiod,22-28 months,old,M,C57BL/6J,PER2::LUC,SCN,P-SCN,photoperiod,16:8 LD,,16:8 LD,24.46,0.1,11.0,,Author-confirmed 2026-09-29: manuscript Table S7A p. 73-74; supersedes archived extraction.
+Buijink et al.,2020,full photoperiod,22-28 months,old,M,C57BL/6J,PER2::LUC,SCN,P-SCN,photoperiod,18:6 LD,,18:6 LD,24.27,0.31,12.0,,Author-confirmed 2026-09-29: manuscript Table S7A p. 73-74; supersedes archived extraction.
+Buijink et al.,2020,full photoperiod,22-28 months,old,M,C57BL/6J,PER2::LUC,Behavior,behavior,photoperiod,16:8 LD,,16:8 LD,23.79,0.06,7.0,,Author-confirmed 2026-09-29: manuscript Table S7A p. 73-74; supersedes archived extraction.
+Buijink et al.,2020,full photoperiod,22-28 months,old,M,C57BL/6J,PER2::LUC,Behavior,behavior,photoperiod,18:6 LD,,18:6 LD,23.94,0.04,8.0,,Author-confirmed 2026-09-29: manuscript Table S7A p. 73-74; supersedes archived extraction.
+Ciarleglio et al.,2010,full photoperiod,post-natal day 21,young,,,Per1::GFP,SCN,bulk,photoperiod,16:8 LD,,16:8 LD,23.4,0.32,,,N not shown in extracted table text
+Ciarleglio et al.,2010,full photoperiod,post-natal day 21,young,,,Per1::GFP,SCN,bulk,photoperiod,18:6 LD,,18:6 LD,24.3,0.22,,,N not shown in extracted table text; Author-confirmed 2026-09-29: manuscript Table S7A p. 74; supersedes archived extraction.
+Ciarleglio et al.,2010,full photoperiod,post-natal day 21,young,,,Per1::GFP,SCN,bulk,photoperiod,12:12 LD,,12:12 LD,23.9,0.28,,,N not shown in extracted table text
+Ciarleglio et al.,2010,full photoperiod,post-natal day 21,young,,,Per1::GFP,Behavior,behavior,photoperiod,16:8 LD,,16:8 LD,23.3,0.2,,,N not shown in extracted table text
+Ciarleglio et al.,2010,full photoperiod,post-natal day 21,young,,,Per1::GFP,Behavior,behavior,photoperiod,18:6 LD,,18:6 LD,24.0,0.16,,,N not shown in extracted table text; Author-confirmed 2026-09-29: manuscript Table S7A p. 74; supersedes archived extraction.
+Aton et al.,2004,gradual T-cycle,3-13 wks,young,,C57BL/6J,Per1-luc,SCN,bulk,T-cycle,T20,T20,,23.8,0.1,10.0,,
+Aton et al.,2004,gradual T-cycle,3-13 wks,young,,C57BL/6J,Per1-luc,SCN,bulk,T-cycle,T28,T28,,23.5,0.1,13.0,,
+Aton et al.,2004,gradual T-cycle,3-13 wks,young,,C57BL/6NCrlBR,,Behavior,behavior,T-cycle,T20,T20,,23.2,0.1,16.0,,
+Aton et al.,2004,gradual T-cycle,3-13 wks,young,,C57BL/6NCrlBR,,Behavior,behavior,T-cycle,T28,T28,,24.3,0.1,18.0,,
+Aton et al.,2004,gradual T-cycle,16-32 wks,adult,,C57BL/6J,Per1-luc,SCN,bulk,T-cycle,T20,T20,,23.9,0.2,3.0,,
+Aton et al.,2004,gradual T-cycle,16-32 wks,adult,,C57BL/6J,Per1-luc,SCN,bulk,T-cycle,T28,T28,,23.6,0.1,3.0,,
+Aton et al.,2004,gradual T-cycle,16-32 wks,adult,,C57BL/6NCrlBR,,Behavior,behavior,T-cycle,T20,T20,,23.4,0.2,6.0,,
+Aton et al.,2004,gradual T-cycle,16-32 wks,adult,,C57BL/6NCrlBR,,Behavior,behavior,T-cycle,T28,T28,,24.2,0.02,3.0,,
+Aton et al.,2004,gradual T-cycle,32-64 wks,old,,C57BL/6J,Per1-luc,SCN,bulk,T-cycle,T20,T20,,24.5,0.9,3.0,,
+Aton et al.,2004,gradual T-cycle,32-64 wks,old,,C57BL/6J,Per1-luc,SCN,bulk,T-cycle,T28,T28,,24.1,0.2,5.0,,
+Aton et al.,2004,gradual T-cycle,32-64 wks,old,,C57BL/6NCrlBR,,Behavior,behavior,T-cycle,T20,T20,,23.8,0.04,5.0,,
+Aton et al.,2004,gradual T-cycle,32-64 wks,old,,C57BL/6NCrlBR,,Behavior,behavior,T-cycle,T28,T28,,24.5,0.1,5.0,,
+Molyneux et al.,2008,gradual T-cycle,15-30 wks,adult,M,C57BL/6J,PER2::LUC,SCN,bulk,T-cycle,T21,T21,,24.82,0.09,17.0,,Condition alignment inferred from wrapped PDF text
+Molyneux et al.,2008,gradual T-cycle,15-30 wks,adult,M,C57BL/6J,PER2::LUC,SCN,bulk,T-cycle,T26,T26,,23.6,0.14,10.0,,Condition alignment inferred from wrapped PDF text
+Molyneux et al.,2008,gradual T-cycle,15-30 wks,adult,M,C57BL/6J,PER2::LUC,SCN,bulk,T-cycle,T28,T28,,24.02,0.03,5.0,,Condition alignment inferred from wrapped PDF text
+Molyneux et al.,2008,gradual T-cycle,15-30 wks,adult,M,C57BL/6J,PER2::LUC,Behavior,behavior,T-cycle,T21,T21,,22.81,0.07,25.0,,Condition alignment inferred from wrapped PDF text
+Molyneux et al.,2008,gradual T-cycle,15-30 wks,adult,M,C57BL/6J,PER2::LUC,Behavior,behavior,T-cycle,T26,T26,,24.44,0.03,18.0,,Condition alignment inferred from wrapped PDF text
+Molyneux et al.,2008,gradual T-cycle,15-30 wks,adult,M,C57BL/6J,PER2::LUC,Behavior,behavior,T-cycle,T28,T28,,24.71,0.01,6.0,,Condition alignment inferred from wrapped PDF text
+Pittendrigh and Daan,1976,gradual T-cycle,,unknown,,M. musculus,,Behavior,behavior,T-cycle,T20,T20,,23.13,0.07,33.0,,Behavior only; no paired SCN value in table
+Pittendrigh and Daan,1976,gradual T-cycle,,unknown,,M. musculus,,Behavior,behavior,T-cycle,T24,T24,,24.11,0.06,18.0,,Condition alignment inferred from wrapped PDF text; behavior only
+Pittendrigh and Daan,1976,gradual T-cycle,,unknown,,M. musculus,,Behavior,behavior,T-cycle,T25,T25,,23.84,0.05,9.0,,Condition alignment inferred from wrapped PDF text; behavior only
+Pittendrigh and Daan,1976,gradual T-cycle,,unknown,,M. musculus,,Behavior,behavior,T-cycle,T28,T28,,24.36,0.06,33.0,,Behavior only; no paired SCN value in table
+Ouk et al.,2019,fixed T-cycle,14 wks,adult,M+F,CBA x C57BL/6J,,Behavior,behavior,T-cycle,T21,T21,,23.25,0.11,19.0,,Behavior only; no paired SCN value in table
+Ouk et al.,2019,fixed T-cycle,14 wks,adult,M+F,CBA x C57BL/6J,,Behavior,behavior,T-cycle,T22,T22,,22.75,0.14,18.0,,Behavior only; no paired SCN value in table
+Mendoza-Viveros et al.,2017,gradual T-cycle,5-10 wks,young,M,C57BL/6J,,Behavior,behavior,T-cycle,T22,T22,,23.63,0.04,9.0,,Behavior only; no paired SCN value in table
+Sollars et al.,2006,fixed T-cycle,6-10 wks,young,,C57BL/6J,,Behavior,behavior,T-cycle,T22,T22,,22.36,0.05,12.0,,Behavior only; no paired SCN value in table
+Azzi et al.,2017,fixed T-cycle,4-6 wks,young,M,C57BL/6J,PER2::LUC,SCN,bulk,T-cycle,T22,T22,,24.73,0.07,,N=5-7,
+Azzi et al.,2017,fixed T-cycle,4-6 wks,young,M,C57BL/6J,PER2::LUC,SCN,bulk,T-cycle,T24,T24,,24.16,0.16,,N=5-7,
+Azzi et al.,2017,fixed T-cycle,4-6 wks,young,M,C57BL/6J,PER2::LUC,SCN,bulk,T-cycle,T26,T26,,23.41,0.13,,N=5-7,
+Azzi et al.,2017,fixed T-cycle,4-6 wks,young,M,C57BL/6J,PER2::LUC,SCN,D-SCN,T-cycle,T22,T22,,23.88,0.24,,N=9-10,
+Azzi et al.,2017,fixed T-cycle,4-6 wks,young,M,C57BL/6J,PER2::LUC,SCN,D-SCN,T-cycle,T24,T24,,23.65,0.3,,N=9-10,
+Azzi et al.,2017,fixed T-cycle,4-6 wks,young,M,C57BL/6J,PER2::LUC,SCN,D-SCN,T-cycle,T26,T26,,23.07,0.11,,N=9-10,
+Azzi et al.,2017,fixed T-cycle,4-6 wks,young,M,C57BL/6J,PER2::LUC,SCN,V-SCN,T-cycle,T22,T22,,23.34,0.14,,N=4-10,Condition alignment inferred from wrapped PDF text
+Azzi et al.,2017,fixed T-cycle,4-6 wks,young,M,C57BL/6J,PER2::LUC,SCN,V-SCN,T-cycle,T24,T24,,23.75,0.14,,N=4-10,Condition alignment inferred from wrapped PDF text
+Azzi et al.,2017,fixed T-cycle,4-6 wks,young,M,C57BL/6J,PER2::LUC,SCN,V-SCN,T-cycle,T26,T26,,24.34,0.15,,N=4-10,Condition alignment inferred from wrapped PDF text
+Azzi et al.,2017,fixed T-cycle,4-6 wks,young,M,C57BL/6J,PER2::LUC,Behavior,behavior,T-cycle,T22,T22,,22.83,0.1,,N=4-10,
+Azzi et al.,2017,fixed T-cycle,4-6 wks,young,M,C57BL/6J,PER2::LUC,Behavior,behavior,T-cycle,T24,T24,,23.93,0.09,,N=4-10,
+Azzi et al.,2017,fixed T-cycle,4-6 wks,young,M,C57BL/6J,PER2::LUC,Behavior,behavior,T-cycle,T26,T26,,24.5,0.02,,N=4-10,
+Myung et al.,2012,12:12 LD,3-4 wks,young,M+F,C57BL/6J,Bmal1-ELuc,SCN,A-SCN,photoperiod,12:12 LD,,12:12 LD,23.5,0.3,39.0,,
+Myung et al.,2012,12:12 LD,3-4 wks,young,M+F,C57BL/6J,Bmal1-ELuc,SCN,P-SCN,photoperiod,12:12 LD,,12:12 LD,23.9,0.4,43.0,,
+Myung et al.,2012,12:12 LD,3-4 wks,young,M+F,C57BL/6J,Bmal1-ELuc,Behavior,behavior,photoperiod,12:12 LD,,12:12 LD,23.7,0.1,4.0,,
+Myung et al.,2012,12:12 LD,3-4 wks,young,M+F,C57BL/6J,PER2::LUC,SCN,A-SCN,photoperiod,12:12 LD,,12:12 LD,24.1,0.2,19.0,,
+Myung et al.,2012,12:12 LD,3-4 wks,young,M+F,C57BL/6J,PER2::LUC,SCN,P-SCN,photoperiod,12:12 LD,,12:12 LD,24.7,0.1,29.0,,
+Myung et al.,2012,12:12 LD,3-4 wks,young,M+F,C57BL/6J,PER2::LUC,Behavior,behavior,photoperiod,12:12 LD,,12:12 LD,23.7,0.1,4.0,,
+Tackenberg et al.,2020,gradual T-cycle x photoperiod,at least 3 weeks,young,,,PER2::LUC,SCN,bulk,T-cycle x photoperiod,SP T23,T23,SP,23.99,0.22,8.0,,
+Tackenberg et al.,2020,gradual T-cycle x photoperiod,at least 3 weeks,young,,,PER2::LUC,SCN,bulk,T-cycle x photoperiod,SP T24,T24,SP,23.94,0.23,12.0,,
+Tackenberg et al.,2020,gradual T-cycle x photoperiod,at least 3 weeks,young,,,PER2::LUC,SCN,bulk,T-cycle x photoperiod,SP T26,T26,SP,23.08,0.38,14.0,,
+Tackenberg et al.,2020,gradual T-cycle x photoperiod,at least 3 weeks,young,,,PER2::LUC,SCN,bulk,T-cycle x photoperiod,LP T23,T23,LP,24.46,0.22,10.0,,
+Tackenberg et al.,2020,gradual T-cycle x photoperiod,at least 3 weeks,young,,,PER2::LUC,SCN,bulk,T-cycle x photoperiod,LP T24,T24,LP,23.71,0.16,12.0,,
+Tackenberg et al.,2020,gradual T-cycle x photoperiod,at least 3 weeks,young,,,PER2::LUC,SCN,bulk,T-cycle x photoperiod,LP T26,T26,LP,23.47,0.35,6.0,,
+Tackenberg et al.,2020,gradual T-cycle x photoperiod,at least 3 weeks,young,,,PER2::LUC,Behavior,behavior,T-cycle x photoperiod,SP T23,T23,SP,23.25,0.09,8.0,,
+Tackenberg et al.,2020,gradual T-cycle x photoperiod,at least 3 weeks,young,,,PER2::LUC,Behavior,behavior,T-cycle x photoperiod,SP T24,T24,SP,23.81,0.05,12.0,,
+Tackenberg et al.,2020,gradual T-cycle x photoperiod,at least 3 weeks,young,,,PER2::LUC,Behavior,behavior,T-cycle x photoperiod,SP T26,T26,SP,24.27,0.1,14.0,,
+Tackenberg et al.,2020,gradual T-cycle x photoperiod,at least 3 weeks,young,,,PER2::LUC,Behavior,behavior,T-cycle x photoperiod,LP T23,T23,LP,22.94,0.11,10.0,,
+Tackenberg et al.,2020,gradual T-cycle x photoperiod,at least 3 weeks,young,,,PER2::LUC,Behavior,behavior,T-cycle x photoperiod,LP T24,T24,LP,23.65,0.07,12.0,,
+Tackenberg et al.,2020,gradual T-cycle x photoperiod,at least 3 weeks,young,,,PER2::LUC,Behavior,behavior,T-cycle x photoperiod,LP T26,T26,LP,24.08,0.14,6.0,,

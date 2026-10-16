@@ -1,0 +1,576 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "test": "D-period-X has three paired seeds",
+      "passed": true
+    },
+    {
+      "test": "D-period-X seed 1729 unified selection criterion",
+      "passed": true
+    },
+    {
+      "test": "D-period-X seed 1729 score recomputation",
+      "passed": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "test": "D-period-X seed 2718 unified selection criterion",
+      "passed": true
+    },
+    {
+      "test": "D-period-X seed 2718 score recomputation",
+      "passed": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "test": "D-period-X seed 3141 unified selection criterion",
+      "passed": true
+    },
+    {
+      "test": "D-period-X seed 3141 score recomputation",
+      "passed": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "test": "coupling-X has three paired seeds",
+      "passed": true
+    },
+    {
+      "test": "coupling-X seed 1729 unified selection criterion",
+      "passed": true
+    },
+    {
+      "test": "coupling-X seed 1729 score recomputation",
+      "passed": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "test": "coupling-X seed 2718 unified selection criterion",
+      "passed": true
+    },
+    {
+      "test": "coupling-X seed 2718 score recomputation",
+      "passed": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "test": "coupling-X seed 3141 unified selection criterion",
+      "passed": true
+    },
+    {
+      "test": "coupling-X seed 3141 score recomputation",
+      "passed": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "test": "V-period-X has three paired seeds",
+      "passed": true
+    },
+    {
+      "test": "V-period-X seed 1729 unified selection criterion",
+      "passed": true
+    },
+    {
+      "test": "V-period-X seed 1729 score recomputation",
+      "passed": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "test": "V-period-X seed 2718 unified selection criterion",
+      "passed": true
+    },
+    {
+      "test": "V-period-X seed 2718 score recomputation",
+      "passed": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "test": "V-period-X seed 3141 unified selection criterion",
+      "passed": true
+    },
+    {
+      "test": "V-period-X seed 3141 score recomputation",
+      "passed": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "test": "joint-DV-period-X has three paired seeds",
+      "passed": true
+    },
+    {
+      "test": "joint-DV-period-X seed 1729 unified selection criterion",
+      "passed": true
+    },
+    {
+      "test": "joint-DV-period-X seed 1729 score recomputation",
+      "passed": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "test": "joint-DV-period-X seed 2718 unified selection criterion",
+      "passed": true
+    },
+    {
+      "test": "joint-DV-period-X seed 2718 score recomputation",
+      "passed": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "test": "joint-DV-period-X seed 3141 unified selection criterion",
+      "passed": true
+    },
+    {
+      "test": "joint-DV-period-X seed 3141 score recomputation",
+      "passed": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "test": "seed 1729 equal shared bounds",
+      "passed": true,
+      "shared_parameters": 15
+    },
+    {
+      "test": "seed 1729 equal search ceilings",
+      "passed": true
+    },
+    {
+      "test": "seed 2718 equal shared bounds",
+      "passed": true,
+      "shared_parameters": 15
+    },
+    {
+      "test": "seed 2718 equal search ceilings",
+      "passed": true
+    },
+    {
+      "test": "seed 3141 equal shared bounds",
+      "passed": true,
+      "shared_parameters": 15
+    },
+    {
+      "test": "seed 3141 equal search ceilings",
+      "passed": true
+    },
+    {
+      "test": "D-period-X selected forward-model reproduction",
+      "passed": true,
+      "maximum_endpoint_difference": 0.0
+    },
+    {
+      "test": "coupling-X selected forward-model reproduction",
+      "passed": true,
+      "maximum_endpoint_difference": 0.0
+    },
+    {
+      "test": "V-period-X selected forward-model reproduction",
+      "passed": true,
+      "maximum_endpoint_difference": 0.0
+    },
+    {
+      "test": "joint-DV-period-X selected forward-model reproduction",
+      "passed": true,
+      "maximum_endpoint_difference": 0.0
+    },
+    {
+      "test": "Reduction uses exactly current D and coupling winners",
+      "passed": true
+    },
+    {
+      "test": "unified_D-period-X_seed_3141 independent reduction reproduction",
+      "passed": true,
+      "maximum_endpoint_difference": 5.551115123125783e-17
+    },
+    {
+      "test": "unified_coupling-X_seed_3141 independent reduction reproduction",
+      "passed": true,
+      "maximum_endpoint_difference": 3.552713678800501e-15
+    },
+    {
+      "test": "Table S1 keeps all 102 archived observations",
+      "passed": true
+    },
+    {
+      "test": "Figure 1 selects 37 SCN means",
+      "passed": true
+    },
+    {
+      "test": "Figure 1 reporter-safe pairing and Myung2012 correction",
+      "passed": true
+    },
+    {
+      "test": "Figure 1 complete eligible fits and explicitly descriptive two-mean connectors",
+      "passed": true
+    },
+    {
+      "test": "Figure 1 categorical error bars remain visible",
+      "passed": true
+    },
+    {
+      "test": "All main dynamic traces are full original model",
+      "passed": true
+    },
+    {
+      "test": "SP pre-DD intact/explant equality and DD feedback removal",
+      "passed": true,
+      "pre_error": 0.0,
+      "DD_feedback": 0.0
+    },
+    {
+      "test": "LP pre-DD intact/explant equality and DD feedback removal",
+      "passed": true,
+      "pre_error": 0.0,
+      "DD_feedback": 0.0
+    },
+    {
+      "test": "LD pre-DD intact/explant equality and DD feedback removal",
+      "passed": true,
+      "pre_error": 0.0,
+      "DD_feedback": 0.0
+    },
+    {
+      "test": "T22 pre-DD intact/explant equality and DD feedback removal",
+      "passed": true,
+      "pre_error": 0.0,
+      "DD_feedback": 0.0
+    },
+    {
+      "test": "T26 pre-DD intact/explant equality and DD feedback removal",
+      "passed": true,
+      "pre_error": 0.0,
+      "DD_feedback": 0.0
+    },
+    {
+      "test": "18:6 LD pre-DD intact/explant equality and DD feedback removal",
+      "passed": true,
+      "pre_error": 0.0,
+      "DD_feedback": 0.0
+    },
+    {
+      "test": "T23 pre-DD intact/explant equality and DD feedback removal",
+      "passed": true,
+      "pre_error": 0.0,
+      "DD_feedback": 0.0
+    },
+    {
+      "test": "T25 pre-DD intact/explant equality and DD feedback removal",
+      "passed": true,
+      "pre_error": 0.0,
+      "DD_feedback": 0.0
+    },
+    {
+      "test": "Figure 2 complete full-model gain sweep and current provenance",
+      "passed": true
+    },
+    {
+      "test": "Figure 2 phase wrapping and feedback timing",
+      "passed": true
+    },
+    {
+      "test": "Figure 2 release locking diagnostic",
+      "passed": true
+    },
+    {
+      "test": "Figure 2 gain-sweep step halving and selected-fit equality",
+      "passed": true,
+      "convergence_cases": 39
+    },
+    {
+      "test": "Figure 2 paired y-axis limits match",
+      "passed": true
+    },
+    {
+      "test": "Figure 2 selected fit is best recorded common objective among three seeds",
+      "passed": true
+    },
+    {
+      "test": "Shared double plots stop at DD7 and have no DD background",
+      "passed": true
+    },
+    {
+      "test": "Figure 3 direct ordering uses identical T22/LD/T26 perturbations",
+      "passed": true,
+      "maximum_difference_h": 3.552713678800501e-15
+    },
+    {
+      "test": "T22 remains above T26 across all 27 explant combinations in both regions",
+      "passed": true,
+      "strict_T22_LD_T26_counts": {
+        "D": 27,
+        "V": 26
+      }
+    },
+    {
+      "test": "Figure 3K absolute periods and sensitivity ranges reproduce nine matched settings",
+      "passed": true,
+      "maximum_difference_h": 3.552713678800501e-15
+    },
+    {
+      "test": "All 81 current-fit explant controls passed period step halving",
+      "passed": true,
+      "maximum_period_difference_h": 0.0001239352147059
+    },
+    {
+      "test": "Full-model novel-condition step halving",
+      "passed": true
+    },
+    {
+      "test": "Stored full-model trajectories match current selected parameter provenance",
+      "passed": true
+    },
+    {
+      "test": "Full-original integrate function unchanged after parameter registry update",
+      "passed": true,
+      "integrate_ast_sha256": "34b5bdc7c3fa02019e4b42821edac4033154d6e63ee93a7ad27bd8ff90608e33"
+    },
+    {
+      "test": "Full-model simulator uses current selected D parameters",
+      "passed": true
+    },
+    {
+      "test": "T22/LD/T26 ordering across five explant coupling scales",
+      "passed": true
+    },
+    {
+      "test": "Reduction data provenance matches current selected fits and generator",
+      "passed": true
+    },
+    {
+      "test": "Current-fit independent-reduction numerical validation (not equivalence of reduced and full targets)",
+      "passed": true
+    },
+    {
+      "test": "S5 current selected D parameters, generator and output hashes",
+      "passed": true
+    },
+    {
+      "test": "S5 complete three-mode seven-timescale five-condition/context coverage",
+      "passed": true
+    },
+    {
+      "test": "S5 scores and inversion summaries recompute from their endpoints",
+      "passed": true,
+      "maximum_score_difference": 2.9802322387695312e-08,
+      "maximum_contrast_difference_h": 7.105427357601002e-15
+    },
+    {
+      "test": "S5 240 h reproduces the common selected-model objective",
+      "passed": true,
+      "maximum_score_difference": 0.0
+    },
+    {
+      "test": "S5 thirty step-halving checks cover extreme and reference constants",
+      "passed": true,
+      "maximum_period_difference_h": 0.0001747606635227,
+      "maximum_circular_gap_difference_h": 0.0001944533333002
+    },
+    {
+      "test": "S5 public tables reproduce the cached scientific inputs",
+      "passed": true
+    },
+    {
+      "test": "Retained independent-pair control generator, inputs and output hashes",
+      "passed": true
+    },
+    {
+      "test": "Retained independent-pair control eight public tables reproduce cached records",
+      "passed": true
+    },
+    {
+      "test": "Retained independent-pair coefficients and shared parameters match simulations",
+      "passed": true
+    },
+    {
+      "test": "Retained independent-pair local grid classifications and counts reproduce",
+      "passed": true,
+      "retained": 75,
+      "total": 1681
+    },
+    {
+      "test": "Retained independent-pair perturbation fractions reproduce all samples",
+      "passed": true
+    },
+    {
+      "test": "Retained independent-pair dynamics and ten step-halving checks passed",
+      "passed": true,
+      "maximum_endpoint_difference_h": 6.153699836408677e-05
+    },
+    {
+      "test": "Retained independent-pair endpoint orderings and spectral margin recompute",
+      "passed": true
+    },
+    {
+      "test": "Table S3 all 65 fitted values, bounds, seeds and scores match selected registry",
+      "passed": true
+    },
+    {
+      "test": "Table S3 all 15 fixed settings match the simulation and fitting protocol",
+      "passed": true
+    },
+    {
+      "test": "S6 historical construction fingerprint, hashes and immutable source record",
+      "passed": true
+    },
+    {
+      "test": "S6 three public rule tables exactly reproduce cached records",
+      "passed": true
+    },
+    {
+      "test": "S6 assigned coefficients reproduce the historical vector with one fixed KVD",
+      "passed": true
+    },
+    {
+      "test": "S6 straight references use outer conditions and retain actual LD residuals",
+      "passed": true,
+      "maximum_diagnostic_difference": 9.993633524885137e-17
+    },
+    {
+      "test": "S6 photoperiod and T-cycle nonlinearity summaries match assigned coefficients",
+      "passed": true,
+      "photoperiod_LD_residual_rad_h": 0.00015850030081719993,
+      "Tcycle_LD_residual_rad_h": 0.00697995383254785,
+      "absolute_residual_ratio": 44.037480033542046
+    },
+    {
+      "test": "S6 historical spectral orderings and minimum margin reproduce endpoints",
+      "passed": true
+    },
+    {
+      "test": "S6 stored histories retain systemic offset throughout LD and remove it only in explant DD",
+      "passed": true
+    },
+    {
+      "test": "S6 historical construction passes all phase-equation and numerical checks",
+      "passed": true,
+      "maximum_endpoint_difference_h": 6.153699836408677e-05
+    },
+    {
+      "test": "Figure_3 period point series use all correct source rows and horizontal-only jitter",
+      "passed": true,
+      "maximum_source_range_difference_h": 0.0
+    },
+    {
+      "test": "Figure 3F includes all 64 behavioral initial states per schedule",
+      "passed": true,
+      "behavioral_point_count": 320
+    },
+    {
+      "test": "Figure_4 period point series use all correct source rows and horizontal-only jitter",
+      "passed": true,
+      "maximum_source_range_difference_h": 0.0
+    },
+    {
+      "test": "Figure 4D includes all 64 behavioral initial states per schedule",
+      "passed": true,
+      "behavioral_point_count": 192
+    },
+    {
+      "test": "Figure 2 displayed memory decomposition equals the original integrated M_D",
+      "passed": true,
+      "maximum_memory_difference": 1.3553047573111598e-13
+    },
+    {
+      "test": "Named objective components sum to complete shared final score",
+      "passed": true,
+      "maximum_score_difference": 7.450580596923828e-09
+    },
+    {
+      "test": "Exactly four main and six numbered supplementary figures",
+      "passed": true
+    },
+    {
+      "test": "Figure_1.svg width and no separate H model",
+      "passed": true
+    },
+    {
+      "test": "Figure_1.svg enlarged text",
+      "passed": true,
+      "minimum_base_font_pt": 7.2
+    },
+    {
+      "test": "Figure_2.svg width and no separate H model",
+      "passed": true
+    },
+    {
+      "test": "Figure_2.svg enlarged text",
+      "passed": true,
+      "minimum_base_font_pt": 7.2
+    },
+    {
+      "test": "Figure_3.svg width and no separate H model",
+      "passed": true
+    },
+    {
+      "test": "Figure_3.svg enlarged text",
+      "passed": true,
+      "minimum_base_font_pt": 7.2
+    },
+    {
+      "test": "Figure 3K no unexplained intact-behavior reference",
+      "passed": true
+    },
+    {
+      "test": "Figure_4.svg width and no separate H model",
+      "passed": true
+    },
+    {
+      "test": "Figure_4.svg enlarged text",
+      "passed": true,
+      "minimum_base_font_pt": 7.2
+    },
+    {
+      "test": "Figure_S1.svg width and no separate H model",
+      "passed": true
+    },
+    {
+      "test": "Figure_S1.svg enlarged text",
+      "passed": true,
+      "minimum_base_font_pt": 7.2
+    },
+    {
+      "test": "Figure_S2.svg width and no separate H model",
+      "passed": true
+    },
+    {
+      "test": "Figure_S2.svg enlarged text",
+      "passed": true,
+      "minimum_base_font_pt": 7.2
+    },
+    {
+      "test": "Figure_S3.svg width and no separate H model",
+      "passed": true
+    },
+    {
+      "test": "Figure_S3.svg enlarged text",
+      "passed": true,
+      "minimum_base_font_pt": 7.2
+    },
+    {
+      "test": "Figure_S4.svg width and no separate H model",
+      "passed": true
+    },
+    {
+      "test": "Figure_S4.svg enlarged text",
+      "passed": true,
+      "minimum_base_font_pt": 7.245
+    },
+    {
+      "test": "Figure_S5.svg width and no separate H model",
+      "passed": true
+    },
+    {
+      "test": "Figure_S5.svg enlarged text",
+      "passed": true,
+      "minimum_base_font_pt": 7.2
+    },
+    {
+      "test": "Figure_S6.svg width and no separate H model",
+      "passed": true
+    },
+    {
+      "test": "Figure_S6.svg enlarged text",
+      "passed": true,
+      "minimum_base_font_pt": 7.2
+    }
+  ]
+}

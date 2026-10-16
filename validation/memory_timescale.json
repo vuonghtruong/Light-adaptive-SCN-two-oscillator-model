@@ -1,0 +1,108 @@
+{
+  "fingerprint": "bc93da65c14eaf4f1d2575d5ea4bf8ff2c90e8a53cf024c26e163e96c9805256",
+  "parameter_fingerprint": "3bf0452c7ba0649bb4309086fbaf32687f48c6cb3a42c5aad19f030d62eefef1",
+  "parameter_source": "best penalized D-period-X",
+  "selected_seed": 3141,
+  "fixed_parameters": {
+    "tau_d0": 24.354281319589745,
+    "tau_x0": 22.4605032956619,
+    "g_x": 38.479824098931836,
+    "gphi_x": 4.496676768248921,
+    "gp_x": -1.5885751288527796,
+    "kvd": 0.019808249074719234,
+    "kdv": 0.017702059460131335,
+    "kx_d": 0.17056852970763678,
+    "kx_v": 0.13385398644826332,
+    "ksx": 0.12940891038551677,
+    "light_amp": 0.41484827682174025,
+    "v_light_boost": 4.614302239481317,
+    "g_d": 4.384649173429544,
+    "tau_v": 24.678035146714194,
+    "gphi_d": -4.963495242099114,
+    "gp_d": 0.4337216059736174,
+    "phase_bias": 0.0,
+    "mem_tau_d": 240.0,
+    "mem_tau_x": 240.0
+  },
+  "memory_time_constants_h": [
+    60.0,
+    120.0,
+    180.0,
+    240.0,
+    360.0,
+    480.0,
+    720.0
+  ],
+  "modes": [
+    "both",
+    "D_only",
+    "X_only"
+  ],
+  "unique_full_simulations": 190,
+  "endpoint_rows": 210,
+  "score_rows": 21,
+  "exposure_h": 720,
+  "DD_h": 336,
+  "integration_step_h": 0.015625,
+  "half_step_h": 0.0078125,
+  "scoring": "Unchanged common penalized objective on original discrete Lomb-Scargle grid; plotted endpoints use refined Lomb-Scargle peaks and circular first-7-day phase gaps.",
+  "interpretation": "Fixed-parameter sensitivity only. Other parameters are not reoptimized at each time constant; this test does not identify 240 h or establish it as an optimal biological constant.",
+  "baseline_objective": 3232314.712131378,
+  "selected_objective": 3232314.712131378,
+  "baseline_objective_absolute_difference": 0.0,
+  "best_tested_shared_tau_h": 240.0,
+  "best_tested_shared_objective": 3232314.712131378,
+  "common_tau_inversion": [
+    {
+      "tau_h": 60.0,
+      "inversion": true,
+      "D_order": true,
+      "V_order": true
+    },
+    {
+      "tau_h": 120.0,
+      "inversion": true,
+      "D_order": true,
+      "V_order": true
+    },
+    {
+      "tau_h": 180.0,
+      "inversion": true,
+      "D_order": true,
+      "V_order": true
+    },
+    {
+      "tau_h": 240.0,
+      "inversion": true,
+      "D_order": true,
+      "V_order": true
+    },
+    {
+      "tau_h": 360.0,
+      "inversion": true,
+      "D_order": true,
+      "V_order": true
+    },
+    {
+      "tau_h": 480.0,
+      "inversion": true,
+      "D_order": true,
+      "V_order": true
+    },
+    {
+      "tau_h": 720.0,
+      "inversion": true,
+      "D_order": true,
+      "V_order": true
+    }
+  ],
+  "step_halving_cases": 30,
+  "maximum_period_difference_h": 0.00017476066352273278,
+  "maximum_circular_gap_difference_h": 0.0001944533333002596,
+  "data_sha256": {
+    "memory_timescale_endpoints.csv": "047e93b9bb9bc75a7e5ba3f73e5473f714c5b2579a53722d6f601983dcd4b7c1",
+    "memory_timescale_scores.csv": "efa123ab19f8478dbba8432a76994ec2c48918aef79ae82881681ad1bdcf7696",
+    "memory_timescale_step_halving.csv": "3ed2680160266df6905d37f0df8ef6d2be1d8a716359b1a74b316358d73dc229"
+  },
+  "passed": true
+}

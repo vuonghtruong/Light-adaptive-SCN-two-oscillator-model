@@ -1,0 +1,8 @@
+{
+  "regime_cases": 72,
+  "regime_class_counts": {
+    "0": 72
+  },
+  "T22_representative_scale": 2.0,
+  "scope": "Finite last-14-day exposure window; numerical classification is not an asymptotic proof."
+}

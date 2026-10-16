@@ -1,0 +1,16 @@
+parameter,value,unit,scope
+SCN memory e-folding time,240.0,h,D/V memory where present
+Systemic memory e-folding time,240.0,h,X memory
+Behavioral D weight,0.8,dimensionless,Circular phase readout
+SCN-to-X D weight,0.8,dimensionless,Circular phase feedback
+Initial D phase,0.35,rad,All primary simulations
+Initial V phase,0.0,rad,All primary simulations
+Initial X phase,-0.2,rad,All primary simulations
+Initial memories,0.0,dimensionless,All active memories
+Light exposure duration,720.0,h,Before DD release
+DD duration,336.0,h,Period-estimation record
+Primary/final integration step,0.015625,h,Forward Euler
+Saved signal sampling interval,0.25,h,Distinct from integration step
+Screening/initial-ensemble step,0.0625,h,Coarse screening and phase ensembles
+Adaptive-period lower clip,16.0,h,D/V/X where adaptive
+Adaptive-period upper clip,34.0,h,D/V/X where adaptive

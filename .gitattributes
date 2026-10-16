@@ -1,0 +1,2 @@
+# Preserve checksummed inputs and source fingerprints across Git checkouts.
+* -text

@@ -1,0 +1,74 @@
+{
+  "paired_y_limits": {
+    "gain_driver_rad_h": [
+      [
+        -0.25,
+        0.25
+      ],
+      [
+        -0.25,
+        0.25
+      ]
+    ],
+    "circular_phase_h": [
+      [
+        -12.7,
+        12.7
+      ],
+      [
+        -12.7,
+        12.7
+      ]
+    ],
+    "regional_period_h": [
+      [
+        21.0,
+        29.0
+      ],
+      [
+        21.0,
+        29.0
+      ]
+    ],
+    "release_locking_ratio": [
+      [
+        0.001,
+        100.0
+      ],
+      [
+        0.001,
+        100.0
+      ]
+    ]
+  },
+  "all_paired_y_limits_identical": true,
+  "matching_references": {
+    "gain_driver": "horizontal dotted zero in both",
+    "circular_phase": "horizontal and vertical dotted zero in both",
+    "regional_period": "horizontal dotted 24 h and vertical dotted driver zero in both; D solid and V dashed",
+    "release_locking_ratio": "horizontal dashed one and vertical dotted driver zero in both"
+  },
+  "selected_fits": {
+    "D-period-X": {
+      "selected_seed": 3141,
+      "selected_final_objective": 3232314.712131378,
+      "all_run_final_objectives": [
+        5797430.264917504,
+        5797430.264917504,
+        3232314.712131378
+      ],
+      "selected_is_lowest_recorded_final_objective": true
+    },
+    "coupling-X": {
+      "selected_seed": 3141,
+      "selected_final_objective": 21491889.934762985,
+      "all_run_final_objectives": [
+        26375236.02995667,
+        26746839.79589647,
+        21491889.934762985
+      ],
+      "selected_is_lowest_recorded_final_objective": true
+    }
+  },
+  "scope": "Best among three completed recorded search seeds per architecture, not a proof of a global optimum. Gain sweeps perturb the selected solution; only gain scale one is that selected fit."
+}

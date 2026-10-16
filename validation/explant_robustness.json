@@ -1,0 +1,107 @@
+{
+  "source": "Full original equations with selected penalized adaptive-D parameters; no refitting of perturbations",
+  "integration_step_h": 0.015625,
+  "period_record_h": 336,
+  "intact_behavior_T22_minus_T26_h": -1.428020981213642,
+  "coupling_scales": [
+    50.0,
+    75.0,
+    100.0,
+    125.0,
+    150.0
+  ],
+  "memory_retained_percent": [
+    0,
+    50,
+    100
+  ],
+  "D_phase_advance_h": [
+    -2,
+    0,
+    2
+  ],
+  "comparison_rows": 64,
+  "summary": [
+    {
+      "test": "coupling",
+      "memory_retained_percent": 100.0,
+      "region": "D",
+      "combinations": 5,
+      "T22_gt_T26_count": 5,
+      "T22_gt_LD_gt_T26_count": 5,
+      "contrast_min_h": 1.9466697069407566,
+      "contrast_max_h": 3.8015993761175615
+    },
+    {
+      "test": "coupling",
+      "memory_retained_percent": 100.0,
+      "region": "V",
+      "combinations": 5,
+      "T22_gt_T26_count": 5,
+      "T22_gt_LD_gt_T26_count": 5,
+      "contrast_min_h": 1.2435480491546151,
+      "contrast_max_h": 3.3804658329089357
+    },
+    {
+      "test": "memory_phase",
+      "memory_retained_percent": 0.0,
+      "region": "D",
+      "combinations": 9,
+      "T22_gt_T26_count": 9,
+      "T22_gt_LD_gt_T26_count": 9,
+      "contrast_min_h": 0.0322754062334063,
+      "contrast_max_h": 0.12789028570088234
+    },
+    {
+      "test": "memory_phase",
+      "memory_retained_percent": 0.0,
+      "region": "V",
+      "combinations": 9,
+      "T22_gt_T26_count": 9,
+      "T22_gt_LD_gt_T26_count": 9,
+      "contrast_min_h": 0.03623826005327402,
+      "contrast_max_h": 0.13888400734300532
+    },
+    {
+      "test": "memory_phase",
+      "memory_retained_percent": 50.0,
+      "region": "D",
+      "combinations": 9,
+      "T22_gt_T26_count": 9,
+      "T22_gt_LD_gt_T26_count": 9,
+      "contrast_min_h": 0.8210440799030998,
+      "contrast_max_h": 2.308424238014446
+    },
+    {
+      "test": "memory_phase",
+      "memory_retained_percent": 50.0,
+      "region": "V",
+      "combinations": 9,
+      "T22_gt_T26_count": 9,
+      "T22_gt_LD_gt_T26_count": 9,
+      "contrast_min_h": 0.4601619746831922,
+      "contrast_max_h": 2.144390358399477
+    },
+    {
+      "test": "memory_phase",
+      "memory_retained_percent": 100.0,
+      "region": "D",
+      "combinations": 9,
+      "T22_gt_T26_count": 9,
+      "T22_gt_LD_gt_T26_count": 9,
+      "contrast_min_h": 1.523619145124563,
+      "contrast_max_h": 4.274020524013945
+    },
+    {
+      "test": "memory_phase",
+      "memory_retained_percent": 100.0,
+      "region": "V",
+      "combinations": 9,
+      "T22_gt_T26_count": 9,
+      "T22_gt_LD_gt_T26_count": 8,
+      "contrast_min_h": 0.7621721496147629,
+      "contrast_max_h": 3.9072544380674685
+    }
+  ],
+  "interpretation": "Positive regional T22 minus T26 contrasts indicate the ex vivo ordering opposite to the negative intact behavioral contrast. Full memory reset leaves small positive residuals, not exact zero."
+}

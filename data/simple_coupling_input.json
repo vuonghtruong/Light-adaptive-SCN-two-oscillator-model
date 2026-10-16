@@ -1,0 +1,59 @@
+{
+  "source": "condition_specific_coupling_2026-09-22/tables/selected_parameters.json",
+  "source_sha256": "e98a9b4c03d7b985ec651855e1fb5098ad05df941e59f343a4d9dd8fc9023c40",
+  "historical_selected": {
+    "seed": 642,
+    "vector": [
+      23.45284325390273,
+      24.138799197483443,
+      0.006557471736038222,
+      0.009998887747250577,
+      0.04799690666508628,
+      0.6652759938234813,
+      0.0,
+      -0.0032325242918712707,
+      -0.0014577618451184545,
+      -0.014999722714775903,
+      -0.0018757086405566774
+    ],
+    "spectral_score": 32.34445678009043,
+    "screen_score": 32.595537361292614,
+    "all_orderings": true,
+    "minimum_contrast_h": 0.024164182345106866,
+    "contrasts_h": [
+      0.032714581327336845,
+      0.04480763481165795,
+      0.38350763931050835,
+      0.036906375196561925,
+      0.10092318372155873,
+      0.13360618990015638,
+      0.9658277854556161,
+      0.05511772666369552,
+      0.024164182345106866,
+      0.024373260628387072,
+      0.8658830002916851,
+      0.09488175390814746
+    ],
+    "epsilon": 0.009998887747250577,
+    "maximum_LD_period_error_h": 0.002366225362713692,
+    "maximum_LD_cycle_error_rad": 0.001704848061983455,
+    "sign_crossings": 3,
+    "intact_negative_count": 1,
+    "all_baselines_nonpositive": true
+  },
+  "historical_parameters": {
+    "tau_D_h": 23.45284325390273,
+    "tau_V_h": 24.138799197483443,
+    "K_VD_rad_h": 0.006557471736038222,
+    "epsilon_rad_h": 0.009998887747250577,
+    "A_D_rad_h": 0.04799690666508628,
+    "A_V_rad_h": 0.6652759938234813,
+    "K_DV_SP_rad_h": 0.0,
+    "K_DV_LP_rad_h": -0.0032325242918712707,
+    "K_DV_LD_rad_h": -0.0014577618451184545,
+    "K_DV_T22_rad_h": -0.014999722714775903,
+    "K_DV_T26_rad_h": -0.0018757086405566774
+  },
+  "historical_selection": "Refined-period directional agreement and LD regression period errors <0.02 h; epsilon<=0.01; nonpositive baseline couplings. Prefer mixed sign switch/negative intact edges. Lowest spectral score within accepted subset.",
+  "historical_design": "Exploratory construction, not budget matched to shared-memory architectures."
+}

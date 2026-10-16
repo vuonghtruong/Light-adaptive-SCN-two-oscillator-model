@@ -1,0 +1,228 @@
+{
+  "fingerprint": "2a202222565c5822648f983c92bc215305e23c69f86adb008f2abc31012ce86a",
+  "passed": true,
+  "checks": [
+    {
+      "check": "SP identical pre-DD histories",
+      "passed": true
+    },
+    {
+      "check": "SPFalse exact DD relative-phase equation",
+      "error": 8.770172366112661e-10,
+      "passed": true
+    },
+    {
+      "check": "SPTrue exact DD relative-phase equation",
+      "error": 5.6090410094356e-10,
+      "passed": true
+    },
+    {
+      "check": "LP identical pre-DD histories",
+      "passed": true
+    },
+    {
+      "check": "LPFalse exact DD relative-phase equation",
+      "error": 1.2416703221163061e-09,
+      "passed": true
+    },
+    {
+      "check": "LPTrue exact DD relative-phase equation",
+      "error": 1.1069690719622827e-09,
+      "passed": true
+    },
+    {
+      "check": "LD identical pre-DD histories",
+      "passed": true
+    },
+    {
+      "check": "LDFalse exact DD relative-phase equation",
+      "error": 9.613699558652655e-10,
+      "passed": true
+    },
+    {
+      "check": "LDTrue exact DD relative-phase equation",
+      "error": 1.2872601873326062e-09,
+      "passed": true
+    },
+    {
+      "check": "T22 identical pre-DD histories",
+      "passed": true
+    },
+    {
+      "check": "T22False exact DD relative-phase equation",
+      "error": 1.67142077955873e-10,
+      "passed": true
+    },
+    {
+      "check": "T22True exact DD relative-phase equation",
+      "error": 4.155472618783129e-09,
+      "passed": true
+    },
+    {
+      "check": "T26 identical pre-DD histories",
+      "passed": true
+    },
+    {
+      "check": "T26False exact DD relative-phase equation",
+      "error": 4.982462220581851e-10,
+      "passed": true
+    },
+    {
+      "check": "T26True exact DD relative-phase equation",
+      "error": 3.1878855111244775e-10,
+      "passed": true
+    },
+    {
+      "check": "step halving",
+      "error": 6.153699836408677e-05,
+      "passed": true
+    },
+    {
+      "check": "SP zero-offset context identity",
+      "passed": true
+    },
+    {
+      "check": "LP zero-offset context identity",
+      "passed": true
+    },
+    {
+      "check": "LD zero-offset context identity",
+      "passed": true
+    },
+    {
+      "check": "T22 zero-offset context identity",
+      "passed": true
+    },
+    {
+      "check": "T26 zero-offset context identity",
+      "passed": true
+    }
+  ],
+  "model": "two_fixed_period_oscillators_condition_specific_signed_couplings",
+  "shared_parameters": [
+    23.45284325390273,
+    24.138799197483443,
+    0.009998887747250577,
+    0.04799690666508628,
+    0.6652759938234813
+  ],
+  "coupling_pairs": [
+    [
+      0.005,
+      0.0017583333333333335
+    ],
+    [
+      -0.003333333333333334,
+      0.01834166666666667
+    ],
+    [
+      0.005,
+      0.02
+    ],
+    [
+      -0.014999722714775903,
+      0.006557471736038222
+    ],
+    [
+      -0.0018757086405566774,
+      0.006557471736038222
+    ]
+  ],
+  "selected": {
+    "checkpoint": 3,
+    "spectral_score": 27.507962937771858,
+    "all_orderings": true,
+    "minimum_contrast_h": 0.03406058091392694,
+    "maximum_LD_period_error_h": 0.002366225362713692
+  },
+  "all_spectral_orderings": true,
+  "minimum_spectral_contrast_h": 0.03406067725485684,
+  "behavior_RMSE_h": 0.3973137848545788,
+  "exvivo_regional_RMSE_h": 0.3117648139709731,
+  "grid_retained": 75,
+  "grid_total": 1681,
+  "perturbation_summary": [
+    {
+      "relative_radius": 0.01,
+      "retained": 512,
+      "total": 512,
+      "retention_fraction": 1.0,
+      "margin_0_01h_fraction": 1.0,
+      "spectral_checked": 8,
+      "spectral_retained": 8,
+      "spectral_retention_fraction": 1.0
+    },
+    {
+      "relative_radius": 0.02,
+      "retained": 512,
+      "total": 512,
+      "retention_fraction": 1.0,
+      "margin_0_01h_fraction": 1.0,
+      "spectral_checked": 8,
+      "spectral_retained": 8,
+      "spectral_retention_fraction": 1.0
+    },
+    {
+      "relative_radius": 0.05,
+      "retained": 452,
+      "total": 512,
+      "retention_fraction": 0.8828125,
+      "margin_0_01h_fraction": 0.775390625,
+      "spectral_checked": 8,
+      "spectral_retained": 7,
+      "spectral_retention_fraction": 0.875
+    },
+    {
+      "relative_radius": 0.1,
+      "retained": 290,
+      "total": 512,
+      "retention_fraction": 0.56640625,
+      "margin_0_01h_fraction": 0.52734375,
+      "spectral_checked": 8,
+      "spectral_retained": 4,
+      "spectral_retention_fraction": 0.5
+    },
+    {
+      "relative_radius": 0.2,
+      "retained": 149,
+      "total": 512,
+      "retention_fraction": 0.291015625,
+      "margin_0_01h_fraction": 0.26171875,
+      "spectral_checked": 8,
+      "spectral_retained": 0,
+      "spectral_retention_fraction": 0.0
+    }
+  ],
+  "spectral_validation_agreements": 40,
+  "spectral_validation_n": 40,
+  "search": {
+    "method": "deterministic coordinate grids, five passes, same budget per schedule",
+    "bounds": {
+      "K_DV": [
+        -0.02,
+        0.005
+      ],
+      "K_VD": [
+        0.0001,
+        0.02
+      ]
+    },
+    "evaluations_per_condition": 370,
+    "selection": "lowest refined spectral objective among all-12-ordering checkpoints with maximum entrainment period error <0.02 h",
+    "objective": "sum((behavior-target)/0.2)^2 + 0.5*sum_{D,V}((ex-target)/0.25)^2 + 20000*sum(max(0,0.025-ordering_contrast)^2)",
+    "matched_to_main_optimizer": false
+  },
+  "sensitivity": {
+    "seed": 220926,
+    "n_per_radius": 512,
+    "perturbed_parameters": "all ten independently assigned K values and common epsilon",
+    "scale": "independent uniform +/-radius*max(abs(K),epsilon); epsilon +/-radius*epsilon",
+    "criterion": "all twelve contrasts >0; behavior: SP>LD>LP and T26>LD>T22; ex vivo D and V: SP>LD>LP and T22>LD>T26",
+    "grid": "common additive offset to five K_DV versus common epsilon; both LD and DD rerun",
+    "interpretation": "local neighborhood of selected construction, not a global feasible-volume estimate or a matched robustness/generalization comparison"
+  },
+  "output_hashes": {
+    "simple_coupling_results.json": "9a94507fc2be5b16403b6c29d35dd646e27d52d04e016726fe28ebaa349315a8",
+    "simple_coupling_traces.csv.gz": "c3c5076885414172d70f01438a6374fdc28479e0d65dfc476c9a9287b3f4fdb3"
+  }
+}

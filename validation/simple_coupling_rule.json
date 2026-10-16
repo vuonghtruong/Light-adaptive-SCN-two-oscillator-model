@@ -1,0 +1,222 @@
+{
+  "fingerprint": "a204d49d1baa808527d637028234707162c7495dbe86aee329d830a157200113",
+  "construction": "historical_fixed_K_VD",
+  "parameter_source": "data/simple_coupling_input.json:historical_selected.vector",
+  "source_seed": 642,
+  "source_record_sha256": "e98a9b4c03d7b985ec651855e1fb5098ad05df941e59f343a4d9dd8fc9023c40",
+  "refitted": false,
+  "independent_pair_comparison_replaced": false,
+  "shared_parameters": [
+    23.45284325390273,
+    24.138799197483443,
+    0.009998887747250577,
+    0.04799690666508628,
+    0.6652759938234813
+  ],
+  "coupling_pairs": [
+    [
+      0.0,
+      0.006557471736038222
+    ],
+    [
+      -0.0032325242918712707,
+      0.006557471736038222
+    ],
+    [
+      -0.0014577618451184545,
+      0.006557471736038222
+    ],
+    [
+      -0.014999722714775903,
+      0.006557471736038222
+    ],
+    [
+      -0.0018757086405566774,
+      0.006557471736038222
+    ]
+  ],
+  "checks": [
+    {
+      "check": "SP identical pre-DD phases",
+      "passed": true
+    },
+    {
+      "check": "SP systemic offset removed only in explant DD",
+      "passed": true
+    },
+    {
+      "check": "SP invivo exact DD phase equation",
+      "error": 7.625097775409984e-10,
+      "passed": true
+    },
+    {
+      "check": "SP exvivo exact DD phase equation",
+      "error": 7.650111655266301e-10,
+      "passed": true
+    },
+    {
+      "check": "LP identical pre-DD phases",
+      "passed": true
+    },
+    {
+      "check": "LP systemic offset removed only in explant DD",
+      "passed": true
+    },
+    {
+      "check": "LP invivo exact DD phase equation",
+      "error": 9.921049537453541e-10,
+      "passed": true
+    },
+    {
+      "check": "LP exvivo exact DD phase equation",
+      "error": 4.6498982442244596e-10,
+      "passed": true
+    },
+    {
+      "check": "LD identical pre-DD phases",
+      "passed": true
+    },
+    {
+      "check": "LD systemic offset removed only in explant DD",
+      "passed": true
+    },
+    {
+      "check": "LD invivo exact DD phase equation",
+      "error": 9.342786544408455e-10,
+      "passed": true
+    },
+    {
+      "check": "LD exvivo exact DD phase equation",
+      "error": 5.613235432022634e-10,
+      "passed": true
+    },
+    {
+      "check": "T22 identical pre-DD phases",
+      "passed": true
+    },
+    {
+      "check": "T22 systemic offset removed only in explant DD",
+      "passed": true
+    },
+    {
+      "check": "T22 invivo exact DD phase equation",
+      "error": 1.67142077955873e-10,
+      "passed": true
+    },
+    {
+      "check": "T22 exvivo exact DD phase equation",
+      "error": 4.155472618783129e-09,
+      "passed": true
+    },
+    {
+      "check": "T26 identical pre-DD phases",
+      "passed": true
+    },
+    {
+      "check": "T26 systemic offset removed only in explant DD",
+      "passed": true
+    },
+    {
+      "check": "T26 invivo exact DD phase equation",
+      "error": 4.982462220581851e-10,
+      "passed": true
+    },
+    {
+      "check": "T26 exvivo exact DD phase equation",
+      "error": 3.1878855111244775e-10,
+      "passed": true
+    },
+    {
+      "check": "all twelve qualitative spectral orderings",
+      "passed": true
+    },
+    {
+      "check": "shared K_VD",
+      "passed": true
+    }
+  ],
+  "step_halving": [
+    {
+      "condition": "SP",
+      "context": "invivo",
+      "maximum_endpoint_half_step_difference_h": 1.7851938580726312e-05,
+      "passed": true
+    },
+    {
+      "condition": "SP",
+      "context": "exvivo",
+      "maximum_endpoint_half_step_difference_h": 1.7851938580726312e-05,
+      "passed": true
+    },
+    {
+      "condition": "LP",
+      "context": "invivo",
+      "maximum_endpoint_half_step_difference_h": 2.4746495474015084e-05,
+      "passed": true
+    },
+    {
+      "condition": "LP",
+      "context": "exvivo",
+      "maximum_endpoint_half_step_difference_h": 2.4746495474015084e-05,
+      "passed": true
+    },
+    {
+      "condition": "LD",
+      "context": "invivo",
+      "maximum_endpoint_half_step_difference_h": 2.1785490760595216e-05,
+      "passed": true
+    },
+    {
+      "condition": "LD",
+      "context": "exvivo",
+      "maximum_endpoint_half_step_difference_h": 2.1785490760595216e-05,
+      "passed": true
+    },
+    {
+      "condition": "T22",
+      "context": "invivo",
+      "maximum_endpoint_half_step_difference_h": 3.8016538827623236e-05,
+      "passed": true
+    },
+    {
+      "condition": "T22",
+      "context": "exvivo",
+      "maximum_endpoint_half_step_difference_h": 6.153699836408677e-05,
+      "passed": true
+    },
+    {
+      "condition": "T26",
+      "context": "invivo",
+      "maximum_endpoint_half_step_difference_h": 2.274610553154588e-05,
+      "passed": true
+    },
+    {
+      "condition": "T26",
+      "context": "exvivo",
+      "maximum_endpoint_half_step_difference_h": 2.274610553154588e-05,
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "all_spectral_orderings": true,
+  "minimum_spectral_contrast_h": 0.024163206538897697,
+  "behavior_RMSE_h": 0.41036669476912185,
+  "exvivo_regional_RMSE_h": 0.3753765604304211,
+  "integration_step_h": 0.015625,
+  "stored_step_h": 0.25,
+  "entrainment_h": 720,
+  "DD_h": 336,
+  "rule_diagnostics": {
+    "definition": "interpolate a straight line between the two outer conditions, leaving the intermediate LD coefficient out; no coupling is re-estimated",
+    "photoperiod_K_DV_LD_residual_rad_h": 0.00015850030081718085,
+    "Tcycle_K_DV_LD_residual_rad_h": 0.006979953832547835,
+    "absolute_residual_ratio_Tcycle_to_photoperiod": 44.037480033547254,
+    "photoperiod_relative_to_endpoint_span": 0.049032980576745135,
+    "Tcycle_relative_to_endpoint_span": 0.5318459575762903,
+    "interpretation": "descriptive nonlinearity of this assigned example, not a uniquely identified response law or held-out prediction test"
+  },
+  "output_hashes": {
+    "simple_coupling_rule_results.json": "83b8bc4685065794e5aa4903224cb28ba0b69383243a427ec51691f030da5fc6",
+    "simple_coupling_rule_traces.csv.gz": "a65b07507272002632c5797b41c9c92f41f51daffec967e91be8f3d13b4644e6"
+  }
+}

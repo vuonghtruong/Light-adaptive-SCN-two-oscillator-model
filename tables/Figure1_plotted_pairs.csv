@@ -1,0 +1,32 @@
+study,year,age_label,condition_family,condition_label,reporter_behavior,reporter_scn,scn_region,age_category,photoperiod,t_cycle,behavior_mean_period_h,behavior_sem_h,behavior_n,scn_mean_period_h,scn_sem_h,scn_n
+Myung et al.,2015,8-13 wks,photoperiod,8:16 LD,Bmal1-ELuc,Bmal1-ELuc,D-SCN,young,8:16 LD,,23.97,0.04,10.0,23.95,0.43,8.0
+Myung et al.,2015,8-13 wks,photoperiod,16:8 LD,Bmal1-ELuc,Bmal1-ELuc,D-SCN,young,16:8 LD,,23.59,0.05,13.0,22.43,0.23,6.0
+Myung et al.,2015,8-13 wks,photoperiod,12:12 LD,Bmal1-ELuc,Bmal1-ELuc,D-SCN,young,12:12 LD,,23.7,0.1,4.0,22.62,0.28,6.0
+Evans et al.,2013,7-9 wks,photoperiod,20:4 LD,PER2::LUC,PER2::LUC,D-SCN,young,20:4 LD,,23.24,0.06,6.0,23.78,0.16,11.0
+Evans et al.,2013,7-9 wks,photoperiod,12:12 LD,PER2::LUC,PER2::LUC,D-SCN,young,12:12 LD,,23.86,0.02,6.0,23.75,0.15,6.0
+Buijink et al.,2020,4-8 months,photoperiod,16:8 LD,PER2::LUC,PER2::LUC,P-SCN,young,16:8 LD,,23.63,0.06,6.0,24.38,0.21,5.0
+Buijink et al.,2020,4-8 months,photoperiod,18:6 LD,PER2::LUC,PER2::LUC,P-SCN,young,18:6 LD,,23.99,0.01,5.0,23.94,0.12,5.0
+Buijink et al.,2020,22-28 months,photoperiod,16:8 LD,PER2::LUC,PER2::LUC,P-SCN,old,16:8 LD,,23.79,0.06,7.0,24.46,0.1,11.0
+Buijink et al.,2020,22-28 months,photoperiod,18:6 LD,PER2::LUC,PER2::LUC,P-SCN,old,18:6 LD,,23.94,0.04,8.0,24.27,0.31,12.0
+Ciarleglio et al.,2010,post-natal day 21,photoperiod,16:8 LD,Per1::GFP,Per1::GFP,bulk,young,16:8 LD,,23.3,0.2,,23.4,0.32,
+Ciarleglio et al.,2010,post-natal day 21,photoperiod,18:6 LD,Per1::GFP,Per1::GFP,bulk,young,18:6 LD,,24.0,0.16,,24.3,0.22,
+Aton et al.,2004,3-13 wks,T-cycle,T20,,Per1-luc,bulk,young,,T20,23.2,0.1,16.0,23.8,0.1,10.0
+Aton et al.,2004,3-13 wks,T-cycle,T28,,Per1-luc,bulk,young,,T28,24.3,0.1,18.0,23.5,0.1,13.0
+Aton et al.,2004,16-32 wks,T-cycle,T20,,Per1-luc,bulk,adult,,T20,23.4,0.2,6.0,23.9,0.2,3.0
+Aton et al.,2004,16-32 wks,T-cycle,T28,,Per1-luc,bulk,adult,,T28,24.2,0.02,3.0,23.6,0.1,3.0
+Aton et al.,2004,32-64 wks,T-cycle,T20,,Per1-luc,bulk,old,,T20,23.8,0.04,5.0,24.5,0.9,3.0
+Aton et al.,2004,32-64 wks,T-cycle,T28,,Per1-luc,bulk,old,,T28,24.5,0.1,5.0,24.1,0.2,5.0
+Molyneux et al.,2008,15-30 wks,T-cycle,T21,PER2::LUC,PER2::LUC,bulk,adult,,T21,22.81,0.07,25.0,24.82,0.09,17.0
+Molyneux et al.,2008,15-30 wks,T-cycle,T26,PER2::LUC,PER2::LUC,bulk,adult,,T26,24.44,0.03,18.0,23.6,0.14,10.0
+Molyneux et al.,2008,15-30 wks,T-cycle,T28,PER2::LUC,PER2::LUC,bulk,adult,,T28,24.71,0.01,6.0,24.02,0.03,5.0
+Azzi et al.,2017,4-6 wks,T-cycle,T22,PER2::LUC,PER2::LUC,bulk,young,,T22,22.83,0.1,,24.73,0.07,
+Azzi et al.,2017,4-6 wks,T-cycle,T24,PER2::LUC,PER2::LUC,bulk,young,,T24,23.93,0.09,,24.16,0.16,
+Azzi et al.,2017,4-6 wks,T-cycle,T26,PER2::LUC,PER2::LUC,bulk,young,,T26,24.5,0.02,,23.41,0.13,
+Myung et al.,2012,3-4 wks,photoperiod,12:12 LD,Bmal1-ELuc,Bmal1-ELuc,P-SCN,young,12:12 LD,,23.7,0.1,4.0,23.9,0.4,43.0
+Myung et al.,2012,3-4 wks,photoperiod,12:12 LD,PER2::LUC,PER2::LUC,P-SCN,young,12:12 LD,,23.7,0.1,4.0,24.7,0.1,29.0
+Tackenberg et al.,2020,at least 3 weeks,T-cycle x photoperiod,SP T23,PER2::LUC,PER2::LUC,bulk,young,SP,T23,23.25,0.09,8.0,23.99,0.22,8.0
+Tackenberg et al.,2020,at least 3 weeks,T-cycle x photoperiod,SP T24,PER2::LUC,PER2::LUC,bulk,young,SP,T24,23.81,0.05,12.0,23.94,0.23,12.0
+Tackenberg et al.,2020,at least 3 weeks,T-cycle x photoperiod,SP T26,PER2::LUC,PER2::LUC,bulk,young,SP,T26,24.27,0.1,14.0,23.08,0.38,14.0
+Tackenberg et al.,2020,at least 3 weeks,T-cycle x photoperiod,LP T23,PER2::LUC,PER2::LUC,bulk,young,LP,T23,22.94,0.11,10.0,24.46,0.22,10.0
+Tackenberg et al.,2020,at least 3 weeks,T-cycle x photoperiod,LP T24,PER2::LUC,PER2::LUC,bulk,young,LP,T24,23.65,0.07,12.0,23.71,0.16,12.0
+Tackenberg et al.,2020,at least 3 weeks,T-cycle x photoperiod,LP T26,PER2::LUC,PER2::LUC,bulk,young,LP,T26,24.08,0.14,6.0,23.47,0.35,6.0

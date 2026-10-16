@@ -1,0 +1,156 @@
+{
+  "fingerprint": "9744074e81f2446c1057b69c0c2d12a841c45f301eacdf47eb9c60fc96ed10f0",
+  "parameters": {
+    "tau_d0": 24.354281319589745,
+    "tau_x0": 22.4605032956619,
+    "g_x": 38.479824098931836,
+    "gphi_x": 4.496676768248921,
+    "gp_x": -1.5885751288527796,
+    "kvd": 0.019808249074719234,
+    "kdv": 0.017702059460131335,
+    "kx_d": 0.17056852970763678,
+    "kx_v": 0.13385398644826332,
+    "ksx": 0.12940891038551677,
+    "light_amp": 0.41484827682174025,
+    "v_light_boost": 4.614302239481317,
+    "g_d": 4.384649173429544,
+    "tau_v": 24.678035146714194,
+    "gphi_d": -4.963495242099114,
+    "gp_d": 0.4337216059736174,
+    "phase_bias": 0.0,
+    "mem_tau_d": 240.0,
+    "mem_tau_x": 240.0
+  },
+  "groups": {
+    "ensembles": {
+      "elapsed_seconds": 31.631675399956293,
+      "details": {
+        "seed": 1729,
+        "initial_triples": 64,
+        "reference_rows": 640,
+        "prediction_rows": 384,
+        "integration_step_h": 0.0625
+      },
+      "files": {
+        "perturbation_initial_ensemble.csv": "47a115a817cb3a2ac7e7437ae487a4b70fd19f81661664da72eecac97fc49b75",
+        "original_logic_prediction_ensemble.csv": "339ef4fd43de21c3e1354c3fd2078f73b61e4cb70d8bb2c1f495fd88cb642dad"
+      }
+    },
+    "explant": {
+      "elapsed_seconds": 11.841182000003755,
+      "details": {
+        "integration_step_h": 0.015625,
+        "fine_step_h": 0.0078125,
+        "cases": 81,
+        "period_checks": 243,
+        "maximum_period_difference_h": 0.00012393521470599467,
+        "implementation_checks": [
+          {
+            "condition": "LD",
+            "unperturbed_maximum_state_error": 0.0
+          },
+          {
+            "condition": "T22",
+            "unperturbed_maximum_state_error": 0.0
+          },
+          {
+            "condition": "T26",
+            "unperturbed_maximum_state_error": 0.0
+          }
+        ]
+      },
+      "files": {
+        "explant_controls.csv": "8d457c97d8e466e4a0a44842573ba053ecf867c1f9ecd361941d5970c2685eaf",
+        "explant_coupling_sweep.csv": "9e859d0706c4e6884d6e22168a5f956a9b23a660df5a1220c3a83087d8c1244d",
+        "explant_step_halving.csv": "03aa249f7f1c0687596099926fcf4fa34d58e76e5c501b3f30d3231270b6bc5f"
+      }
+    },
+    "weighting": {
+      "elapsed_seconds": 2.7182655000360683,
+      "details": {
+        "cases": 50,
+        "integration_step_h": 0.015625
+      },
+      "files": {
+        "perturbation_weighting.csv": "d2a7d1aadae49bc5a8bd6c28ad71de2169f70429d5100955bedc87818cfbbcae"
+      }
+    },
+    "memory": {
+      "elapsed_seconds": 6.565676800091751,
+      "details": {
+        "test_count": 14,
+        "conditions": 5,
+        "integration_step_h": 0.015625,
+        "alternative_memory_timescales_h": [
+          120.0,
+          480.0
+        ]
+      },
+      "files": {
+        "perturbation_memory_contrasts.csv": "7a954d7afd47972e045160258e107f01d28080b4ab53e5dc3f0823e66537e6dc"
+      }
+    },
+    "diagnostics": {
+      "elapsed_seconds": 2.038632299983874,
+      "details": {
+        "integration_step_h": 0.015625,
+        "long_DD_days": 60,
+        "period_window_days": 5,
+        "bifurcation_definition": "frozen first-seven-day mean natural D period",
+        "branches": 9600
+      },
+      "files": {
+        "perturbation_reference.csv": "f060b13fcfb8a0388339e03b1040e2c43a68f17dcea6ebbf7e11467d6477e741",
+        "original_logic_predictions.csv": "ea237d959d0282a4496cd5df91a633106985ad1fd33eec0c7c56154f9840ff04",
+        "reference_frozen_locking.csv": "8f87c7e4dc667813b7f38300d6f1c03409a634b14b665660746d27b3b6f041ed",
+        "reference_frozen_phase_flow.csv": "7323fb922a6830dd3d776d192ce050fa1ae79a57df1c3f809fb2c9b6207b6434",
+        "reference_long_DD.csv": "a34ae4645e4f1a0f2fb5f835936f8cbbc903b19d925e37a6f802714ab2b53418",
+        "original_logic_phase_reorganization.csv": "08406fea82b3a1c0eea5d1cebc23ffc2cbe373ff33c3ceaae9d028bd256fc867",
+        "original_logic_bifurcation_branches.csv": "31dbea83813d23e6949b3b90b3ed9bb819e13a57397514a9984b51802e794266"
+      }
+    },
+    "reviewer": {
+      "elapsed_seconds": 4.731082699960098,
+      "details": {
+        "regime_cases": 72,
+        "regime_class_counts": {
+          "0": 72
+        },
+        "T22_representative_scale": 2.0,
+        "scope": "Finite last-14-day exposure window; numerical classification is not an asymptotic proof."
+      },
+      "files": {
+        "regime_map.csv": "c42ce1a45c866e660453dd64a088e4255f1d9be7f7009144ffd1c3a8083cc0e5",
+        "T22_additive_trace.csv": "6f1e69b035348b30bfc985fbbfd2b713bb82f331c8e2153531348d135b5bb388",
+        "T22_additive_spectrum.csv": "7e4bc9e175ecf215611c6c0d445c72c0c63f3a3f4f452758bb9f76c91989a3e6",
+        "fixed_period_release.csv": "f74266f3f43804116c5d017cd771c231bfc590afaaff37110a7ea24116ca13ed",
+        "natural_vs_network_windows.csv": "e19e9e7ceda9ef746c7ae298b38a557fc6434b312feaaed3c32d75dd26e8da94"
+      }
+    },
+    "landscape": {
+      "elapsed_seconds": 362.55977550009266,
+      "details": {
+        "cases": 625,
+        "grid_points_per_axis": 25,
+        "requested_halfwidth_gp": 0.35,
+        "requested_halfwidth_gphi": 1.25,
+        "gp_range": [
+          0.08372160597361744,
+          0.7837216059736174
+        ],
+        "gphi_range": [
+          -5.0,
+          -3.713495242099114
+        ],
+        "clipped_to_shared_search_bounds": true,
+        "objective": "common_final_observable_penalty",
+        "scope": "Local two-coordinate slice with all remaining parameters fixed at selected fit; not a new search."
+      },
+      "files": {
+        "original_parameter_landscape.csv": "d7f853816e2b837ec27c5e03c8a91a23ceadec0d5b480815e36298747342aed3"
+      }
+    }
+  },
+  "parameter_source": "reference_model.PARAMS (selected unified D-period-X fit)",
+  "complete": true
+}

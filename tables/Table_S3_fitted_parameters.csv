@@ -1,0 +1,66 @@
+architecture,selected_seed,parameter,symbol,value,unit,lower_bound,upper_bound,role,shared_final_score
+D-period-X,3141,tau_d0,"τD,0",24.354281319589745,h,21.5,24.5,fitted,3232314.712131378
+D-period-X,3141,tau_v0,"τV,0",24.678035146714194,h,23.0,25.8,fitted,3232314.712131378
+D-period-X,3141,tau_x0,"τX,0",22.4605032956619,h,20.5,28.0,fitted,3232314.712131378
+D-period-X,3141,g_d,gD,4.384649173429544,h,1.0,40.0,fitted,3232314.712131378
+D-period-X,3141,g_x,gX,38.479824098931836,h,1.0,40.0,fitted,3232314.712131378
+D-period-X,3141,gphi_s,"gφ,SCN",-4.963495242099114,dimensionless,-5.0,0.0,fitted,3232314.712131378
+D-period-X,3141,gp_s,"gP,SCN",0.4337216059736174,dimensionless,0.0,6.0,fitted,3232314.712131378
+D-period-X,3141,gphi_x,"gφ,X",4.496676768248921,dimensionless,0.0,5.0,fitted,3232314.712131378
+D-period-X,3141,gp_x,"gP,X",-1.5885751288527796,dimensionless,-6.0,0.0,fitted,3232314.712131378
+D-period-X,3141,kvd,"KVD,0 (D→V)",0.019808249074719234,rad/h,0.01,0.075,fitted,3232314.712131378
+D-period-X,3141,kdv,KDV (repulsive V→D),0.017702059460131335,rad/h,0.002,0.05,fitted,3232314.712131378
+D-period-X,3141,kx_d,KXD,0.17056852970763678,rad/h,0.0,0.5,fitted,3232314.712131378
+D-period-X,3141,kx_v,KXV,0.13385398644826332,rad/h,0.0,0.3,fitted,3232314.712131378
+D-period-X,3141,ksx,KSX,0.12940891038551677,rad/h,0.0,0.5,fitted,3232314.712131378
+D-period-X,3141,light_amp,Light amplitude,0.41484827682174025,rad/h,0.005,0.5,fitted,3232314.712131378
+D-period-X,3141,v_light_boost,V light multiplier,4.614302239481317,dimensionless,1.0,60.0,fitted,3232314.712131378
+coupling-X,3141,tau_d0,"τD,0",24.109451329680613,h,21.5,24.5,fitted,21491889.934762985
+coupling-X,3141,tau_v0,"τV,0",24.38636368389978,h,23.0,25.8,fitted,21491889.934762985
+coupling-X,3141,tau_x0,"τX,0",22.269976617826856,h,20.5,28.0,fitted,21491889.934762985
+coupling-X,3141,g_x,gX,16.034533889694814,h,1.0,40.0,fitted,21491889.934762985
+coupling-X,3141,gphi_s,"gφ,SCN",-1.3971757049603846,dimensionless,-5.0,0.0,fitted,21491889.934762985
+coupling-X,3141,gp_s,"gP,SCN",2.993475903281884,dimensionless,0.0,6.0,fitted,21491889.934762985
+coupling-X,3141,gphi_x,"gφ,X",3.9485755900527497,dimensionless,0.0,5.0,fitted,21491889.934762985
+coupling-X,3141,gp_x,"gP,X",-4.996988962023063,dimensionless,-6.0,0.0,fitted,21491889.934762985
+coupling-X,3141,kvd,"KVD,0 (D→V)",0.06840685432636823,rad/h,0.01,0.075,fitted,21491889.934762985
+coupling-X,3141,kdv,KDV (repulsive V→D),0.04322728377783198,rad/h,0.002,0.05,fitted,21491889.934762985
+coupling-X,3141,kx_d,KXD,0.11629129594604325,rad/h,0.0,0.5,fitted,21491889.934762985
+coupling-X,3141,kx_v,KXV,0.20992843473299727,rad/h,0.0,0.3,fitted,21491889.934762985
+coupling-X,3141,ksx,KSX,0.19827962182948503,rad/h,0.0,0.5,fitted,21491889.934762985
+coupling-X,3141,light_amp,Light amplitude,0.06435973212266397,rad/h,0.005,0.5,fitted,21491889.934762985
+coupling-X,3141,v_light_boost,V light multiplier,13.621979277820362,dimensionless,1.0,60.0,fitted,21491889.934762985
+coupling-X,3141,g_coupling,gK,0.3416086329358248,rad/h,-0.5,0.5,fitted,21491889.934762985
+V-period-X,3141,tau_d0,"τD,0",23.34789668502308,h,21.5,24.5,fitted,31320739.768161424
+V-period-X,3141,tau_v0,"τV,0",23.08360400682281,h,23.0,25.8,fitted,31320739.768161424
+V-period-X,3141,tau_x0,"τX,0",23.71512641860911,h,20.5,28.0,fitted,31320739.768161424
+V-period-X,3141,g_x,gX,14.874241745773418,h,1.0,40.0,fitted,31320739.768161424
+V-period-X,3141,gphi_s,"gφ,SCN",-1.1140897666478504,dimensionless,-5.0,0.0,fitted,31320739.768161424
+V-period-X,3141,gp_s,"gP,SCN",2.9184634211266465,dimensionless,0.0,6.0,fitted,31320739.768161424
+V-period-X,3141,gphi_x,"gφ,X",4.639939123455314,dimensionless,0.0,5.0,fitted,31320739.768161424
+V-period-X,3141,gp_x,"gP,X",-5.399568514505223,dimensionless,-6.0,0.0,fitted,31320739.768161424
+V-period-X,3141,kvd,"KVD,0 (D→V)",0.05609094899493324,rad/h,0.01,0.075,fitted,31320739.768161424
+V-period-X,3141,kdv,KDV (repulsive V→D),0.030692377624420904,rad/h,0.002,0.05,fitted,31320739.768161424
+V-period-X,3141,kx_d,KXD,0.2507228244363458,rad/h,0.0,0.5,fitted,31320739.768161424
+V-period-X,3141,kx_v,KXV,0.21011177364767472,rad/h,0.0,0.3,fitted,31320739.768161424
+V-period-X,3141,ksx,KSX,0.3465364175260104,rad/h,0.0,0.5,fitted,31320739.768161424
+V-period-X,3141,light_amp,Light amplitude,0.06218740297334361,rad/h,0.005,0.5,fitted,31320739.768161424
+V-period-X,3141,v_light_boost,V light multiplier,16.31161182546606,dimensionless,1.0,60.0,fitted,31320739.768161424
+V-period-X,3141,g_v,gV,1.0468766634053503,h,1.0,40.0,fitted,31320739.768161424
+joint-DV-period-X,1729,tau_d0,"τD,0",23.959188627026236,h,21.5,24.5,fitted,5797430.264917504
+joint-DV-period-X,1729,tau_v0,"τV,0",24.03289615745812,h,23.0,25.8,fitted,5797430.264917504
+joint-DV-period-X,1729,tau_x0,"τX,0",23.424059198396847,h,20.5,28.0,fitted,5797430.264917504
+joint-DV-period-X,1729,g_d,gD,7.994471106801864,h,1.0,40.0,fitted,5797430.264917504
+joint-DV-period-X,1729,g_x,gX,33.61079695293627,h,1.0,40.0,fitted,5797430.264917504
+joint-DV-period-X,1729,gphi_s,"gφ,SCN",-1.8901263880436137,dimensionless,-5.0,0.0,fitted,5797430.264917504
+joint-DV-period-X,1729,gp_s,"gP,SCN",0.0582106248676755,dimensionless,0.0,6.0,fitted,5797430.264917504
+joint-DV-period-X,1729,gphi_x,"gφ,X",1.9126200300922531,dimensionless,0.0,5.0,fitted,5797430.264917504
+joint-DV-period-X,1729,gp_x,"gP,X",-0.3786567572348343,dimensionless,-6.0,0.0,fitted,5797430.264917504
+joint-DV-period-X,1729,kvd,"KVD,0 (D→V)",0.016,rad/h,0.01,0.075,fitted,5797430.264917504
+joint-DV-period-X,1729,kdv,KDV (repulsive V→D),0.0124249515582331,rad/h,0.002,0.05,fitted,5797430.264917504
+joint-DV-period-X,1729,kx_d,KXD,0.3985972506714376,rad/h,0.0,0.5,fitted,5797430.264917504
+joint-DV-period-X,1729,kx_v,KXV,0.1977809753132276,rad/h,0.0,0.3,fitted,5797430.264917504
+joint-DV-period-X,1729,ksx,KSX,0.3654192872470772,rad/h,0.0,0.5,fitted,5797430.264917504
+joint-DV-period-X,1729,light_amp,Light amplitude,0.3394456257150647,rad/h,0.005,0.5,fitted,5797430.264917504
+joint-DV-period-X,1729,v_light_boost,V light multiplier,18.350755904385736,dimensionless,1.0,60.0,fitted,5797430.264917504
+joint-DV-period-X,1729,g_v,gV,0.0,h,0.0,40.0,fitted,5797430.264917504

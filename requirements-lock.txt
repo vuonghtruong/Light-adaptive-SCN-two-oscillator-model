@@ -1,0 +1,29 @@
+# Reproducible dependency closure of requirements.txt plus packaging.
+# Generated from installed distribution metadata; only active runtime markers
+# are followed. Optional extras and unrelated environment packages are excluded.
+# Reference Python: 3.13.5 (CPython).
+# Reference platform: Windows-10-10.0.19045-SP0; machine: AMD64.
+# This pins Python package versions, not the Python interpreter or system fonts.
+# Install with: python -m pip install -r requirements-lock.txt
+
+astropy==7.0.0
+astropy-iers-data==0.2025.1.13.0.34.51
+contourpy==1.3.1
+cycler==0.11.0
+fonttools==4.55.3
+kiwisolver==1.4.8
+llvmlite==0.44.0
+matplotlib==3.10.0
+numba==0.61.0
+numpy==2.1.3
+packaging==24.2
+pandas==2.2.3
+pillow==11.1.0
+pyerfa==2.0.1.5
+pyparsing==3.2.0
+python-dateutil==2.9.0.post0
+pytz==2024.1
+pyyaml==6.0.2
+scipy==1.15.3
+six==1.17.0
+tzdata==2025.2

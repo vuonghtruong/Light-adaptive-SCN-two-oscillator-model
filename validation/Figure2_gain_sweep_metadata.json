@@ -1,0 +1,34 @@
+{
+  "fingerprint": "1577fe0c9f67bad69e95559f0d777d189393b90f509af943df5c221a37db2a03",
+  "rows": 822,
+  "uniform_gain_scales": 81,
+  "targeted_crossing_samples": 12,
+  "architectures": [
+    "D-period-X",
+    "coupling-X"
+  ],
+  "gain_parameters": {
+    "D-period-X": "g_d",
+    "coupling-X": "g_coupling"
+  },
+  "selected_seeds": {
+    "D-period-X": 3141,
+    "coupling-X": 3141
+  },
+  "dt_h": 0.015625,
+  "protocol": "Complete 720 h exposure plus 336 h ex vivo DD at every gain. X feedback removed only at DD.",
+  "driver": "Actual instantaneous full-model DD-release delta_omega or K_eff.",
+  "phase": "Circular mean of phi_D-phi_V over saved DD0-168 h, wrapped to [-12,12) phase-equivalent h.",
+  "displayed_period": "architecture_model.refined_period: DD0-336 h; Lomb-Scargle search over 12-40 h at 12 samples/peak, followed by bounded refinement. This differs from the 18-30 h discrete fitting grid.",
+  "fit_grid_period": "Original discrete LS grid, 18-30 h, 20 samples/peak; retained for selected-fit equality.",
+  "ratio": "Absolute release delta_omega/K_eff, a frozen diagnostic, not a measured locking classification.",
+  "ratio_poles": "Values with absolute release K_eff <= 1e-10 rad/h are recorded as infinity and omitted from connecting curves. Full-model samples target both sides of each coupling-zero crossing.",
+  "convergence_cases": 39,
+  "maximum_checked_period_difference_h": 0.0063247828193944144,
+  "maximum_checked_circular_phase_difference_h": 0.005112529460689075,
+  "minimum_phase_resultant": 0.4881107265461008,
+  "maximum_baseline_fit_grid_difference_h": 0.0,
+  "all_ex_DD_feedback_zero": true,
+  "all_preDD_feedback_retained": true,
+  "historical_audit": "The previous original_logic_sensitivity table used an illustrative coupling-only gain fit and seven-day-averaged drivers. Its observations were not reused here."
+}
