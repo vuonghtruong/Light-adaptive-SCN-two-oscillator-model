@@ -1,0 +1,4 @@
+quantity,value
+coupling_adaptive_fixed_variance,0.001261
+pearson_r_intact,0.9992
+spearman_rho_intact,0.9762
