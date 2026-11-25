@@ -44,6 +44,7 @@ outputs. No existing outputs are copied into that verification run.
 
 ## Package contents
 
+- [Download all 11 publication SVGs](downloads/SCN_all_figures_SVG.zip) for website upload: Figures 1-4, S1-S6 and the graphical abstract. The ZIP contains the same current SVG exports as the figure folders, with flat filenames.
 - `code/`: model, analysis, rendering and validation routines.
 - `data/`: literature and fitting inputs, plus generated numerical results.
 - `figures/main/`: Figures 1-4 as PDF, SVG and PNG.
