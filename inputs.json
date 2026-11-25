@@ -22,12 +22,12 @@
     },
     {
       "file": "data/tcycle_period_observations.csv",
-      "sha256": "61660e17b85251505137063494b2ce013d38edb4b7b43af5671d4742e02b8cf6",
+      "sha256": "f8390cf383c5f646e93b9c996afe04d03e71090235c3142eb2eedc04b5eae933",
       "role": "literature input; Myung values revised 2026-09-29; source/condition and exposure-history reconciliation 2026-10-18"
     },
     {
       "file": "data/tcycle_selected_scn_observations.csv",
-      "sha256": "ea838dd987e1684660b28e0addbcc30ce0a8583c7633b3fe22581e4e4688e538",
+      "sha256": "b1c6ec96d2ddac58b671fd02d5765a88574975ae32820e716e4901e11bd4b8a7",
       "role": "literature input; Myung values revised 2026-09-29; source/condition and exposure-history reconciliation 2026-10-18"
     },
     {
@@ -92,7 +92,7 @@
     },
     {
       "file": "data/tcycle_selected_scn_behavior_correlation_pairs.csv",
-      "sha256": "01c727458441681c0e9a06ad8bdecb969d6088b7dcc1cb08cc44be84f1778ff9",
+      "sha256": "85de1547f0dab225f1c732ef50b5c268fe27f064a1ae21a54a71b68fad7460f9",
       "role": "literature input; Myung values revised 2026-09-29; source/condition and exposure-history reconciliation 2026-10-18"
     }
   ]
