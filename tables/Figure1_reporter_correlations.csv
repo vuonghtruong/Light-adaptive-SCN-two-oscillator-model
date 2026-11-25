@@ -1,6 +1,6 @@
 panel,family,reporter,branch,n_paired_condition_means,k_independent_studies,pearson_r,interpretation
 G,photoperiod,Bmal1-ELuc,,4,2,0.71800284265562,"Descriptive correlation of plotted condition means; clustered within studies/ages, no inferential p-value. n<3 suppressed."
-G,photoperiod,PER2::LUC,,7,3,0.14040786206975292,"Descriptive correlation of plotted condition means; clustered within studies/ages, no inferential p-value. n<3 suppressed."
+G,photoperiod,PER2::LUC,,7,3,0.1518760795763888,"Descriptive correlation of plotted condition means; clustered within studies/ages, no inferential p-value. n<3 suppressed."
 G,photoperiod,Per1::GFP,,2,1,,"Descriptive correlation of plotted condition means; clustered within studies/ages, no inferential p-value. n<3 suppressed."
 H,T-cycle,PER2::LUC,,6,2,-0.8993693638542224,"Descriptive correlation of plotted condition means; clustered within studies/ages, no inferential p-value. n<3 suppressed."
 H,T-cycle,Per1-luc,,6,1,-0.12666009927622263,"Descriptive correlation of plotted condition means; clustered within studies/ages, no inferential p-value. n<3 suppressed."

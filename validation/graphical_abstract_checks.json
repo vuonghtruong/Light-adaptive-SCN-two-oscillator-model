@@ -1,0 +1,270 @@
+{
+  "passed": true,
+  "date": "2026-10-18",
+  "dimensions_mm": [
+    175,
+    146
+  ],
+  "PNG_dpi": 600,
+  "source": "Current full-model trajectories and dynamic endpoint table used in Figure 3; original July schematic curves superseded.",
+  "trace_sha256": "f77072412835198d9d9662518d511fde790ccd5b6676617e9285bed686d68844",
+  "endpoint_sha256": "593637a6929d2db75e06af98318d2480364ea4032f5eea896a36f554f570574e",
+  "trace_checks": [
+    {
+      "context": "invivo",
+      "region": "D",
+      "range_h": [
+        -72,
+        0
+      ],
+      "points": 289,
+      "exact_coordinate_match": true
+    },
+    {
+      "context": "invivo",
+      "region": "V",
+      "range_h": [
+        -72,
+        0
+      ],
+      "points": 289,
+      "exact_coordinate_match": true
+    },
+    {
+      "context": "invivo",
+      "region": "X",
+      "range_h": [
+        -72,
+        0
+      ],
+      "points": 289,
+      "exact_coordinate_match": true
+    },
+    {
+      "context": "invivo",
+      "region": "D",
+      "range_h": [
+        0,
+        168
+      ],
+      "points": 673,
+      "exact_coordinate_match": true
+    },
+    {
+      "context": "invivo",
+      "region": "V",
+      "range_h": [
+        0,
+        168
+      ],
+      "points": 673,
+      "exact_coordinate_match": true
+    },
+    {
+      "context": "invivo",
+      "region": "X",
+      "range_h": [
+        0,
+        168
+      ],
+      "points": 673,
+      "exact_coordinate_match": true
+    },
+    {
+      "context": "exvivo",
+      "region": "D",
+      "range_h": [
+        0,
+        168
+      ],
+      "points": 673,
+      "exact_coordinate_match": true
+    },
+    {
+      "context": "exvivo",
+      "region": "V",
+      "range_h": [
+        0,
+        168
+      ],
+      "points": 673,
+      "exact_coordinate_match": true
+    }
+  ],
+  "period_records": [
+    {
+      "condition": "LP",
+      "ex_vivo": false,
+      "column": "behavior_h",
+      "period_h": 23.494576924677485
+    },
+    {
+      "condition": "LD",
+      "ex_vivo": false,
+      "column": "behavior_h",
+      "period_h": 23.74800485368228
+    },
+    {
+      "condition": "SP",
+      "ex_vivo": false,
+      "column": "behavior_h",
+      "period_h": 24.033178220352653
+    },
+    {
+      "condition": "LP",
+      "ex_vivo": true,
+      "column": "D_h",
+      "period_h": 23.41258616528015
+    },
+    {
+      "condition": "LD",
+      "ex_vivo": true,
+      "column": "D_h",
+      "period_h": 23.611683531347506
+    },
+    {
+      "condition": "SP",
+      "ex_vivo": true,
+      "column": "D_h",
+      "period_h": 23.971057763357088
+    },
+    {
+      "condition": "LP",
+      "ex_vivo": true,
+      "column": "V_h",
+      "period_h": 23.656493345132123
+    },
+    {
+      "condition": "LD",
+      "ex_vivo": true,
+      "column": "V_h",
+      "period_h": 23.82873400346719
+    },
+    {
+      "condition": "SP",
+      "ex_vivo": true,
+      "column": "V_h",
+      "period_h": 24.138480301206684
+    },
+    {
+      "condition": "T22",
+      "ex_vivo": false,
+      "column": "behavior_h",
+      "period_h": 22.96055150885384
+    },
+    {
+      "condition": "LD",
+      "ex_vivo": false,
+      "column": "behavior_h",
+      "period_h": 23.74800485368228
+    },
+    {
+      "condition": "T26",
+      "ex_vivo": false,
+      "column": "behavior_h",
+      "period_h": 24.38857249006748
+    },
+    {
+      "condition": "T22",
+      "ex_vivo": true,
+      "column": "D_h",
+      "period_h": 25.527718113791185
+    },
+    {
+      "condition": "LD",
+      "ex_vivo": true,
+      "column": "D_h",
+      "period_h": 23.611683531347506
+    },
+    {
+      "condition": "T26",
+      "ex_vivo": true,
+      "column": "D_h",
+      "period_h": 22.592055778472
+    },
+    {
+      "condition": "T22",
+      "ex_vivo": true,
+      "column": "V_h",
+      "period_h": 25.46047983826764
+    },
+    {
+      "condition": "LD",
+      "ex_vivo": true,
+      "column": "V_h",
+      "period_h": 23.82873400346719
+    },
+    {
+      "condition": "T26",
+      "ex_vivo": true,
+      "column": "V_h",
+      "period_h": 23.079692844432827
+    }
+  ],
+  "light_intervals_relative_DD_h": [
+    [
+      -72.0,
+      -71.0
+    ],
+    [
+      -60.0,
+      -49.0
+    ],
+    [
+      -38.0,
+      -27.0
+    ],
+    [
+      -16.0,
+      -5.0
+    ]
+  ],
+  "conventions": {
+    "repulsive": "V to D: straight bar at D/left receiving end",
+    "attractive": "D to V: open circle at V/right receiving end"
+  },
+  "labels": {
+    "SP": "8:16 SP",
+    "LP": "16:8 LP",
+    "LD": "12:12 LD",
+    "X": "No direct photic phase forcing",
+    "dorsal_history": "M_D -> tau_D",
+    "systemic_history": "M_X -> tau_X"
+  },
+  "period_summary_gridlines_visible": [
+    0,
+    0
+  ],
+  "period_estimator": "Refined estimates over the complete 14-day DD record, as in Figure 3",
+  "fitted_parameters_changed": false,
+  "model_reintegrated": false,
+  "experimental_error_bars": false,
+  "independent_render_verification": {
+    "passed": true,
+    "scope": "Independent graphical-abstract rendering from only code and the current validated trace/endpoint inputs; no pre-existing figure files copied.",
+    "files": [
+      {
+        "file": "figures/graphical_abstract/Graphical_abstract.pdf",
+        "identical_bytes": true,
+        "sha256": "b5f510d2479d7848e90fbf94ee56586354b6bb23c019398dfcf6fa78db51cd4b"
+      },
+      {
+        "file": "figures/graphical_abstract/Graphical_abstract.svg",
+        "identical_bytes": true,
+        "sha256": "8f11ef967cfae9ff3e501dd516c970d3d866fcee02d2bae8e251ec91d00f01ac"
+      },
+      {
+        "file": "figures/graphical_abstract/Graphical_abstract.png",
+        "identical_bytes": true,
+        "sha256": "250086d6fe62984a5439eb4e5a869cc4d101a4408894d1800c9b0b9747e41e36"
+      }
+    ]
+  },
+  "package_checks_passed": 132,
+  "latest_followup": "See validation/x_memory_clarification.json: existing X history made explicit; C grids removed; numerical coordinates unchanged.",
+  "visual_review": {
+    "A4_actual_size_passed": true,
+    "caption_passed": true,
+    "unresolved_overlap_or_clipping": 0
+  }
+}

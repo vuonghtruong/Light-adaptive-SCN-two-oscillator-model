@@ -1,0 +1,2588 @@
+{
+  "passed": true,
+  "revision_date": "2026-10-18",
+  "scope": "Original-source reconciliation of Buijink and Ciarleglio photoperiod groups; Buijink mean/SD/n corrections and SEM conversion; Ciarleglio exposure history and assay age; regenerated Figure 1/S4 and literature statistics/provenance.",
+  "supersedes": "September 29 Buijink/Ciarleglio 18:6 placements. Myung numerical corrections and October T-cycle assignments retained.",
+  "source_verification": [
+    {
+      "study": "Buijink et al. 2020",
+      "doi": "10.1177/0748730419900867",
+      "article": "https://www.johannahmeijer.com/wp-content/uploads/2020/06/Aging-affects-photoperiod-adapat.-downstream-central-clock.pdf",
+      "supplement_retrieval": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7134598/supplementaryFiles",
+      "supplement_sha256": "bfe1473e058588a830660e699526a771289e138c096f9078ff33cd89b453ebd2",
+      "verified": "Original supplemental Table S2 Tau (h), Table S3 Period length (h): mean +/- SD, sample size and LP/SP group. Article Methods: LP=16:8, SP=8:16; exposure sequence. Tables inspected as rasterized original EMF images.",
+      "source_panel_label_discrepancy": "Supplement S2 calls Tau Figure 2D; article places Tau in Figure 2C. Metric label identifies the row."
+    },
+    {
+      "study": "Ciarleglio et al. 2011 (online 2010)",
+      "doi": "10.1038/nn.2699",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3058292/",
+      "verified": "Indexed original full text and Figure 1 caption: short 8:16 / equinox 12:12 / long 16:8 developmental groups; developmental main effects pooled across continuation conditions; developmental exposure to weaning plus four weeks continuation; assay approximately seven weeks. Behavior first 3 DD days; SCN first full ex vivo cycle.",
+      "limitation": "Existing numerical means/SEMs retained from manuscript extraction, not independently re-digitized. Individual continuation-specific measurements and sample sizes not reconstructed from pooled means."
+    }
+  ],
+  "corrected_Buijink_source_values": [
+    {
+      "age": "4-8 months",
+      "condition": "16:8 LD",
+      "region": "behavior",
+      "mean_h": 23.63,
+      "SD_h": 0.15,
+      "n": 6,
+      "SEM_h": 0.06123724356957946
+    },
+    {
+      "age": "4-8 months",
+      "condition": "8:16 LD",
+      "region": "behavior",
+      "mean_h": 23.97,
+      "SD_h": 0.04,
+      "n": 6,
+      "SEM_h": 0.016329931618554522
+    },
+    {
+      "age": "22-28 months",
+      "condition": "16:8 LD",
+      "region": "behavior",
+      "mean_h": 23.79,
+      "SD_h": 0.17,
+      "n": 7,
+      "SEM_h": 0.06425396041156863
+    },
+    {
+      "age": "22-28 months",
+      "condition": "8:16 LD",
+      "region": "behavior",
+      "mean_h": 23.95,
+      "SD_h": 0.11,
+      "n": 8,
+      "SEM_h": 0.038890872965260115
+    },
+    {
+      "age": "4-8 months",
+      "condition": "16:8 LD",
+      "region": "A-SCN",
+      "mean_h": 24.61,
+      "SD_h": 0.32,
+      "n": 5,
+      "SEM_h": 0.14310835055998652
+    },
+    {
+      "age": "4-8 months",
+      "condition": "8:16 LD",
+      "region": "A-SCN",
+      "mean_h": 24.6,
+      "SD_h": 0.22,
+      "n": 5,
+      "SEM_h": 0.09838699100999074
+    },
+    {
+      "age": "4-8 months",
+      "condition": "16:8 LD",
+      "region": "P-SCN",
+      "mean_h": 24.38,
+      "SD_h": 0.21,
+      "n": 5,
+      "SEM_h": 0.09391485505499116
+    },
+    {
+      "age": "4-8 months",
+      "condition": "8:16 LD",
+      "region": "P-SCN",
+      "mean_h": 23.94,
+      "SD_h": 0.12,
+      "n": 5,
+      "SEM_h": 0.05366563145999495
+    },
+    {
+      "age": "22-28 months",
+      "condition": "16:8 LD",
+      "region": "A-SCN",
+      "mean_h": 24.37,
+      "SD_h": 0.29,
+      "n": 9,
+      "SEM_h": 0.09666666666666666
+    },
+    {
+      "age": "22-28 months",
+      "condition": "8:16 LD",
+      "region": "A-SCN",
+      "mean_h": 24.51,
+      "SD_h": 0.33,
+      "n": 13,
+      "SEM_h": 0.09152553237716281
+    },
+    {
+      "age": "22-28 months",
+      "condition": "16:8 LD",
+      "region": "P-SCN",
+      "mean_h": 24.46,
+      "SD_h": 0.17,
+      "n": 11,
+      "SEM_h": 0.05125692857821982
+    },
+    {
+      "age": "22-28 months",
+      "condition": "8:16 LD",
+      "region": "P-SCN",
+      "mean_h": 24.27,
+      "SD_h": 0.31,
+      "n": 12,
+      "SEM_h": 0.089489291724392
+    }
+  ],
+  "condition_and_metadata_changes": [
+    {
+      "file": "tcycle_period_observations.csv",
+      "row": 30,
+      "study": "Buijink et al.",
+      "fields": {
+        "notes": {
+          "before": "Author-confirmed 2026-09-29: manuscript Table S7A p. 73-74; supersedes archived extraction.",
+          "after": "Photoperiod source reconciliation 2026-10-18: original Figures 2C/3C identify the existing 16:8 group as LP; the former 18:6 group is SP (8:16). Supersedes the September placement instruction. Numerical means and archived uncertainty/sample-size fields retained, not independently re-digitized. Original figure captions describe SD; archived SEM provenance requires supplemental-table confirmation."
+        },
+        "photoperiod_basis": {
+          "before": "",
+          "after": "adult seasonal exposure"
+        },
+        "developmental_photoperiod": {
+          "before": "",
+          "after": "not specified"
+        },
+        "developmental_exposure_window": {
+          "before": "",
+          "after": "not specified"
+        },
+        "continuation_photoperiod": {
+          "before": "",
+          "after": "16:8 LD"
+        },
+        "continuation_duration": {
+          "before": "",
+          "after": "PP1: 28 days; DD: 11-14 days; PP2: at least 14 days, same LD as PP1"
+        },
+        "assay_age": {
+          "before": "",
+          "after": "4-8 months"
+        },
+        "aggregation_basis": {
+          "before": "",
+          "after": "age and photoperiod group; SCN region retained"
+        },
+        "measurement_window": {
+          "before": "",
+          "after": "Behavior: first 10 days in DD; SCN: first 3 ex vivo cycles after PP2"
+        },
+        "source_reference": {
+          "before": "",
+          "after": "10.1177/0748730419900867; Methods; Figures 2C and 3C"
+        }
+      }
+    },
+    {
+      "file": "tcycle_period_observations.csv",
+      "row": 31,
+      "study": "Buijink et al.",
+      "fields": {
+        "condition_label": {
+          "before": "18:6 LD",
+          "after": "8:16 LD"
+        },
+        "photoperiod": {
+          "before": "18:6 LD",
+          "after": "8:16 LD"
+        },
+        "notes": {
+          "before": "Author-confirmed 2026-09-29: manuscript Table S7A p. 73-74; supersedes archived extraction.",
+          "after": "Photoperiod source reconciliation 2026-10-18: original Figures 2C/3C identify the existing 16:8 group as LP; the former 18:6 group is SP (8:16). Supersedes the September placement instruction. Numerical means and archived uncertainty/sample-size fields retained, not independently re-digitized. Original figure captions describe SD; archived SEM provenance requires supplemental-table confirmation."
+        },
+        "photoperiod_basis": {
+          "before": "",
+          "after": "adult seasonal exposure"
+        },
+        "developmental_photoperiod": {
+          "before": "",
+          "after": "not specified"
+        },
+        "developmental_exposure_window": {
+          "before": "",
+          "after": "not specified"
+        },
+        "continuation_photoperiod": {
+          "before": "",
+          "after": "8:16 LD"
+        },
+        "continuation_duration": {
+          "before": "",
+          "after": "PP1: 28 days; DD: 11-14 days; PP2: at least 14 days, same LD as PP1"
+        },
+        "assay_age": {
+          "before": "",
+          "after": "4-8 months"
+        },
+        "aggregation_basis": {
+          "before": "",
+          "after": "age and photoperiod group; SCN region retained"
+        },
+        "measurement_window": {
+          "before": "",
+          "after": "Behavior: first 10 days in DD; SCN: first 3 ex vivo cycles after PP2"
+        },
+        "source_reference": {
+          "before": "",
+          "after": "10.1177/0748730419900867; Methods; Figures 2C and 3C"
+        }
+      }
+    },
+    {
+      "file": "tcycle_period_observations.csv",
+      "row": 32,
+      "study": "Buijink et al.",
+      "fields": {
+        "notes": {
+          "before": "Author-confirmed 2026-09-29: manuscript Table S7A p. 73-74; supersedes archived extraction.",
+          "after": "Photoperiod source reconciliation 2026-10-18: original Figures 2C/3C identify the existing 16:8 group as LP; the former 18:6 group is SP (8:16). Supersedes the September placement instruction. Numerical means and archived uncertainty/sample-size fields retained, not independently re-digitized. Original figure captions describe SD; archived SEM provenance requires supplemental-table confirmation."
+        },
+        "photoperiod_basis": {
+          "before": "",
+          "after": "adult seasonal exposure"
+        },
+        "developmental_photoperiod": {
+          "before": "",
+          "after": "not specified"
+        },
+        "developmental_exposure_window": {
+          "before": "",
+          "after": "not specified"
+        },
+        "continuation_photoperiod": {
+          "before": "",
+          "after": "16:8 LD"
+        },
+        "continuation_duration": {
+          "before": "",
+          "after": "PP1: 28 days; DD: 11-14 days; PP2: at least 14 days, same LD as PP1"
+        },
+        "assay_age": {
+          "before": "",
+          "after": "4-8 months"
+        },
+        "aggregation_basis": {
+          "before": "",
+          "after": "age and photoperiod group; SCN region retained"
+        },
+        "measurement_window": {
+          "before": "",
+          "after": "Behavior: first 10 days in DD; SCN: first 3 ex vivo cycles after PP2"
+        },
+        "source_reference": {
+          "before": "",
+          "after": "10.1177/0748730419900867; Methods; Figures 2C and 3C"
+        }
+      }
+    },
+    {
+      "file": "tcycle_period_observations.csv",
+      "row": 33,
+      "study": "Buijink et al.",
+      "fields": {
+        "condition_label": {
+          "before": "18:6 LD",
+          "after": "8:16 LD"
+        },
+        "photoperiod": {
+          "before": "18:6 LD",
+          "after": "8:16 LD"
+        },
+        "notes": {
+          "before": "Author-confirmed 2026-09-29: manuscript Table S7A p. 73-74; supersedes archived extraction.",
+          "after": "Photoperiod source reconciliation 2026-10-18: original Figures 2C/3C identify the existing 16:8 group as LP; the former 18:6 group is SP (8:16). Supersedes the September placement instruction. Numerical means and archived uncertainty/sample-size fields retained, not independently re-digitized. Original figure captions describe SD; archived SEM provenance requires supplemental-table confirmation."
+        },
+        "photoperiod_basis": {
+          "before": "",
+          "after": "adult seasonal exposure"
+        },
+        "developmental_photoperiod": {
+          "before": "",
+          "after": "not specified"
+        },
+        "developmental_exposure_window": {
+          "before": "",
+          "after": "not specified"
+        },
+        "continuation_photoperiod": {
+          "before": "",
+          "after": "8:16 LD"
+        },
+        "continuation_duration": {
+          "before": "",
+          "after": "PP1: 28 days; DD: 11-14 days; PP2: at least 14 days, same LD as PP1"
+        },
+        "assay_age": {
+          "before": "",
+          "after": "4-8 months"
+        },
+        "aggregation_basis": {
+          "before": "",
+          "after": "age and photoperiod group; SCN region retained"
+        },
+        "measurement_window": {
+          "before": "",
+          "after": "Behavior: first 10 days in DD; SCN: first 3 ex vivo cycles after PP2"
+        },
+        "source_reference": {
+          "before": "",
+          "after": "10.1177/0748730419900867; Methods; Figures 2C and 3C"
+        }
+      }
+    },
+    {
+      "file": "tcycle_period_observations.csv",
+      "row": 34,
+      "study": "Buijink et al.",
+      "fields": {
+        "notes": {
+          "before": "Author-confirmed 2026-09-29: manuscript Table S7A p. 73-74; supersedes archived extraction.",
+          "after": "Photoperiod source reconciliation 2026-10-18: original Figures 2C/3C identify the existing 16:8 group as LP; the former 18:6 group is SP (8:16). Supersedes the September placement instruction. Numerical means and archived uncertainty/sample-size fields retained, not independently re-digitized. Original figure captions describe SD; archived SEM provenance requires supplemental-table confirmation."
+        },
+        "photoperiod_basis": {
+          "before": "",
+          "after": "adult seasonal exposure"
+        },
+        "developmental_photoperiod": {
+          "before": "",
+          "after": "not specified"
+        },
+        "developmental_exposure_window": {
+          "before": "",
+          "after": "not specified"
+        },
+        "continuation_photoperiod": {
+          "before": "",
+          "after": "16:8 LD"
+        },
+        "continuation_duration": {
+          "before": "",
+          "after": "PP1: 28 days; DD: 11-14 days; PP2: at least 14 days, same LD as PP1"
+        },
+        "assay_age": {
+          "before": "",
+          "after": "4-8 months"
+        },
+        "aggregation_basis": {
+          "before": "",
+          "after": "age and photoperiod group; SCN region retained"
+        },
+        "measurement_window": {
+          "before": "",
+          "after": "Behavior: first 10 days in DD; SCN: first 3 ex vivo cycles after PP2"
+        },
+        "source_reference": {
+          "before": "",
+          "after": "10.1177/0748730419900867; Methods; Figures 2C and 3C"
+        }
+      }
+    },
+    {
+      "file": "tcycle_period_observations.csv",
+      "row": 35,
+      "study": "Buijink et al.",
+      "fields": {
+        "condition_label": {
+          "before": "18:6 LD",
+          "after": "8:16 LD"
+        },
+        "photoperiod": {
+          "before": "18:6 LD",
+          "after": "8:16 LD"
+        },
+        "notes": {
+          "before": "Author-confirmed 2026-09-29: manuscript Table S7A p. 73-74; supersedes archived extraction.",
+          "after": "Photoperiod source reconciliation 2026-10-18: original Figures 2C/3C identify the existing 16:8 group as LP; the former 18:6 group is SP (8:16). Supersedes the September placement instruction. Numerical means and archived uncertainty/sample-size fields retained, not independently re-digitized. Original figure captions describe SD; archived SEM provenance requires supplemental-table confirmation."
+        },
+        "photoperiod_basis": {
+          "before": "",
+          "after": "adult seasonal exposure"
+        },
+        "developmental_photoperiod": {
+          "before": "",
+          "after": "not specified"
+        },
+        "developmental_exposure_window": {
+          "before": "",
+          "after": "not specified"
+        },
+        "continuation_photoperiod": {
+          "before": "",
+          "after": "8:16 LD"
+        },
+        "continuation_duration": {
+          "before": "",
+          "after": "PP1: 28 days; DD: 11-14 days; PP2: at least 14 days, same LD as PP1"
+        },
+        "assay_age": {
+          "before": "",
+          "after": "4-8 months"
+        },
+        "aggregation_basis": {
+          "before": "",
+          "after": "age and photoperiod group; SCN region retained"
+        },
+        "measurement_window": {
+          "before": "",
+          "after": "Behavior: first 10 days in DD; SCN: first 3 ex vivo cycles after PP2"
+        },
+        "source_reference": {
+          "before": "",
+          "after": "10.1177/0748730419900867; Methods; Figures 2C and 3C"
+        }
+      }
+    },
+    {
+      "file": "tcycle_period_observations.csv",
+      "row": 36,
+      "study": "Buijink et al.",
+      "fields": {
+        "notes": {
+          "before": "Author-confirmed 2026-09-29: manuscript Table S7A p. 73-74; supersedes archived extraction.",
+          "after": "Photoperiod source reconciliation 2026-10-18: original Figures 2C/3C identify the existing 16:8 group as LP; the former 18:6 group is SP (8:16). Supersedes the September placement instruction. Numerical means and archived uncertainty/sample-size fields retained, not independently re-digitized. Original figure captions describe SD; archived SEM provenance requires supplemental-table confirmation."
+        },
+        "photoperiod_basis": {
+          "before": "",
+          "after": "adult seasonal exposure"
+        },
+        "developmental_photoperiod": {
+          "before": "",
+          "after": "not specified"
+        },
+        "developmental_exposure_window": {
+          "before": "",
+          "after": "not specified"
+        },
+        "continuation_photoperiod": {
+          "before": "",
+          "after": "16:8 LD"
+        },
+        "continuation_duration": {
+          "before": "",
+          "after": "PP1: 28 days; DD: 11-14 days; PP2: at least 14 days, same LD as PP1"
+        },
+        "assay_age": {
+          "before": "",
+          "after": "22-28 months"
+        },
+        "aggregation_basis": {
+          "before": "",
+          "after": "age and photoperiod group; SCN region retained"
+        },
+        "measurement_window": {
+          "before": "",
+          "after": "Behavior: first 10 days in DD; SCN: first 3 ex vivo cycles after PP2"
+        },
+        "source_reference": {
+          "before": "",
+          "after": "10.1177/0748730419900867; Methods; Figures 2C and 3C"
+        }
+      }
+    },
+    {
+      "file": "tcycle_period_observations.csv",
+      "row": 37,
+      "study": "Buijink et al.",
+      "fields": {
+        "condition_label": {
+          "before": "18:6 LD",
+          "after": "8:16 LD"
+        },
+        "photoperiod": {
+          "before": "18:6 LD",
+          "after": "8:16 LD"
+        },
+        "notes": {
+          "before": "Author-confirmed 2026-09-29: manuscript Table S7A p. 73-74; supersedes archived extraction.",
+          "after": "Photoperiod source reconciliation 2026-10-18: original Figures 2C/3C identify the existing 16:8 group as LP; the former 18:6 group is SP (8:16). Supersedes the September placement instruction. Numerical means and archived uncertainty/sample-size fields retained, not independently re-digitized. Original figure captions describe SD; archived SEM provenance requires supplemental-table confirmation."
+        },
+        "photoperiod_basis": {
+          "before": "",
+          "after": "adult seasonal exposure"
+        },
+        "developmental_photoperiod": {
+          "before": "",
+          "after": "not specified"
+        },
+        "developmental_exposure_window": {
+          "before": "",
+          "after": "not specified"
+        },
+        "continuation_photoperiod": {
+          "before": "",
+          "after": "8:16 LD"
+        },
+        "continuation_duration": {
+          "before": "",
+          "after": "PP1: 28 days; DD: 11-14 days; PP2: at least 14 days, same LD as PP1"
+        },
+        "assay_age": {
+          "before": "",
+          "after": "22-28 months"
+        },
+        "aggregation_basis": {
+          "before": "",
+          "after": "age and photoperiod group; SCN region retained"
+        },
+        "measurement_window": {
+          "before": "",
+          "after": "Behavior: first 10 days in DD; SCN: first 3 ex vivo cycles after PP2"
+        },
+        "source_reference": {
+          "before": "",
+          "after": "10.1177/0748730419900867; Methods; Figures 2C and 3C"
+        }
+      }
+    },
+    {
+      "file": "tcycle_period_observations.csv",
+      "row": 38,
+      "study": "Buijink et al.",
+      "fields": {
+        "notes": {
+          "before": "Author-confirmed 2026-09-29: manuscript Table S7A p. 73-74; supersedes archived extraction.",
+          "after": "Photoperiod source reconciliation 2026-10-18: original Figures 2C/3C identify the existing 16:8 group as LP; the former 18:6 group is SP (8:16). Supersedes the September placement instruction. Numerical means and archived uncertainty/sample-size fields retained, not independently re-digitized. Original figure captions describe SD; archived SEM provenance requires supplemental-table confirmation."
+        },
+        "photoperiod_basis": {
+          "before": "",
+          "after": "adult seasonal exposure"
+        },
+        "developmental_photoperiod": {
+          "before": "",
+          "after": "not specified"
+        },
+        "developmental_exposure_window": {
+          "before": "",
+          "after": "not specified"
+        },
+        "continuation_photoperiod": {
+          "before": "",
+          "after": "16:8 LD"
+        },
+        "continuation_duration": {
+          "before": "",
+          "after": "PP1: 28 days; DD: 11-14 days; PP2: at least 14 days, same LD as PP1"
+        },
+        "assay_age": {
+          "before": "",
+          "after": "22-28 months"
+        },
+        "aggregation_basis": {
+          "before": "",
+          "after": "age and photoperiod group; SCN region retained"
+        },
+        "measurement_window": {
+          "before": "",
+          "after": "Behavior: first 10 days in DD; SCN: first 3 ex vivo cycles after PP2"
+        },
+        "source_reference": {
+          "before": "",
+          "after": "10.1177/0748730419900867; Methods; Figures 2C and 3C"
+        }
+      }
+    },
+    {
+      "file": "tcycle_period_observations.csv",
+      "row": 39,
+      "study": "Buijink et al.",
+      "fields": {
+        "condition_label": {
+          "before": "18:6 LD",
+          "after": "8:16 LD"
+        },
+        "photoperiod": {
+          "before": "18:6 LD",
+          "after": "8:16 LD"
+        },
+        "notes": {
+          "before": "Author-confirmed 2026-09-29: manuscript Table S7A p. 73-74; supersedes archived extraction.",
+          "after": "Photoperiod source reconciliation 2026-10-18: original Figures 2C/3C identify the existing 16:8 group as LP; the former 18:6 group is SP (8:16). Supersedes the September placement instruction. Numerical means and archived uncertainty/sample-size fields retained, not independently re-digitized. Original figure captions describe SD; archived SEM provenance requires supplemental-table confirmation."
+        },
+        "photoperiod_basis": {
+          "before": "",
+          "after": "adult seasonal exposure"
+        },
+        "developmental_photoperiod": {
+          "before": "",
+          "after": "not specified"
+        },
+        "developmental_exposure_window": {
+          "before": "",
+          "after": "not specified"
+        },
+        "continuation_photoperiod": {
+          "before": "",
+          "after": "8:16 LD"
+        },
+        "continuation_duration": {
+          "before": "",
+          "after": "PP1: 28 days; DD: 11-14 days; PP2: at least 14 days, same LD as PP1"
+        },
+        "assay_age": {
+          "before": "",
+          "after": "22-28 months"
+        },
+        "aggregation_basis": {
+          "before": "",
+          "after": "age and photoperiod group; SCN region retained"
+        },
+        "measurement_window": {
+          "before": "",
+          "after": "Behavior: first 10 days in DD; SCN: first 3 ex vivo cycles after PP2"
+        },
+        "source_reference": {
+          "before": "",
+          "after": "10.1177/0748730419900867; Methods; Figures 2C and 3C"
+        }
+      }
+    },
+    {
+      "file": "tcycle_period_observations.csv",
+      "row": 40,
+      "study": "Buijink et al.",
+      "fields": {
+        "notes": {
+          "before": "Author-confirmed 2026-09-29: manuscript Table S7A p. 73-74; supersedes archived extraction.",
+          "after": "Photoperiod source reconciliation 2026-10-18: original Figures 2C/3C identify the existing 16:8 group as LP; the former 18:6 group is SP (8:16). Supersedes the September placement instruction. Numerical means and archived uncertainty/sample-size fields retained, not independently re-digitized. Original figure captions describe SD; archived SEM provenance requires supplemental-table confirmation."
+        },
+        "photoperiod_basis": {
+          "before": "",
+          "after": "adult seasonal exposure"
+        },
+        "developmental_photoperiod": {
+          "before": "",
+          "after": "not specified"
+        },
+        "developmental_exposure_window": {
+          "before": "",
+          "after": "not specified"
+        },
+        "continuation_photoperiod": {
+          "before": "",
+          "after": "16:8 LD"
+        },
+        "continuation_duration": {
+          "before": "",
+          "after": "PP1: 28 days; DD: 11-14 days; PP2: at least 14 days, same LD as PP1"
+        },
+        "assay_age": {
+          "before": "",
+          "after": "22-28 months"
+        },
+        "aggregation_basis": {
+          "before": "",
+          "after": "age and photoperiod group; SCN region retained"
+        },
+        "measurement_window": {
+          "before": "",
+          "after": "Behavior: first 10 days in DD; SCN: first 3 ex vivo cycles after PP2"
+        },
+        "source_reference": {
+          "before": "",
+          "after": "10.1177/0748730419900867; Methods; Figures 2C and 3C"
+        }
+      }
+    },
+    {
+      "file": "tcycle_period_observations.csv",
+      "row": 41,
+      "study": "Buijink et al.",
+      "fields": {
+        "condition_label": {
+          "before": "18:6 LD",
+          "after": "8:16 LD"
+        },
+        "photoperiod": {
+          "before": "18:6 LD",
+          "after": "8:16 LD"
+        },
+        "notes": {
+          "before": "Author-confirmed 2026-09-29: manuscript Table S7A p. 73-74; supersedes archived extraction.",
+          "after": "Photoperiod source reconciliation 2026-10-18: original Figures 2C/3C identify the existing 16:8 group as LP; the former 18:6 group is SP (8:16). Supersedes the September placement instruction. Numerical means and archived uncertainty/sample-size fields retained, not independently re-digitized. Original figure captions describe SD; archived SEM provenance requires supplemental-table confirmation."
+        },
+        "photoperiod_basis": {
+          "before": "",
+          "after": "adult seasonal exposure"
+        },
+        "developmental_photoperiod": {
+          "before": "",
+          "after": "not specified"
+        },
+        "developmental_exposure_window": {
+          "before": "",
+          "after": "not specified"
+        },
+        "continuation_photoperiod": {
+          "before": "",
+          "after": "8:16 LD"
+        },
+        "continuation_duration": {
+          "before": "",
+          "after": "PP1: 28 days; DD: 11-14 days; PP2: at least 14 days, same LD as PP1"
+        },
+        "assay_age": {
+          "before": "",
+          "after": "22-28 months"
+        },
+        "aggregation_basis": {
+          "before": "",
+          "after": "age and photoperiod group; SCN region retained"
+        },
+        "measurement_window": {
+          "before": "",
+          "after": "Behavior: first 10 days in DD; SCN: first 3 ex vivo cycles after PP2"
+        },
+        "source_reference": {
+          "before": "",
+          "after": "10.1177/0748730419900867; Methods; Figures 2C and 3C"
+        }
+      }
+    },
+    {
+      "file": "tcycle_period_observations.csv",
+      "row": 42,
+      "study": "Ciarleglio et al.",
+      "fields": {
+        "age_label": {
+          "before": "post-natal day 21",
+          "after": "approximately 7 weeks"
+        },
+        "notes": {
+          "before": "N not shown in extracted table text",
+          "after": "N not shown in extracted table text; Photoperiod source reconciliation 2026-10-18: existing 16:8 group is long-day development; former 18:6 group is short-day development (8:16); 12:12 SCN group retained. Figure 1 reports developmental main effects pooled across subsequent continuation conditions, not a single developmental-to-continuation trajectory. Assayed at approximately 7 weeks, after development to weaning and four weeks of continuation; P21 denotes weaning, not assay age. Numerical mean/SEM values retained from the manuscript extraction, not independently re-digitized."
+        },
+        "photoperiod_basis": {
+          "before": "",
+          "after": "developmental exposure"
+        },
+        "developmental_photoperiod": {
+          "before": "",
+          "after": "16:8 LD"
+        },
+        "developmental_exposure_window": {
+          "before": "",
+          "after": "perinatal through weaning (approximately P21)"
+        },
+        "continuation_photoperiod": {
+          "before": "",
+          "after": "matching or counterbalanced continuation groups, pooled in developmental mean"
+        },
+        "continuation_duration": {
+          "before": "",
+          "after": "4 weeks after weaning"
+        },
+        "assay_age": {
+          "before": "",
+          "after": "approximately 7 weeks (approximately P49)"
+        },
+        "aggregation_basis": {
+          "before": "",
+          "after": "developmental-photoperiod main effect pooled across continuation groups"
+        },
+        "measurement_window": {
+          "before": "",
+          "after": "Behavior: first 3 days in DD; SCN: first full ex vivo cycle"
+        },
+        "source_reference": {
+          "before": "",
+          "after": "10.1038/nn.2699; main text; Figure 1e-f; Supplementary Table 2"
+        }
+      }
+    },
+    {
+      "file": "tcycle_period_observations.csv",
+      "row": 43,
+      "study": "Ciarleglio et al.",
+      "fields": {
+        "age_label": {
+          "before": "post-natal day 21",
+          "after": "approximately 7 weeks"
+        },
+        "condition_label": {
+          "before": "18:6 LD",
+          "after": "8:16 LD"
+        },
+        "photoperiod": {
+          "before": "18:6 LD",
+          "after": "8:16 LD"
+        },
+        "notes": {
+          "before": "N not shown in extracted table text; Author-confirmed 2026-09-29: manuscript Table S7A p. 74; supersedes archived extraction.",
+          "after": "N not shown in extracted table text; Photoperiod source reconciliation 2026-10-18: existing 16:8 group is long-day development; former 18:6 group is short-day development (8:16); 12:12 SCN group retained. Figure 1 reports developmental main effects pooled across subsequent continuation conditions, not a single developmental-to-continuation trajectory. Assayed at approximately 7 weeks, after development to weaning and four weeks of continuation; P21 denotes weaning, not assay age. Numerical mean/SEM values retained from the manuscript extraction, not independently re-digitized."
+        },
+        "photoperiod_basis": {
+          "before": "",
+          "after": "developmental exposure"
+        },
+        "developmental_photoperiod": {
+          "before": "",
+          "after": "8:16 LD"
+        },
+        "developmental_exposure_window": {
+          "before": "",
+          "after": "perinatal through weaning (approximately P21)"
+        },
+        "continuation_photoperiod": {
+          "before": "",
+          "after": "matching or counterbalanced continuation groups, pooled in developmental mean"
+        },
+        "continuation_duration": {
+          "before": "",
+          "after": "4 weeks after weaning"
+        },
+        "assay_age": {
+          "before": "",
+          "after": "approximately 7 weeks (approximately P49)"
+        },
+        "aggregation_basis": {
+          "before": "",
+          "after": "developmental-photoperiod main effect pooled across continuation groups"
+        },
+        "measurement_window": {
+          "before": "",
+          "after": "Behavior: first 3 days in DD; SCN: first full ex vivo cycle"
+        },
+        "source_reference": {
+          "before": "",
+          "after": "10.1038/nn.2699; main text; Figure 1e-f; Supplementary Table 2"
+        }
+      }
+    },
+    {
+      "file": "tcycle_period_observations.csv",
+      "row": 44,
+      "study": "Ciarleglio et al.",
+      "fields": {
+        "age_label": {
+          "before": "post-natal day 21",
+          "after": "approximately 7 weeks"
+        },
+        "notes": {
+          "before": "N not shown in extracted table text",
+          "after": "N not shown in extracted table text; Photoperiod source reconciliation 2026-10-18: existing 16:8 group is long-day development; former 18:6 group is short-day development (8:16); 12:12 SCN group retained. Figure 1 reports developmental main effects pooled across subsequent continuation conditions, not a single developmental-to-continuation trajectory. Assayed at approximately 7 weeks, after development to weaning and four weeks of continuation; P21 denotes weaning, not assay age. Numerical mean/SEM values retained from the manuscript extraction, not independently re-digitized."
+        },
+        "photoperiod_basis": {
+          "before": "",
+          "after": "developmental exposure"
+        },
+        "developmental_photoperiod": {
+          "before": "",
+          "after": "12:12 LD"
+        },
+        "developmental_exposure_window": {
+          "before": "",
+          "after": "perinatal through weaning (approximately P21)"
+        },
+        "continuation_photoperiod": {
+          "before": "",
+          "after": "matching or counterbalanced continuation groups, pooled in developmental mean"
+        },
+        "continuation_duration": {
+          "before": "",
+          "after": "4 weeks after weaning"
+        },
+        "assay_age": {
+          "before": "",
+          "after": "approximately 7 weeks (approximately P49)"
+        },
+        "aggregation_basis": {
+          "before": "",
+          "after": "developmental-photoperiod main effect pooled across continuation groups"
+        },
+        "measurement_window": {
+          "before": "",
+          "after": "Behavior: first 3 days in DD; SCN: first full ex vivo cycle"
+        },
+        "source_reference": {
+          "before": "",
+          "after": "10.1038/nn.2699; main text; Figure 1e-f; Supplementary Table 2"
+        }
+      }
+    },
+    {
+      "file": "tcycle_period_observations.csv",
+      "row": 45,
+      "study": "Ciarleglio et al.",
+      "fields": {
+        "age_label": {
+          "before": "post-natal day 21",
+          "after": "approximately 7 weeks"
+        },
+        "notes": {
+          "before": "N not shown in extracted table text",
+          "after": "N not shown in extracted table text; Photoperiod source reconciliation 2026-10-18: existing 16:8 group is long-day development; former 18:6 group is short-day development (8:16); 12:12 SCN group retained. Figure 1 reports developmental main effects pooled across subsequent continuation conditions, not a single developmental-to-continuation trajectory. Assayed at approximately 7 weeks, after development to weaning and four weeks of continuation; P21 denotes weaning, not assay age. Numerical mean/SEM values retained from the manuscript extraction, not independently re-digitized."
+        },
+        "photoperiod_basis": {
+          "before": "",
+          "after": "developmental exposure"
+        },
+        "developmental_photoperiod": {
+          "before": "",
+          "after": "16:8 LD"
+        },
+        "developmental_exposure_window": {
+          "before": "",
+          "after": "perinatal through weaning (approximately P21)"
+        },
+        "continuation_photoperiod": {
+          "before": "",
+          "after": "matching or counterbalanced continuation groups, pooled in developmental mean"
+        },
+        "continuation_duration": {
+          "before": "",
+          "after": "4 weeks after weaning"
+        },
+        "assay_age": {
+          "before": "",
+          "after": "approximately 7 weeks (approximately P49)"
+        },
+        "aggregation_basis": {
+          "before": "",
+          "after": "developmental-photoperiod main effect pooled across continuation groups"
+        },
+        "measurement_window": {
+          "before": "",
+          "after": "Behavior: first 3 days in DD; SCN: first full ex vivo cycle"
+        },
+        "source_reference": {
+          "before": "",
+          "after": "10.1038/nn.2699; main text; Figure 1e-f; Supplementary Table 2"
+        }
+      }
+    },
+    {
+      "file": "tcycle_period_observations.csv",
+      "row": 46,
+      "study": "Ciarleglio et al.",
+      "fields": {
+        "age_label": {
+          "before": "post-natal day 21",
+          "after": "approximately 7 weeks"
+        },
+        "condition_label": {
+          "before": "18:6 LD",
+          "after": "8:16 LD"
+        },
+        "photoperiod": {
+          "before": "18:6 LD",
+          "after": "8:16 LD"
+        },
+        "notes": {
+          "before": "N not shown in extracted table text; Author-confirmed 2026-09-29: manuscript Table S7A p. 74; supersedes archived extraction.",
+          "after": "N not shown in extracted table text; Photoperiod source reconciliation 2026-10-18: existing 16:8 group is long-day development; former 18:6 group is short-day development (8:16); 12:12 SCN group retained. Figure 1 reports developmental main effects pooled across subsequent continuation conditions, not a single developmental-to-continuation trajectory. Assayed at approximately 7 weeks, after development to weaning and four weeks of continuation; P21 denotes weaning, not assay age. Numerical mean/SEM values retained from the manuscript extraction, not independently re-digitized."
+        },
+        "photoperiod_basis": {
+          "before": "",
+          "after": "developmental exposure"
+        },
+        "developmental_photoperiod": {
+          "before": "",
+          "after": "8:16 LD"
+        },
+        "developmental_exposure_window": {
+          "before": "",
+          "after": "perinatal through weaning (approximately P21)"
+        },
+        "continuation_photoperiod": {
+          "before": "",
+          "after": "matching or counterbalanced continuation groups, pooled in developmental mean"
+        },
+        "continuation_duration": {
+          "before": "",
+          "after": "4 weeks after weaning"
+        },
+        "assay_age": {
+          "before": "",
+          "after": "approximately 7 weeks (approximately P49)"
+        },
+        "aggregation_basis": {
+          "before": "",
+          "after": "developmental-photoperiod main effect pooled across continuation groups"
+        },
+        "measurement_window": {
+          "before": "",
+          "after": "Behavior: first 3 days in DD; SCN: first full ex vivo cycle"
+        },
+        "source_reference": {
+          "before": "",
+          "after": "10.1038/nn.2699; main text; Figure 1e-f; Supplementary Table 2"
+        }
+      }
+    },
+    {
+      "file": "tcycle_selected_scn_observations.csv",
+      "row": 11,
+      "study": "Buijink et al.",
+      "fields": {
+        "notes": {
+          "before": "Author-confirmed 2026-09-29: manuscript Table S7A p. 73-74; supersedes archived extraction.",
+          "after": "Photoperiod source reconciliation 2026-10-18: original Figures 2C/3C identify the existing 16:8 group as LP; the former 18:6 group is SP (8:16). Supersedes the September placement instruction. Numerical means and archived uncertainty/sample-size fields retained, not independently re-digitized. Original figure captions describe SD; archived SEM provenance requires supplemental-table confirmation."
+        },
+        "photoperiod_basis": {
+          "before": "",
+          "after": "adult seasonal exposure"
+        },
+        "developmental_photoperiod": {
+          "before": "",
+          "after": "not specified"
+        },
+        "developmental_exposure_window": {
+          "before": "",
+          "after": "not specified"
+        },
+        "continuation_photoperiod": {
+          "before": "",
+          "after": "16:8 LD"
+        },
+        "continuation_duration": {
+          "before": "",
+          "after": "PP1: 28 days; DD: 11-14 days; PP2: at least 14 days, same LD as PP1"
+        },
+        "assay_age": {
+          "before": "",
+          "after": "4-8 months"
+        },
+        "aggregation_basis": {
+          "before": "",
+          "after": "age and photoperiod group; SCN region retained"
+        },
+        "measurement_window": {
+          "before": "",
+          "after": "Behavior: first 10 days in DD; SCN: first 3 ex vivo cycles after PP2"
+        },
+        "source_reference": {
+          "before": "",
+          "after": "10.1177/0748730419900867; Methods; Figures 2C and 3C"
+        }
+      }
+    },
+    {
+      "file": "tcycle_selected_scn_observations.csv",
+      "row": 12,
+      "study": "Buijink et al.",
+      "fields": {
+        "condition_label": {
+          "before": "18:6 LD",
+          "after": "8:16 LD"
+        },
+        "photoperiod": {
+          "before": "18:6 LD",
+          "after": "8:16 LD"
+        },
+        "notes": {
+          "before": "Author-confirmed 2026-09-29: manuscript Table S7A p. 73-74; supersedes archived extraction.",
+          "after": "Photoperiod source reconciliation 2026-10-18: original Figures 2C/3C identify the existing 16:8 group as LP; the former 18:6 group is SP (8:16). Supersedes the September placement instruction. Numerical means and archived uncertainty/sample-size fields retained, not independently re-digitized. Original figure captions describe SD; archived SEM provenance requires supplemental-table confirmation."
+        },
+        "photoperiod_basis": {
+          "before": "",
+          "after": "adult seasonal exposure"
+        },
+        "developmental_photoperiod": {
+          "before": "",
+          "after": "not specified"
+        },
+        "developmental_exposure_window": {
+          "before": "",
+          "after": "not specified"
+        },
+        "continuation_photoperiod": {
+          "before": "",
+          "after": "8:16 LD"
+        },
+        "continuation_duration": {
+          "before": "",
+          "after": "PP1: 28 days; DD: 11-14 days; PP2: at least 14 days, same LD as PP1"
+        },
+        "assay_age": {
+          "before": "",
+          "after": "4-8 months"
+        },
+        "aggregation_basis": {
+          "before": "",
+          "after": "age and photoperiod group; SCN region retained"
+        },
+        "measurement_window": {
+          "before": "",
+          "after": "Behavior: first 10 days in DD; SCN: first 3 ex vivo cycles after PP2"
+        },
+        "source_reference": {
+          "before": "",
+          "after": "10.1177/0748730419900867; Methods; Figures 2C and 3C"
+        }
+      }
+    },
+    {
+      "file": "tcycle_selected_scn_observations.csv",
+      "row": 13,
+      "study": "Buijink et al.",
+      "fields": {
+        "notes": {
+          "before": "Author-confirmed 2026-09-29: manuscript Table S7A p. 73-74; supersedes archived extraction.",
+          "after": "Photoperiod source reconciliation 2026-10-18: original Figures 2C/3C identify the existing 16:8 group as LP; the former 18:6 group is SP (8:16). Supersedes the September placement instruction. Numerical means and archived uncertainty/sample-size fields retained, not independently re-digitized. Original figure captions describe SD; archived SEM provenance requires supplemental-table confirmation."
+        },
+        "photoperiod_basis": {
+          "before": "",
+          "after": "adult seasonal exposure"
+        },
+        "developmental_photoperiod": {
+          "before": "",
+          "after": "not specified"
+        },
+        "developmental_exposure_window": {
+          "before": "",
+          "after": "not specified"
+        },
+        "continuation_photoperiod": {
+          "before": "",
+          "after": "16:8 LD"
+        },
+        "continuation_duration": {
+          "before": "",
+          "after": "PP1: 28 days; DD: 11-14 days; PP2: at least 14 days, same LD as PP1"
+        },
+        "assay_age": {
+          "before": "",
+          "after": "22-28 months"
+        },
+        "aggregation_basis": {
+          "before": "",
+          "after": "age and photoperiod group; SCN region retained"
+        },
+        "measurement_window": {
+          "before": "",
+          "after": "Behavior: first 10 days in DD; SCN: first 3 ex vivo cycles after PP2"
+        },
+        "source_reference": {
+          "before": "",
+          "after": "10.1177/0748730419900867; Methods; Figures 2C and 3C"
+        }
+      }
+    },
+    {
+      "file": "tcycle_selected_scn_observations.csv",
+      "row": 14,
+      "study": "Buijink et al.",
+      "fields": {
+        "condition_label": {
+          "before": "18:6 LD",
+          "after": "8:16 LD"
+        },
+        "photoperiod": {
+          "before": "18:6 LD",
+          "after": "8:16 LD"
+        },
+        "notes": {
+          "before": "Author-confirmed 2026-09-29: manuscript Table S7A p. 73-74; supersedes archived extraction.",
+          "after": "Photoperiod source reconciliation 2026-10-18: original Figures 2C/3C identify the existing 16:8 group as LP; the former 18:6 group is SP (8:16). Supersedes the September placement instruction. Numerical means and archived uncertainty/sample-size fields retained, not independently re-digitized. Original figure captions describe SD; archived SEM provenance requires supplemental-table confirmation."
+        },
+        "photoperiod_basis": {
+          "before": "",
+          "after": "adult seasonal exposure"
+        },
+        "developmental_photoperiod": {
+          "before": "",
+          "after": "not specified"
+        },
+        "developmental_exposure_window": {
+          "before": "",
+          "after": "not specified"
+        },
+        "continuation_photoperiod": {
+          "before": "",
+          "after": "8:16 LD"
+        },
+        "continuation_duration": {
+          "before": "",
+          "after": "PP1: 28 days; DD: 11-14 days; PP2: at least 14 days, same LD as PP1"
+        },
+        "assay_age": {
+          "before": "",
+          "after": "22-28 months"
+        },
+        "aggregation_basis": {
+          "before": "",
+          "after": "age and photoperiod group; SCN region retained"
+        },
+        "measurement_window": {
+          "before": "",
+          "after": "Behavior: first 10 days in DD; SCN: first 3 ex vivo cycles after PP2"
+        },
+        "source_reference": {
+          "before": "",
+          "after": "10.1177/0748730419900867; Methods; Figures 2C and 3C"
+        }
+      }
+    },
+    {
+      "file": "tcycle_selected_scn_observations.csv",
+      "row": 15,
+      "study": "Ciarleglio et al.",
+      "fields": {
+        "age_label": {
+          "before": "post-natal day 21",
+          "after": "approximately 7 weeks"
+        },
+        "notes": {
+          "before": "N not shown in extracted table text",
+          "after": "N not shown in extracted table text; Photoperiod source reconciliation 2026-10-18: existing 16:8 group is long-day development; former 18:6 group is short-day development (8:16); 12:12 SCN group retained. Figure 1 reports developmental main effects pooled across subsequent continuation conditions, not a single developmental-to-continuation trajectory. Assayed at approximately 7 weeks, after development to weaning and four weeks of continuation; P21 denotes weaning, not assay age. Numerical mean/SEM values retained from the manuscript extraction, not independently re-digitized."
+        },
+        "photoperiod_basis": {
+          "before": "",
+          "after": "developmental exposure"
+        },
+        "developmental_photoperiod": {
+          "before": "",
+          "after": "16:8 LD"
+        },
+        "developmental_exposure_window": {
+          "before": "",
+          "after": "perinatal through weaning (approximately P21)"
+        },
+        "continuation_photoperiod": {
+          "before": "",
+          "after": "matching or counterbalanced continuation groups, pooled in developmental mean"
+        },
+        "continuation_duration": {
+          "before": "",
+          "after": "4 weeks after weaning"
+        },
+        "assay_age": {
+          "before": "",
+          "after": "approximately 7 weeks (approximately P49)"
+        },
+        "aggregation_basis": {
+          "before": "",
+          "after": "developmental-photoperiod main effect pooled across continuation groups"
+        },
+        "measurement_window": {
+          "before": "",
+          "after": "Behavior: first 3 days in DD; SCN: first full ex vivo cycle"
+        },
+        "source_reference": {
+          "before": "",
+          "after": "10.1038/nn.2699; main text; Figure 1e-f; Supplementary Table 2"
+        }
+      }
+    },
+    {
+      "file": "tcycle_selected_scn_observations.csv",
+      "row": 16,
+      "study": "Ciarleglio et al.",
+      "fields": {
+        "age_label": {
+          "before": "post-natal day 21",
+          "after": "approximately 7 weeks"
+        },
+        "condition_label": {
+          "before": "18:6 LD",
+          "after": "8:16 LD"
+        },
+        "photoperiod": {
+          "before": "18:6 LD",
+          "after": "8:16 LD"
+        },
+        "notes": {
+          "before": "N not shown in extracted table text; Author-confirmed 2026-09-29: manuscript Table S7A p. 74; supersedes archived extraction.",
+          "after": "N not shown in extracted table text; Photoperiod source reconciliation 2026-10-18: existing 16:8 group is long-day development; former 18:6 group is short-day development (8:16); 12:12 SCN group retained. Figure 1 reports developmental main effects pooled across subsequent continuation conditions, not a single developmental-to-continuation trajectory. Assayed at approximately 7 weeks, after development to weaning and four weeks of continuation; P21 denotes weaning, not assay age. Numerical mean/SEM values retained from the manuscript extraction, not independently re-digitized."
+        },
+        "photoperiod_basis": {
+          "before": "",
+          "after": "developmental exposure"
+        },
+        "developmental_photoperiod": {
+          "before": "",
+          "after": "8:16 LD"
+        },
+        "developmental_exposure_window": {
+          "before": "",
+          "after": "perinatal through weaning (approximately P21)"
+        },
+        "continuation_photoperiod": {
+          "before": "",
+          "after": "matching or counterbalanced continuation groups, pooled in developmental mean"
+        },
+        "continuation_duration": {
+          "before": "",
+          "after": "4 weeks after weaning"
+        },
+        "assay_age": {
+          "before": "",
+          "after": "approximately 7 weeks (approximately P49)"
+        },
+        "aggregation_basis": {
+          "before": "",
+          "after": "developmental-photoperiod main effect pooled across continuation groups"
+        },
+        "measurement_window": {
+          "before": "",
+          "after": "Behavior: first 3 days in DD; SCN: first full ex vivo cycle"
+        },
+        "source_reference": {
+          "before": "",
+          "after": "10.1038/nn.2699; main text; Figure 1e-f; Supplementary Table 2"
+        }
+      }
+    },
+    {
+      "file": "tcycle_selected_scn_observations.csv",
+      "row": 17,
+      "study": "Ciarleglio et al.",
+      "fields": {
+        "age_label": {
+          "before": "post-natal day 21",
+          "after": "approximately 7 weeks"
+        },
+        "notes": {
+          "before": "N not shown in extracted table text",
+          "after": "N not shown in extracted table text; Photoperiod source reconciliation 2026-10-18: existing 16:8 group is long-day development; former 18:6 group is short-day development (8:16); 12:12 SCN group retained. Figure 1 reports developmental main effects pooled across subsequent continuation conditions, not a single developmental-to-continuation trajectory. Assayed at approximately 7 weeks, after development to weaning and four weeks of continuation; P21 denotes weaning, not assay age. Numerical mean/SEM values retained from the manuscript extraction, not independently re-digitized."
+        },
+        "photoperiod_basis": {
+          "before": "",
+          "after": "developmental exposure"
+        },
+        "developmental_photoperiod": {
+          "before": "",
+          "after": "12:12 LD"
+        },
+        "developmental_exposure_window": {
+          "before": "",
+          "after": "perinatal through weaning (approximately P21)"
+        },
+        "continuation_photoperiod": {
+          "before": "",
+          "after": "matching or counterbalanced continuation groups, pooled in developmental mean"
+        },
+        "continuation_duration": {
+          "before": "",
+          "after": "4 weeks after weaning"
+        },
+        "assay_age": {
+          "before": "",
+          "after": "approximately 7 weeks (approximately P49)"
+        },
+        "aggregation_basis": {
+          "before": "",
+          "after": "developmental-photoperiod main effect pooled across continuation groups"
+        },
+        "measurement_window": {
+          "before": "",
+          "after": "Behavior: first 3 days in DD; SCN: first full ex vivo cycle"
+        },
+        "source_reference": {
+          "before": "",
+          "after": "10.1038/nn.2699; main text; Figure 1e-f; Supplementary Table 2"
+        }
+      }
+    },
+    {
+      "file": "tcycle_selected_scn_behavior_correlation_pairs.csv",
+      "row": 6,
+      "study": "Buijink et al.",
+      "fields": {
+        "photoperiod_basis": {
+          "before": "",
+          "after": "adult seasonal exposure"
+        },
+        "developmental_photoperiod": {
+          "before": "",
+          "after": "not specified"
+        },
+        "developmental_exposure_window": {
+          "before": "",
+          "after": "not specified"
+        },
+        "continuation_photoperiod": {
+          "before": "",
+          "after": "16:8 LD"
+        },
+        "continuation_duration": {
+          "before": "",
+          "after": "PP1: 28 days; DD: 11-14 days; PP2: at least 14 days, same LD as PP1"
+        },
+        "assay_age": {
+          "before": "",
+          "after": "4-8 months"
+        },
+        "aggregation_basis": {
+          "before": "",
+          "after": "age and photoperiod group; SCN region retained"
+        },
+        "measurement_window": {
+          "before": "",
+          "after": "Behavior: first 10 days in DD; SCN: first 3 ex vivo cycles after PP2"
+        },
+        "source_reference": {
+          "before": "",
+          "after": "10.1177/0748730419900867; Methods; Figures 2C and 3C"
+        }
+      }
+    },
+    {
+      "file": "tcycle_selected_scn_behavior_correlation_pairs.csv",
+      "row": 7,
+      "study": "Buijink et al.",
+      "fields": {
+        "condition_label": {
+          "before": "18:6 LD",
+          "after": "8:16 LD"
+        },
+        "photoperiod": {
+          "before": "18:6 LD",
+          "after": "8:16 LD"
+        },
+        "photoperiod_basis": {
+          "before": "",
+          "after": "adult seasonal exposure"
+        },
+        "developmental_photoperiod": {
+          "before": "",
+          "after": "not specified"
+        },
+        "developmental_exposure_window": {
+          "before": "",
+          "after": "not specified"
+        },
+        "continuation_photoperiod": {
+          "before": "",
+          "after": "8:16 LD"
+        },
+        "continuation_duration": {
+          "before": "",
+          "after": "PP1: 28 days; DD: 11-14 days; PP2: at least 14 days, same LD as PP1"
+        },
+        "assay_age": {
+          "before": "",
+          "after": "4-8 months"
+        },
+        "aggregation_basis": {
+          "before": "",
+          "after": "age and photoperiod group; SCN region retained"
+        },
+        "measurement_window": {
+          "before": "",
+          "after": "Behavior: first 10 days in DD; SCN: first 3 ex vivo cycles after PP2"
+        },
+        "source_reference": {
+          "before": "",
+          "after": "10.1177/0748730419900867; Methods; Figures 2C and 3C"
+        }
+      }
+    },
+    {
+      "file": "tcycle_selected_scn_behavior_correlation_pairs.csv",
+      "row": 8,
+      "study": "Buijink et al.",
+      "fields": {
+        "photoperiod_basis": {
+          "before": "",
+          "after": "adult seasonal exposure"
+        },
+        "developmental_photoperiod": {
+          "before": "",
+          "after": "not specified"
+        },
+        "developmental_exposure_window": {
+          "before": "",
+          "after": "not specified"
+        },
+        "continuation_photoperiod": {
+          "before": "",
+          "after": "16:8 LD"
+        },
+        "continuation_duration": {
+          "before": "",
+          "after": "PP1: 28 days; DD: 11-14 days; PP2: at least 14 days, same LD as PP1"
+        },
+        "assay_age": {
+          "before": "",
+          "after": "22-28 months"
+        },
+        "aggregation_basis": {
+          "before": "",
+          "after": "age and photoperiod group; SCN region retained"
+        },
+        "measurement_window": {
+          "before": "",
+          "after": "Behavior: first 10 days in DD; SCN: first 3 ex vivo cycles after PP2"
+        },
+        "source_reference": {
+          "before": "",
+          "after": "10.1177/0748730419900867; Methods; Figures 2C and 3C"
+        }
+      }
+    },
+    {
+      "file": "tcycle_selected_scn_behavior_correlation_pairs.csv",
+      "row": 9,
+      "study": "Buijink et al.",
+      "fields": {
+        "condition_label": {
+          "before": "18:6 LD",
+          "after": "8:16 LD"
+        },
+        "photoperiod": {
+          "before": "18:6 LD",
+          "after": "8:16 LD"
+        },
+        "photoperiod_basis": {
+          "before": "",
+          "after": "adult seasonal exposure"
+        },
+        "developmental_photoperiod": {
+          "before": "",
+          "after": "not specified"
+        },
+        "developmental_exposure_window": {
+          "before": "",
+          "after": "not specified"
+        },
+        "continuation_photoperiod": {
+          "before": "",
+          "after": "8:16 LD"
+        },
+        "continuation_duration": {
+          "before": "",
+          "after": "PP1: 28 days; DD: 11-14 days; PP2: at least 14 days, same LD as PP1"
+        },
+        "assay_age": {
+          "before": "",
+          "after": "22-28 months"
+        },
+        "aggregation_basis": {
+          "before": "",
+          "after": "age and photoperiod group; SCN region retained"
+        },
+        "measurement_window": {
+          "before": "",
+          "after": "Behavior: first 10 days in DD; SCN: first 3 ex vivo cycles after PP2"
+        },
+        "source_reference": {
+          "before": "",
+          "after": "10.1177/0748730419900867; Methods; Figures 2C and 3C"
+        }
+      }
+    },
+    {
+      "file": "tcycle_selected_scn_behavior_correlation_pairs.csv",
+      "row": 10,
+      "study": "Ciarleglio et al.",
+      "fields": {
+        "age_label": {
+          "before": "post-natal day 21",
+          "after": "approximately 7 weeks"
+        },
+        "photoperiod_basis": {
+          "before": "",
+          "after": "developmental exposure"
+        },
+        "developmental_photoperiod": {
+          "before": "",
+          "after": "16:8 LD"
+        },
+        "developmental_exposure_window": {
+          "before": "",
+          "after": "perinatal through weaning (approximately P21)"
+        },
+        "continuation_photoperiod": {
+          "before": "",
+          "after": "matching or counterbalanced continuation groups, pooled in developmental mean"
+        },
+        "continuation_duration": {
+          "before": "",
+          "after": "4 weeks after weaning"
+        },
+        "assay_age": {
+          "before": "",
+          "after": "approximately 7 weeks (approximately P49)"
+        },
+        "aggregation_basis": {
+          "before": "",
+          "after": "developmental-photoperiod main effect pooled across continuation groups"
+        },
+        "measurement_window": {
+          "before": "",
+          "after": "Behavior: first 3 days in DD; SCN: first full ex vivo cycle"
+        },
+        "source_reference": {
+          "before": "",
+          "after": "10.1038/nn.2699; main text; Figure 1e-f; Supplementary Table 2"
+        }
+      }
+    },
+    {
+      "file": "tcycle_selected_scn_behavior_correlation_pairs.csv",
+      "row": 11,
+      "study": "Ciarleglio et al.",
+      "fields": {
+        "age_label": {
+          "before": "post-natal day 21",
+          "after": "approximately 7 weeks"
+        },
+        "condition_label": {
+          "before": "18:6 LD",
+          "after": "8:16 LD"
+        },
+        "photoperiod": {
+          "before": "18:6 LD",
+          "after": "8:16 LD"
+        },
+        "photoperiod_basis": {
+          "before": "",
+          "after": "developmental exposure"
+        },
+        "developmental_photoperiod": {
+          "before": "",
+          "after": "8:16 LD"
+        },
+        "developmental_exposure_window": {
+          "before": "",
+          "after": "perinatal through weaning (approximately P21)"
+        },
+        "continuation_photoperiod": {
+          "before": "",
+          "after": "matching or counterbalanced continuation groups, pooled in developmental mean"
+        },
+        "continuation_duration": {
+          "before": "",
+          "after": "4 weeks after weaning"
+        },
+        "assay_age": {
+          "before": "",
+          "after": "approximately 7 weeks (approximately P49)"
+        },
+        "aggregation_basis": {
+          "before": "",
+          "after": "developmental-photoperiod main effect pooled across continuation groups"
+        },
+        "measurement_window": {
+          "before": "",
+          "after": "Behavior: first 3 days in DD; SCN: first full ex vivo cycle"
+        },
+        "source_reference": {
+          "before": "",
+          "after": "10.1038/nn.2699; main text; Figure 1e-f; Supplementary Table 2"
+        }
+      }
+    }
+  ],
+  "supplement_numeric_changes": [
+    {
+      "file": "tcycle_period_observations.csv",
+      "row": 30,
+      "study": "Buijink et al.",
+      "fields": {
+        "sem_h": {
+          "before": "0.32",
+          "after": "0.14310835055998652"
+        },
+        "n": {
+          "before": "5.0",
+          "after": "5"
+        },
+        "notes": {
+          "before": "Photoperiod source reconciliation 2026-10-18: original Figures 2C/3C identify the existing 16:8 group as LP; the former 18:6 group is SP (8:16). Supersedes the September placement instruction. Numerical means and archived uncertainty/sample-size fields retained, not independently re-digitized. Original figure captions describe SD; archived SEM provenance requires supplemental-table confirmation.",
+          "after": "Photoperiod source reconciliation 2026-10-18: LP=16:8, SP=8:16, no 18:6 group. Mean, SD and n transcribed from original supplemental Table S2 Tau row (behavior) or Table S3 Period length row (SCN). SEM calculated as SD/sqrt(n); original SD retained in source_sd_h. Supersedes the September placement and archived numerical extraction. Supplement Table S2 labels Tau as Figure 2D, whereas the final article plots Tau in Figure 2C; metric name used to identify the row."
+        },
+        "source_reference": {
+          "before": "10.1177/0748730419900867; Methods; Figures 2C and 3C",
+          "after": "10.1177/0748730419900867; supplemental Table S2 Tau (h) and Table S3 Period length (h); Methods and Figures 2C/3C"
+        },
+        "source_sd_h": {
+          "before": "",
+          "after": "0.32"
+        },
+        "uncertainty_basis": {
+          "before": "",
+          "after": "SEM=reported SD/sqrt(reported n); source rounded SD retained; n is mice for behavior and slices for SCN"
+        }
+      }
+    },
+    {
+      "file": "tcycle_period_observations.csv",
+      "row": 31,
+      "study": "Buijink et al.",
+      "fields": {
+        "sem_h": {
+          "before": "0.22",
+          "after": "0.09838699100999074"
+        },
+        "n": {
+          "before": "5.0",
+          "after": "5"
+        },
+        "notes": {
+          "before": "Photoperiod source reconciliation 2026-10-18: original Figures 2C/3C identify the existing 16:8 group as LP; the former 18:6 group is SP (8:16). Supersedes the September placement instruction. Numerical means and archived uncertainty/sample-size fields retained, not independently re-digitized. Original figure captions describe SD; archived SEM provenance requires supplemental-table confirmation.",
+          "after": "Photoperiod source reconciliation 2026-10-18: LP=16:8, SP=8:16, no 18:6 group. Mean, SD and n transcribed from original supplemental Table S2 Tau row (behavior) or Table S3 Period length row (SCN). SEM calculated as SD/sqrt(n); original SD retained in source_sd_h. Supersedes the September placement and archived numerical extraction. Supplement Table S2 labels Tau as Figure 2D, whereas the final article plots Tau in Figure 2C; metric name used to identify the row."
+        },
+        "source_reference": {
+          "before": "10.1177/0748730419900867; Methods; Figures 2C and 3C",
+          "after": "10.1177/0748730419900867; supplemental Table S2 Tau (h) and Table S3 Period length (h); Methods and Figures 2C/3C"
+        },
+        "source_sd_h": {
+          "before": "",
+          "after": "0.22"
+        },
+        "uncertainty_basis": {
+          "before": "",
+          "after": "SEM=reported SD/sqrt(reported n); source rounded SD retained; n is mice for behavior and slices for SCN"
+        }
+      }
+    },
+    {
+      "file": "tcycle_period_observations.csv",
+      "row": 32,
+      "study": "Buijink et al.",
+      "fields": {
+        "sem_h": {
+          "before": "0.21",
+          "after": "0.09391485505499116"
+        },
+        "n": {
+          "before": "5.0",
+          "after": "5"
+        },
+        "notes": {
+          "before": "Photoperiod source reconciliation 2026-10-18: original Figures 2C/3C identify the existing 16:8 group as LP; the former 18:6 group is SP (8:16). Supersedes the September placement instruction. Numerical means and archived uncertainty/sample-size fields retained, not independently re-digitized. Original figure captions describe SD; archived SEM provenance requires supplemental-table confirmation.",
+          "after": "Photoperiod source reconciliation 2026-10-18: LP=16:8, SP=8:16, no 18:6 group. Mean, SD and n transcribed from original supplemental Table S2 Tau row (behavior) or Table S3 Period length row (SCN). SEM calculated as SD/sqrt(n); original SD retained in source_sd_h. Supersedes the September placement and archived numerical extraction. Supplement Table S2 labels Tau as Figure 2D, whereas the final article plots Tau in Figure 2C; metric name used to identify the row."
+        },
+        "source_reference": {
+          "before": "10.1177/0748730419900867; Methods; Figures 2C and 3C",
+          "after": "10.1177/0748730419900867; supplemental Table S2 Tau (h) and Table S3 Period length (h); Methods and Figures 2C/3C"
+        },
+        "source_sd_h": {
+          "before": "",
+          "after": "0.21"
+        },
+        "uncertainty_basis": {
+          "before": "",
+          "after": "SEM=reported SD/sqrt(reported n); source rounded SD retained; n is mice for behavior and slices for SCN"
+        }
+      }
+    },
+    {
+      "file": "tcycle_period_observations.csv",
+      "row": 33,
+      "study": "Buijink et al.",
+      "fields": {
+        "sem_h": {
+          "before": "0.12",
+          "after": "0.05366563145999495"
+        },
+        "n": {
+          "before": "5.0",
+          "after": "5"
+        },
+        "notes": {
+          "before": "Photoperiod source reconciliation 2026-10-18: original Figures 2C/3C identify the existing 16:8 group as LP; the former 18:6 group is SP (8:16). Supersedes the September placement instruction. Numerical means and archived uncertainty/sample-size fields retained, not independently re-digitized. Original figure captions describe SD; archived SEM provenance requires supplemental-table confirmation.",
+          "after": "Photoperiod source reconciliation 2026-10-18: LP=16:8, SP=8:16, no 18:6 group. Mean, SD and n transcribed from original supplemental Table S2 Tau row (behavior) or Table S3 Period length row (SCN). SEM calculated as SD/sqrt(n); original SD retained in source_sd_h. Supersedes the September placement and archived numerical extraction. Supplement Table S2 labels Tau as Figure 2D, whereas the final article plots Tau in Figure 2C; metric name used to identify the row."
+        },
+        "source_reference": {
+          "before": "10.1177/0748730419900867; Methods; Figures 2C and 3C",
+          "after": "10.1177/0748730419900867; supplemental Table S2 Tau (h) and Table S3 Period length (h); Methods and Figures 2C/3C"
+        },
+        "source_sd_h": {
+          "before": "",
+          "after": "0.12"
+        },
+        "uncertainty_basis": {
+          "before": "",
+          "after": "SEM=reported SD/sqrt(reported n); source rounded SD retained; n is mice for behavior and slices for SCN"
+        }
+      }
+    },
+    {
+      "file": "tcycle_period_observations.csv",
+      "row": 34,
+      "study": "Buijink et al.",
+      "fields": {
+        "sem_h": {
+          "before": "0.06",
+          "after": "0.06123724356957946"
+        },
+        "n": {
+          "before": "6.0",
+          "after": "6"
+        },
+        "notes": {
+          "before": "Photoperiod source reconciliation 2026-10-18: original Figures 2C/3C identify the existing 16:8 group as LP; the former 18:6 group is SP (8:16). Supersedes the September placement instruction. Numerical means and archived uncertainty/sample-size fields retained, not independently re-digitized. Original figure captions describe SD; archived SEM provenance requires supplemental-table confirmation.",
+          "after": "Photoperiod source reconciliation 2026-10-18: LP=16:8, SP=8:16, no 18:6 group. Mean, SD and n transcribed from original supplemental Table S2 Tau row (behavior) or Table S3 Period length row (SCN). SEM calculated as SD/sqrt(n); original SD retained in source_sd_h. Supersedes the September placement and archived numerical extraction. Supplement Table S2 labels Tau as Figure 2D, whereas the final article plots Tau in Figure 2C; metric name used to identify the row."
+        },
+        "source_reference": {
+          "before": "10.1177/0748730419900867; Methods; Figures 2C and 3C",
+          "after": "10.1177/0748730419900867; supplemental Table S2 Tau (h) and Table S3 Period length (h); Methods and Figures 2C/3C"
+        },
+        "source_sd_h": {
+          "before": "",
+          "after": "0.15"
+        },
+        "uncertainty_basis": {
+          "before": "",
+          "after": "SEM=reported SD/sqrt(reported n); source rounded SD retained; n is mice for behavior and slices for SCN"
+        }
+      }
+    },
+    {
+      "file": "tcycle_period_observations.csv",
+      "row": 35,
+      "study": "Buijink et al.",
+      "fields": {
+        "mean_period_h": {
+          "before": "23.99",
+          "after": "23.97"
+        },
+        "sem_h": {
+          "before": "0.01",
+          "after": "0.016329931618554522"
+        },
+        "n": {
+          "before": "5.0",
+          "after": "6"
+        },
+        "notes": {
+          "before": "Photoperiod source reconciliation 2026-10-18: original Figures 2C/3C identify the existing 16:8 group as LP; the former 18:6 group is SP (8:16). Supersedes the September placement instruction. Numerical means and archived uncertainty/sample-size fields retained, not independently re-digitized. Original figure captions describe SD; archived SEM provenance requires supplemental-table confirmation.",
+          "after": "Photoperiod source reconciliation 2026-10-18: LP=16:8, SP=8:16, no 18:6 group. Mean, SD and n transcribed from original supplemental Table S2 Tau row (behavior) or Table S3 Period length row (SCN). SEM calculated as SD/sqrt(n); original SD retained in source_sd_h. Supersedes the September placement and archived numerical extraction. Supplement Table S2 labels Tau as Figure 2D, whereas the final article plots Tau in Figure 2C; metric name used to identify the row."
+        },
+        "source_reference": {
+          "before": "10.1177/0748730419900867; Methods; Figures 2C and 3C",
+          "after": "10.1177/0748730419900867; supplemental Table S2 Tau (h) and Table S3 Period length (h); Methods and Figures 2C/3C"
+        },
+        "source_sd_h": {
+          "before": "",
+          "after": "0.04"
+        },
+        "uncertainty_basis": {
+          "before": "",
+          "after": "SEM=reported SD/sqrt(reported n); source rounded SD retained; n is mice for behavior and slices for SCN"
+        }
+      }
+    },
+    {
+      "file": "tcycle_period_observations.csv",
+      "row": 36,
+      "study": "Buijink et al.",
+      "fields": {
+        "sem_h": {
+          "before": "0.29",
+          "after": "0.09666666666666666"
+        },
+        "n": {
+          "before": "9.0",
+          "after": "9"
+        },
+        "notes": {
+          "before": "Photoperiod source reconciliation 2026-10-18: original Figures 2C/3C identify the existing 16:8 group as LP; the former 18:6 group is SP (8:16). Supersedes the September placement instruction. Numerical means and archived uncertainty/sample-size fields retained, not independently re-digitized. Original figure captions describe SD; archived SEM provenance requires supplemental-table confirmation.",
+          "after": "Photoperiod source reconciliation 2026-10-18: LP=16:8, SP=8:16, no 18:6 group. Mean, SD and n transcribed from original supplemental Table S2 Tau row (behavior) or Table S3 Period length row (SCN). SEM calculated as SD/sqrt(n); original SD retained in source_sd_h. Supersedes the September placement and archived numerical extraction. Supplement Table S2 labels Tau as Figure 2D, whereas the final article plots Tau in Figure 2C; metric name used to identify the row."
+        },
+        "source_reference": {
+          "before": "10.1177/0748730419900867; Methods; Figures 2C and 3C",
+          "after": "10.1177/0748730419900867; supplemental Table S2 Tau (h) and Table S3 Period length (h); Methods and Figures 2C/3C"
+        },
+        "source_sd_h": {
+          "before": "",
+          "after": "0.29"
+        },
+        "uncertainty_basis": {
+          "before": "",
+          "after": "SEM=reported SD/sqrt(reported n); source rounded SD retained; n is mice for behavior and slices for SCN"
+        }
+      }
+    },
+    {
+      "file": "tcycle_period_observations.csv",
+      "row": 37,
+      "study": "Buijink et al.",
+      "fields": {
+        "sem_h": {
+          "before": "0.33",
+          "after": "0.09152553237716281"
+        },
+        "n": {
+          "before": "13.0",
+          "after": "13"
+        },
+        "notes": {
+          "before": "Photoperiod source reconciliation 2026-10-18: original Figures 2C/3C identify the existing 16:8 group as LP; the former 18:6 group is SP (8:16). Supersedes the September placement instruction. Numerical means and archived uncertainty/sample-size fields retained, not independently re-digitized. Original figure captions describe SD; archived SEM provenance requires supplemental-table confirmation.",
+          "after": "Photoperiod source reconciliation 2026-10-18: LP=16:8, SP=8:16, no 18:6 group. Mean, SD and n transcribed from original supplemental Table S2 Tau row (behavior) or Table S3 Period length row (SCN). SEM calculated as SD/sqrt(n); original SD retained in source_sd_h. Supersedes the September placement and archived numerical extraction. Supplement Table S2 labels Tau as Figure 2D, whereas the final article plots Tau in Figure 2C; metric name used to identify the row."
+        },
+        "source_reference": {
+          "before": "10.1177/0748730419900867; Methods; Figures 2C and 3C",
+          "after": "10.1177/0748730419900867; supplemental Table S2 Tau (h) and Table S3 Period length (h); Methods and Figures 2C/3C"
+        },
+        "source_sd_h": {
+          "before": "",
+          "after": "0.33"
+        },
+        "uncertainty_basis": {
+          "before": "",
+          "after": "SEM=reported SD/sqrt(reported n); source rounded SD retained; n is mice for behavior and slices for SCN"
+        }
+      }
+    },
+    {
+      "file": "tcycle_period_observations.csv",
+      "row": 38,
+      "study": "Buijink et al.",
+      "fields": {
+        "sem_h": {
+          "before": "0.1",
+          "after": "0.05125692857821982"
+        },
+        "n": {
+          "before": "11.0",
+          "after": "11"
+        },
+        "notes": {
+          "before": "Photoperiod source reconciliation 2026-10-18: original Figures 2C/3C identify the existing 16:8 group as LP; the former 18:6 group is SP (8:16). Supersedes the September placement instruction. Numerical means and archived uncertainty/sample-size fields retained, not independently re-digitized. Original figure captions describe SD; archived SEM provenance requires supplemental-table confirmation.",
+          "after": "Photoperiod source reconciliation 2026-10-18: LP=16:8, SP=8:16, no 18:6 group. Mean, SD and n transcribed from original supplemental Table S2 Tau row (behavior) or Table S3 Period length row (SCN). SEM calculated as SD/sqrt(n); original SD retained in source_sd_h. Supersedes the September placement and archived numerical extraction. Supplement Table S2 labels Tau as Figure 2D, whereas the final article plots Tau in Figure 2C; metric name used to identify the row."
+        },
+        "source_reference": {
+          "before": "10.1177/0748730419900867; Methods; Figures 2C and 3C",
+          "after": "10.1177/0748730419900867; supplemental Table S2 Tau (h) and Table S3 Period length (h); Methods and Figures 2C/3C"
+        },
+        "source_sd_h": {
+          "before": "",
+          "after": "0.17"
+        },
+        "uncertainty_basis": {
+          "before": "",
+          "after": "SEM=reported SD/sqrt(reported n); source rounded SD retained; n is mice for behavior and slices for SCN"
+        }
+      }
+    },
+    {
+      "file": "tcycle_period_observations.csv",
+      "row": 39,
+      "study": "Buijink et al.",
+      "fields": {
+        "sem_h": {
+          "before": "0.31",
+          "after": "0.089489291724392"
+        },
+        "n": {
+          "before": "12.0",
+          "after": "12"
+        },
+        "notes": {
+          "before": "Photoperiod source reconciliation 2026-10-18: original Figures 2C/3C identify the existing 16:8 group as LP; the former 18:6 group is SP (8:16). Supersedes the September placement instruction. Numerical means and archived uncertainty/sample-size fields retained, not independently re-digitized. Original figure captions describe SD; archived SEM provenance requires supplemental-table confirmation.",
+          "after": "Photoperiod source reconciliation 2026-10-18: LP=16:8, SP=8:16, no 18:6 group. Mean, SD and n transcribed from original supplemental Table S2 Tau row (behavior) or Table S3 Period length row (SCN). SEM calculated as SD/sqrt(n); original SD retained in source_sd_h. Supersedes the September placement and archived numerical extraction. Supplement Table S2 labels Tau as Figure 2D, whereas the final article plots Tau in Figure 2C; metric name used to identify the row."
+        },
+        "source_reference": {
+          "before": "10.1177/0748730419900867; Methods; Figures 2C and 3C",
+          "after": "10.1177/0748730419900867; supplemental Table S2 Tau (h) and Table S3 Period length (h); Methods and Figures 2C/3C"
+        },
+        "source_sd_h": {
+          "before": "",
+          "after": "0.31"
+        },
+        "uncertainty_basis": {
+          "before": "",
+          "after": "SEM=reported SD/sqrt(reported n); source rounded SD retained; n is mice for behavior and slices for SCN"
+        }
+      }
+    },
+    {
+      "file": "tcycle_period_observations.csv",
+      "row": 40,
+      "study": "Buijink et al.",
+      "fields": {
+        "sem_h": {
+          "before": "0.06",
+          "after": "0.06425396041156863"
+        },
+        "n": {
+          "before": "7.0",
+          "after": "7"
+        },
+        "notes": {
+          "before": "Photoperiod source reconciliation 2026-10-18: original Figures 2C/3C identify the existing 16:8 group as LP; the former 18:6 group is SP (8:16). Supersedes the September placement instruction. Numerical means and archived uncertainty/sample-size fields retained, not independently re-digitized. Original figure captions describe SD; archived SEM provenance requires supplemental-table confirmation.",
+          "after": "Photoperiod source reconciliation 2026-10-18: LP=16:8, SP=8:16, no 18:6 group. Mean, SD and n transcribed from original supplemental Table S2 Tau row (behavior) or Table S3 Period length row (SCN). SEM calculated as SD/sqrt(n); original SD retained in source_sd_h. Supersedes the September placement and archived numerical extraction. Supplement Table S2 labels Tau as Figure 2D, whereas the final article plots Tau in Figure 2C; metric name used to identify the row."
+        },
+        "source_reference": {
+          "before": "10.1177/0748730419900867; Methods; Figures 2C and 3C",
+          "after": "10.1177/0748730419900867; supplemental Table S2 Tau (h) and Table S3 Period length (h); Methods and Figures 2C/3C"
+        },
+        "source_sd_h": {
+          "before": "",
+          "after": "0.17"
+        },
+        "uncertainty_basis": {
+          "before": "",
+          "after": "SEM=reported SD/sqrt(reported n); source rounded SD retained; n is mice for behavior and slices for SCN"
+        }
+      }
+    },
+    {
+      "file": "tcycle_period_observations.csv",
+      "row": 41,
+      "study": "Buijink et al.",
+      "fields": {
+        "mean_period_h": {
+          "before": "23.94",
+          "after": "23.95"
+        },
+        "sem_h": {
+          "before": "0.04",
+          "after": "0.038890872965260115"
+        },
+        "n": {
+          "before": "8.0",
+          "after": "8"
+        },
+        "notes": {
+          "before": "Photoperiod source reconciliation 2026-10-18: original Figures 2C/3C identify the existing 16:8 group as LP; the former 18:6 group is SP (8:16). Supersedes the September placement instruction. Numerical means and archived uncertainty/sample-size fields retained, not independently re-digitized. Original figure captions describe SD; archived SEM provenance requires supplemental-table confirmation.",
+          "after": "Photoperiod source reconciliation 2026-10-18: LP=16:8, SP=8:16, no 18:6 group. Mean, SD and n transcribed from original supplemental Table S2 Tau row (behavior) or Table S3 Period length row (SCN). SEM calculated as SD/sqrt(n); original SD retained in source_sd_h. Supersedes the September placement and archived numerical extraction. Supplement Table S2 labels Tau as Figure 2D, whereas the final article plots Tau in Figure 2C; metric name used to identify the row."
+        },
+        "source_reference": {
+          "before": "10.1177/0748730419900867; Methods; Figures 2C and 3C",
+          "after": "10.1177/0748730419900867; supplemental Table S2 Tau (h) and Table S3 Period length (h); Methods and Figures 2C/3C"
+        },
+        "source_sd_h": {
+          "before": "",
+          "after": "0.11"
+        },
+        "uncertainty_basis": {
+          "before": "",
+          "after": "SEM=reported SD/sqrt(reported n); source rounded SD retained; n is mice for behavior and slices for SCN"
+        }
+      }
+    },
+    {
+      "file": "tcycle_selected_scn_observations.csv",
+      "row": 11,
+      "study": "Buijink et al.",
+      "fields": {
+        "sem_h": {
+          "before": "0.21",
+          "after": "0.09391485505499116"
+        },
+        "n": {
+          "before": "5.0",
+          "after": "5"
+        },
+        "notes": {
+          "before": "Photoperiod source reconciliation 2026-10-18: original Figures 2C/3C identify the existing 16:8 group as LP; the former 18:6 group is SP (8:16). Supersedes the September placement instruction. Numerical means and archived uncertainty/sample-size fields retained, not independently re-digitized. Original figure captions describe SD; archived SEM provenance requires supplemental-table confirmation.",
+          "after": "Photoperiod source reconciliation 2026-10-18: LP=16:8, SP=8:16, no 18:6 group. Mean, SD and n transcribed from original supplemental Table S2 Tau row (behavior) or Table S3 Period length row (SCN). SEM calculated as SD/sqrt(n); original SD retained in source_sd_h. Supersedes the September placement and archived numerical extraction. Supplement Table S2 labels Tau as Figure 2D, whereas the final article plots Tau in Figure 2C; metric name used to identify the row."
+        },
+        "source_reference": {
+          "before": "10.1177/0748730419900867; Methods; Figures 2C and 3C",
+          "after": "10.1177/0748730419900867; supplemental Table S2 Tau (h) and Table S3 Period length (h); Methods and Figures 2C/3C"
+        },
+        "source_sd_h": {
+          "before": "",
+          "after": "0.21"
+        },
+        "uncertainty_basis": {
+          "before": "",
+          "after": "SEM=reported SD/sqrt(reported n); source rounded SD retained; n is mice for behavior and slices for SCN"
+        }
+      }
+    },
+    {
+      "file": "tcycle_selected_scn_observations.csv",
+      "row": 12,
+      "study": "Buijink et al.",
+      "fields": {
+        "sem_h": {
+          "before": "0.12",
+          "after": "0.05366563145999495"
+        },
+        "n": {
+          "before": "5.0",
+          "after": "5"
+        },
+        "notes": {
+          "before": "Photoperiod source reconciliation 2026-10-18: original Figures 2C/3C identify the existing 16:8 group as LP; the former 18:6 group is SP (8:16). Supersedes the September placement instruction. Numerical means and archived uncertainty/sample-size fields retained, not independently re-digitized. Original figure captions describe SD; archived SEM provenance requires supplemental-table confirmation.",
+          "after": "Photoperiod source reconciliation 2026-10-18: LP=16:8, SP=8:16, no 18:6 group. Mean, SD and n transcribed from original supplemental Table S2 Tau row (behavior) or Table S3 Period length row (SCN). SEM calculated as SD/sqrt(n); original SD retained in source_sd_h. Supersedes the September placement and archived numerical extraction. Supplement Table S2 labels Tau as Figure 2D, whereas the final article plots Tau in Figure 2C; metric name used to identify the row."
+        },
+        "source_reference": {
+          "before": "10.1177/0748730419900867; Methods; Figures 2C and 3C",
+          "after": "10.1177/0748730419900867; supplemental Table S2 Tau (h) and Table S3 Period length (h); Methods and Figures 2C/3C"
+        },
+        "source_sd_h": {
+          "before": "",
+          "after": "0.12"
+        },
+        "uncertainty_basis": {
+          "before": "",
+          "after": "SEM=reported SD/sqrt(reported n); source rounded SD retained; n is mice for behavior and slices for SCN"
+        }
+      }
+    },
+    {
+      "file": "tcycle_selected_scn_observations.csv",
+      "row": 13,
+      "study": "Buijink et al.",
+      "fields": {
+        "sem_h": {
+          "before": "0.1",
+          "after": "0.05125692857821982"
+        },
+        "n": {
+          "before": "11.0",
+          "after": "11"
+        },
+        "notes": {
+          "before": "Photoperiod source reconciliation 2026-10-18: original Figures 2C/3C identify the existing 16:8 group as LP; the former 18:6 group is SP (8:16). Supersedes the September placement instruction. Numerical means and archived uncertainty/sample-size fields retained, not independently re-digitized. Original figure captions describe SD; archived SEM provenance requires supplemental-table confirmation.",
+          "after": "Photoperiod source reconciliation 2026-10-18: LP=16:8, SP=8:16, no 18:6 group. Mean, SD and n transcribed from original supplemental Table S2 Tau row (behavior) or Table S3 Period length row (SCN). SEM calculated as SD/sqrt(n); original SD retained in source_sd_h. Supersedes the September placement and archived numerical extraction. Supplement Table S2 labels Tau as Figure 2D, whereas the final article plots Tau in Figure 2C; metric name used to identify the row."
+        },
+        "source_reference": {
+          "before": "10.1177/0748730419900867; Methods; Figures 2C and 3C",
+          "after": "10.1177/0748730419900867; supplemental Table S2 Tau (h) and Table S3 Period length (h); Methods and Figures 2C/3C"
+        },
+        "source_sd_h": {
+          "before": "",
+          "after": "0.17"
+        },
+        "uncertainty_basis": {
+          "before": "",
+          "after": "SEM=reported SD/sqrt(reported n); source rounded SD retained; n is mice for behavior and slices for SCN"
+        }
+      }
+    },
+    {
+      "file": "tcycle_selected_scn_observations.csv",
+      "row": 14,
+      "study": "Buijink et al.",
+      "fields": {
+        "sem_h": {
+          "before": "0.31",
+          "after": "0.089489291724392"
+        },
+        "n": {
+          "before": "12.0",
+          "after": "12"
+        },
+        "notes": {
+          "before": "Photoperiod source reconciliation 2026-10-18: original Figures 2C/3C identify the existing 16:8 group as LP; the former 18:6 group is SP (8:16). Supersedes the September placement instruction. Numerical means and archived uncertainty/sample-size fields retained, not independently re-digitized. Original figure captions describe SD; archived SEM provenance requires supplemental-table confirmation.",
+          "after": "Photoperiod source reconciliation 2026-10-18: LP=16:8, SP=8:16, no 18:6 group. Mean, SD and n transcribed from original supplemental Table S2 Tau row (behavior) or Table S3 Period length row (SCN). SEM calculated as SD/sqrt(n); original SD retained in source_sd_h. Supersedes the September placement and archived numerical extraction. Supplement Table S2 labels Tau as Figure 2D, whereas the final article plots Tau in Figure 2C; metric name used to identify the row."
+        },
+        "source_reference": {
+          "before": "10.1177/0748730419900867; Methods; Figures 2C and 3C",
+          "after": "10.1177/0748730419900867; supplemental Table S2 Tau (h) and Table S3 Period length (h); Methods and Figures 2C/3C"
+        },
+        "source_sd_h": {
+          "before": "",
+          "after": "0.31"
+        },
+        "uncertainty_basis": {
+          "before": "",
+          "after": "SEM=reported SD/sqrt(reported n); source rounded SD retained; n is mice for behavior and slices for SCN"
+        }
+      }
+    },
+    {
+      "file": "tcycle_selected_scn_behavior_correlation_pairs.csv",
+      "row": 6,
+      "study": "Buijink et al.",
+      "fields": {
+        "behavior_sem_h": {
+          "before": "0.06",
+          "after": "0.06123724356957946"
+        },
+        "behavior_n": {
+          "before": "6.0",
+          "after": "6"
+        },
+        "scn_sem_h": {
+          "before": "0.21",
+          "after": "0.09391485505499116"
+        },
+        "scn_n": {
+          "before": "5.0",
+          "after": "5"
+        },
+        "source_reference": {
+          "before": "10.1177/0748730419900867; Methods; Figures 2C and 3C",
+          "after": "10.1177/0748730419900867; supplemental Table S2 Tau (h) and Table S3 Period length (h); Methods and Figures 2C/3C"
+        },
+        "behavior_source_sd_h": {
+          "before": "",
+          "after": "0.15"
+        },
+        "scn_source_sd_h": {
+          "before": "",
+          "after": "0.21"
+        },
+        "uncertainty_basis": {
+          "before": "",
+          "after": "SEM=reported SD/sqrt(reported n); source rounded SD retained; n is mice for behavior and slices for SCN"
+        }
+      }
+    },
+    {
+      "file": "tcycle_selected_scn_behavior_correlation_pairs.csv",
+      "row": 7,
+      "study": "Buijink et al.",
+      "fields": {
+        "behavior_mean_period_h": {
+          "before": "23.99",
+          "after": "23.97"
+        },
+        "behavior_sem_h": {
+          "before": "0.01",
+          "after": "0.016329931618554522"
+        },
+        "behavior_n": {
+          "before": "5.0",
+          "after": "6"
+        },
+        "scn_sem_h": {
+          "before": "0.12",
+          "after": "0.05366563145999495"
+        },
+        "scn_n": {
+          "before": "5.0",
+          "after": "5"
+        },
+        "source_reference": {
+          "before": "10.1177/0748730419900867; Methods; Figures 2C and 3C",
+          "after": "10.1177/0748730419900867; supplemental Table S2 Tau (h) and Table S3 Period length (h); Methods and Figures 2C/3C"
+        },
+        "behavior_source_sd_h": {
+          "before": "",
+          "after": "0.04"
+        },
+        "scn_source_sd_h": {
+          "before": "",
+          "after": "0.12"
+        },
+        "uncertainty_basis": {
+          "before": "",
+          "after": "SEM=reported SD/sqrt(reported n); source rounded SD retained; n is mice for behavior and slices for SCN"
+        }
+      }
+    },
+    {
+      "file": "tcycle_selected_scn_behavior_correlation_pairs.csv",
+      "row": 8,
+      "study": "Buijink et al.",
+      "fields": {
+        "behavior_sem_h": {
+          "before": "0.06",
+          "after": "0.06425396041156863"
+        },
+        "behavior_n": {
+          "before": "7.0",
+          "after": "7"
+        },
+        "scn_sem_h": {
+          "before": "0.1",
+          "after": "0.05125692857821982"
+        },
+        "scn_n": {
+          "before": "11.0",
+          "after": "11"
+        },
+        "source_reference": {
+          "before": "10.1177/0748730419900867; Methods; Figures 2C and 3C",
+          "after": "10.1177/0748730419900867; supplemental Table S2 Tau (h) and Table S3 Period length (h); Methods and Figures 2C/3C"
+        },
+        "behavior_source_sd_h": {
+          "before": "",
+          "after": "0.17"
+        },
+        "scn_source_sd_h": {
+          "before": "",
+          "after": "0.17"
+        },
+        "uncertainty_basis": {
+          "before": "",
+          "after": "SEM=reported SD/sqrt(reported n); source rounded SD retained; n is mice for behavior and slices for SCN"
+        }
+      }
+    },
+    {
+      "file": "tcycle_selected_scn_behavior_correlation_pairs.csv",
+      "row": 9,
+      "study": "Buijink et al.",
+      "fields": {
+        "behavior_mean_period_h": {
+          "before": "23.94",
+          "after": "23.95"
+        },
+        "behavior_sem_h": {
+          "before": "0.04",
+          "after": "0.038890872965260115"
+        },
+        "behavior_n": {
+          "before": "8.0",
+          "after": "8"
+        },
+        "scn_sem_h": {
+          "before": "0.31",
+          "after": "0.089489291724392"
+        },
+        "scn_n": {
+          "before": "12.0",
+          "after": "12"
+        },
+        "source_reference": {
+          "before": "10.1177/0748730419900867; Methods; Figures 2C and 3C",
+          "after": "10.1177/0748730419900867; supplemental Table S2 Tau (h) and Table S3 Period length (h); Methods and Figures 2C/3C"
+        },
+        "behavior_source_sd_h": {
+          "before": "",
+          "after": "0.11"
+        },
+        "scn_source_sd_h": {
+          "before": "",
+          "after": "0.31"
+        },
+        "uncertainty_basis": {
+          "before": "",
+          "after": "SEM=reported SD/sqrt(reported n); source rounded SD retained; n is mice for behavior and slices for SCN"
+        }
+      }
+    }
+  ],
+  "observation_count": 102,
+  "selected_SCN_count": 37,
+  "selected_SCN_rows_verified_against_source_extraction": 37,
+  "paired_observation_count": 31,
+  "independent_numpy_correlations": [
+    {
+      "family": "photoperiod",
+      "reporter": "Bmal1-ELuc",
+      "branch": null,
+      "n": 4,
+      "pearson_r": 0.7180028426556202
+    },
+    {
+      "family": "photoperiod",
+      "reporter": "PER2::LUC",
+      "branch": null,
+      "n": 7,
+      "pearson_r": 0.15187607957638877
+    },
+    {
+      "family": "photoperiod",
+      "reporter": "Per1::GFP",
+      "branch": null,
+      "n": 2,
+      "pearson_r": null
+    },
+    {
+      "family": "T-cycle",
+      "reporter": "PER2::LUC",
+      "branch": null,
+      "n": 6,
+      "pearson_r": -0.8993693638542221
+    },
+    {
+      "family": "T-cycle",
+      "reporter": "Per1-luc",
+      "branch": null,
+      "n": 6,
+      "pearson_r": -0.12666009927622265
+    },
+    {
+      "family": "T-cycle x photoperiod",
+      "reporter": "PER2::LUC",
+      "branch": "LP",
+      "n": 3,
+      "pearson_r": -0.9890348243044056
+    },
+    {
+      "family": "T-cycle x photoperiod",
+      "reporter": "PER2::LUC",
+      "branch": "SP",
+      "n": 3,
+      "pearson_r": -0.862173260068283
+    }
+  ],
+  "PER2_photoperiod_r_before": 0.1404078620697529,
+  "PER2_photoperiod_r_after": 0.1518760795763888,
+  "other_reporter_summaries_unchanged": true,
+  "Figure1_AD_counts_before": [
+    {
+      "panel": "A",
+      "condition": "8:16 LD",
+      "independent_studies": 1,
+      "means": 1
+    },
+    {
+      "panel": "A",
+      "condition": "12:12 LD",
+      "independent_studies": 3,
+      "means": 4
+    },
+    {
+      "panel": "A",
+      "condition": "16:8 LD",
+      "independent_studies": 3,
+      "means": 4
+    },
+    {
+      "panel": "A",
+      "condition": "18:6 LD",
+      "independent_studies": 2,
+      "means": 3
+    },
+    {
+      "panel": "A",
+      "condition": "20:4 LD",
+      "independent_studies": 1,
+      "means": 1
+    },
+    {
+      "panel": "A",
+      "condition": "22:2 LD",
+      "independent_studies": 0,
+      "means": 0
+    },
+    {
+      "panel": "D",
+      "condition": "8:16 LD",
+      "independent_studies": 2,
+      "means": 2
+    },
+    {
+      "panel": "D",
+      "condition": "12:12 LD",
+      "independent_studies": 4,
+      "means": 5
+    },
+    {
+      "panel": "D",
+      "condition": "16:8 LD",
+      "independent_studies": 5,
+      "means": 6
+    },
+    {
+      "panel": "D",
+      "condition": "18:6 LD",
+      "independent_studies": 3,
+      "means": 4
+    },
+    {
+      "panel": "D",
+      "condition": "20:4 LD",
+      "independent_studies": 1,
+      "means": 1
+    },
+    {
+      "panel": "D",
+      "condition": "22:2 LD",
+      "independent_studies": 1,
+      "means": 1
+    }
+  ],
+  "Figure1_AD_counts_after": [
+    {
+      "panel": "A",
+      "condition": "8:16 LD",
+      "independent_studies": 3,
+      "means": 4
+    },
+    {
+      "panel": "A",
+      "condition": "12:12 LD",
+      "independent_studies": 3,
+      "means": 4
+    },
+    {
+      "panel": "A",
+      "condition": "16:8 LD",
+      "independent_studies": 3,
+      "means": 4
+    },
+    {
+      "panel": "A",
+      "condition": "18:6 LD",
+      "independent_studies": 0,
+      "means": 0
+    },
+    {
+      "panel": "A",
+      "condition": "20:4 LD",
+      "independent_studies": 1,
+      "means": 1
+    },
+    {
+      "panel": "A",
+      "condition": "22:2 LD",
+      "independent_studies": 0,
+      "means": 0
+    },
+    {
+      "panel": "D",
+      "condition": "8:16 LD",
+      "independent_studies": 4,
+      "means": 5
+    },
+    {
+      "panel": "D",
+      "condition": "12:12 LD",
+      "independent_studies": 4,
+      "means": 5
+    },
+    {
+      "panel": "D",
+      "condition": "16:8 LD",
+      "independent_studies": 5,
+      "means": 6
+    },
+    {
+      "panel": "D",
+      "condition": "18:6 LD",
+      "independent_studies": 1,
+      "means": 1
+    },
+    {
+      "panel": "D",
+      "condition": "20:4 LD",
+      "independent_studies": 1,
+      "means": 1
+    },
+    {
+      "panel": "D",
+      "condition": "22:2 LD",
+      "independent_studies": 1,
+      "means": 1
+    }
+  ],
+  "all_nonliterature_model_data_and_unaffected_figures_byte_unchanged": true,
+  "manual_Figure2_SVG_and_PNG_preserved": true,
+  "checks_passed": 130,
+  "new_photoperiod_uncertainty_and_pairing_checks": 4,
+  "visual_QA": {
+    "passed": true,
+    "method": "Poppler rendered figures at 180 dpi; private insertion document rendered and all five pages inspected",
+    "figure_PDFs": [
+      "Figure_1.pdf",
+      "Figure_S4.pdf"
+    ],
+    "insertion_document_pages": 5
+  },
+  "manuscript_status": "Source manuscript PDF/Markdown not rewritten. Current insertion document contains Results, Tables 1/S7A, captions and point-by-point photoperiod response; requires insertion into manuscript.",
+  "changed_existing_release_files": [
+    "README.md",
+    "code/figure1.py",
+    "code/supplement.py",
+    "code/validate_package.py",
+    "data/tcycle_period_observations.csv",
+    "data/tcycle_selected_scn_behavior_correlation_pairs.csv",
+    "data/tcycle_selected_scn_observations.csv",
+    "figures/main/Figure_1.pdf",
+    "figures/main/Figure_1.png",
+    "figures/main/Figure_1.svg",
+    "figures/supplement/Figure_S4.pdf",
+    "figures/supplement/Figure_S4.png",
+    "figures/supplement/Figure_S4.svg",
+    "inputs.json",
+    "tables/Figure1_plotted_pairs.csv",
+    "tables/Figure1_regression_groups.csv",
+    "tables/Figure1_reporter_correlations.csv",
+    "tables/Figure1_study_counts.csv",
+    "tables/Table_S1_literature_provenance.csv",
+    "validation/figure1_audit.json",
+    "validation/package_checks.json",
+    "validation/reproduction.json"
+  ]
+}

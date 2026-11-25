@@ -238,6 +238,73 @@ def main():
  groups=pd.read_csv(TABLES/'Figure1_regression_groups.csv');audit=json.loads((ROOT/'validation/figure1_audit.json').read_text())
  checks.append({'test':'Figure 1 complete eligible fits and explicitly descriptive two-mean connectors','passed':bool(len(groups)==14 and int(groups.n.ge(3).sum())==5 and int(groups.n.eq(2).sum())==7 and groups.loc[groups.n.lt(3),'pearson_r'].isna().all() and audit['regression_count']==5 and audit['two_mean_connector_count']==7)})
  checks.append({'test':'Figure 1 categorical error bars remain visible','passed':all(r['clipped_errorbars']==0 for r in audit['categorical_errorbar_clipping'])})
+ # Original-paper protocol/sample-size checks guard against wrapped-table
+ # extraction assigning Ouk and Mendoza-Viveros T26 values to Pittendrigh.
+ literature=read('tcycle_period_observations.csv')
+ assignment_ok=True
+ for study,year,mean,sem,n,age,conditions in [
+     ('Ouk et al.',2019,24.11,.06,18,'adult',{'T21','T22','T26'}),
+     ('Mendoza-Viveros et al.',2017,23.84,.05,9,'young',{'T22','T26'})]:
+  series=literature[literature.study.eq(study)&literature.year.eq(year)&literature.measurement.eq('Behavior')]
+  row=series[series.condition_label.eq('T26')]
+  assignment_ok=assignment_ok and set(series.condition_label)==conditions and len(row)==1
+  if len(row)==1:
+   r=row.iloc[0];assignment_ok=assignment_ok and np.allclose([r.mean_period_h,r.sem_h,r.n],[mean,sem,n]) and r.t_cycle=='T26' and r.age_category==age
+ pitt=literature[literature.study.eq('Pittendrigh and Daan')&literature.year.eq(1976)]
+ assignment_ok=assignment_ok and set(pitt.condition_label)=={'T20','T28'} and len(pitt)==2
+ checks.append({'test':'Ouk and Mendoza-Viveros T26 source assignments and unchanged extracted values','passed':bool(assignment_ok)})
+ count_table=pd.read_csv(TABLES/'Figure1_study_counts.csv');bcounts=count_table[count_table.panel.eq('B')]
+ expected_counts={'T20':(2,4),'T21':(2,2),'T22':(4,4),'T24':(1,1),'T26':(4,4),'T28':(3,5)}
+ actual_counts={r.condition:(int(r.independent_studies),int(r.means)) for r in bcounts.itertuples()}
+ checks.append({'test':'Figure 1B corrected study and mean counts without spurious T25 category','passed':actual_counts==expected_counts})
+ # Protect source-defined group identity, rather than merely allowed LD labels.
+ buijink=literature[literature.study.str.startswith('Buijink')]
+ expected_buijink={('4-8 months','Behavior',23.63):'16:8 LD',('4-8 months','Behavior',23.97):'8:16 LD',
+                   ('22-28 months','Behavior',23.79):'16:8 LD',('22-28 months','Behavior',23.95):'8:16 LD'}
+ buijink_ok=set(buijink.condition_label)=={'8:16 LD','16:8 LD'} and len(buijink)==12
+ for (age,measurement,mean),condition in expected_buijink.items():
+  r=buijink[buijink.age_label.eq(age)&buijink.measurement.eq(measurement)&np.isclose(buijink.mean_period_h,mean)]
+  buijink_ok &= len(r)==1 and r.condition_label.eq(condition).all()
+ checks.append({'test':'Buijink original LP/SP group identities retained at 16:8 and 8:16','passed':bool(buijink_ok)})
+ uncertainty_ok=np.allclose(buijink.sem_h,buijink.source_sd_h/np.sqrt(buijink.n),rtol=1e-12,atol=1e-12)
+ young_sp=buijink[buijink.measurement.eq('Behavior')&buijink.age_label.eq('4-8 months')&buijink.condition_label.eq('8:16 LD')]
+ old_post=buijink[buijink.scn_region.eq('P-SCN')&buijink.age_label.eq('22-28 months')&buijink.condition_label.eq('16:8 LD')]
+ uncertainty_ok &= len(young_sp)==1 and young_sp.n.eq(6).all() and np.isclose(young_sp.source_sd_h,.04).all()
+ uncertainty_ok &= len(old_post)==1 and np.isclose(old_post.source_sd_h,.17).all()
+ checks.append({'test':'Buijink SEM uses original Table S2/S3 SD and sample size, including corrected old posterior LP SD','passed':bool(uncertainty_ok)})
+ # Distinguish source SD from plotted SEM and animal counts by reporter/readout.
+ myung2012=literature[literature.study.eq('Myung et al.')&literature.year.eq(2012)]
+ bmal_behavior=myung2012[myung2012.measurement.eq('Behavior')&myung2012.reporter.eq('Bmal1-ELuc')]
+ per2_behavior=myung2012[myung2012.measurement.eq('Behavior')&myung2012.reporter.eq('PER2::LUC')]
+ checks.append({'test':'Myung2012 Figure 4B behavioral animal n is Bmal1 8 and PER2 4','passed':bool(len(bmal_behavior)==1 and bmal_behavior.n.eq(8).all() and len(per2_behavior)==1 and per2_behavior.n.eq(4).all())})
+ myung_sd={('A-SCN','8:16 LD'):(1.8,5),('P-SCN','8:16 LD'):(1.1,7),('A-SCN','16:8 LD'):(.8,4),('P-SCN','16:8 LD'):(2.5,4)}
+ myung_sem_ok=True
+ for (region,condition),(sd,n) in myung_sd.items():
+  q=myung2012[myung2012.scn_region.eq(region)&myung2012.condition_label.eq(condition)]
+  myung_sem_ok &= len(q)==1 and np.allclose(q.source_sd_h,sd) and q.n.eq(n).all() and np.allclose(q.sem_h,sd/np.sqrt(n),rtol=1e-12,atol=1e-12)
+ checks.append({'test':'Myung2012 photoperiod regional uncertainty uses source SD divided by sqrt(explant n)','passed':bool(myung_sem_ok)})
+ tack=literature[literature.study.str.startswith('Tackenberg')]
+ expected_tack={'SP T23':(8,4,'8:15 and 7:16'),'SP T24':(12,8,'8:16'),'SP T26':(14,6,'9:17'),'LP T23':(10,6,'15:8 and 16:7'),'LP T24':(12,6,'16:8'),'LP T26':(6,7,'17:9')}
+ tack_ok=len(tack)==12 and tack.paradigm.eq('complete T-cycle x photoperiod').all() and tack.exposure_start_age.eq('At least 3 weeks').all() and tack.age_label.eq('at least 7 weeks at assay').all()
+ for condition,(bn,sn,ld) in expected_tack.items():
+  b=tack[tack.condition_label.eq(condition)&tack.measurement.eq('Behavior')];s=tack[tack.condition_label.eq(condition)&tack.measurement.eq('SCN')]
+  scn_ld='8:15 (7:16 ex vivo n=0)' if condition=='SP T23' else ld
+  tack_ok &= len(b)==1 and len(s)==1 and b.n.eq(bn).all() and s.n.eq(sn).all() and b.entrainment_ld_cycles.eq(ld).all() and s.entrainment_ld_cycles.eq(scn_ld).all()
+ checks.append({'test':'Tackenberg complete schedules, exposure versus assay age, and distinct behavioral/SCN animal n match primary Methods and Figures 2/5','passed':bool(tack_ok)})
+ ciar=literature[literature.study.str.startswith('Ciarleglio')]
+ ciar_ok=(len(ciar)==5 and set(ciar.condition_label)=={'8:16 LD','12:12 LD','16:8 LD'}
+          and ciar.age_label.eq('approximately 7 weeks').all()
+          and ciar.developmental_photoperiod.eq(ciar.condition_label).all()
+          and ciar.continuation_duration.eq('4 weeks after weaning').all()
+          and ciar.aggregation_basis.str.contains('pooled across continuation').all())
+ checks.append({'test':'Ciarleglio developmental labels, pooled continuation histories and assay age preserved','passed':bool(ciar_ok)})
+ from figure1 import matched_pairs
+ selected_literature=read('tcycle_selected_scn_observations.csv')
+ paired,_=matched_pairs(literature,selected_literature)
+ incompatible=selected_literature.copy()
+ incompatible.loc[incompatible.study.str.startswith('Ciarleglio'),'continuation_photoperiod']='single continuation group (incompatible with pooled behavioral mean)'
+ protected,_=matched_pairs(literature,incompatible)
+ checks.append({'test':'Exposure-history pairing rejects continuation-specific SCN versus pooled behavioral means','passed':len(paired)==31 and len(protected)==29 and not protected.study.str.startswith('Ciarleglio').any()})
  tr=read('full_model_dynamic_traces.csv.gz')
  checks.append({'test':'All main dynamic traces are full original model','passed':tr.model.eq('full_original_D_V_X').all().item()})
  for c in ORDER+['18:6 LD','T23','T25']:

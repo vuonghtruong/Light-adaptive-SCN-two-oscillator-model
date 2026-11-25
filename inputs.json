@@ -22,13 +22,13 @@
     },
     {
       "file": "data/tcycle_period_observations.csv",
-      "sha256": "05369c48e2ec3bd6b11ac44640f7c1063ce3964a30e60cdfa3c8fee212decea0",
-      "role": "literature input; author-confirmed extraction revision 2026-09-29"
+      "sha256": "61660e17b85251505137063494b2ce013d38edb4b7b43af5671d4742e02b8cf6",
+      "role": "literature input; Myung values revised 2026-09-29; source/condition and exposure-history reconciliation 2026-10-18"
     },
     {
       "file": "data/tcycle_selected_scn_observations.csv",
-      "sha256": "a90445264c6ebf48cf7751dc43d7c136e235cefbb2fc7d520601bc3166bf1fef",
-      "role": "literature input; author-confirmed extraction revision 2026-09-29"
+      "sha256": "ea838dd987e1684660b28e0addbcc30ce0a8583c7633b3fe22581e4e4688e538",
+      "role": "literature input; Myung values revised 2026-09-29; source/condition and exposure-history reconciliation 2026-10-18"
     },
     {
       "file": "data/search_candidates/seed_1729/coupling-X.json",
@@ -92,8 +92,8 @@
     },
     {
       "file": "data/tcycle_selected_scn_behavior_correlation_pairs.csv",
-      "sha256": "69473f6f8ce9dce4af91870fbf1cfd4312d16b1b0a9de1ba9ee3afc0ad0a0d79",
-      "role": "literature input; author-confirmed extraction revision 2026-09-29"
+      "sha256": "01c727458441681c0e9a06ad8bdecb969d6088b7dcc1cb08cc44be84f1778ff9",
+      "role": "literature input; Myung values revised 2026-09-29; source/condition and exposure-history reconciliation 2026-10-18"
     }
   ]
 }

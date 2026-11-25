@@ -1,0 +1,106 @@
+{
+  "passed": true,
+  "date": "2026-10-18",
+  "scope": "Presentation and explanatory clarification only. Existing X history is now explicit in Figure 2A and the graphical abstract. Panel C gridlines removed. No model equation, selected parameter, fitting weight, numerical data or result changed. All package checks rerun; no new full simulation or fit.",
+  "package_checks_passed": 132,
+  "numerical_files_unchanged": 95,
+  "other_figure_files_unchanged": 28,
+  "changed_source_files": [
+    "code/architecture_figures.py",
+    "code/graphical_abstract.py"
+  ],
+  "model_source_files_unchanged": true,
+  "figure2": {
+    "purpose": "Figure 2 X-memory explanatory follow-up; no simulation or fitting performed",
+    "changed_architecture_functions": [
+      "memory_mechanism"
+    ],
+    "architecture_ast_outside_memory_mechanism_identical": true,
+    "baseline_numeric_files_checked": 95,
+    "changed_numeric_files": [],
+    "changed_source_files": [
+      "code/architecture_figures.py",
+      "code/graphical_abstract.py"
+    ],
+    "all_other_source_files_unchanged": true,
+    "no_numeric_or_model_changes_established": true,
+    "figure_size_mm": [
+      175.0,
+      220.0
+    ],
+    "figure_axes_bounds_unchanged": true,
+    "raster_dimensions_pixels": [
+      4133,
+      5196
+    ],
+    "difference_bbox_pixels": [
+      2390,
+      1616,
+      4048,
+      1894
+    ],
+    "panel_A_axes_bbox_pixels": [
+      433,
+      153,
+      4051,
+      1896
+    ],
+    "all_raster_differences_confined_to_panel_A": true,
+    "panels_B_through_E_pixel_identical": true,
+    "text_outside_canvas": [],
+    "final_A4_proof_review": {
+      "page": 2,
+      "figure_width_mm": 175,
+      "passed": true,
+      "findings": "Systemic-history card, formula, shared-architecture label and arrow are readable; no clipping or overlap."
+    },
+    "passed": true
+  },
+  "graphical_abstract": {
+    "numerical_fields_unchanged": [
+      "trace_sha256",
+      "endpoint_sha256",
+      "trace_checks",
+      "period_records",
+      "light_intervals_relative_DD_h"
+    ],
+    "gridlines_visible": [
+      0,
+      0
+    ],
+    "history_annotation": "M_X -> tau_X",
+    "independent_render": {
+      "passed": true,
+      "scope": "Independent graphical-abstract rendering from only code and the current validated trace/endpoint inputs; no pre-existing figure files copied.",
+      "files": [
+        {
+          "file": "figures/graphical_abstract/Graphical_abstract.pdf",
+          "identical_bytes": true,
+          "sha256": "b5f510d2479d7848e90fbf94ee56586354b6bb23c019398dfcf6fa78db51cd4b"
+        },
+        {
+          "file": "figures/graphical_abstract/Graphical_abstract.svg",
+          "identical_bytes": true,
+          "sha256": "8f11ef967cfae9ff3e501dd516c970d3d866fcee02d2bae8e251ec91d00f01ac"
+        },
+        {
+          "file": "figures/graphical_abstract/Graphical_abstract.png",
+          "identical_bytes": true,
+          "sha256": "250086d6fe62984a5439eb4e5a869cc4d101a4408894d1800c9b0b9747e41e36"
+        }
+      ]
+    }
+  },
+  "model_interpretation": {
+    "direct_photic_X_phase_forcing": false,
+    "explicit_schedule_variables_in_X_memory": true,
+    "exclusive_SCN_mediation_implemented": false,
+    "memory_decay_constant_h": 240,
+    "equations_changed": false
+  },
+  "visual_review": {
+    "Figure2_A4": true,
+    "graphical_abstract_A4": true,
+    "clipping_or_overlap_issues": 0
+  }
+}

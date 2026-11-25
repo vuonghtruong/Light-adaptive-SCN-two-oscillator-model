@@ -207,6 +207,42 @@
       "passed": true
     },
     {
+      "test": "Ouk and Mendoza-Viveros T26 source assignments and unchanged extracted values",
+      "passed": true
+    },
+    {
+      "test": "Figure 1B corrected study and mean counts without spurious T25 category",
+      "passed": true
+    },
+    {
+      "test": "Buijink original LP/SP group identities retained at 16:8 and 8:16",
+      "passed": true
+    },
+    {
+      "test": "Buijink SEM uses original Table S2/S3 SD and sample size, including corrected old posterior LP SD",
+      "passed": true
+    },
+    {
+      "test": "Myung2012 Figure 4B behavioral animal n is Bmal1 8 and PER2 4",
+      "passed": true
+    },
+    {
+      "test": "Myung2012 photoperiod regional uncertainty uses source SD divided by sqrt(explant n)",
+      "passed": true
+    },
+    {
+      "test": "Tackenberg complete schedules, exposure versus assay age, and distinct behavioral/SCN animal n match primary Methods and Figures 2/5",
+      "passed": true
+    },
+    {
+      "test": "Ciarleglio developmental labels, pooled continuation histories and assay age preserved",
+      "passed": true
+    },
+    {
+      "test": "Exposure-history pairing rejects continuation-specific SCN versus pooled behavioral means",
+      "passed": true
+    },
+    {
       "test": "All main dynamic traces are full original model",
       "passed": true
     },
@@ -479,13 +515,22 @@
       "passed": true
     },
     {
+      "test": "Graphical_abstract.svg width and no separate H model",
+      "passed": true
+    },
+    {
+      "test": "Graphical_abstract.svg enlarged text",
+      "passed": true,
+      "minimum_base_font_pt": 8.0
+    },
+    {
       "test": "Figure_1.svg width and no separate H model",
       "passed": true
     },
     {
       "test": "Figure_1.svg enlarged text",
       "passed": true,
-      "minimum_base_font_pt": 7.2
+      "minimum_base_font_pt": 8.0
     },
     {
       "test": "Figure_2.svg width and no separate H model",
@@ -494,7 +539,7 @@
     {
       "test": "Figure_2.svg enlarged text",
       "passed": true,
-      "minimum_base_font_pt": 7.2
+      "minimum_base_font_pt": 8.0
     },
     {
       "test": "Figure_3.svg width and no separate H model",
@@ -503,7 +548,7 @@
     {
       "test": "Figure_3.svg enlarged text",
       "passed": true,
-      "minimum_base_font_pt": 7.2
+      "minimum_base_font_pt": 8.0
     },
     {
       "test": "Figure 3K no unexplained intact-behavior reference",
@@ -516,7 +561,7 @@
     {
       "test": "Figure_4.svg enlarged text",
       "passed": true,
-      "minimum_base_font_pt": 7.2
+      "minimum_base_font_pt": 8.0
     },
     {
       "test": "Figure_S1.svg width and no separate H model",
@@ -525,7 +570,7 @@
     {
       "test": "Figure_S1.svg enlarged text",
       "passed": true,
-      "minimum_base_font_pt": 7.2
+      "minimum_base_font_pt": 8.0
     },
     {
       "test": "Figure_S2.svg width and no separate H model",
@@ -534,7 +579,7 @@
     {
       "test": "Figure_S2.svg enlarged text",
       "passed": true,
-      "minimum_base_font_pt": 7.2
+      "minimum_base_font_pt": 8.0
     },
     {
       "test": "Figure_S3.svg width and no separate H model",
@@ -543,7 +588,7 @@
     {
       "test": "Figure_S3.svg enlarged text",
       "passed": true,
-      "minimum_base_font_pt": 7.2
+      "minimum_base_font_pt": 8.0
     },
     {
       "test": "Figure_S4.svg width and no separate H model",
@@ -552,7 +597,7 @@
     {
       "test": "Figure_S4.svg enlarged text",
       "passed": true,
-      "minimum_base_font_pt": 7.245
+      "minimum_base_font_pt": 8.0
     },
     {
       "test": "Figure_S5.svg width and no separate H model",
@@ -561,7 +606,7 @@
     {
       "test": "Figure_S5.svg enlarged text",
       "passed": true,
-      "minimum_base_font_pt": 7.2
+      "minimum_base_font_pt": 8.0
     },
     {
       "test": "Figure_S6.svg width and no separate H model",
@@ -570,7 +615,7 @@
     {
       "test": "Figure_S6.svg enlarged text",
       "passed": true,
-      "minimum_base_font_pt": 7.2
+      "minimum_base_font_pt": 8.0
     }
   ]
 }

@@ -9,11 +9,11 @@ import numpy as np
 from scipy.signal import find_peaks
 from matplotlib.lines import Line2D
 from matplotlib.patches import Patch
-from common import REG
+from common import REG,COL
 from reference_model import SCHEDULES
 
 def positive_lobe(ax,x,values,baseline,height,color,*,connected=None,
-                  fill_alpha=.23,linewidth=.5,linestyle='-',line_alpha=1.):
+                  fill_alpha=.23,linewidth=.70,linestyle='-',line_alpha=1.):
     x=np.asarray(x,dtype=float);values=np.asarray(values,dtype=float)
     visible=np.isfinite(values)&(values>0)
     if connected is not None:visible&=np.asarray(connected,dtype=bool)
@@ -22,6 +22,7 @@ def positive_lobe(ax,x,values,baseline,height,color,*,connected=None,
         ax.fill_between(x,baseline,baseline+height*values,where=visible,
                         interpolate=True,color=color,alpha=fill_alpha,lw=0)
     line,=ax.plot(x,outline,color=color,lw=linewidth,ls=linestyle,alpha=line_alpha)
+    line._publication_dense=True
     return line
 
 def doubleplot_axis(ax,traces,condition,ex_vivo,*,show_ylabels=True,
@@ -42,21 +43,22 @@ def doubleplot_axis(ax,traces,condition,ex_vivo,*,show_ylabels=True,
         ax.fill_between(xx,yy,yy+.7*light,color='#F6C85F',alpha=.35,lw=0)
         connected=(~isdd) if ex_vivo else np.ones(len(s),dtype=bool)
         positive_lobe(ax,xx,s.X,yy,.72,REG['X'],connected=connected,
-                      fill_alpha=0,linewidth=.42,linestyle=':',line_alpha=.75)
+                      fill_alpha=0,linewidth=.60,linestyle=':',line_alpha=.85)
         ax.fill_between(xx,yy,yy+.72*np.maximum(s.behavior,0),where=connected,
                         color='#666666',alpha=.20,lw=0)
         for key in ['D','V']:positive_lobe(ax,xx,s[key],yy,.72,REG[key],fill_alpha=.23)
         mask=(peakt>=start)&(peakt<min(start+48,168))
         if ex_vivo:mask&=peakt<0
         points=peakt[mask]-start
-        ax.plot(points,np.full(len(points),yy+.77),'o',ms=1.3,color='black')
+        peaks,=ax.plot(points,np.full(len(points),yy+.77),'o',ms=1.8,color='black')
+        peaks._publication_dense=True
     ax.plot([0,24,24,48],[6.87,6.87,7.87,7.87],ls='--',color='#666666',lw=.65)
     ax.set(xlim=(0,48),ylim=(-.4,21),xticks=[0,24,48])
     ax.set_yticks([20,7,6,0],['S1','S14','DD1','DD7'] if show_ylabels else ['']*4)
     ax.tick_params(length=0,labelsize=5.8,pad=1)
     for spine in ax.spines.values():spine.set_visible(False)
     if show_xlabel:ax.set_xlabel('Time (h)',labelpad=1,fontsize=6.5)
-    if show_condition:ax.text(.5,1.025,condition.replace(' LD',''),transform=ax.transAxes,ha='center',fontsize=7,weight='bold')
+    if show_condition:ax.text(.5,1.025,condition.replace(' LD',''),transform=ax.transAxes,ha='center',fontsize=8.5,weight='bold',color=COL[condition])
     return ax
 
 def dynamic_legend(fig,bbox=(.53,.008),fontsize=5.8):

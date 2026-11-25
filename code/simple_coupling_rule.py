@@ -95,9 +95,9 @@ def render():
  from actogram_style import doubleplot_axis
  report=generate_rule();tr=pd.read_csv(DATA/'simple_coupling_rule_traces.csv.gz');tr['X']=np.nan
  cached=json.loads((DATA/'simple_coupling_rule_results.json').read_text());ends=pd.DataFrame(cached['tables'][TABLE_NAMES[1]]);rules=pd.DataFrame(cached['tables'][TABLE_NAMES[2]])
- f=fig(198);gs=f.add_gridspec(3,3,height_ratios=[1.05,1.05,.91],left=.09,right=.985,top=.968,bottom=.18,hspace=.38,wspace=.43)
+ f=fig(184);gs=f.add_gridspec(3,3,height_ratios=[1.05,1.05,.91],left=.10,right=.985,top=.965,bottom=.12,hspace=.37,wspace=.53)
  for row,ex in [(0,False),(1,True)]:
-  nested=gs[row,:].subgridspec(1,5,wspace=.12)
+  nested=gs[row,:].subgridspec(1,5,wspace=.28)
   for j,c in enumerate(ORDER):
    ax=f.add_subplot(nested[0,j]);doubleplot_axis(ax,tr,c,ex,show_ylabels=j==0,show_xlabel=row==1,show_condition=row==0)
    if j==0:
@@ -108,7 +108,7 @@ def render():
   for dx,marker,value in [(-.22,'o',inv.behavior_h),(0,'s',ex.D_h),(.22,'^',ex.V_h)]:ax.scatter(i+dx,value,color=COL[c],marker=marker,s=16,zorder=3)
   ax.plot([i-.31,i-.13],[model.BT[i]]*2,color='black',lw=.9);ax.plot([i-.08,i+.3],[model.ET[i]]*2,color='black',lw=.9)
  ax.set(xticks=xx,xticklabels=ORDER,ylabel='DD period (h)',ylim=(22.6,25.05),xlim=(-.5,4.5));letter(ax,'C')
- ax.legend(handles=[Line2D([],[],marker=m,color='black',ls='',ms=2.6,label=l) for m,l in [('o','Behavior'),('s','D (ex)'),('^','V (ex)')]]+[Line2D([],[],color='black',label='Target')],frameon=False,fontsize=5.2,ncol=2,loc='upper left',handlelength=1,columnspacing=.5,handletextpad=.4,borderaxespad=.15)
+ # Point shapes and target bars are decoded in the caption.
  for col,family in [(1,'photoperiod'),(2,'T-cycle')]:
   ax=f.add_subplot(gs[2,col]);a=rules[rules.family.eq(family)]
   for coefficient,marker,ls in [('K_DV','o','-'),('K_VD','s','--')]:
@@ -119,14 +119,13 @@ def render():
     ax.plot(q.predictor_h,q.endpoint_linear_rad_h*1000,color='#999999',ls=':',lw=1.1,zorder=3)
     ld=q[q.condition.eq('LD')].iloc[0]
     ax.plot([ld.predictor_h]*2,[ld.endpoint_linear_rad_h*1000,ld.actual_rad_h*1000],color='#777777',lw=.7,zorder=1)
-    ax.text(.04 if family=='photoperiod' else .30,.045,f'LD deviation: +{ld.residual_rad_h*1000:.3f}',transform=ax.transAxes,fontsize=5.8,ha='left',va='bottom')
+    # Exact midpoint deviations are reported in the caption and source table.
   xvals=sorted(a.predictor_h.unique());labels=['8\nSP','12\nLD','16\nLP'] if family=='photoperiod' else ['22\nT22','24\nLD','26\nT26']
   ax.set(xticks=xvals,xticklabels=labels,xlim=(min(xvals)-.6,max(xvals)+.6),ylim=(-17.5,8.5),ylabel='Coupling ($10^{-3}$ rad h$^{-1}$)',xlabel='Light duration (h); T = 24 h' if family=='photoperiod' else 'Cycle length (h); 50% light')
   letter(ax,'DE'[col-1])
- dynamic=[Line2D([],[],color=REG['D'],label='D'),Line2D([],[],color=REG['V'],label='V'),Line2D([],[],color='black',marker='o',ls='',ms=2.7,label='Behavior peak'),Patch(facecolor='#F6C85F',alpha=.35,label='Scheduled light')]
- f.legend(handles=dynamic,loc='lower center',bbox_to_anchor=(.53,.025),ncol=4,frameon=False,fontsize=5.7,handlelength=1.4,columnspacing=1.)
- rule_handles=[Line2D([],[],color='#444444',marker='o',ms=3,label='$K_{DV}$'),Line2D([],[],color='#444444',marker='s',mfc='white',ls='--',ms=3,label='$K_{VD}$'),Line2D([],[],color='#999999',ls=':',label='Endpoint line')]
- f.legend(handles=rule_handles,loc='lower center',bbox_to_anchor=(.65,.073),ncol=3,frameon=False,fontsize=5.6,handlelength=1.3,columnspacing=.8)
+ # Trace, light-shading and coupling-line keys are explained in the caption.
+ from common import schedule_legend
+ schedule_legend(figobj=f,bbox=(.53,.012))
  save(f,'Figure_S6',supp=True)
 
 if __name__=='__main__':

@@ -1,0 +1,365 @@
+{
+  "date": "2026-10-18",
+  "passed": true,
+  "scope": "Presentation-only redesign and rerender of all numbered figures and the three-page technical appendix, followed by all 130 scientific checks. No refitting or new model integrations.",
+  "figure_files": 31,
+  "figure_pages": 13,
+  "figure_width_mm": 175,
+  "minimum_text_pt": 8,
+  "axes_linewidth_pt": 0.95,
+  "primary_linewidth_floor_pt": 1.2,
+  "dense_actogram_linewidth_pt": 0.7,
+  "PNG_dpi": 600,
+  "numerical_checks": 130,
+  "numerical_files_verified_unchanged": 95,
+  "data_files_unchanged": 63,
+  "table_files_unchanged": 32,
+  "numerical_file_hashes": {
+    "data/Figure2_full_model_gain_sweep.csv": "329624d66bff4d7568aaa9e1243e0e9b58516bd2f4f20dcb131399014a753f8d",
+    "data/T22_additive_spectrum.csv": "7e4bc9e175ecf215611c6c0d445c72c0c63f3a3f4f452758bb9f76c91989a3e6",
+    "data/T22_additive_trace.csv": "6f1e69b035348b30bfc985fbbfd2b713bb82f331c8e2153531348d135b5bb388",
+    "data/architecture_selected_parameters.json": "a1345a9890cf05a0c006f9fb774da4a888fb06a3985f2f6b1feb9b0f29acad3c",
+    "data/archived_parameters.csv": "2fb50ab59a9946507ff88785dd3e93d96a3a7bb123f7e4190bef69c83983d5d5",
+    "data/archived_targets.csv": "24505468660a6e882777e6d5f1eeb62af0d0a6ae5d6dbaff27f4f3c963284938",
+    "data/explant_controls.csv": "8d457c97d8e466e4a0a44842573ba053ecf867c1f9ecd361941d5970c2685eaf",
+    "data/explant_coupling_sweep.csv": "9e859d0706c4e6884d6e22168a5f956a9b23a660df5a1220c3a83087d8c1244d",
+    "data/explant_step_halving.csv": "03aa249f7f1c0687596099926fcf4fa34d58e76e5c501b3f30d3231270b6bc5f",
+    "data/fixed_period_release.csv": "f74266f3f43804116c5d017cd771c231bfc590afaaff37110a7ea24116ca13ed",
+    "data/full_model_dynamic_traces.csv.gz": "f77072412835198d9d9662518d511fde790ccd5b6676617e9285bed686d68844",
+    "data/memory_timescale_endpoints.csv": "047e93b9bb9bc75a7e5ba3f73e5473f714c5b2579a53722d6f601983dcd4b7c1",
+    "data/memory_timescale_scores.csv": "efa123ab19f8478dbba8432a76994ec2c48918aef79ae82881681ad1bdcf7696",
+    "data/memory_timescale_step_halving.csv": "3ed2680160266df6905d37f0df8ef6d2be1d8a716359b1a74b316358d73dc229",
+    "data/natural_vs_network_windows.csv": "e19e9e7ceda9ef746c7ae298b38a557fc6434b312feaaed3c32d75dd26e8da94",
+    "data/optimization/seed_1729/fit_D-period-X_main_protocol.json": "3578030cee02ca075475f59327041c66cefbb8e1ebafd9f33d975fa7b305839b",
+    "data/optimization/seed_1729/fit_V-period-X_main_protocol.json": "c69e5efd270f533be265587622f1623573cd0738dfb0da9dbef50bfdda8683d4",
+    "data/optimization/seed_1729/fit_coupling-X_main_protocol.json": "3812b5ecea47a4361f74059ff8804d4e5fb4c6e3224c79abcd26d71fc07b844f",
+    "data/optimization/seed_1729/fit_joint-DV-period-X_main_protocol.json": "3ec52e7bd0be137dbe8a1f5ce506f97fd1fd3ab7f018c61a6375822a9ee877d6",
+    "data/optimization/seed_2718/fit_D-period-X_main_protocol.json": "c80a6865375c4d60a97c32d58c387a67f5182e3faba1c96a882e1dc7126dfd10",
+    "data/optimization/seed_2718/fit_V-period-X_main_protocol.json": "eef06c153e4dcbf2ffcd7570940b44f28d0cda79f1c54a56021e6f726e3bb779",
+    "data/optimization/seed_2718/fit_coupling-X_main_protocol.json": "e4b797c92684d9a87fd54e6c7e25c5ec09c824f3b4bbc90206fd5191bb928ed7",
+    "data/optimization/seed_2718/fit_joint-DV-period-X_main_protocol.json": "a50abd7a902d6d581d97a5f4784658ecc31e9d4034a93e1aca2c2a2b03a40fe9",
+    "data/optimization/seed_3141/fit_D-period-X_main_protocol.json": "3d7900331e4c1361a12e893d24ad1b21e6d6bdea14cd6ed3bd4978a198b7a700",
+    "data/optimization/seed_3141/fit_V-period-X_main_protocol.json": "f02e5faed3570f4e3e64bae7c30b8245d2345c0d0f9f4c72afdb28fa04ea4c3f",
+    "data/optimization/seed_3141/fit_coupling-X_main_protocol.json": "da26e41f60b6e81c46a71c0f4a37801c6d03909d89b7d1db46acd87205bec52d",
+    "data/optimization/seed_3141/fit_joint-DV-period-X_main_protocol.json": "4a78425d700ad9a27b41e3a3e31f43647711ea5709846a7bc306e414550d0235",
+    "data/original_logic_bifurcation_branches.csv": "31dbea83813d23e6949b3b90b3ed9bb819e13a57397514a9984b51802e794266",
+    "data/original_logic_phase_reorganization.csv": "08406fea82b3a1c0eea5d1cebc23ffc2cbe373ff33c3ceaae9d028bd256fc867",
+    "data/original_logic_prediction_ensemble.csv": "339ef4fd43de21c3e1354c3fd2078f73b61e4cb70d8bb2c1f495fd88cb642dad",
+    "data/original_logic_predictions.csv": "ea237d959d0282a4496cd5df91a633106985ad1fd33eec0c7c56154f9840ff04",
+    "data/original_parameter_landscape.csv": "d7f853816e2b837ec27c5e03c8a91a23ceadec0d5b480815e36298747342aed3",
+    "data/perturbation_initial_ensemble.csv": "47a115a817cb3a2ac7e7437ae487a4b70fd19f81661664da72eecac97fc49b75",
+    "data/perturbation_memory_contrasts.csv": "7a954d7afd47972e045160258e107f01d28080b4ab53e5dc3f0823e66537e6dc",
+    "data/perturbation_reference.csv": "f060b13fcfb8a0388339e03b1040e2c43a68f17dcea6ebbf7e11467d6477e741",
+    "data/perturbation_weighting.csv": "d2a7d1aadae49bc5a8bd6c28ad71de2169f70429d5100955bedc87818cfbbcae",
+    "data/reduction_parameters.json": "c22370d4ee82ec82868d3723c7109c9568c4b322f0aca7ad927a18371bd6a6c0",
+    "data/reduction_targets.csv": "05f206a7146fb996cfb98d5e6af50c30a12ecf6c7872fa5f6e7b8938a0dcefc8",
+    "data/reduction_traces.csv.gz": "f5cc8afb23beb416370229c1fcd4a45b73abff85939e17cfd15d89b3bc45e318",
+    "data/reference_frozen_locking.csv": "8f87c7e4dc667813b7f38300d6f1c03409a634b14b665660746d27b3b6f041ed",
+    "data/reference_frozen_phase_flow.csv": "7323fb922a6830dd3d776d192ce050fa1ae79a57df1c3f809fb2c9b6207b6434",
+    "data/reference_long_DD.csv": "a34ae4645e4f1a0f2fb5f835936f8cbbc903b19d925e37a6f802714ab2b53418",
+    "data/regime_map.csv": "c42ce1a45c866e660453dd64a088e4255f1d9be7f7009144ffd1c3a8083cc0e5",
+    "data/search_candidates/seed_1729/D-period-X.json": "d14e4a4d77d55be3f697ce120dca78a59b73a7c836bc80c3975abeea97577632",
+    "data/search_candidates/seed_1729/V-period-X.json": "d2be0bf90b49926ee8b7a725926a49ff1b9d9029477f666d5003b46d34eda48b",
+    "data/search_candidates/seed_1729/coupling-X.json": "725db5c4cef0c607083bc070fea8e4ab02f9eb4b62ad6052ad875efd23b4a749",
+    "data/search_candidates/seed_1729/joint-DV-period-X.json": "45356fb3e32f71ae2086554e1a5a0a091f4b9e3d3e7a84e40fd58a30ef9b6333",
+    "data/search_candidates/seed_2718/D-period-X.json": "be32fa8972102163b48ffca50bd7fb710f4d80e83cc0c46bc9830d35d689550b",
+    "data/search_candidates/seed_2718/V-period-X.json": "4a26083c2a61e1ede049112da93c4debe2f8ff7867d00269b24d16617d93e05a",
+    "data/search_candidates/seed_2718/coupling-X.json": "355e695afeccde8866239e0ebcecb40ace77636c226aa04eff01d0b14f09b050",
+    "data/search_candidates/seed_2718/joint-DV-period-X.json": "74b47da1a40610a81694c5ef1db4e26314da114587c0023635655e74160fdad7",
+    "data/search_candidates/seed_3141/D-period-X.json": "3d6fcc0e073bd45df5b594e2bdaceb975fea27635dce1de5149ea75e507ab722",
+    "data/search_candidates/seed_3141/V-period-X.json": "e56001ac3fbee672a4c4f70fdb57adb2a3577c7c7827e8a7ac9c5a0e7ab84fbe",
+    "data/search_candidates/seed_3141/coupling-X.json": "5b8ecb11c739e939c880c2db60ef67baa67f46266552396bc1e86a1642d7d4ee",
+    "data/search_candidates/seed_3141/joint-DV-period-X.json": "fdfec906c4f2582e1e8db395978e0fdf3d8a7a2218e428cbf36e490c00880b17",
+    "data/simple_coupling_input.json": "8905176952dccef3bd887ab2872c251223dc90a82e7122977fff8d733316cb9d",
+    "data/simple_coupling_results.json": "9a94507fc2be5b16403b6c29d35dd646e27d52d04e016726fe28ebaa349315a8",
+    "data/simple_coupling_rule_results.json": "83b8bc4685065794e5aa4903224cb28ba0b69383243a427ec51691f030da5fc6",
+    "data/simple_coupling_rule_traces.csv.gz": "a65b07507272002632c5797b41c9c92f41f51daffec967e91be8f3d13b4644e6",
+    "data/simple_coupling_traces.csv.gz": "c3c5076885414172d70f01438a6374fdc28479e0d65dfc476c9a9287b3f4fdb3",
+    "data/tcycle_period_observations.csv": "2a48a28061969cb5522bb5a522e94c6db88c69cefc8e464b363147ce8dacd85f",
+    "data/tcycle_selected_scn_behavior_correlation_pairs.csv": "3a5de1f4e6c129ae786b1fadac20b10669bef557ed5cf3880f54f0604321c345",
+    "data/tcycle_selected_scn_observations.csv": "f53003780be7faeb2ac8c474dbdd78dbc940d962a3996ab5d2a23b57792223b7",
+    "tables/Figure1_plotted_pairs.csv": "8f473372a6f3c02f9499e13f9bb137cb6f47fe6b0e10d872262dbe813c25b31e",
+    "tables/Figure1_regression_groups.csv": "8b8ad8f1eb5f6310b6b993fefece2b6c1fe6ab6af2366b13ac9cab8c30554701",
+    "tables/Figure1_reporter_correlations.csv": "7009f05e4cd65fe3d7f9ab173f8fd67c66e8418aea99907b31c5b999ec799d98",
+    "tables/Figure1_study_counts.csv": "dce8af0513a2721b1eafcf5f6c0ad3efe001ba6d99432cfebb3bc9dd99b7a57a",
+    "tables/Figure2_gain_sweep_convergence.csv": "bfe754011e45f2a5e5215bc5a831f1ba879d7210bbf3ea8c94c8b5fb69b21eed",
+    "tables/Figure2_selected_gain_operating_points.csv": "e6f73d3e032d05c3bff0b863332280f26bec179a686d62441c71ec02785a8bac",
+    "tables/Figure3K_absolute_period_summary.csv": "045834ae2cf08609769ba445a1fab7ce637f8ae2b4924247da06ce1eb7d32179",
+    "tables/Figure3_explant_sensitivity.csv": "d1475adf23f1eaf9cb40110d0ca6d52f825b80f0e4919d8d079a52a7d50d65ff",
+    "tables/Figure3_robustness_summary.csv": "652a322e76f9b9b97ef63e1770b57b5860d0bf02047b5f1352ea7c4fcc245c62",
+    "tables/Table_S1_literature_provenance.csv": "82d1fa206243bc7c98c52bbe00d4e2c6c96029e37475a080b8b627f53d3fcb27",
+    "tables/Table_S2_matched_searches.csv": "71a6cbef8ac0f2497a9fb7a711810d5499a25f1614679a3c1501f52b6ad9badc",
+    "tables/Table_S3_fitted_parameters.csv": "008852ddcbc6258d90f43f78a2beb61559be170b3af678af85603d95cfe28653",
+    "tables/Table_S3_fixed_model_settings.csv": "96264b68634f10603192347a0b0f71742ef118f71f07b3127179a974fad5a51b",
+    "tables/fit_objective_components.csv": "71a71ce7f59624de21e4fa8c9d983ca547439e26e6d759fcc5b9ec471745586b",
+    "tables/fit_target_errors.csv": "e33742e53753517f8b6304ed1c00fbfcb0586271405ca8e201b00110224252b1",
+    "tables/fixed_period_Tcycle_contrasts.csv": "94d9b5667629465214221da64cf02123c402240250dd7aa72cbf9ef42d690ee4",
+    "tables/full_model_dynamic_endpoints.csv": "593637a6929d2db75e06af98318d2480364ea4032f5eea896a36f554f570574e",
+    "tables/memory_timescale_endpoints.csv": "b09973ec708874407d215028d6c9bcf62d55d9fd8028dac5cf3a28c5a4b00d76",
+    "tables/memory_timescale_summary.csv": "fb9a3085d855d3731f36bff046889e09ba0fab6c54ac50712e38fe083dea7b3a",
+    "tables/optimization_reselection_audit.csv": "e620f0d1d10a98174ba2e047bd551365b920ae6739530d7bf2f5cd6990df0936",
+    "tables/parameter_changes.csv": "2f1d7f832f51a8ec20daaf13fad04e282b7cfd83c99986d98275f8a4fb92e460",
+    "tables/simple_coupling_convergence.csv": "e4d15e6d633b8a2045635674ae3d8df536a3c396184f3e4d50d0e97b1baebc6c",
+    "tables/simple_coupling_endpoints.csv": "a3f0fb752531ef35cd04c769e85ca4de1c7a9867af918f837edff593fd260e12",
+    "tables/simple_coupling_grid.csv": "b08720129d82472d469c2093366500704c8dbd81e08b16fbf1748603e500743c",
+    "tables/simple_coupling_parameters.csv": "460d45262a33d14ded356fb999fc7624a4a2049e122e5f17cb5d0b597464115f",
+    "tables/simple_coupling_perturbation_summary.csv": "9e072e3857f7281ff0d5b9dc8fb5491785db4462d3bc0f9158706cefccd5ea5b",
+    "tables/simple_coupling_rule_diagnostics.csv": "54398c1c959f0adb10e39b46008f8a8921b4e85a5507de034e1a32732b47c931",
+    "tables/simple_coupling_rule_endpoints.csv": "fe1feb5649ed88564cf0142a1557339a18aeadf0284566238429f2a6f6598aab",
+    "tables/simple_coupling_rule_parameters.csv": "5b6cfb04569f8608b3d8bf1a8ada0b594ada1c43c25cb8677f372b5ff0d9b8b5",
+    "tables/simple_coupling_search.csv": "f1a172edf64579fb8efad37c0343c73c52f40464a205b3af1deb065b5fece2b9",
+    "tables/simple_coupling_sensitivity.csv": "fa30422fe192c3447042b79fd2f52625994f18a007c1476c2e92f9652f84aa1f",
+    "tables/simple_coupling_shared_parameters.csv": "8cf9bb88e78559295782d1b11716a510532142747c187792b435d616fda95d35"
+  },
+  "conditions": {
+    "SP": "#0072B2",
+    "LP": "#D55E00",
+    "LD": "#525252",
+    "T22": "#009E73",
+    "T26": "#CC79A7",
+    "18:6 LD": "#7B3294",
+    "T23": "#56B4E9",
+    "T25": "#E69F00"
+  },
+  "numerical_scope": "All inputs, selected parameters, objective values, gains, displayed behavioral SEMs, simulations and literature statistics are byte-for-byte unchanged from the preceding source-corrected release.",
+  "design_changes": [
+    "Figure 1: two aligned compact age/reporter keys; study markers and cohort-line definitions moved to caption.",
+    "Figure 2: full-width architecture panel, aligned objective/readout row and gain-sweep rows of four plots; authored equations and model connections preserved.",
+    "Consistent condition colors in model figures; literature age/reporter and SCN D/V color encodings kept distinct.",
+    "Thicker axes and curves, eight-point minimum text, fewer redundant legends and compact page layouts.",
+    "All numbered figures exported from code in PDF/SVG/PNG; technical appendix exported as three-page PDF."
+  ],
+  "dimensions": {
+    "Figure_1": {
+      "width_mm": 175,
+      "current_heights_mm": [
+        184.0
+      ],
+      "previous_heights_mm": [
+        194.0
+      ]
+    },
+    "Figure_2": {
+      "width_mm": 175,
+      "current_heights_mm": [
+        220.0
+      ],
+      "previous_heights_mm": [
+        252.0
+      ]
+    },
+    "Figure_3": {
+      "width_mm": 175,
+      "current_heights_mm": [
+        230.0
+      ],
+      "previous_heights_mm": [
+        246.0
+      ]
+    },
+    "Figure_4": {
+      "width_mm": 175,
+      "current_heights_mm": [
+        176.0
+      ],
+      "previous_heights_mm": [
+        196.0
+      ]
+    },
+    "Figure_S1": {
+      "width_mm": 175,
+      "current_heights_mm": [
+        198.0
+      ],
+      "previous_heights_mm": [
+        190.0
+      ]
+    },
+    "Figure_S2": {
+      "width_mm": 175,
+      "current_heights_mm": [
+        82.0
+      ],
+      "previous_heights_mm": [
+        90.0
+      ]
+    },
+    "Figure_S3": {
+      "width_mm": 175,
+      "current_heights_mm": [
+        113.0
+      ],
+      "previous_heights_mm": [
+        131.0
+      ]
+    },
+    "Figure_S4": {
+      "width_mm": 175,
+      "current_heights_mm": [
+        168.0
+      ],
+      "previous_heights_mm": [
+        184.0
+      ]
+    },
+    "Figure_S5": {
+      "width_mm": 175,
+      "current_heights_mm": [
+        132.0
+      ],
+      "previous_heights_mm": [
+        139.0
+      ]
+    },
+    "Figure_S6": {
+      "width_mm": 175,
+      "current_heights_mm": [
+        184.0
+      ],
+      "previous_heights_mm": [
+        198.0
+      ]
+    },
+    "Technical_appendix": {
+      "width_mm": 175,
+      "current_heights_mm": [
+        86.0,
+        102.0,
+        190.0
+      ],
+      "previous_heights_mm": [
+        94.0,
+        102.0,
+        190.0
+      ]
+    }
+  },
+  "png_exports": [
+    {
+      "file": "figures/main/Figure_1.png",
+      "pixels": [
+        4133,
+        4346
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    {
+      "file": "figures/main/Figure_2.png",
+      "pixels": [
+        4133,
+        5905
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    {
+      "file": "figures/main/Figure_3.png",
+      "pixels": [
+        4133,
+        5433
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    {
+      "file": "figures/main/Figure_4.png",
+      "pixels": [
+        4133,
+        4157
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    {
+      "file": "figures/supplement/Figure_S1.png",
+      "pixels": [
+        4133,
+        4677
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    {
+      "file": "figures/supplement/Figure_S2.png",
+      "pixels": [
+        4133,
+        1937
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    {
+      "file": "figures/supplement/Figure_S3.png",
+      "pixels": [
+        4133,
+        2669
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    {
+      "file": "figures/supplement/Figure_S4.png",
+      "pixels": [
+        4133,
+        3968
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    {
+      "file": "figures/supplement/Figure_S5.png",
+      "pixels": [
+        4133,
+        3118
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    {
+      "file": "figures/supplement/Figure_S6.png",
+      "pixels": [
+        4133,
+        4346
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    }
+  ],
+  "authored_Figure2": {
+    "prior_exports_preserved_privately": true,
+    "scientific_content_preserved_in_code_generated_design": true,
+    "old_manual_layout_and_colors_replaced_by_requested_redesign": true,
+    "current_formats_consistent": true
+  },
+  "visual_QA": {
+    "A4_proof_pages": 13,
+    "actual_print_width_mm": 175,
+    "scale": 1,
+    "all_pages_reviewed": true,
+    "clipping_or_overlap_issues_remaining": 0
+  },
+  "historical_validation": "Earlier dated validation files retain their original scope; this report does not claim a fresh isolated full simulation rebuild.",
+  "Figure2A_followup": "See figure2a_color_refinement.json (or the private verification counterpart) for colored architecture inputs/branches, enlarged equations/nodes, restored notes, unchanged B-E and unchanged numerical results.",
+  "Figure2_compact_layout_followup": "D/E are two rows of four plots at 175 x 220 mm; all quantitative coordinates and ranges are unchanged. See figure2_compact_layout.json or its private counterpart."
+}

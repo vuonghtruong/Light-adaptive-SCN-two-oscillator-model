@@ -5,6 +5,10 @@
     "age_label",
     "condition_family",
     "condition_label",
+    "photoperiod_basis",
+    "developmental_photoperiod",
+    "continuation_photoperiod",
+    "aggregation_basis",
     "reporter when known"
   ],
   "unknown_behavior_reporter_policy": "Allowed only for the single selected SCN reporter within the matching cohort; Aton2004.",
@@ -22,6 +26,10 @@
       "age_label": "3-4 wks",
       "condition_family": "photoperiod",
       "condition_label": "12:12 LD",
+      "photoperiod_basis": "",
+      "developmental_photoperiod": "",
+      "continuation_photoperiod": "",
+      "aggregation_basis": "",
       "reporter_behavior": "Bmal1-ELuc",
       "reporter_scn": "PER2::LUC"
     },
@@ -31,6 +39,10 @@
       "age_label": "3-4 wks",
       "condition_family": "photoperiod",
       "condition_label": "12:12 LD",
+      "photoperiod_basis": "",
+      "developmental_photoperiod": "",
+      "continuation_photoperiod": "",
+      "aggregation_basis": "",
       "reporter_behavior": "PER2::LUC",
       "reporter_scn": "Bmal1-ELuc"
     }

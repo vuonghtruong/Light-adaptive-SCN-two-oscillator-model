@@ -130,7 +130,7 @@ def generate(force=False):
 def render():
     from common import fig,letter,save,COL,ORDER,Line2D,plt,objective_display,objective_axis
     q=pd.read_csv(DATA/FILES[0]);sc=pd.read_csv(DATA/FILES[1]);q=q[q['mode'].eq('both')]
-    f=fig(139);gs=f.add_gridspec(2,3,left=.092,right=.99,top=.965,bottom=.14,hspace=.49,wspace=.47)
+    f=fig(132);gs=f.add_gridspec(2,3,left=.10,right=.985,top=.95,bottom=.15,hspace=.50,wspace=.55)
     axes=[f.add_subplot(gs[i//3,i%3]) for i in range(6)]
     for ax,ex,key,ylabel in zip(axes[:4],[False,True,True,True],['behavior_h','D_h','V_h','gap_days1_7_circular_h'],['Behavioral period\nin vivo (h)','D period ex vivo (h)','V period ex vivo (h)','D–V phase gap,\nfirst 7 DD days (h)']):
         for c in ORDER:
@@ -144,7 +144,7 @@ def render():
         axes[4].plot(z.varied_tau_h,objective_display(z.common_penalized_objective),color='#333333',ls=ls,marker=mark,ms=3,label=label)
     objective_axis(axes[4])
     axes[4].set_ylim(2.5,85);axes[4].set_yticks([3,10,30],['3','10','30'])
-    axes[4].legend(frameon=False,fontsize=5.4,loc='lower left',bbox_to_anchor=(0,1.01),handlelength=1.6,labelspacing=.15,borderaxespad=0)
+    # Variation modes are decoded in the caption; keep the plot area unobscured.
     contexts=[(False,'behavior_h','-','o','Behavior in vivo'),(True,'D_h','--','s','D ex vivo')]
     for c in ['T22','T26']:
         for ex,key,ls,mark,label in contexts:
@@ -153,7 +153,7 @@ def render():
             b=z[z.varied_tau_h.eq(240)].iloc[0]
             axes[5].scatter([240],[b[key]],s=18,c=[COL[c]],edgecolors='black',linewidths=.5,marker=mark,zorder=5)
     axes[5].set_ylabel('T22 and T26\nabsolute period (h)')
-    axes[5].legend(handles=[Line2D([],[],color='#333333',ls=ls,marker=mark,ms=3,label=label) for ex,key,ls,mark,label in contexts],frameon=False,fontsize=5.4,loc='lower left',bbox_to_anchor=(0,1.01),handlelength=1.6,labelspacing=.15,borderaxespad=0)
+    # Solid circles: behavior in vivo; dashed squares: D ex vivo (caption).
     for i,ax in enumerate(axes):
         ax.axvline(240,color='#555555',ls='--',lw=.6,zorder=0)
         ax.set_xscale('log',base=2);ax.set_xlim(53,800);ax.set_xticks([60,120,240,480,720],['60','120','240','480','720'])

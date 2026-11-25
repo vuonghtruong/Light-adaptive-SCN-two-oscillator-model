@@ -32,6 +32,7 @@ FIGURE_PATHS=[f'figures/{section}/{name}.{ext}'
                           ('supplement',[f'Figure_S{i}' for i in range(1,7)])]
     for name in names for ext in ['pdf','svg','png']]
 FIGURE_PATHS+=['figures/supplement/Technical_appendix.pdf']
+FIGURE_PATHS+=[f'figures/graphical_abstract/Graphical_abstract.{ext}' for ext in ['pdf','svg','png']]
 DOCUMENT_PATHS=[]
 OUTPUT_PATHS=FIGURE_PATHS+['tables/'+n for n in TABLE_NAMES]+DOCUMENT_PATHS
 
@@ -67,7 +68,7 @@ def main(argv=None):
     if check_again:
         print('Rebuilding Figure 2 step-halving table from full forward runs...',flush=True)
         architecture_sensitivity.validate_convergence(sweep)
-    print('2/4 Rendering four main figures, S1-S6 and the appendix...',flush=True)
+    print('2/4 Rendering four main figures, S1-S6, the appendix and graphical abstract...',flush=True)
     from render_all import render_figures
     render_figures()
     print('3/4 Rebuilding remaining tables and checking numerical results...',flush=True)

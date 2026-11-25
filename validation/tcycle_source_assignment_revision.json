@@ -1,0 +1,248 @@
+{
+  "passed": true,
+  "revision_date": "2026-10-18",
+  "scope": "Reconcile two behavioral-only source/condition assignments; regenerate Figure 1 and Figure S4, study counts and literature provenance.",
+  "changed_observations": [
+    {
+      "observation_id": "OBS066",
+      "before": {
+        "study": "Pittendrigh and Daan",
+        "year": "1976",
+        "paradigm": "gradual T-cycle",
+        "age_label": "",
+        "age_category": "unknown",
+        "sex": "",
+        "strain": "M. musculus",
+        "reporter": "",
+        "measurement": "Behavior",
+        "scn_region": "behavior",
+        "condition_family": "T-cycle",
+        "condition_label": "T24",
+        "t_cycle": "T24",
+        "photoperiod": "",
+        "mean_period_h": "24.11",
+        "sem_h": "0.06",
+        "n": "18.0",
+        "n_note": "",
+        "notes": "Condition alignment inferred from wrapped PDF text; behavior only"
+      },
+      "after": {
+        "study": "Ouk et al.",
+        "year": "2019",
+        "paradigm": "fixed T-cycle",
+        "age_label": "14 wks",
+        "age_category": "adult",
+        "sex": "M+F",
+        "strain": "CBA x C57BL/6J",
+        "reporter": "",
+        "measurement": "Behavior",
+        "scn_region": "behavior",
+        "condition_family": "T-cycle",
+        "condition_label": "T26",
+        "t_cycle": "T26",
+        "photoperiod": "",
+        "mean_period_h": "24.11",
+        "sem_h": "0.06",
+        "n": "18.0",
+        "n_note": "",
+        "notes": "Source/condition reconciled 2026-10-18 against manuscript Table S7B and original paper: Original Table 1 verifies T26 WT n=18 (9 male + 9 female); Figure 6I shows the T26-to-DD aftereffect. https://doi.org/10.1523/ENEURO.0088-19.2019; mean and SEM retained from manuscript extraction, not independently re-digitized; WT comparator; behavior only, no paired SCN value."
+      },
+      "source_url": "https://doi.org/10.1523/ENEURO.0088-19.2019",
+      "source_assignment_evidence": "Original Table 1 verifies T26 WT n=18 (9 male + 9 female); Figure 6I shows the T26-to-DD aftereffect.",
+      "numeric_value_status": "Mean and SEM retained from manuscript Table S7B; no new digitization."
+    },
+    {
+      "observation_id": "OBS067",
+      "before": {
+        "study": "Pittendrigh and Daan",
+        "year": "1976",
+        "paradigm": "gradual T-cycle",
+        "age_label": "",
+        "age_category": "unknown",
+        "sex": "",
+        "strain": "M. musculus",
+        "reporter": "",
+        "measurement": "Behavior",
+        "scn_region": "behavior",
+        "condition_family": "T-cycle",
+        "condition_label": "T25",
+        "t_cycle": "T25",
+        "photoperiod": "",
+        "mean_period_h": "23.84",
+        "sem_h": "0.05",
+        "n": "9.0",
+        "n_note": "",
+        "notes": "Condition alignment inferred from wrapped PDF text; behavior only"
+      },
+      "after": {
+        "study": "Mendoza-Viveros et al.",
+        "year": "2017",
+        "paradigm": "gradual T-cycle",
+        "age_label": "5-10 wks",
+        "age_category": "young",
+        "sex": "M",
+        "strain": "C57BL/6J",
+        "reporter": "",
+        "measurement": "Behavior",
+        "scn_region": "behavior",
+        "condition_family": "T-cycle",
+        "condition_label": "T26",
+        "t_cycle": "T26",
+        "photoperiod": "",
+        "mean_period_h": "23.84",
+        "sem_h": "0.05",
+        "n": "9.0",
+        "n_note": "",
+        "notes": "Source/condition reconciled 2026-10-18 against manuscript Table S7B and original paper: Original Figure 1H caption identifies T22/T26 DD period aftereffects and n=9 per group. https://doi.org/10.1016/j.celrep.2017.03.057; mean and SEM retained from manuscript extraction, not independently re-digitized; WT comparator; behavior only, no paired SCN value."
+      },
+      "source_url": "https://doi.org/10.1016/j.celrep.2017.03.057",
+      "source_assignment_evidence": "Original Figure 1H caption identifies T22/T26 DD period aftereffects and n=9 per group.",
+      "numeric_value_status": "Mean and SEM retained from manuscript Table S7B; no new digitization."
+    }
+  ],
+  "source_verification": [
+    {
+      "study": "Ouk et al. 2019",
+      "doi": "10.1523/ENEURO.0088-19.2019",
+      "accessed_original": "https://api.repository.cam.ac.uk/server/api/core/bitstreams/857c5722-08ea-4ec3-9537-4a559f571f7c/content",
+      "verified": "Table 1: T21/T22/T26 protocol, WT T26 n=18 (9 male + 9 female); Figure 6I and Results: T26-to-DD aftereffects.",
+      "value_basis": "24.11 +/- 0.06 h retained from manuscript Table S7B; not independently re-digitized."
+    },
+    {
+      "study": "Mendoza-Viveros et al. 2017",
+      "doi": "10.1016/j.celrep.2017.03.057",
+      "source": "https://www.cell.com/article/S2211124717304187/pdf",
+      "verified": "Publisher-indexed original Figure 1H caption: T22/T26 period aftereffects, n=9 per group. Direct publisher/PMC full-text fetch unavailable during this check.",
+      "value_basis": "23.84 +/- 0.05 h retained from manuscript Table S7B; not independently re-digitized."
+    }
+  ],
+  "numeric_means_SEMs_and_sample_sizes_unchanged_for_all_102_rows": true,
+  "Figure1B_study_counts_before": [
+    {
+      "panel": "B",
+      "condition": "T20",
+      "independent_studies": 2,
+      "means": 4
+    },
+    {
+      "panel": "B",
+      "condition": "T21",
+      "independent_studies": 2,
+      "means": 2
+    },
+    {
+      "panel": "B",
+      "condition": "T22",
+      "independent_studies": 4,
+      "means": 4
+    },
+    {
+      "panel": "B",
+      "condition": "T24",
+      "independent_studies": 2,
+      "means": 2
+    },
+    {
+      "panel": "B",
+      "condition": "T25",
+      "independent_studies": 1,
+      "means": 1
+    },
+    {
+      "panel": "B",
+      "condition": "T26",
+      "independent_studies": 2,
+      "means": 2
+    },
+    {
+      "panel": "B",
+      "condition": "T28",
+      "independent_studies": 3,
+      "means": 5
+    }
+  ],
+  "Figure1B_study_counts_after": [
+    {
+      "panel": "B",
+      "condition": "T20",
+      "independent_studies": 2,
+      "means": 4
+    },
+    {
+      "panel": "B",
+      "condition": "T21",
+      "independent_studies": 2,
+      "means": 2
+    },
+    {
+      "panel": "B",
+      "condition": "T22",
+      "independent_studies": 4,
+      "means": 4
+    },
+    {
+      "panel": "B",
+      "condition": "T24",
+      "independent_studies": 1,
+      "means": 1
+    },
+    {
+      "panel": "B",
+      "condition": "T26",
+      "independent_studies": 4,
+      "means": 4
+    },
+    {
+      "panel": "B",
+      "condition": "T28",
+      "independent_studies": 3,
+      "means": 5
+    }
+  ],
+  "FigureS4A_corrected_coverage": {
+    "Ouk 2019": [
+      "T21",
+      "T22",
+      "T26"
+    ],
+    "Mendoza-Viveros 2017": [
+      "T22",
+      "T26"
+    ],
+    "Pittendrigh and Daan 1976": [
+      "T20",
+      "T28"
+    ]
+  },
+  "paired_observation_count": 31,
+  "paired_data_and_all_correlation_tables_byte_unchanged": true,
+  "all_other_model_data_and_figure_files_byte_unchanged": true,
+  "manual_Figure2_SVG_and_PNG_preserved": true,
+  "checks_passed": 126,
+  "new_source_assignment_and_count_checks": 2,
+  "visual_QA": {
+    "passed": true,
+    "method": "Poppler PDF rendering at 180 dpi; both pages inspected",
+    "PDFs": [
+      "Figure_1.pdf",
+      "Figure_S4.pdf"
+    ]
+  },
+  "changed_existing_files": [
+    "README.md",
+    "code/figure1.py",
+    "code/validate_package.py",
+    "data/tcycle_period_observations.csv",
+    "figures/main/Figure_1.pdf",
+    "figures/main/Figure_1.png",
+    "figures/main/Figure_1.svg",
+    "figures/supplement/Figure_S4.pdf",
+    "figures/supplement/Figure_S4.png",
+    "figures/supplement/Figure_S4.svg",
+    "inputs.json",
+    "tables/Figure1_study_counts.csv",
+    "tables/Table_S1_literature_provenance.csv",
+    "validation/package_checks.json",
+    "validation/reproduction.json"
+  ]
+}

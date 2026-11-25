@@ -2,7 +2,9 @@ from common import *
 from scipy.stats import pearsonr
 
 FAMILIES = ['photoperiod', 'T-cycle', 'T-cycle x photoperiod']
-PAIR_KEYS = ['study', 'year', 'age_label', 'condition_family', 'condition_label']
+HISTORY_KEYS = ['photoperiod_basis', 'developmental_photoperiod',
+                'continuation_photoperiod', 'aggregation_basis']
+PAIR_KEYS = ['study', 'year', 'age_label', 'condition_family', 'condition_label'] + HISTORY_KEYS
 
 
 def matched_pairs(obs, scn):
@@ -11,10 +13,13 @@ def matched_pairs(obs, scn):
     Aton's behavior reporter is unspecified; its one selected SCN reporter is
     unambiguous. Never make a cross-reporter pair when both labels are known.
     """
-    b = obs[obs.measurement.eq('Behavior')]
+    b = obs[obs.measurement.eq('Behavior')].copy()
+    scn = scn.copy()
+    for frame in [b, scn]:
+        frame[HISTORY_KEYS] = frame[HISTORY_KEYS].fillna('')
     merged = b.merge(scn, on=PAIR_KEYS, suffixes=('_behavior', '_scn'))
     known = merged.reporter_behavior.notna()
-    unknown_reporter_counts = merged[~known].groupby(PAIR_KEYS).reporter_scn.nunique()
+    unknown_reporter_counts = merged[~known].groupby(PAIR_KEYS, dropna=False).reporter_scn.nunique()
     if (unknown_reporter_counts > 1).any():
         raise ValueError('Ambiguous SCN reporter for a behavioral observation with no reporter label')
     excluded = merged[known & merged.reporter_behavior.ne(merged.reporter_scn)]
@@ -31,7 +36,21 @@ def matched_pairs(obs, scn):
                            ('n_behavior', 'behavior_n'),
                            ('mean_period_h_scn', 'scn_mean_period_h'),
                            ('sem_h_scn', 'scn_sem_h'),
-                           ('n_scn', 'scn_n')]:
+                           ('n_scn', 'scn_n'),
+                           ('developmental_exposure_window_scn', 'developmental_exposure_window'),
+                           ('continuation_duration_scn', 'continuation_duration'),
+                           ('assay_age_scn', 'assay_age'),
+                           ('exposure_start_age_scn', 'exposure_start_age'),
+                           ('exposure_duration_scn', 'exposure_duration'),
+                           ('entrainment_ld_cycles_behavior', 'behavior_entrainment_ld_cycles'),
+                           ('entrainment_ld_cycles_scn', 'scn_entrainment_ld_cycles'),
+                           ('measurement_window_behavior', 'behavior_measurement_window'),
+                           ('measurement_window_scn', 'scn_measurement_window'),
+                           ('source_sd_h_behavior', 'behavior_source_sd_h'),
+                           ('source_sd_h_scn', 'scn_source_sd_h'),
+                           ('uncertainty_basis_behavior', 'behavior_uncertainty_basis'),
+                           ('uncertainty_basis_scn', 'scn_uncertainty_basis'),
+                           ('source_reference_scn', 'source_reference')]:
         q[target] = merged[source]
     q = q.drop_duplicates().reset_index(drop=True)
     return q, excluded[PAIR_KEYS + ['reporter_behavior', 'reporter_scn']]
@@ -52,13 +71,12 @@ def main():
     studies = sorted(set(zip(obs.study, obs.year)))
     markers = {s: MARKERS[i] for i, s in enumerate(studies)}
 
-    def name(s):
-        return s[0].replace(' et al.', '') + ' ' + str(2011 if s[0].startswith('Ciarleglio') else s[1])
-
-    f = fig(194)
+    # Two compact color keys replace the former four-block legend. Study
+    # symbols and line conventions are decoded in the manuscript caption.
+    f = fig(184)
     axs = f.subplots(3, 3)
-    f.subplots_adjust(left=.095, right=.985, top=.936, bottom=.235,
-                      wspace=.30, hspace=.52)
+    f.subplots_adjust(left=.10, right=.985, top=.936, bottom=.15,
+                      wspace=.30, hspace=.55)
     counts, correlations, line_records, clipping = [], [], [], []
     for j, family in enumerate(FAMILIES):
         b = obs[(obs.measurement == 'Behavior') & (obs.condition_family == family)]
@@ -80,11 +98,11 @@ def main():
                     color = AGE.get(r.age_category, '#666666') if k == 0 else REP.get(r.reporter, '#666666')
                     ax.errorbar(i + dx, r.mean_period_h, yerr=r.sem_h,
                                 fmt=markers[(r.study, r.year)], color=color,
-                                ms=4.0, alpha=.66, capsize=1.4, lw=.65, mew=.7)
+                                ms=4.5, alpha=.88, capsize=1.8, lw=1.0, mew=.85)
             ax.set(xticks=range(len(conds)), xticklabels=labels,
                    xlim=(-.55, len(conds) - .45),
                    ylim=(22, 25.3) if k == 0 else (18.5, 27))
-            ax.tick_params(axis='x', labelsize=6.0, pad=2)
+            ax.tick_params(axis='x', labelsize=8, pad=3)
             ax.tick_params(axis='y', pad=2)
             if j == 0:
                 ax.set_ylabel('Behavioral period (h)' if k == 0 else 'Ex vivo SCN period (h)')
@@ -100,7 +118,7 @@ def main():
             ax.errorbar(r.behavior_mean_period_h, r.scn_mean_period_h,
                         xerr=r.behavior_sem_h, yerr=r.scn_sem_h,
                         fmt=markers[(r.study, r.year)], color=REP.get(r.reporter_scn, '#666666'),
-                        ms=4, alpha=.7, capsize=1.3, lw=.6, zorder=3)
+                        ms=4.5, alpha=.9, capsize=1.8, lw=1.0, mew=.85, zorder=3)
         g['branch'] = g.photoperiod.fillna('') if family == FAMILIES[2] else ''
         # Preserve age strata; two-condition observations get a descriptive
         # connecting segment, not a statistically uninformative n=2 regression.
@@ -116,12 +134,12 @@ def main():
                 xs = np.array([x.min(), x.max()])
                 style = '--' if key[-1] == 'LP' else '-'
                 ax.plot(xs, sl*xs+it, color=REP.get(key[2], '#666666'),
-                        alpha=.86, lw=1.1, ls=style, zorder=2)
+                        alpha=.95, lw=1.4, ls=style, zorder=2)
                 record.update(line_type='within-cohort regression', slope=sl, intercept=it)
             elif len(z) == 2 and len(np.unique(x)) == 2:
                 order = np.argsort(x)
                 ax.plot(x[order], y[order], color=REP.get(key[2], '#666666'),
-                        alpha=.68, lw=1.0, ls=':', zorder=2)
+                        alpha=.85, lw=1.25, ls=':', zorder=2)
                 record['line_type'] = 'two-mean connector; no regression or correlation'
             else:
                 record['line_type'] = 'no line: fewer than two distinct behavioral means'
@@ -137,8 +155,8 @@ def main():
                      'Per1::GFP': 'Per1-GFP', 'Per1-luc': 'Per1-luc'}.get(reporter, reporter)
             label = f'{branch}: n={n}' if branch else f'{short}: n={n}'
             label += f', r={rr:.2f}' if np.isfinite(rr) else ', r=—'
-            ax.text(.025, .98-.108*i, label, transform=ax.transAxes, va='top',
-                    fontsize=6.0, color=REP.get(reporter, '#666666'),
+            ax.text(.025, .98-.105*i, label, transform=ax.transAxes, va='top',
+                    fontsize=8, color=REP.get(reporter, '#666666'),
                     bbox=dict(facecolor='white', alpha=.9, edgecolor='none', pad=.4))
             correlations.append(dict(panel=chr(71+j), family=family, reporter=reporter,
                                      branch=branch, n_paired_condition_means=n,
@@ -149,38 +167,30 @@ def main():
         lo = (g.scn_mean_period_h-errors).min()
         hi = (g.scn_mean_period_h+errors).max()
         span = hi-lo
-        ax.set_ylim(lo-.10*span, hi+(.48 if j == 0 else .34)*span)
+        ax.set_ylim(lo-.10*span, hi+(.56 if j == 0 else .34)*span)
         ax.margins(x=.09)
         ax.set_xlabel('Behavioral period (h)', labelpad=3)
         if j == 0:
             ax.set_ylabel('Ex vivo SCN period (h)')
-        if j == 2:
-            ax.legend(handles=[Line2D([], [], color=REP['PER2::LUC'], ls='-', label='SP fit'),
-                               Line2D([], [], color=REP['PER2::LUC'], ls='--', label='LP fit')],
-                      loc='lower left', frameon=False, fontsize=6, handlelength=1.6,
-                      borderpad=.1, labelspacing=.25)
     for i, ax in enumerate(axs.flat):
         letter(ax, chr(65+i), x=-.16, y=1.025)
     for j, txt in enumerate(['Photoperiod', 'T-cycle', 'Photoperiod × T-cycle']):
         pos = axs[0, j].get_position()
-        f.text((pos.x0+pos.x1)/2, .976, txt, ha='center', fontsize=7.5, weight='bold')
-    # Legends distinguish color, study identity and the meaning of each line.
-    h = [Line2D([], [], color=c, marker='o', ls='', ms=3.5,
+        f.text((pos.x0+pos.x1)/2, .976, txt, ha='center', fontsize=9.2, weight='bold')
+    # Color encodes age in A-C and reporter in D-I, not light schedule.
+    # Align both keys to one text column so the footer reads as a compact key.
+    f.text(.10, .065, 'Age (A-C)', fontsize=8, va='center', weight='bold')
+    f.text(.10, .030, 'Reporter (D-I)', fontsize=8, va='center', weight='bold')
+    h = [Line2D([], [], color=c, marker='o', ls='', ms=4.5,
                 label=k.capitalize() if k != 'unknown' else 'Age unavailable') for k, c in AGE.items()]
-    f.legend(handles=h, loc='lower center', bbox_to_anchor=(.52, .17), ncol=4,
-             frameon=False, fontsize=6, handletextpad=.3, columnspacing=.8)
-    h = [Line2D([], [], color=c, marker='o', ls='', ms=3.5, label=k)
+    f.legend(handles=h, loc='center left', bbox_to_anchor=(.285, .065), ncol=4,
+             frameon=False, fontsize=8, handletextpad=.4, handlelength=.8,
+             columnspacing=1.0, borderaxespad=0, borderpad=0)
+    h = [Line2D([], [], color=c, marker='o', ls='', ms=4.5, label=k)
          for k, c in REP.items() if k != 'Per1-GFP']
-    f.legend(handles=h, loc='lower center', bbox_to_anchor=(.52, .143), ncol=4,
-             frameon=False, fontsize=6, handletextpad=.3, columnspacing=.7)
-    h = [Line2D([], [], color='#444444', ls='-', label='Within-cohort fit (n ≥ 3)'),
-         Line2D([], [], color='#444444', ls=':', label='Two-mean link (no fit)')]
-    f.legend(handles=h, loc='lower center', bbox_to_anchor=(.52, .116), ncol=2,
-             frameon=False, fontsize=6, handlelength=2, columnspacing=1.2)
-    f.legend(handles=[Line2D([], [], marker=markers[s], color='#444444', ls='', ms=3.5,
-                            label=name(s)) for s in studies],
-             loc='lower center', bbox_to_anchor=(.52, .01), ncol=3, frameon=False,
-             fontsize=6, handletextpad=.3, columnspacing=.85, labelspacing=.32)
+    f.legend(handles=h, loc='center left', bbox_to_anchor=(.285, .030), ncol=4,
+             frameon=False, fontsize=8, handletextpad=.4, handlelength=.8,
+             columnspacing=1.0, borderaxespad=0, borderpad=0)
     pd.DataFrame(counts).to_csv(TABLES/'Figure1_study_counts.csv', index=False)
     pd.DataFrame(correlations).to_csv(TABLES/'Figure1_reporter_correlations.csv', index=False)
     pd.DataFrame(line_records).to_csv(TABLES/'Figure1_regression_groups.csv', index=False)
@@ -200,6 +210,14 @@ def main():
     t['provenance_status'] = 'Archived extraction; not re-extracted from original articles in this package'
     confirmed = t.notes.fillna('').str.contains('Author-confirmed 2026-09-29', regex=False)
     t.loc[confirmed, 'provenance_status'] = 'Author-confirmed manuscript extraction revision, 2026-09-29; not independently re-extracted from original articles'
+    reassigned = t.notes.fillna('').str.contains('Source/condition reconciled 2026-10-18', regex=False)
+    t.loc[reassigned, 'provenance_status'] = 'Source/condition and sample size reconciled to original paper, 2026-10-18; manuscript mean/SEM retained, not re-digitized'
+    photoperiod = t.notes.fillna('').str.contains('Photoperiod source reconciliation 2026-10-18', regex=False)
+    t.loc[photoperiod, 'provenance_status'] = 'Photoperiod group identity and exposure history reconciled to original paper, 2026-10-18; numerical extraction retained, not re-digitized; see notes for uncertainty limitations'
+    t.loc[t.study.str.startswith('Buijink'), 'provenance_status'] = 'Original supplemental Tables S2/S3 reconciled 2026-10-18: LP/SP labels, mean, SD and n verified; SEM derived as SD/sqrt(n)'
+    source_checked = t.notes.fillna('').str.contains('Primary-source reconciliation 2026-11-25', regex=False)
+    t.loc[source_checked & t.study.eq('Myung et al.'), 'provenance_status'] = 'Primary source reconciled 2026-11-25: Bmal1 behavioral n from Figure 4B; SP/LP regional source SD converted to SEM where applicable; means unchanged, see notes'
+    t.loc[source_checked & t.study.str.startswith('Tackenberg'), 'provenance_status'] = 'Primary Methods and Figures 2/5 reconciled 2026-11-25: complete schedules, exposure/assay ages and readout-specific animal n; mean/SEM retained, not re-digitized'
     t.to_csv(TABLES/'Table_S1_literature_provenance.csv', index=False)
     audit = dict(
         pairing_keys=PAIR_KEYS + ['reporter when known'],

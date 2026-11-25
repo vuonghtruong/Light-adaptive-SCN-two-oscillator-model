@@ -1,0 +1,258 @@
+{
+  "revision_date": "2026-11-25",
+  "scope": "Public literature sample sizes, source SD-to-SEM conversions and complete-photoperiod exposure metadata; no period-mean, fitting-target, parameter or paired-statistics changes",
+  "passed": true,
+  "sources": [
+    {
+      "study": "Myung et al. (2012)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6622328/",
+      "doi": "10.1523/JNEUROSCI.5586-11.2012",
+      "locations": [
+        "Figure4B caption: Bmal1 behavioral n8, PER2 behavioral n4",
+        "Results photoperiod experiments associated with Figure11C: regional mean +/- SD and explant n"
+      ]
+    },
+    {
+      "study": "Tackenberg et al. (2020)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8281571/",
+      "doi": "10.1177/0748730420929217",
+      "locations": [
+        "Methods: Activity Monitoring and Housing, complete LD schedules, animal counts, exposure start age and duration",
+        "Figure2 caption: behavioral n",
+        "Figure5 caption: ex vivo n; panelD period measured over5cycles"
+      ]
+    },
+    {
+      "study": "Buijink et al. (2020)",
+      "url": "https://doi.org/10.1177/0748730419900867",
+      "locations": [
+        "Supplementary Tables S2/S3; existing October source corrections verified and unchanged"
+      ]
+    }
+  ],
+  "myung2012_behavior_n": {
+    "reporter": "Bmal1-ELuc",
+    "old_n": 4,
+    "corrected_n": 8,
+    "PER2_n_unchanged": 4
+  },
+  "myung2012_uncertainty_changes": [
+    {
+      "study": "Myung et al.",
+      "year": 2012,
+      "region": "A-SCN",
+      "condition": "8:16 LD",
+      "mean_period_h": 25.1,
+      "n": 5,
+      "source_sd_h": 1.8,
+      "old_sem_h": 1.8,
+      "corrected_sem_h": 0.8049844718999243
+    },
+    {
+      "study": "Myung et al.",
+      "year": 2012,
+      "region": "P-SCN",
+      "condition": "8:16 LD",
+      "mean_period_h": 23.2,
+      "n": 7,
+      "source_sd_h": 1.1,
+      "old_sem_h": 1.1,
+      "corrected_sem_h": 0.4157609203101499
+    },
+    {
+      "study": "Myung et al.",
+      "year": 2012,
+      "region": "A-SCN",
+      "condition": "16:8 LD",
+      "mean_period_h": 23.1,
+      "n": 4,
+      "source_sd_h": 0.8,
+      "old_sem_h": 0.8,
+      "corrected_sem_h": 0.4
+    },
+    {
+      "study": "Myung et al.",
+      "year": 2012,
+      "region": "P-SCN",
+      "condition": "16:8 LD",
+      "mean_period_h": 21.4,
+      "n": 4,
+      "source_sd_h": 2.5,
+      "old_sem_h": 2.5,
+      "corrected_sem_h": 1.25
+    }
+  ],
+  "tackenberg_changes": [
+    {
+      "condition": "SP T23",
+      "behavior_n": 8,
+      "old_scn_n": 8,
+      "corrected_scn_n": 4,
+      "behavior_entrainment_ld_cycles": "8:15 and 7:16",
+      "scn_entrainment_ld_cycles": "8:15 (7:16 ex vivo n=0)"
+    },
+    {
+      "condition": "SP T24",
+      "behavior_n": 12,
+      "old_scn_n": 12,
+      "corrected_scn_n": 8,
+      "behavior_entrainment_ld_cycles": "8:16",
+      "scn_entrainment_ld_cycles": "8:16"
+    },
+    {
+      "condition": "SP T26",
+      "behavior_n": 14,
+      "old_scn_n": 14,
+      "corrected_scn_n": 6,
+      "behavior_entrainment_ld_cycles": "9:17",
+      "scn_entrainment_ld_cycles": "9:17"
+    },
+    {
+      "condition": "LP T23",
+      "behavior_n": 10,
+      "old_scn_n": 10,
+      "corrected_scn_n": 6,
+      "behavior_entrainment_ld_cycles": "15:8 and 16:7",
+      "scn_entrainment_ld_cycles": "15:8 and 16:7"
+    },
+    {
+      "condition": "LP T24",
+      "behavior_n": 12,
+      "old_scn_n": 12,
+      "corrected_scn_n": 6,
+      "behavior_entrainment_ld_cycles": "16:8",
+      "scn_entrainment_ld_cycles": "16:8"
+    },
+    {
+      "condition": "LP T26",
+      "behavior_n": 6,
+      "old_scn_n": 6,
+      "corrected_scn_n": 7,
+      "behavior_entrainment_ld_cycles": "17:9",
+      "scn_entrainment_ld_cycles": "17:9"
+    }
+  ],
+  "tackenberg_age_note": "Exposure starts at >=3 weeks and lasts >=28 days; assay age >=approximately7weeks is inferred, exact ages unavailable. Separate lighting-failure exception and actual LD schedules retained in metadata.",
+  "unchanged_statistics": {
+    "paired_means": 31,
+    "photoperiod": 13,
+    "T_cycle": 12,
+    "crossed": 6,
+    "maximum_absolute_r_change": 0.0,
+    "all_period_means_unchanged": true,
+    "all_paired_SEMs_unchanged": true
+  },
+  "checks": [
+    {
+      "test": "All 102 archived and 37 selected SCN period means preserved",
+      "passed": true
+    },
+    {
+      "test": "All 31 plotted mean pairs and paired SEMs preserved",
+      "passed": true,
+      "counts_by_family": {
+        "T-cycle": 12,
+        "T-cycle x photoperiod": 6,
+        "photoperiod": 13
+      }
+    },
+    {
+      "test": "All seven reporter/branch correlation records unchanged",
+      "passed": true,
+      "maximum_absolute_r_change": 0.0
+    },
+    {
+      "test": "Figure 1 study and mean counts unchanged",
+      "passed": true
+    },
+    {
+      "test": "Regenerated plotted pairs exactly match reporter/history-safe source pairing",
+      "passed": true
+    },
+    {
+      "test": "Myung2012 Bmal1 behavioral n=8; PER2 behavioral n=4",
+      "passed": true
+    },
+    {
+      "test": "Myung2012 A-SCN 8:16 LD: source SD / sqrt(explant n)",
+      "passed": true
+    },
+    {
+      "test": "Myung2012 P-SCN 8:16 LD: source SD / sqrt(explant n)",
+      "passed": true
+    },
+    {
+      "test": "Myung2012 A-SCN 16:8 LD: source SD / sqrt(explant n)",
+      "passed": true
+    },
+    {
+      "test": "Myung2012 P-SCN 16:8 LD: source SD / sqrt(explant n)",
+      "passed": true
+    },
+    {
+      "test": "Only the four source-confirmed archived SEMs changed",
+      "passed": true
+    },
+    {
+      "test": "Only the two corresponding selected posterior SEMs changed",
+      "passed": true
+    },
+    {
+      "test": "Buijink corrected October rows preserved, with SEM=SD/sqrt(n)",
+      "passed": true
+    },
+    {
+      "test": "Tackenberg SP T23: readout-specific animal counts and LD schedules",
+      "passed": true
+    },
+    {
+      "test": "Tackenberg SP T24: readout-specific animal counts and LD schedules",
+      "passed": true
+    },
+    {
+      "test": "Tackenberg SP T26: readout-specific animal counts and LD schedules",
+      "passed": true
+    },
+    {
+      "test": "Tackenberg LP T23: readout-specific animal counts and LD schedules",
+      "passed": true
+    },
+    {
+      "test": "Tackenberg LP T24: readout-specific animal counts and LD schedules",
+      "passed": true
+    },
+    {
+      "test": "Tackenberg LP T26: readout-specific animal counts and LD schedules",
+      "passed": true
+    },
+    {
+      "test": "Tackenberg complete schedules and exposure/assay ages distinguished",
+      "passed": true
+    },
+    {
+      "test": "Historical pair-file means and SEMs preserved",
+      "passed": true
+    },
+    {
+      "test": "Myung2015 LD anchor and all original fields untouched",
+      "passed": true
+    },
+    {
+      "test": "Figure1 error bars remain inside categorical axes",
+      "passed": true
+    },
+    {
+      "test": "All authored Figure2 exports are byte-for-byte untouched",
+      "passed": true
+    },
+    {
+      "test": "All other pre-existing figure exports untouched",
+      "passed": true
+    }
+  ],
+  "package_validation": {
+    "passed": true,
+    "checks": 135,
+    "full_simulation_or_refit_repeated": false
+  }
+}

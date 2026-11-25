@@ -1,0 +1,150 @@
+{
+  "date": "2026-10-18",
+  "passed": true,
+  "scope": "Figure 2 layout only: D and E each occupy one row of four plots; A retains its physical size, equations, nodes and colors. B/C align to the same four columns.",
+  "previous_dimensions_mm": [
+    175,
+    250
+  ],
+  "current_dimensions_mm": [
+    175,
+    220
+  ],
+  "height_reduction_mm": 30,
+  "height_reduction_percent": 12,
+  "gain_sweep_layout": {
+    "rows": [
+      "D: adaptive period",
+      "E: adaptive coupling"
+    ],
+    "columns": [
+      "release driver versus relative gain",
+      "circular seven-day D-V gap",
+      "D/V DD periods",
+      "release locking ratio"
+    ],
+    "all_driver_x_labels_visible": true,
+    "paired_vertical_limits_identical": true
+  },
+  "plot_semantics": {
+    "passed": true,
+    "quantitative_axes_compared": 12,
+    "architecture_physical_dimensions_mm": [
+      153.125,
+      73.77257811385361
+    ],
+    "architecture_physical_size_unchanged": true,
+    "prior_figure_height_mm": 250.0,
+    "current_figure_height_mm": 220.0,
+    "checks": [
+      {
+        "axis": 1,
+        "limits_unchanged": true,
+        "line_coordinates_unchanged": true,
+        "collection_coordinates_unchanged": true,
+        "scales_unchanged": true,
+        "passed": true
+      },
+      {
+        "axis": 2,
+        "limits_unchanged": true,
+        "line_coordinates_unchanged": true,
+        "collection_coordinates_unchanged": true,
+        "scales_unchanged": true,
+        "passed": true
+      },
+      {
+        "axis": 3,
+        "limits_unchanged": true,
+        "line_coordinates_unchanged": true,
+        "collection_coordinates_unchanged": true,
+        "scales_unchanged": true,
+        "passed": true
+      },
+      {
+        "axis": 4,
+        "limits_unchanged": true,
+        "line_coordinates_unchanged": true,
+        "collection_coordinates_unchanged": true,
+        "scales_unchanged": true,
+        "passed": true
+      },
+      {
+        "axis": 5,
+        "limits_unchanged": true,
+        "line_coordinates_unchanged": true,
+        "collection_coordinates_unchanged": true,
+        "scales_unchanged": true,
+        "passed": true
+      },
+      {
+        "axis": 6,
+        "limits_unchanged": true,
+        "line_coordinates_unchanged": true,
+        "collection_coordinates_unchanged": true,
+        "scales_unchanged": true,
+        "passed": true
+      },
+      {
+        "axis": 7,
+        "limits_unchanged": true,
+        "line_coordinates_unchanged": true,
+        "collection_coordinates_unchanged": true,
+        "scales_unchanged": true,
+        "passed": true
+      },
+      {
+        "axis": 8,
+        "limits_unchanged": true,
+        "line_coordinates_unchanged": true,
+        "collection_coordinates_unchanged": true,
+        "scales_unchanged": true,
+        "passed": true
+      },
+      {
+        "axis": 9,
+        "limits_unchanged": true,
+        "line_coordinates_unchanged": true,
+        "collection_coordinates_unchanged": true,
+        "scales_unchanged": true,
+        "passed": true
+      },
+      {
+        "axis": 10,
+        "limits_unchanged": true,
+        "line_coordinates_unchanged": true,
+        "collection_coordinates_unchanged": true,
+        "scales_unchanged": true,
+        "passed": true
+      },
+      {
+        "axis": 11,
+        "limits_unchanged": true,
+        "line_coordinates_unchanged": true,
+        "collection_coordinates_unchanged": true,
+        "scales_unchanged": true,
+        "passed": true
+      },
+      {
+        "axis": 12,
+        "limits_unchanged": true,
+        "line_coordinates_unchanged": true,
+        "collection_coordinates_unchanged": true,
+        "scales_unchanged": true,
+        "passed": true
+      }
+    ]
+  },
+  "minimum_text_pt": 8,
+  "PNG_dpi": 600,
+  "data_files_and_tables_unchanged": 95,
+  "other_figure_files_unchanged": 28,
+  "scientific_validation": "The preceding release passed 130 scientific checks. No scientific function or data changed; this update additionally compares every plotted coordinate, axis range and scale across all 12 quantitative Figure 2 axes against the preceding layout. A full model rebuild was not repeated.",
+  "visual_QA": {
+    "Figure2_A4_page_reviewed": true,
+    "caption_pages_reviewed": 7,
+    "text_outside_canvas": [],
+    "unresolved_layout_issues": 0
+  },
+  "caption_updated": "D/E each occupy one row; left-to-right plot order and corresponding-column scale matching are stated."
+}

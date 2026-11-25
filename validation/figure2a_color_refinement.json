@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-18",
+  "passed": true,
+  "scope": "Figure 2A presentation refinement: enlarged equations/nodes, restored notes, and adaptation colors separated from the condition palette. Figure 2B-E and all other figures remain unchanged.",
+  "equation_font_pt": [
+    11,
+    11.5
+  ],
+  "previous_equation_font_pt": 8.5,
+  "node_diameter_mm": 10.5,
+  "node_shape": "true circles corrected for physical panel aspect",
+  "mechanism_colors": {
+    "period": "#795438",
+    "coupling": "#795438"
+  },
+  "input_fills": {
+    "photoperiod": "#F3EEE7",
+    "phase_mismatch": "#F3EEE7"
+  },
+  "node_colors": {
+    "D": "#D73027",
+    "V": "#2C7BB6",
+    "X": "#222222"
+  },
+  "restored_notes": [
+    "chi=1 during entrainment; chi=0 in DD",
+    "period branch: K_VD, K_DV, tau_V fixed",
+    "coupling branch: tau_D, tau_V, K_DV fixed"
+  ],
+  "figure_width_mm": 175,
+  "figure_height_mm": 250,
+  "panel_A_width_mm": 153.125,
+  "panel_A_height_mm": 73.77257811385363,
+  "pixel_difference_bbox": [
+    90,
+    61,
+    3997,
+    1886
+  ],
+  "pixel_dimensions": [
+    4133,
+    5905
+  ],
+  "all_pixels_below_row_1900_unchanged": true,
+  "other_figure_files_verified_unchanged": 28,
+  "numerical_files_verified_unchanged": 95,
+  "changed_code_functions": [
+    "memory_mechanism",
+    "main2"
+  ],
+  "scientific_validation": "The preceding release passed all 130 scientific checks. This panel-only styling update changes no scientific function, data, parameter or table; those checks were not rerun.",
+  "caption_color_key_updated": true,
+  "visual_QA": "Final Figure 2, standalone panel A, A4 proof page 2 and all six caption pages reviewed; no clipping, missing glyphs, arrow/node collisions or preview fragments remain.",
+  "palette_followup": {
+    "previous_mechanism_colors": {
+      "period": "#267326",
+      "coupling": "#9B218E"
+    },
+    "reason": "User requested avoiding overlap with condition colors.",
+    "current_encoding": "Warm brown denotes adaptation; filled circles and open squares distinguish architectures. Ivory cards group inputs; D/V/X retain the established regional colors.",
+    "no_mechanism_color_in_condition_palette": true,
+    "changed_function": "memory_mechanism",
+    "other_figures_unchanged": 28,
+    "numerical_files_unchanged": 95,
+    "pixel_difference_bbox": [
+      488,
+      336,
+      3997,
+      1536
+    ],
+    "all_pixels_below_row_1900_unchanged": true
+  },
+  "subsequent_layout": "The size and pixel-comparison fields above describe the earlier A-only change. Figure 2 subsequently uses the compact 175 x 220 mm layout in figure2_compact_layout.json; panel A keeps the same physical size and colors."
+}
