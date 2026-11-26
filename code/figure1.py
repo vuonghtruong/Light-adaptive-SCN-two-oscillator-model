@@ -71,11 +71,14 @@ def main():
     studies = sorted(set(zip(obs.study, obs.year)))
     markers = {s: MARKERS[i] for i, s in enumerate(studies)}
 
-    # Two compact color keys replace the former four-block legend. Study
-    # symbols and line conventions are decoded in the manuscript caption.
-    f = fig(184)
+    # Color keys sit inside the panels (age in B, reporter in D) as colored
+    # labels, like the reporter labels of G to I. Study symbols and line
+    # conventions are decoded in the manuscript caption. The footer strip of
+    # the previous version is removed, so the figure is 14 mm shorter with
+    # unchanged panel sizes.
+    f = fig(170)
     axs = f.subplots(3, 3)
-    f.subplots_adjust(left=.10, right=.985, top=.936, bottom=.15,
+    f.subplots_adjust(left=.10, right=.985, top=.9306, bottom=.0800,
                       wspace=.30, hspace=.55)
     counts, correlations, line_records, clipping = [], [], [], []
     for j, family in enumerate(FAMILIES):
@@ -152,9 +155,11 @@ def main():
             reporter, branch = key if isinstance(key, tuple) else (key, '')
             n, rr = len(z), correlation(z)
             short = {'Bmal1-ELuc': 'Bmal1', 'PER2::LUC': 'PER2',
-                     'Per1::GFP': 'Per1-GFP', 'Per1-luc': 'Per1-luc'}.get(reporter, reporter)
+                     'Per1::GFP': 'Per1::GFP', 'Per1-GFP': 'Per1::GFP',
+                     'Per1-luc': 'Per1-luc'}.get(reporter, reporter)
             label = f'{branch}: n={n}' if branch else f'{short}: n={n}'
-            label += f', r={rr:.2f}' if np.isfinite(rr) else ', r=—'
+            # r is not reported for two matched conditions (see legend)
+            label += f', r={rr:.2f}' if np.isfinite(rr) else ''
             ax.text(.025, .98-.105*i, label, transform=ax.transAxes, va='top',
                     fontsize=8, color=REP.get(reporter, '#666666'),
                     bbox=dict(facecolor='white', alpha=.9, edgecolor='none', pad=.4))
@@ -176,21 +181,20 @@ def main():
         letter(ax, chr(65+i), x=-.16, y=1.025)
     for j, txt in enumerate(['Photoperiod', 'T-cycle', 'Photoperiod × T-cycle']):
         pos = axs[0, j].get_position()
-        f.text((pos.x0+pos.x1)/2, .976, txt, ha='center', fontsize=9.2, weight='bold')
+        f.text((pos.x0+pos.x1)/2, .974, txt, ha='center', fontsize=9.2, weight='bold')
     # Color encodes age in A-C and reporter in D-I, not light schedule.
-    # Align both keys to one text column so the footer reads as a compact key.
-    f.text(.10, .065, 'Age (A-C)', fontsize=8, va='center', weight='bold')
-    f.text(.10, .030, 'Reporter (D-I)', fontsize=8, va='center', weight='bold')
-    h = [Line2D([], [], color=c, marker='o', ls='', ms=4.5,
-                label=k.capitalize() if k != 'unknown' else 'Age unavailable') for k, c in AGE.items()]
-    f.legend(handles=h, loc='center left', bbox_to_anchor=(.285, .065), ncol=4,
-             frameon=False, fontsize=8, handletextpad=.4, handlelength=.8,
-             columnspacing=1.0, borderaxespad=0, borderpad=0)
-    h = [Line2D([], [], color=c, marker='o', ls='', ms=4.5, label=k)
-         for k, c in REP.items() if k != 'Per1-GFP']
-    f.legend(handles=h, loc='center left', bbox_to_anchor=(.285, .030), ncol=4,
-             frameon=False, fontsize=8, handletextpad=.4, handlelength=.8,
-             columnspacing=1.0, borderaxespad=0, borderpad=0)
+    # In-panel keys: colored labels without symbols, because symbol shape
+    # already identifies the study. Age in B (all four age classes occur there,
+    # upper left is empty); reporter in D (lower right is empty).
+    box = dict(facecolor='white', alpha=.9, edgecolor='none', pad=.4)
+    for i, (k, c) in enumerate(AGE.items()):
+        axs[0, 1].text(.025, .98-.105*i, k.capitalize() if k != 'unknown' else 'Age unavailable',
+                       transform=axs[0, 1].transAxes, va='top', ha='left', fontsize=8,
+                       color=c, bbox=box, zorder=6)
+    reporters = [(k, c) for k, c in REP.items() if k != 'Per1-GFP']
+    for i, (k, c) in enumerate(reversed(reporters)):
+        axs[1, 0].text(.975, .03+.105*i, k, transform=axs[1, 0].transAxes,
+                       va='bottom', ha='right', fontsize=8, color=c, bbox=box, zorder=6)
     pd.DataFrame(counts).to_csv(TABLES/'Figure1_study_counts.csv', index=False)
     pd.DataFrame(correlations).to_csv(TABLES/'Figure1_reporter_correlations.csv', index=False)
     pd.DataFrame(line_records).to_csv(TABLES/'Figure1_regression_groups.csv', index=False)
