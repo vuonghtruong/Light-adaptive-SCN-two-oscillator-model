@@ -22,7 +22,9 @@ python reproduce.py
 archived finalist pools (three seeds for each of four adaptive architectures),
 reruns the forward simulations and sensitivity analyses, and regenerates four
 main figures, Figures S1-S6, the technical appendix, the graphical abstract,
-and 32 CSV tables. A full rebuild took about nine minutes on the reference
+and 33 CSV tables, including the new Table S8 and Figure S7 plotting data.
+Figure S7 artwork is rendered separately in Mathematica from those data.
+A full rebuild took about nine minutes on the reference
 machine; runtime varies. No network connection is needed after installation.
 
 The original candidate-discovery searches and literature extraction are
@@ -44,11 +46,13 @@ outputs. No existing outputs are copied into that verification run.
 
 ## Package contents
 
-- [Download all 11 publication SVGs](downloads/SCN_all_figures_SVG.zip) for website upload: Figures 1-4, S1-S6 and the graphical abstract. The ZIP contains the same current SVG exports as the figure folders, with flat filenames.
+- [Download all 12 publication SVGs](downloads/SCN_all_figures_SVG.zip) for website upload: Figures 1-4, S1-S7 and the graphical abstract. The ZIP contains the same current SVG exports as the figure folders, with flat filenames. Figure S7 is a vector conversion of the supplied Mathematica PDF, with outlined text.
 - `code/`: model, analysis, rendering and validation routines.
 - `data/`: literature and fitting inputs, plus generated numerical results.
 - `figures/main/`: Figures 1-4 as PDF, SVG and PNG.
 - `figures/supplement/`: Figures S1-S6 and the technical appendix PDF.
+- `figure_S7/`: Figure S7, Mathematica sources, five plotting CSVs and [analysis notes](figure_S7/README.md).
+- `code/dephasing.py`: standalone dephasing analysis for Figure S7 and `tables/Table_S8_dephasing.csv`; also run by the main entry point.
 - `figures/graphical_abstract/`: editable SVG, PDF and 600-dpi PNG.
 - `tables/`: parameters, targets, residuals, descriptive statistics and sensitivity results.
 - `validation/`: numerical checks, extraction provenance and dated reproduction records.
@@ -85,9 +89,15 @@ conversion provenance where available; plotted errors use SEM. For current
 source assignments and extraction corrections, see the literature validation
 records and `tables/Table_S1_literature_provenance.csv`.
 
+Ciarleglio et al. is cited consistently as **2011**, the journal issue year
+(Nature Neuroscience 14:25-27; doi:10.1038/nn.2699). The article was first
+published online on 5 December 2010. Historical validation logs retain their
+original keys. Figure 1 means and correlations are unchanged by this metadata
+correction.
+
 ## Current figures and validation
 
-Figures use 175 mm width, stronger axes and curves, and a consistent condition
+Figures 1-4 and S1-S6 use 175 mm width, stronger axes and curves, and a consistent condition
 palette across model panels. The literature figure retains distinct age and
 reporter encodings. PDF/SVG retain vector elements; PNGs use 600 dpi. Figure 2
 retains the equations and model connections from the author's Inkscape edits,

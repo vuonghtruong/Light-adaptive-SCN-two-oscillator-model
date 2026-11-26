@@ -1,13 +1,17 @@
 """Dephasing analysis of ex vivo SCN explants (D-V synchronization index in culture).
 
 Applies the Kuramoto synchronization index SI(t) = |(e^{i phi_D} + e^{i phi_V}) / 2| = |cos(delta/2)|
-and the quadratic decay SI(t) = exp(-D_omega * t^2 / 2) of uncoupled oscillators with normally distributed
-periods (Myung et al., 2012, Eqs. 9-11) over DD days 0 to 7 for both the period-adaptive and coupling-adaptive architectures,
+and the quadratic decay SI(t) = exp(-D_omega * t^2 / 2), motivated by Gaussian
+frequency dispersion (Myung et al., 2012, Eqs. 9-11), over DD days 0 to 7 for both the period-adaptive and coupling-adaptive architectures,
 with intact ex vivo coupling and under simulated pharmacological decoupling (K_VD = K_DV = 0).
 
 Outputs (paths from the repository root; run as python code/dephasing.py):
   - tables/Table_S8_dephasing.csv (exact values for Table S8)
   - figure_S7/*.csv (data of every graph of Figure S7, which figure_S7/FigureS7.nb plots in Mathematica)
+
+This revision analysis retains rounded Table S2A parameters and simultaneous
+forward-Euler updates; architecture_model.py updates memory before phases.
+See figure_S7/README.md for the numerical comparison and fit interpretation.
 """
 import csv
 import math

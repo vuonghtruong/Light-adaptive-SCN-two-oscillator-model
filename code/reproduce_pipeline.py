@@ -26,6 +26,7 @@ TABLE_NAMES=[
     'simple_coupling_convergence.csv','simple_coupling_search.csv',
     'simple_coupling_rule_parameters.csv','simple_coupling_rule_endpoints.csv',
     'simple_coupling_rule_diagnostics.csv',
+    'Table_S8_dephasing.csv',
 ]
 FIGURE_PATHS=[f'figures/{section}/{name}.{ext}'
     for section,names in [('main',[f'Figure_{i}' for i in range(1,5)]),
@@ -34,7 +35,10 @@ FIGURE_PATHS=[f'figures/{section}/{name}.{ext}'
 FIGURE_PATHS+=['figures/supplement/Technical_appendix.pdf']
 FIGURE_PATHS+=[f'figures/graphical_abstract/Graphical_abstract.{ext}' for ext in ['pdf','svg','png']]
 DOCUMENT_PATHS=[]
-OUTPUT_PATHS=FIGURE_PATHS+['tables/'+n for n in TABLE_NAMES]+DOCUMENT_PATHS
+DEPHASING_PATHS=['figure_S7/'+name+'.csv' for name in [
+    'S7A_period_adaptive_SI','S7B_coupling_adaptive_SI',
+    'S7C_dispersion_period_adaptive','S7D_dispersion_by_schedule','S7_constants']]
+OUTPUT_PATHS=FIGURE_PATHS+['tables/'+n for n in TABLE_NAMES]+DOCUMENT_PATHS+DEPHASING_PATHS
 
 def main(argv=None):
     parser=argparse.ArgumentParser(description=__doc__)
@@ -72,6 +76,8 @@ def main(argv=None):
     from render_all import render_figures
     render_figures()
     print('3/4 Rebuilding remaining tables and checking numerical results...',flush=True)
+    import dephasing
+    dephasing.run_analysis(str(ROOT),table_path=str(ROOT/'tables/Table_S8_dephasing.csv'))
     import validate_package
     validate_package.main()
     missing=[s for s in OUTPUT_PATHS if not (ROOT/s).is_file()]

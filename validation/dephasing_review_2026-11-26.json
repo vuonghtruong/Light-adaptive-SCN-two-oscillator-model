@@ -1,0 +1,153 @@
+{
+  "csv_reproduction": {
+    "tables/Table_S8_dephasing.csv": true,
+    "figure_S7/S7A_period_adaptive_SI.csv": true,
+    "figure_S7/S7B_coupling_adaptive_SI.csv": true,
+    "figure_S7/S7C_dispersion_period_adaptive.csv": true,
+    "figure_S7/S7D_dispersion_by_schedule.csv": true,
+    "figure_S7/S7_constants.csv": true
+  },
+  "canonical_model_comparison": [
+    {
+      "architecture": "D-period-X",
+      "schedule": "SP",
+      "max_SI_difference": 1.3379697617610375e-05,
+      "canonical_D": 0.00044256748343308533,
+      "pr_D": 0.0004431703722367543
+    },
+    {
+      "architecture": "D-period-X",
+      "schedule": "LD",
+      "max_SI_difference": 2.889582501497401e-06,
+      "canonical_D": 0.0013728629590147644,
+      "pr_D": 0.0013730017679864657
+    },
+    {
+      "architecture": "D-period-X",
+      "schedule": "LP",
+      "max_SI_difference": 8.219300673406593e-06,
+      "canonical_D": 0.002225760293510346,
+      "pr_D": 0.0022253480435828047
+    },
+    {
+      "architecture": "D-period-X",
+      "schedule": "18:6",
+      "max_SI_difference": 8.39448439149404e-06,
+      "canonical_D": 0.002480122228373584,
+      "pr_D": 0.002479691908503764
+    },
+    {
+      "architecture": "D-period-X",
+      "schedule": "T22",
+      "max_SI_difference": 1.4819639804208862e-07,
+      "canonical_D": 0.0015242904442199293,
+      "pr_D": 0.0015242995853760914
+    },
+    {
+      "architecture": "D-period-X",
+      "schedule": "T23",
+      "max_SI_difference": 1.4302344231165165e-07,
+      "canonical_D": 1.6024979636723366e-05,
+      "pr_D": 1.6018204481890538e-05
+    },
+    {
+      "architecture": "D-period-X",
+      "schedule": "T25",
+      "max_SI_difference": 7.962604868350098e-06,
+      "canonical_D": 0.005295638674985951,
+      "pr_D": 0.005296054361568011
+    },
+    {
+      "architecture": "D-period-X",
+      "schedule": "T26",
+      "max_SI_difference": 1.62637644463004e-05,
+      "canonical_D": 0.0125451820500737,
+      "pr_D": 0.01254614420770974
+    },
+    {
+      "architecture": "coupling-X",
+      "schedule": "SP",
+      "max_SI_difference": 5.5380043217923e-08,
+      "canonical_D": 9.920439594854582e-06,
+      "pr_D": 9.917288208104467e-06
+    },
+    {
+      "architecture": "coupling-X",
+      "schedule": "LD",
+      "max_SI_difference": 4.165682776502422e-08,
+      "canonical_D": 6.102472579601607e-05,
+      "pr_D": 6.102193585822653e-05
+    },
+    {
+      "architecture": "coupling-X",
+      "schedule": "LP",
+      "max_SI_difference": 0.00033364948279435147,
+      "canonical_D": 0.0872520369868995,
+      "pr_D": 0.08731879936257952
+    },
+    {
+      "architecture": "coupling-X",
+      "schedule": "18:6",
+      "max_SI_difference": 0.00021210598854914942,
+      "canonical_D": 0.5851934996630919,
+      "pr_D": 0.5854207000633623
+    },
+    {
+      "architecture": "coupling-X",
+      "schedule": "T22",
+      "max_SI_difference": 0.00010519683823728698,
+      "canonical_D": 0.008145798831206821,
+      "pr_D": 0.008151297515152929
+    },
+    {
+      "architecture": "coupling-X",
+      "schedule": "T23",
+      "max_SI_difference": 1.3105151519532399e-08,
+      "canonical_D": 0.00036608543364560455,
+      "pr_D": 0.0003660861662237864
+    },
+    {
+      "architecture": "coupling-X",
+      "schedule": "T25",
+      "max_SI_difference": 2.19167812787191e-08,
+      "canonical_D": 2.695280290105411e-05,
+      "pr_D": 2.69514425662715e-05
+    },
+    {
+      "architecture": "coupling-X",
+      "schedule": "T26",
+      "max_SI_difference": 1.4021105831929503e-08,
+      "canonical_D": 1.4004517573003194e-05,
+      "pr_D": 1.4003702857607898e-05
+    }
+  ],
+  "passed": true,
+  "source_pr": 1,
+  "head": "564e2222d45ccefaafec5764797342db6c224da1",
+  "existing_package_checks": 135,
+  "figure_1_and_S7_visual_review": "passed",
+  "citation": {
+    "year": 2011,
+    "online_date": "2010-12-05",
+    "source": "https://pubmed.ncbi.nlm.nih.gov/21131951/"
+  },
+  "note": "Independent simultaneous-Euler analysis preserves submitted numerical outputs. Canonical-model differences are documented in figure_S7/README.md.",
+  "integration_test": {
+    "passed": true,
+    "tables": 33,
+    "numerical_checks": 135,
+    "reference_histories_reintegrated": false,
+    "elapsed_seconds": 72.88,
+    "command": "python reproduce.py --cached (isolated package copy)"
+  },
+  "submitted_Figure_1_artwork_preserved": true,
+  "Figure_S7_svg": {
+    "source": "figure_S7/Figure_S7.pdf",
+    "conversion": "Inkscape Poppler import, plain vector SVG with outlined text",
+    "visual_review": "passed"
+  },
+  "notes": [
+    "Gaussian decay is descriptive for two deterministic oscillators, not an empirical neuronal-frequency distribution.",
+    "T23 Gaussian R2 is negative; near-synchrony is not a good Gaussian-decay fit."
+  ]
+}
